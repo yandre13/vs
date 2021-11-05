@@ -21,7 +21,7 @@ body {
 }
 
 :root {
-	--grid-color: rgba(0, 0, 0, 0.3);
+	--grid-color: rgba(0, 0, 0, 0.13);
 }
 .font-main {
 	font-family: 'AtypBLDisplay-Regular', 'DM Sans', sans-serif;

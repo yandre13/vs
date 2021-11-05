@@ -308,14 +308,9 @@ export default function Home() {
 												className="flex flex-wrap"
 												style={{marginTop: width, columnGap: width * size.gap}}
 											>
-												{showLogos?.map(({logo, alt}) => (
+												{showLogos?.map(({path, alt}) => (
 													<motion.div
-														key={`logo-${alt}`}
-														initial={{opacity: 0}}
-														animate={{opacity: 1}}
-														transition={{duration: 0.7}}
-														exit={{opacity: 0, transition: {duration: 0.5}}}
-														layoutId={`logo-${alt}`}
+														key={alt}
 														style={{
 															width: `${width * 3}px`,
 															height: `${width * 2}px`,
@@ -323,7 +318,16 @@ export default function Home() {
 															zIndex: 10,
 														}}
 													>
-														<Image src={logo} alt={alt} placeholder="blur" />
+														<motion.img
+															key={alt}
+															initial={{opacity: 0.6}}
+															animate={{opacity: 1}}
+															transition={{duration: 1.2}}
+															exit={{opacity: 0.6, transition: {duration: 0.9}}}
+															className="w-full !h-auto object-cover"
+															src={path}
+															alt={alt}
+														/>
 													</motion.div>
 												))}
 											</div>

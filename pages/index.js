@@ -14,7 +14,7 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 
-import SwiperCore, {Pagination, Zoom} from 'swiper/core'
+import SwiperCore, {Autoplay, Pagination, Zoom} from 'swiper/core'
 import {useAppWidth, useAppQuery} from 'context'
 import {data} from 'data/home'
 import {motion} from 'framer-motion'
@@ -23,7 +23,7 @@ import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 
 // install Swiper modules
-SwiperCore.use([Pagination, Zoom])
+SwiperCore.use([Autoplay, Pagination, Zoom])
 
 const metadata = {
 	title: 'Renders de Arquitectura',
@@ -116,6 +116,10 @@ export default function Home() {
 							<Swiper
 								pagination={{clickable: true}}
 								loop
+								autoplay={{
+									delay: 4500,
+									disableOnInteraction: false,
+								}}
 								className="home_slider"
 							>
 								<SwiperSlide>

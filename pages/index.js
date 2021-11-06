@@ -130,7 +130,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/1.jpg"
-												alt=""
+												alt="Banner 1"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -146,7 +146,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/2.jpg"
-												alt=""
+												alt="Banner 2"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -162,7 +162,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/3.jpg"
-												alt=""
+												alt="Banner 3"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -178,7 +178,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/4.jpg"
-												alt=""
+												alt="Banner 4"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -222,7 +222,7 @@ export default function Home() {
 								<img
 									src="/img/img_v.png"
 									className="w-full h-full absolute top-0 left-0 object-cover"
-									alt=""
+									alt="V"
 								/>
 							</div>
 						</CardHome>
@@ -236,7 +236,7 @@ export default function Home() {
 								<img
 									src="/img/img_a.png"
 									className="w-full h-full absolute top-0 left-0 object-cover"
-									alt=""
+									alt="A"
 								/>
 							</div>
 						</div>
@@ -279,7 +279,7 @@ export default function Home() {
 								<img
 									src="/img/img_v2.png"
 									className="w-full h-full absolute top-0 left-0 object-cover"
-									alt=""
+									alt="V2"
 								/>
 							</div>
 						</div>

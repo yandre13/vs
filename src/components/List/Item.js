@@ -98,7 +98,7 @@ function Item({id}) {
 							>
 								<img
 									src={project.carousel.logo}
-									alt=""
+									alt={project.title}
 									className="h-auto w-full max-w-[160px]"
 									// layout="fill"
 									// width={1920}
@@ -153,13 +153,13 @@ function Item({id}) {
 											}
 										}}
 									>
-										{project.carousel.images.map(({path}) => (
+										{project.carousel.images.map(({path, name}) => (
 											<SwiperSlide key={path}>
 												<article className="w-full h-full">
 													<div className="flex justify-center vertical-center bg-white">
 														<img
 															src={path}
-															alt=""
+															alt={name}
 															className="w-full h-full object-cover md:h-auto md:w-auto md:!max-w-[99%]"
 															// layout="fill"
 															// width={1920}

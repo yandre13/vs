@@ -309,7 +309,8 @@ export default function Home() {
 
 							<h2
 								style={{
-									height: width,
+									height: isText2 ? width * 2 : width,
+									width: isText2 ? width * 6 : 'auto',
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}

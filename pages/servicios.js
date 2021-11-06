@@ -94,7 +94,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Modelado 3D.
 							</h2>
@@ -121,7 +121,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Visualización de arquitectura.
 							</h2>
@@ -148,7 +148,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Tour virtual 360.
 							</h2>
@@ -178,7 +178,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Vistas aéreas - drone.
 							</h2>
@@ -205,7 +205,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Recorridos virtuales.
 							</h2>
@@ -235,7 +235,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Marketing inmobiliario.
 							</h2>
@@ -266,7 +266,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Fotogrametría y levantamiento topográfico en&nbsp;drone.
 							</h2>
@@ -314,7 +314,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[22px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Diseño integral de fachadas e&nbsp;interiorismo.
 							</h2>
@@ -326,7 +326,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									zIndex: 1,
 									marginBottom: `${width * (isMobileTablet ? 1 : 2)}px`,
-									backgroundColor: '#333',
+									backgroundColor: '#eee',
 								}}
 							>
 								<AnimatePresence>

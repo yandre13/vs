@@ -14,7 +14,7 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 
-import SwiperCore, {Pagination, Zoom} from 'swiper/core'
+import SwiperCore, {Autoplay, Pagination, Zoom} from 'swiper/core'
 import {useAppWidth, useAppQuery} from 'context'
 import {data} from 'data/home'
 import {motion} from 'framer-motion'
@@ -23,7 +23,7 @@ import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 
 // install Swiper modules
-SwiperCore.use([Pagination, Zoom])
+SwiperCore.use([Autoplay, Pagination, Zoom])
 
 const metadata = {
 	title: 'Renders de Arquitectura',
@@ -116,6 +116,11 @@ export default function Home() {
 							<Swiper
 								pagination={{clickable: true}}
 								loop
+								speed={1000}
+								autoplay={{
+									delay: 4500,
+									disableOnInteraction: false,
+								}}
 								className="home_slider"
 							>
 								<SwiperSlide>
@@ -126,7 +131,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/1.jpg"
-												alt=""
+												alt="Banner 1"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -142,7 +147,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/2.jpg"
-												alt=""
+												alt="Banner 2"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -158,7 +163,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/3.jpg"
-												alt=""
+												alt="Banner 3"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -174,7 +179,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/4.jpg"
-												alt=""
+												alt="Banner 4"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -218,7 +223,7 @@ export default function Home() {
 								<img
 									src="/img/img_v.png"
 									className="w-full h-full absolute top-0 left-0 object-cover"
-									alt=""
+									alt="V"
 								/>
 							</div>
 						</CardHome>
@@ -232,7 +237,7 @@ export default function Home() {
 								<img
 									src="/img/img_a.png"
 									className="w-full h-full absolute top-0 left-0 object-cover"
-									alt=""
+									alt="A"
 								/>
 							</div>
 						</div>
@@ -275,7 +280,7 @@ export default function Home() {
 								<img
 									src="/img/img_v2.png"
 									className="w-full h-full absolute top-0 left-0 object-cover"
-									alt=""
+									alt="V2"
 								/>
 							</div>
 						</div>

@@ -35,6 +35,7 @@ export default function Home() {
 	const [showLogosMobile, setShowLogosMobile] = React.useState(
 		getRandom(logos, 1) ?? [],
 	)
+	const [isHovered, setIsHovered] = React.useState(false)
 
 	const size = React.useMemo(() => {
 		if (query === 'xl') {
@@ -129,16 +130,14 @@ export default function Home() {
 									}}
 								>
 									Somos un equipo multidisciplinario de arquitectos, diseñadores
-									y artistas.
-									<br />
-									Todos enamorados del arte digital y la visualización en tres
-									dimensiones.
+									y artistas. Todos enamorados del arte digital y la
+									visualización en tres dimensiones.
 									<br />
 									Disfrutamos que los proyectos sean un reto, que nos exijan
 									aprender constantemente. Queremos que nos busquen por un
-									resultado único, una metodología innovadora, y el aporte
+									resultado único, una metodología innovadora, y nuestro aporte
 									creativo en todo el proceso. Creemos en la oportunidad de
-									plasmar espacios aun no existentes y contar una historia en
+									plasmar espacios aún no existentes y contar una historia en
 									ellos.
 									<br />
 									Compromiso, comunicación y pasión son partes fundamentales de
@@ -250,7 +249,7 @@ export default function Home() {
 												<p
 													style={{
 														background: '#fff',
-														overflow: 'auto',
+														overflow: isHovered ? 'auto' : 'hidden',
 														height: `${
 															width *
 																(query === 'xl' ? 7 : query === 'lg' ? 8 : 7) -
@@ -266,19 +265,19 @@ export default function Home() {
 															query === 'xl' ? 17 : query === 'lg' ? 16 : 14,
 													}}
 													className={cn('p-3 pscroll')}
+													onMouseEnter={() => setIsHovered(true)}
+													onMouseLeave={() => setIsHovered(false)}
 												>
 													Somos un equipo multidisciplinario de arquitectos,
-													diseñadores y artistas.
-													<br />
-													Todos enamorados del arte digital y la visualización
-													en tres dimensiones.
+													diseñadores y artistas. Todos enamorados del arte
+													digital y la visualización en tres dimensiones.
 													<br />
 													Disfrutamos que los proyectos sean un reto, que nos
 													exijan aprender constantemente. Queremos que nos
 													busquen por un resultado único, una metodología
-													innovadora, y el aporte creativo en todo el proceso.
-													Creemos en la oportunidad de plasmar espacios aun no
-													existentes y contar una historia en ellos.
+													innovadora, y nuestro aporte creativo en todo el
+													proceso. Creemos en la oportunidad de plasmar espacios
+													aún no existentes y contar una historia en ellos.
 													<br />
 													Compromiso, comunicación y pasión son partes
 													fundamentales de cada proyecto. Amamos lo que hacemos.{' '}
@@ -308,22 +307,27 @@ export default function Home() {
 												className="flex flex-wrap"
 												style={{marginTop: width, columnGap: width * size.gap}}
 											>
-												{showLogos?.map(({logo, alt}) => (
+												{showLogos?.map(({path, alt}) => (
 													<motion.div
-														key={`logo-${alt}`}
-														initial={{opacity: 0}}
-														animate={{opacity: 1}}
-														transition={{duration: 0.7}}
-														exit={{opacity: 0, transition: {duration: 0.5}}}
-														layoutId={`logo-${alt}`}
+														key={alt}
 														style={{
 															width: `${width * 3}px`,
 															height: `${width * 2}px`,
 															marginBottom: width,
 															zIndex: 10,
 														}}
+														className="bg-black"
 													>
-														<Image src={logo} alt={alt} placeholder="blur" />
+														<motion.img
+															key={alt}
+															initial={{opacity: 0.6}}
+															animate={{opacity: 1}}
+															transition={{duration: 1.8}}
+															exit={{opacity: 0.6, transition: {duration: 0.9}}}
+															className="w-full !h-auto object-cover"
+															src={path}
+															alt={alt}
+														/>
 													</motion.div>
 												))}
 											</div>

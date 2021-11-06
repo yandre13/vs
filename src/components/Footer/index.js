@@ -54,36 +54,56 @@ export default function index() {
 					</h3>
 					<div className="flex">
 						<div className="mr-6">
-							<img
-								width="20"
-								height="20"
-								src="/img/icons/ig.png"
-								alt="Instagram"
-							/>
+							<a
+								href="https://www.instagram.com/visualizastudio/"
+								rel="noreferrer noopener"
+							>
+								<img
+									width="20"
+									height="20"
+									src="/img/icons/ig.png"
+									alt="Instagram"
+								/>
+							</a>
 						</div>
 						<div className="mr-6">
-							<img
-								width="20"
-								height="20"
-								src="/img/icons/fb.png"
-								alt="Facebook"
-							/>
+							<a
+								href="https://www.facebook.com/visualizastudio"
+								rel="noreferrer noopener"
+							>
+								<img
+									width="20"
+									height="20"
+									src="/img/icons/fb.png"
+									alt="Facebook"
+								/>
+							</a>
 						</div>
 						<div className="mr-6">
-							<img
-								width="20"
-								height="20"
-								src="/img/icons/in.png"
-								alt="LinkedIn"
-							/>
+							<a
+								href="https://www.linkedin.com/company/visualizastudio"
+								rel="noreferrer noopener"
+							>
+								<img
+									width="20"
+									height="20"
+									src="/img/icons/in.png"
+									alt="LinkedIn"
+								/>
+							</a>
 						</div>
 						<div>
-							<img
-								width="20"
-								height="20"
-								src="/img/icons/yt.png"
-								alt="YouTube"
-							/>
+							<a
+								href="https://www.youtube.com/channel/UCdXiz10RHjdY5pqQRkJAD7Q"
+								rel="noreferrer noopener"
+							>
+								<img
+									width="20"
+									height="20"
+									src="/img/icons/yt.png"
+									alt="YouTube"
+								/>
+							</a>
 						</div>
 					</div>
 				</div>

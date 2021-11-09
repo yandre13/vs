@@ -177,7 +177,6 @@ function Item({id}) {
 									</Swiper>
 								</motion.div>
 							</div>
-							{console.log({isOpen})}
 							<div
 								className="absolute rounded-full w-7 h-7 z-10
 							bg-white bg-opacity-60 flex justify-center items-center font-bold top-4 right-4 text-[#222]

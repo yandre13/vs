@@ -1,5 +1,5 @@
 import React from 'react'
-import {motion} from 'framer-motion'
+import {AnimatePresence, motion} from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import {data as api} from 'data'
@@ -32,6 +32,8 @@ function Item({id}) {
 	const scrollRef = React.useRef(0)
 	const [debouncedLoading, setDebouncedLoading] = React.useState(false)
 	const linkRef = React.useRef()
+	const [isOpen, setIsOpen] = React.useState(false)
+
 	React.useEffect(() => {
 		scrollRef.current = window?.scrollY
 		if (isMobile) {
@@ -161,6 +163,9 @@ function Item({id}) {
 															src={path}
 															alt={name}
 															className="w-full h-full object-cover md:h-auto md:w-auto md:!max-w-[99%]"
+															onClick={() => {
+																!isOpen ? setIsOpen(path) : setIsOpen(false)
+															}}
 															// layout="fill"
 															// width={1920}
 															// height={1440}
@@ -185,6 +190,25 @@ function Item({id}) {
 					)}
 				</div>
 			</motion.div>
+			{
+				isMobile && <AnimatePresence>
+				{isOpen && (
+					<motion.div
+						initial={{opacity: 0}}
+						animate={{opacity: 1}}
+						exit={{opacity: 0, transition: {duration: 0.3}}}
+						transition={{duration: 0.3, delay: 0.15}}
+						style={{pointerEvents: 'auto', zIndex: 1000}}
+						className="overlay flex items-center !bg-black"
+					>
+						<div className="absolute flex justify-center items-center font-bold text-xl top-6 right-6 text-white">
+							<span onClick={() => setIsOpen(false)}>X</span>
+						</div>
+						<img src={isOpen} className="w-full h-auto" />
+					</motion.div>
+				)}
+			</AnimatePresence>
+			}
 		</>
 	)
 }

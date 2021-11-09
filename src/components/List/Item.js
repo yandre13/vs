@@ -191,7 +191,8 @@ function Item({id}) {
 					)}
 				</div>
 			</motion.div>
-			<AnimatePresence>
+			{
+				isMobile && <AnimatePresence>
 				{isOpen && (
 					<motion.div
 						initial={{opacity: 0}}
@@ -208,6 +209,7 @@ function Item({id}) {
 					</motion.div>
 				)}
 			</AnimatePresence>
+			}
 		</>
 	)
 }

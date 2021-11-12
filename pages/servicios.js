@@ -105,6 +105,9 @@ export default function Home() {
 									height: `${width * size.imgHeight}px`,
 									marginLeft: `${width * size.imgMl}px`,
 									zIndex: 1,
+									borderTop: '1px solid #dedede',
+									borderLeft: '1px solid #dedede',
+									borderRight: '1px solid #dedede',
 								}}
 							>
 								<Image

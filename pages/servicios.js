@@ -107,7 +107,6 @@ export default function Home() {
 									zIndex: 1,
 									borderTop: '1px solid #dedede',
 									borderLeft: '1px solid #dedede',
-									borderRight: '1px solid #dedede',
 								}}
 							>
 								<Image

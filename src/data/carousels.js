@@ -382,6 +382,56 @@ const carousel10 = {
 			path: '../../img/proyectos/r6000/ESTACIONAMIENTO_BICICLETAS.webp',
 			classnames: '',
 		},
+		{
+			name: 'Auditorio',
+			path: '../../img/proyectos/r6000/Auditorio.webp',
+			classnames: '',
+		},
+		{
+			name: 'Baños',
+			path: '../../img/proyectos/r6000/Banos.webp',
+			classnames: '',
+		},
+		{
+			name: 'Cafetería',
+			path: '../../img/proyectos/r6000/Cafeteria.webp',
+			classnames: '',
+		},
+		{
+			name: 'Co Working',
+			path: '../../img/proyectos/r6000/CoWorking.webp',
+			classnames: '',
+		},
+		{
+			name: 'Parrilla',
+			path: '../../img/proyectos/r6000/Parrilla.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de juegos',
+			path: '../../img/proyectos/r6000/Sala-juegos.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de juegos 2',
+			path: '../../img/proyectos/r6000/Sala-juegos-2.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de reuniones',
+			path: '../../img/proyectos/r6000/Sala-Reuniones.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de reuniones Terraza',
+			path: '../../img/proyectos/r6000/Sala-Reuniones-Terraza.webp',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: '../../img/proyectos/r6000/Terraza.webp',
+			classnames: '',
+		},
 	],
 }
 const carousel11 = {
@@ -405,6 +455,46 @@ const carousel11 = {
 		{
 			name: 'Fachada atardecer',
 			path: '../../img/proyectos/las-magnolias/FACHADA-ATARDECER.webp',
+			classnames: '',
+		},
+		{
+			name: 'Co Working',
+			path: '../../img/proyectos/las-magnolias/COWORKING.webp',
+			classnames: '',
+		},
+		{
+			name: 'Gym',
+			path: '../../img/proyectos/las-magnolias/GYM.webp',
+			classnames: '',
+		},
+		{
+			name: 'Lavandería',
+			path: '../../img/proyectos/las-magnolias/LAVANDERIA.webp',
+			classnames: '',
+		},
+		{
+			name: 'Lobby',
+			path: '../../img/proyectos/las-magnolias/LOBBYY.webp',
+			classnames: '',
+		},
+		{
+			name: 'Salón Social',
+			path: '../../img/proyectos/las-magnolias/SALON-SOCIAL.webp',
+			classnames: '',
+		},
+		{
+			name: 'Tendal',
+			path: '../../img/proyectos/las-magnolias/TENDAL.webp',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: '../../img/proyectos/las-magnolias/TERRAZA.webp',
+			classnames: '',
+		},
+		{
+			name: 'Zona Gourmet',
+			path: '../../img/proyectos/las-magnolias/ZONA-GOURMET.webp',
 			classnames: '',
 		},
 	],

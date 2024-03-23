@@ -610,22 +610,22 @@ const data = [
 		aspectRatio: 'ar4x6',
 		height: 9,
 	},
-	{
-		id: 39,
-		title: 'Numu',
-		place: 'Santiago de Chile.',
-		date: 'Octubre 2020',
-		image: miniaturas.image39,
-		carousel: carousels.carousel39,
-		styles: {
-			xl: {mt: -7, ml: 1},
-			lg: {mt: -4, ml: -6, mb: 1},
-			md: {mt: 1, ml: 1, mb: 1},
-			sm: {mt: 1, ml: 1, mb: 1},
-		},
-		aspectRatio: 'ar3x3',
-		height: 6,
-	},
+	// {
+	// 	id: 39,
+	// 	title: 'Numu',
+	// 	place: 'Santiago de Chile.',
+	// 	date: 'Octubre 2020',
+	// 	image: miniaturas.image39,
+	// 	carousel: carousels.carousel39,
+	// 	styles: {
+	// 		xl: {mt: -7, ml: 1},
+	// 		lg: {mt: -4, ml: -6, mb: 1},
+	// 		md: {mt: 1, ml: 1, mb: 1},
+	// 		sm: {mt: 1, ml: 1, mb: 1},
+	// 	},
+	// 	aspectRatio: 'ar3x3',
+	// 	height: 6,
+	// },
 ]
 
 export {data}

@@ -7,8 +7,6 @@ import Image from 'next/image'
 import CardHome from 'components/Card/CardHome'
 import Footer from 'components/Footer'
 
-import footer from '../public/img/FOOTER.jpg'
-
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
@@ -31,7 +29,7 @@ const metadata = {
 		'Somos un equipo de arquitectos, diseñadores y artistas enamorados del modelado 3D, creativos y con una metodología innovadora en la Arquitectura.',
 	open_graph: {
 		url: 'https://www.visualiza.pe',
-		image: '/img/FOOTER.jpg',
+		image: '/img/carrusel/1.jpg',
 	},
 }
 
@@ -315,10 +313,12 @@ export default function Home() {
 								className="overflow-hidden custom-height"
 							>
 								<Image
-									src={footer}
+									src={'/img/carrusel/1.jpg'}
 									alt="Visualiza cover"
 									className="w-full h-full object-cover"
-									placeholder="blur"
+									width={1920}
+									height={1080}
+									// placeholder="blur"
 								/>
 							</div>
 						</article>

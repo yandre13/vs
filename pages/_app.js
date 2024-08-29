@@ -50,7 +50,8 @@ function MyApp({Component, pageProps}) {
 			<Hydrate state={pageProps.dehydratedState}>
 				<AppWidthProvider>
 					<AppQueryProvider>
-						{loading ? <Loader /> : <Component {...pageProps} />}
+						{//loading ? <Loader /> : <Component {...pageProps} />}
+						 <Component {...pageProps} />}
 					</AppQueryProvider>
 				</AppWidthProvider>
 			</Hydrate>

@@ -23,8 +23,7 @@ function MyApp({Component, pageProps}) {
 				},
 			}),
 	)
-	
-	//const [loading, setLoading] = React.useState(true)
+	const [loading, setLoading] = React.useState(true)
 
 	const fetchLogos = () => logosApi
 	const prefetchLogos = async () => {
@@ -37,11 +36,11 @@ function MyApp({Component, pageProps}) {
 		})
 	}
 
-	/*React.useEffect(() => {
+	React.useEffect(() => {
 		if (loading) {
 			setTimeout(() => setLoading(false), 3000)
 		}
-	}, [])*/
+	}, [])
 	React.useEffect(() => {
 		prefetchLogos()
 	}, [])
@@ -51,9 +50,7 @@ function MyApp({Component, pageProps}) {
 			<Hydrate state={pageProps.dehydratedState}>
 				<AppWidthProvider>
 					<AppQueryProvider>
-						{//loading ? <Loader /> : <Component {...pageProps} />}
-						<Component {...pageProps} />}
-						
+						{loading ? <Loader /> : <Component {...pageProps} />}
 					</AppQueryProvider>
 				</AppWidthProvider>
 			</Hydrate>

@@ -12,9 +12,14 @@ function Loader() {
 				justifyContent: 'center',
 			}}
 		>
-			<video autoPlay muted loop id="myVideo" style={{width: 400}} playsInline>
+			{/*<video autoPlay muted loop id="myVideo" style={{width: 400}} playsInline>
 				<source src="img/loader.mp4" type="video/mp4" />
-			</video>
+			</video>*/}
+			<img
+                src="/img/loader.gif" 
+                alt="Loading..."
+                style={{ width: 400 }}
+              />
 		</div>
 	)
 }

@@ -202,6 +202,7 @@ export default function Home() {
 							aspectRatio={data[0].aspectRatio}
 							title={data[0].title}
 							description={data[0].description}
+							alt={data[0].alt}
 						/>
 
 						<CardHome
@@ -216,6 +217,7 @@ export default function Home() {
 							aspectRatio={data[1].aspectRatio}
 							title={data[1].title}
 							description={data[1].description}
+							alt={data[1].alt}
 						>
 							<div className="z-[-1] absolute md:top-[-24.2%] md:w-[52.28%] md:right-[-26.22%] md:pb-[60.22%] xl:top-[-25%] xl:w-[52.5%] xl:right-[-27.8%] xl:pb-[62.5%]">
 								<img
@@ -252,6 +254,7 @@ export default function Home() {
 							aspectRatio={data[2].aspectRatio}
 							title={data[2].title}
 							description={data[2].description}
+							alt={data[2].alt}
 						/>
 
 						{data[3].size[query] !== 0 && (
@@ -267,6 +270,7 @@ export default function Home() {
 								aspectRatio={data[3].aspectRatio}
 								title={data[3].title}
 								description={data[3].description}
+								alt={data[3].alt}
 							/>
 						)}
 
@@ -314,10 +318,10 @@ export default function Home() {
 							>
 								<Image
 									src={'/img/carrusel/1.webp'}
-									alt="Visualiza cover"
 									className="w-full h-full object-cover"
 									width={1920}
 									height={1080}
+									alt={'Visualiza.pe - Expertos en renders de arquitectura y servicios de arquitectura en Perú'}
 									// placeholder="blur"
 								/>
 							</div>

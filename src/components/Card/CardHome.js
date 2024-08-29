@@ -6,6 +6,7 @@ export default function CardHome({
 	aspectRatio,
 	image,
 	title,
+	alt,
 	description,
 	children,
 	...props
@@ -16,7 +17,7 @@ export default function CardHome({
 				<Image
 					src={image}
 					className="w-full h-full absolute top-0 left-0 object-cover"
-					alt={title}
+					alt={alt}
 					placeholder="blur"
 				/>
 

@@ -35,7 +35,7 @@ function CardPortfolio({project, width, query}) {
 						onMouseLeave={() => setIsHovered(false)}
 						onTouchStart={() => setIsHovered(true)}
 						onTouchEnd={() => setIsHovered(false)}
-						alt={title}
+						alt={project.alt}
 						placeholder="blur"
 					/>
 				</a>

@@ -14,7 +14,7 @@ const metadata = {
 	description: 'Conoce nuestros proyectos de Arquitectura.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/proyectos',
-		image: '/img/home_2.jpg',
+		image: '/img/home_2.webp',
 	},
 }
 

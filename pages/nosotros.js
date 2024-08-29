@@ -149,7 +149,7 @@ export default function Home() {
 								<article className="overflow-hidden">
 									<Image
 										src={banner}
-										alt="Somos Visualiza"
+										alt="Arquitecto trabajando en el estudio de arquitectura en Lima, Perú"
 										placeholder="blur"
 									/>
 								</article>

@@ -19,10 +19,11 @@ export default function index() {
 						<li className="mb-1 font-main text-sm text-gray-300">
 							Avenida dos de mayo 1830
 						</li>
-						<li className="font-main text-sm text-gray-300">
-							San Isidro 17056
+						<li className="mb-3 font-main text-sm text-gray-300">
+						San Isidro 17056, Lima - Perú
 						</li>
-						<li className="font-main text-sm text-gray-300">Lima - Perú</li>
+						<li className="font-main text-sm text-gray-300"><b>Arquitecto en Perú</b> para Proyectos Arquitectónicos
+						</li>
 					</ul>
 				</div>
 				<div className="py-5 sm:pt-10 xl:py-10">
@@ -31,14 +32,16 @@ export default function index() {
 					</h3>
 					<ul>
 						<li className="mb-1 font-main text-sm text-gray-300">
-							Modelado 3D
+							Estudio de Arquitectura en Lima
 						</li>
 						<li className="mb-1 font-main text-sm text-gray-300">
 							Visualización arquitectónica
 						</li>
-						<li className="mb-1 font-main text-sm text-gray-300">Tour 360</li>
 						<li className="mb-1 font-main text-sm text-gray-300">
-							Fotografía áerea
+							Modelado 3D
+						</li>
+						<li className="mb-1 font-main text-sm text-gray-300">
+							Proyectos de Arquitectos
 						</li>
 						<li className="mb-1 font-main text-sm text-gray-300">
 							Recorridos virtuales

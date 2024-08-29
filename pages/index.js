@@ -29,7 +29,7 @@ const metadata = {
 		'Somos un equipo de arquitectos, diseñadores y artistas enamorados del modelado 3D, creativos y con una metodología innovadora en la Arquitectura.',
 	open_graph: {
 		url: 'https://www.visualiza.pe',
-		image: '/img/carrusel/1.jpg',
+		image: '/img/carrusel/1.webp',
 	},
 }
 
@@ -128,7 +128,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/1.jpg"
+												src="/img/carrusel/1.webp"
 												alt="Banner 1"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -144,7 +144,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/2.jpg"
+												src="/img/carrusel/2.webp"
 												alt="Banner 2"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -160,7 +160,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/3.jpg"
+												src="/img/carrusel/3.webp"
 												alt="Banner 3"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -176,7 +176,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/4.jpg"
+												src="/img/carrusel/4.webp"
 												alt="Banner 4"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -313,7 +313,7 @@ export default function Home() {
 								className="overflow-hidden custom-height"
 							>
 								<Image
-									src={'/img/carrusel/1.jpg'}
+									src={'/img/carrusel/1.webp'}
 									alt="Visualiza cover"
 									className="w-full h-full object-cover"
 									width={1920}

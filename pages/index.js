@@ -129,7 +129,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/1.webp"
-												alt="Banner 1"
+												alt="Render de arquitectura moderna en Lima realizado por Visualiza.pe"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -145,7 +145,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/2.webp"
-												alt="Banner 2"
+												alt="Vista 3D de un edificio residencial en Perú"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -161,7 +161,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/3.webp"
-												alt="Banner 3"
+												alt="Diseño arquitectónico con render 3D en Lima, Perú"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}
@@ -177,7 +177,7 @@ export default function Home() {
 										>
 											<img
 												src="/img/carrusel/4.webp"
-												alt="Banner 4"
+												alt="Render de un proyecto de arquitectura comercial en Perú"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
 												height={1080}

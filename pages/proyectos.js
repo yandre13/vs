@@ -10,8 +10,8 @@ import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 
 const metadata = {
-	title: 'Proyectos',
-	description: 'Conoce nuestros proyectos de Arquitectura.',
+	title: 'Proyectos de Arquitectura en Lima y Perú - Visualiza.pe',
+	description: 'Explora nuestros proyectos arquitectónicos en Lima y Perú. Especialistas en arquitectura en Lima, diseño arquitectónico y visualización 3D.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/proyectos',
 		image: '/img/home_2.webp',

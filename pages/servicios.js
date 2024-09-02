@@ -18,9 +18,9 @@ import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 
 const metadata = {
-	title: 'Servicios',
+	title: 'Servicios de Renders 3D y Render de Arquitectura en Lima y Perú - Visualiza.pe',
 	description:
-		'Modelado 3D, Tour Virtual 360, Visualización Arquitectónica, Fotografía Aérea, Recorridos Virtuales y más.',
+		'Especialistas en renders 3D y render de arquitectura para proyectos en Lima y Perú. Ofrecemos soluciones arquitectónicas con visualizaciones precisas y realistas.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/servicios',
 		image: '/img/servicios/VISUALIZACION_ARQUITECTONICA.webp',

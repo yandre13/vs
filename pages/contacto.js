@@ -13,8 +13,8 @@ import useLoaded from 'hooks/useLoaded'
 import SEO from 'components/SEO'
 
 const metadata = {
-	title: 'Contacto',
-	description: 'Conversemos - Solicita una cita con nosotros',
+	title: 'Contáctanos para Servicios de Arquitecto en Perú - Visualiza.pe',
+	description: 'Comunícate con un arquitecto en Perú para desarrollar y visualizar tu próximo proyecto arquitectónico. Experiencia en proyectos innovadores y sostenibles.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/contacto',
 		image: '/img/contacto.png',

@@ -24,9 +24,9 @@ import SEO from 'components/SEO'
 SwiperCore.use([Autoplay, Pagination, Zoom])
 
 const metadata = {
-	title: 'Renders de Arquitectura',
+	title: 'Visualiza.pe - Expertos en Renders de Arquitectura y Servicios de Arquitectura en Perú',
 	description:
-		'Somos un equipo de arquitectos, diseñadores y artistas enamorados del modelado 3D, creativos y con una metodología innovadora en la Arquitectura.',
+		'Descubre nuestros renders de arquitectura y servicios de arquitectura en Lima y todo Perú. Especialistas en visualización 3D para proyectos arquitectónicos',
 	open_graph: {
 		url: 'https://www.visualiza.pe',
 		image: '/img/carrusel/1.webp',

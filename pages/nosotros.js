@@ -16,9 +16,9 @@ import {useQuery} from 'react-query'
 import SEO from 'components/SEO'
 
 const metadata = {
-	title: 'Nosotros',
+	title: 'Estudio de Arquitectura en Lima - Innovación y Diseño - Visualiza.pe',
 	description:
-		'Equipo multidisciplinario de arquitectos, diseñadores y artistas.',
+		'Nuestro estudio de arquitectura en Lima ofrece soluciones arquitectónicas innovadoras en Perú. Diseño, planificación y visualización 3D para proyectos de todos los tamaños.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/nosotros',
 		image: '/img/oficina.jpg',

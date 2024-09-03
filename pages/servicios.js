@@ -111,7 +111,7 @@ export default function Home() {
 							>
 								<Image
 									src={modelado3D}
-									alt="Modelado 3D"
+									alt="Modelado 3D de arquitectura para proyectos en Lima, Perú"
 									placeholder="blur"
 									className="object-cover"
 								/>
@@ -138,7 +138,7 @@ export default function Home() {
 							>
 								<Image
 									src={visual}
-									alt="Visualización de arquitectura"
+									alt="Visualización arquitectónica para proyectos en Lima, Perú"
 									placeholder="blur"
 									className="object-cover"
 								/>
@@ -195,7 +195,7 @@ export default function Home() {
 							>
 								<Image
 									src={drone}
-									alt="Vistas aéreas - drone"
+									alt="Vista aérea de proyecto arquitectónico en Lima, realizada con drone"
 									className="object-cover"
 									placeholder="blur"
 								/>
@@ -302,7 +302,7 @@ export default function Home() {
 											animate={{opacity: 1}}
 											exit={{opacity: 0.8, transition: {duration: 0.8}}}
 											transition={{duration: 0.8, delay: 0.6}}
-											alt="Fotogrametría y levantamiento topográfico en drone 2"
+											alt="Fotogrametría y levantamiento topográfico en Lima realizado con drone"
 											className="w-full h-full object-cover"
 										/>
 									)}
@@ -340,7 +340,7 @@ export default function Home() {
 											animate={{opacity: 1}}
 											exit={{opacity: 0.8, transition: {duration: 0.8}}}
 											transition={{duration: 0.8, delay: 0.8}}
-											alt="Diseño integral de fachadas e interiorismo 1"
+											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
 									) : s2 === 'S2' ? (
@@ -351,7 +351,7 @@ export default function Home() {
 											animate={{opacity: 1}}
 											exit={{opacity: 0.8, transition: {duration: 0.8}}}
 											transition={{duration: 0.8, delay: 0.8}}
-											alt="Diseño integral de fachadas e interiorismo 2"
+											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
 									) : s2 === 'S3' ? (
@@ -362,7 +362,7 @@ export default function Home() {
 											animate={{opacity: 1}}
 											exit={{opacity: 0.8, transition: {duration: 0.8}}}
 											transition={{duration: 0.8, delay: 0.8}}
-											alt="Diseño integral de fachadas e interiorismo 3"
+											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
 									) : (
@@ -373,7 +373,7 @@ export default function Home() {
 											animate={{opacity: 1}}
 											exit={{opacity: 0.8, transition: {duration: 0.8}}}
 											transition={{duration: 0.8, delay: 0.8}}
-											alt="Diseño integral de fachadas e interiorismo 4"
+											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
 									)}

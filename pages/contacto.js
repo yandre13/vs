@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
 import Image from 'next/image'
-import banner from '../public/img/contacto.png'
+import banner from '../public/img/contacto.webp'
 
 import {useAppQuery, useAppWidth} from 'context'
 import useMedia from 'hooks/useMedia'
@@ -17,7 +17,7 @@ const metadata = {
 	description: 'Comunícate con un arquitecto en Perú para desarrollar y visualizar tu próximo proyecto arquitectónico. Experiencia en proyectos innovadores y sostenibles.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/contacto',
-		image: '/img/contacto.png',
+		image: '/img/contacto.webp',
 	},
 }
 
@@ -112,7 +112,7 @@ export default function Home() {
 						>
 							<Image
 								src={banner}
-								alt="Somos Visualiza"
+								alt="Contáctanos para servicios de arquitecto en Perú - Visualiza.pe"
 								placeholder="blur"
 								className="object-cover h-full"
 							/>

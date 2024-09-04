@@ -7,6 +7,14 @@ import banner from '../public/img/miniaturas/1.jpg'
 import Footer from 'components/Footer'
 import {useAppWidth, useAppQuery} from 'context'
 import Logo from 'components/svgs/Logo'
+
+import {Swiper, SwiperSlide} from 'swiper/react'
+import 'swiper/swiper.min.css'
+import 'swiper/components/navigation/navigation.min.css'
+import 'swiper/components/pagination/pagination.min.css'
+
+import SwiperCore, {Autoplay, Pagination, Zoom} from 'swiper/core'
+
 // import logos from 'data/logos'
 import useMedia from 'hooks/useMedia'
 import useLoaded from 'hooks/useLoaded'
@@ -348,14 +356,14 @@ export default function Home() {
 														</div>
 													</div>
 
-													<div className="relative">
+													<div className="relative ">
 														<Image
 															src={'/img/home_4.jpg'}
 															className="w-full h-full object-cover"
 															width={1080}
 															height={1080}
 															alt={
-																'Visualiza.pe - Expertos en renders de arquitectura y servicios de arquitectura en Perú'
+																'Visualización realista de un proyecto de arquitectura en Lima'
 															}
 														/>
 													</div>
@@ -367,7 +375,7 @@ export default function Home() {
 															width={1080}
 															height={1080}
 															alt={
-																'Visualiza.pe - Expertos en renders de arquitectura y servicios de arquitectura en Perú'
+																'Render de arquitectura facilitando la aprobación de un proyecto en Perú'
 															}
 														/>
 													</div>
@@ -414,8 +422,167 @@ export default function Home() {
 															</p>
 														</div>
 													</div>
+
+													<div className="relative mt-32">
+														<Image
+															src={'/img/carrusel/2.webp'}
+															className="w-full h-full object-cover  "
+															width={1900}
+															height={900}
+															alt={
+																'Comunicación efectiva con clientes usando renders arquitectónicos en Lima'
+															}
+														/>
+													</div>
+													<div className="flex flex-col p-2 mt-32 justify-items-center items-center">
+														<div className="item-list p-9 justify-items-center items-center">
+															<h3 className="text-xl font-bold m-0">
+																Optimiza la Comunicación con Clientes e
+																Inversionistas
+															</h3>
+															<p
+																style={{
+																	background: '#fff',
+																	lineHeight:
+																		query === 'xl'
+																			? 1.84
+																			: query === 'lg'
+																			? 1.7
+																			: 1.7,
+																	fontSize:
+																		query === 'xl'
+																			? 17
+																			: query === 'lg'
+																			? 16
+																			: 14,
+																	height: `${
+																		width *
+																			(query === 'xl'
+																				? 4
+																				: query === 'lg'
+																				? 4
+																				: 5) -
+																		1
+																	}px`,
+																}}
+																className="p-0 pscroll mt-4"
+															>
+																Un render arquitectónico de calidad puede ser la
+																diferencia entre un proyecto aprobado o
+																rechazado. Nuestros renders permiten una
+																comunicación más clara y convincente con todas
+																las partes interesadas, eliminando la
+																incertidumbre y mostrando el valor real de tu
+																propuesta.
+															</p>
+														</div>
+													</div>
 												</div>
 											</div>
+										</div>
+
+										<div className="flex flex-col w-full mt-32 items-center">
+											<h2
+												className="font-sec text-[40px] md:text-[45px]  text-center"
+												style={{height: width}}
+											>
+												Proyectos Destacados en Lima y Perú
+											</h2>
+										</div>
+										<div className="w-full mt-11">
+											<Swiper
+												pagination={{clickable: true}}
+												loop
+												speed={1000}
+												autoplay={{
+													delay: 4500,
+													disableOnInteraction: false,
+												}}
+												className="home_slider"
+											>
+												<SwiperSlide>
+													<article className="w-full">
+														<div
+															className="w-full relative"
+															style={{height: `${width * size.height}px`}}
+														>
+															<img
+																src="img\proyectos\mendiburu\Fachada.webp"
+																alt="Render de arquitectura residencial en San Isidro, Lima"
+																className="absolute top-0 w-full h-full object-cover"
+																width={1920}
+																height={1080}
+															/>
+															<div className="absolute bottom-10 left-10 bg-black bg-opacity-50 text-white p-4 rounded-md">
+																<h3 className="font-semibold">
+																	Proyecto Residencial en San Isidro, Lima
+																</h3>
+																<p className="text-xl ">
+																	Un render arquitectónico que destaca por su
+																	realismo y detalle en la visualización de un
+																	edificio residencial de lujo.
+																</p>
+															</div>
+														</div>
+													</article>
+												</SwiperSlide>
+												<SwiperSlide>
+													<article className="w-full">
+														<div
+															className="w-full"
+															style={{height: `${width * size.height}px`}}
+														>
+															<img
+																src="img\proyectos\r6000\FACHADA.webp"
+																alt="Render de un centro comercial en Miraflores, Lima"
+																className="absolute top-0 w-full h-full object-cover"
+																width={1920}
+																height={1080}
+															/>
+
+															<div className="absolute bottom-10 left-10 bg-black bg-opacity-50 text-white p-4 rounded-md">
+																<h3 className="font-semibold">
+																	Centro Comercial en Miraflores
+																</h3>
+																<p className="text-xl ">
+																	Visualización 3D de alta calidad que permitió
+																	a los inversores comprender el diseño y el
+																	flujo de clientes.
+																</p>
+															</div>
+														</div>
+													</article>
+												</SwiperSlide>
+												<SwiperSlide>
+													<article className="w-full">
+														<div
+															className="w-full"
+															style={{height: `${width * size.height}px`}}
+														>
+															<img
+																src="img\proyectos\larapa\FACHADA.webp"
+																alt="Diseño arquitectónico con render 3D en Lima, Perú"
+																className="absolute top-0 w-full h-full object-cover"
+																width={1920}
+																height={1080}
+															/>
+
+															<div className="absolute bottom-10 left-10 bg-black bg-opacity-50 text-white p-4 rounded-md">
+																<h3 className="font-semibold">
+																	Hotel Boutique en Cusco
+																</h3>
+																<p className="text-xl ">
+																	Render de arquitectura que capturó la esencia
+																	y la atmósfera de un hotel en el corazón de
+																	Cusco, integrando la cultura local con un
+																	diseño moderno.
+																</p>
+															</div>
+														</div>
+													</article>
+												</SwiperSlide>
+												
+											</Swiper>
 										</div>
 									</>
 								)}

@@ -259,6 +259,19 @@ body {
 	.video-js .vjs-big-play-button {
 		transform: scale(1);
 	}
+
+	/* Ajustes generales para pantallas de hasta 767px (móviles) */
+@media (max-width: 767px) {
+
+	/* Asegurarse de que las imágenes no sobrepasen el ancho del contenedor */
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  
+	
+  }
+  
 }
 @media screen and (min-width: 768px) {
 	.video-js .vjs-big-play-button {
@@ -304,3 +317,5 @@ button:focus {
 	border-radius: 20px; /* roundness of the scroll thumb */
 	border: 3px solid #fff; /* creates padding around scroll thumb */
 }
+
+

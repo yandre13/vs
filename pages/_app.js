@@ -7,6 +7,7 @@ import {AppQueryProvider, AppWidthProvider} from 'context'
 import {useRouter} from 'next/router'
 import Loader from 'components/Loader'
 import logosApi from 'data/logos'
+import Script from 'next/script';
 
 function MyApp({Component, pageProps}) {
 	const [queryClient] = React.useState(
@@ -47,27 +48,27 @@ function MyApp({Component, pageProps}) {
 
 	return (
 		<QueryClientProvider client={queryClient}>
-			<Hydrate state={pageProps.dehydratedState}>
-				<AppWidthProvider>
-					<AppQueryProvider>
-						{/* Google Analytics */}
-						<Script
-							id="gtag-js"
-							strategy="afterInteractive"
-							src="https://www.googletagmanager.com/gtag/js?id=G-EPNK6PHMPW"
-						/>
-						<Script
-							id="gtag-init"
-							strategy="afterInteractive"
-							dangerouslySetInnerHTML={{
-								__html: `
+			{/* Google Analytics */}
+			<Script
+				id="gtag-js"
+				strategy="afterInteractive"
+				src="https://www.googletagmanager.com/gtag/js?id=G-EPNK6PHMPW"
+			/>
+			<Script
+				id="gtag-init"
+				strategy="afterInteractive"
+				dangerouslySetInnerHTML={{
+					__html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-EPNK6PHMPW');
           `,
-							}}
-						/>
+				}}
+			/>
+			<Hydrate state={pageProps.dehydratedState}>
+				<AppWidthProvider>
+					<AppQueryProvider>
 						{loading ? <Loader /> : <Component {...pageProps} />}
 					</AppQueryProvider>
 				</AppWidthProvider>

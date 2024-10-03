@@ -120,17 +120,17 @@ function Navbar() {
 								</a>
 							</Link>
 						</li>
-						<li className="py-3 md:py-[3px]">
-							<a
-								href="/brochure.pdf"
-								download
-								className={cn('font-sec font-semibold text-sm bg-blue-500 text-white py-2 px-4 rounded', {
-									'bg-blue-700': isMobile,
-								})}
-							>
-								Descargar Brochure
-							</a>
-						</li>
+						// <li className="py-3 md:py-[3px]">
+						// 	<a
+						// 		href="/brochure.pdf"
+						// 		download
+						// 		className={cn('font-sec font-semibold text-sm bg-blue-500 text-white py-2 px-4 rounded', {
+						// 			'bg-blue-700': isMobile,
+						// 		})}
+						// 	>
+						// 		Descargar Brochure
+						// 	</a>
+						// </li>
 					</ul>
 				</motion.nav>
 			</div>

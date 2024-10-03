@@ -295,7 +295,7 @@ export default function Home() {
 								marginTop: width * size.btnMt,
 							}}
 						>
-							<Link href="proyectos">
+							<Link href="proyectos" legacyBehavior>
 								<a className="w-full bg-[#FDD704] relative h-full flex">
 									<div className="absolute h-full w-[75%] md:w-[80%] xl:w-[66.66%] text-center text-sm md:text-base xl:text-xs font-sec inline-flex justify-center items-center">
 										Ver más proyectos

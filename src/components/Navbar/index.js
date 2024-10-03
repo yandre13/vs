@@ -1,19 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 import cn from 'classnames'
 import Menu from '../svgs/Menu'
 import Logo from '../svgs/Logo'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import useMedia from 'hooks/useMedia'
 
 const variants = {
 	visible: {
 		y: 0,
 		height: 'auto',
-		transition: {ease: 'easeInOut', duration: 0.5},
+		transition: { ease: 'easeInOut', duration: 0.5 },
 	},
-	hidden: {y: -360, height: 0, transition: {ease: 'easeOut', duration: 0.4}},
+	hidden: { y: -360, height: 0, transition: { ease: 'easeOut', duration: 0.4 } },
 }
 
 function Navbar() {
@@ -38,7 +38,7 @@ function Navbar() {
 					})}
 				>
 					<h2 className="font-semibold text-xl md:mt-1 xl:mt-2 md:mb-8 w-full">
-						<Link href="/">
+						<Link href="/" legacyBehavior>
 							<a>
 								<Logo
 									color="black"
@@ -73,7 +73,7 @@ function Navbar() {
 						)}
 					>
 						<li className="py-3 md:py-[3px]">
-							<Link href="proyectos">
+							<Link href="proyectos" legacyBehavior>
 								<a
 									className={cn('font-sec font-semibold text-sm', {
 										'text-white': router.pathname === '/proyectos' && isMobile,
@@ -85,7 +85,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="py-3 md:py-[3px]">
-							<Link href="nosotros">
+							<Link href="nosotros" legacyBehavior>
 								<a
 									className={cn('font-sec font-semibold text-sm', {
 										'text-white': router.pathname === '/nosotros' && isMobile,
@@ -97,7 +97,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="py-3 md:py-[3px]">
-							<Link href="servicios">
+							<Link href="servicios" legacyBehavior>
 								<a
 									className={cn('font-sec font-semibold text-sm', {
 										'text-white': router.pathname === '/servicios' && isMobile,
@@ -109,7 +109,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="py-3 md:py-[3px]">
-							<Link href="contacto">
+							<Link href="contacto" legacyBehavior>
 								<a
 									className={cn('font-sec font-semibold text-sm', {
 										'text-white': router.pathname === '/contacto' && isMobile,
@@ -120,17 +120,20 @@ function Navbar() {
 								</a>
 							</Link>
 						</li>
-						// <li className="py-3 md:py-[3px]">
-						// 	<a
-						// 		href="/brochure.pdf"
-						// 		download
-						// 		className={cn('font-sec font-semibold text-sm bg-blue-500 text-white py-2 px-4 rounded', {
-						// 			'bg-blue-700': isMobile,
-						// 		})}
-						// 	>
-						// 		Descargar Brochure
-						// 	</a>
-						// </li>
+						<li className="py-3 md:py-[3px]">
+							<Link href="/brochure.pdf" download legacyBehavior>
+								<a className="relative flex items-center justify-center bg-[#FDD704] rounded-lg py-2 px-4 hover:bg-[#FFD700] transition duration-300 shadow-lg mx-auto max-w-[300px]">
+									<div className="text-center font-sec text-sm md:text-base xl:text-xs">
+										Descargar Brochure
+									</div>
+								</a>
+							</Link>
+						</li>
+
+
+
+
+
 					</ul>
 				</motion.nav>
 			</div>

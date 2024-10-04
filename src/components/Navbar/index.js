@@ -22,9 +22,12 @@ function Navbar() {
 	const [open, setOpen] = React.useState(false)
 	return (
 		<header
-			className="mb-3 md:mb-0 flex flex-wrap w-full
+			className="sticky top-0 z-10 mb-3 md:mb-0 flex flex-wrap w-full
         md:w-[15%] md:h-[100vh] md:justify-center
-        lg:w-[13%] xl:w-[11%]"
+        lg:w-[13%] xl:w-[11%] 
+        md:relative md:top-auto md:z-auto
+		bg-white shadow-md p-4 
+		"
 		>
 			<div
 				className={cn(
@@ -37,7 +40,7 @@ function Navbar() {
 						'mt-3': open && isMobile,
 					})}
 				>
-					<h2 className="font-semibold text-xl md:mt-1 xl:mt-2 md:mb-8 w-full">
+					<h2 className="font-semibold text-xl md:mt-1 xl:mt-2 md:mb-8 ">
 						<Link href="/" legacyBehavior>
 							<a>
 								<Logo
@@ -47,12 +50,24 @@ function Navbar() {
 							</a>
 						</Link>
 					</h2>
+					<div className={cn({
+						hidden: !isMobile,
+					})}>
+						<Link href="/brochure.pdf" download legacyBehavior>
+							<a className="flex bg-[#FDD704] py-2 px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg mr-5">
+								<div className="text-center text-black text-sm md:text-base xl:text-xs">
+								 <span>Descargar Brochure</span>	
+								</div>
+							</a>
+						</Link>
+					</div>
 					<span
 						className={cn('flex items-center z-10 cursor-pointer', {
 							hidden: !isMobile,
 						})}
 						onClick={() => setOpen(!open)}
 					>
+
 						<Menu />
 						{!open ? <span>Menú</span> : <span>Cerrar</span>}
 					</span>
@@ -120,15 +135,19 @@ function Navbar() {
 								</a>
 							</Link>
 						</li>
-						<li className="py-3 md:py-[3px]">
-							<Link href="/brochure.pdf" download legacyBehavior>
-								<a className="relative flex items-center justify-center bg-[#FDD704] rounded-lg py-2 px-4 hover:bg-[#FFD700] transition duration-300 shadow-lg mx-auto max-w-[300px]">
-									<div className="text-center font-sec text-sm md:text-base xl:text-xs">
-										Descargar Brochure
-									</div>
-								</a>
-							</Link>
-						</li>
+						{!isMobile ? (
+							<div className="fixed bottom-5 left-2">
+								<Link href="/brochure.pdf" download legacyBehavior>
+									<a className="relative flex items-center justify-center bg-[#FDD704] py-2 px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg">
+										<div className="text-center text-sm ">
+											Descargar Brochure
+										</div>
+									</a>
+								</Link>
+							</div>
+						) : (
+							<></>
+						)}
 
 
 

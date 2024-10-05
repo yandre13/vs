@@ -27,8 +27,6 @@ function CardPortfolio({project, width, query}) {
 				<a role="button" onClick={e => open(e, id)}>
 					<Image
 						src={image}
-						width={1000}    
-						height={1000} 
 						className={cn(
 							'w-101 h-full absolute top-0 left-0 object-cover',
 							isHovered && '!filter !grayscale contrast-600 z-0',
@@ -38,6 +36,7 @@ function CardPortfolio({project, width, query}) {
 						onTouchStart={() => setIsHovered(true)}
 						onTouchEnd={() => setIsHovered(false)}
 						alt={project.alt}
+						placeholder="blur"
 					/>
 				</a>
 				<div

@@ -1,5 +1,5 @@
 const image1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/bl1hmeu4f2voz3vdtzos';
-import image2 from '../../public/img/miniaturas/2.jpg'
+import image2 from '../../public/img/miniaturas/2.webp'
 const image3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/frv7oi83f93wynt4tfx4';
 const image4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/qolwnwskjtdkldkigyvr';
 const image5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/s1jfw4vn841q5ko685u3';
@@ -22,7 +22,7 @@ const image21 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto
 const image22 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_FIBRA/b4o2aalfow328uyxytve';
 const image23 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMINVEST_RESIDENZA%20CASTAGNI/w8em67bohlqhd6aear09';
 const image24 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/y9wmjeqbqf8oovivd9se';
-import image25 from '../../public/img/miniaturas/25.jpg'
+import image25 from '../../public/img/miniaturas/25.webp'
 const image26 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/qcpp3mfl08ozoklc8d4v';
 const image27 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/LIBRE_28%20DE%20JULIO/lokntqzfdx7r0fw2i0o0';
 const image28 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/ykryzbs9cqkjdk2ihliz';

@@ -54,8 +54,8 @@ function Navbar() {
 						hidden: !isMobile,
 					})}>
 						<Link href="/brochure.pdf" download legacyBehavior>
-							<a className="flex bg-[#FDD704] py-2 px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg mr-5">
-								<div className="text-center text-black text-sm md:text-base xl:text-xs">
+							<a className="flex items-center bg-[#FDD704] py-1 px-2 sm:py-2 sm:px-4 md:py-1 md:px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg mr-2 sm:mr-5 max-w-xs sm:max-w-sm md:max-w-xs">
+								<div className="text-center text-black text-xs sm:text-sm md:text-xs">
 								 <span>Descargar Brochure</span>	
 								</div>
 							</a>

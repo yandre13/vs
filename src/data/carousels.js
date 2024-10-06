@@ -42,184 +42,316 @@ const carousel2 = {
 	logo: '../../img/marcas/QUISPE_MAMANI.jpg',
 	images: [
 		{
-			name: 'Flat',
-			path: '../../img/proyectos/tamayo/flat.webp',
+			name: 'Fachada',
+			path: '../../img/proyectos/VIVE PLM_ALIAGA/FACHADA GENERAL.jpg',
 			classnames: '',
 		},
 		{
 			name: 'Fachada',
-			path: '../../img/proyectos/tamayo/fachada.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/n7icyrdcrzto0pzdchav',
 			classnames: '',
 		},
+		{
+			name: 'Baño',
+			path: '../../img/proyectos/VIVE PLM_ALIAGA/BAÑO SEC_ (1).jpg',
+			classnames: '',
+		},
+		{
+			name: 'Cocina',
+			path: '../../img/proyectos/VIVE PLM_ALIAGA/COCINA (4).jpg',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/fuxtqjlpwqnuylk1zszc',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio secundario',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/ca0gjdq5tzrfoe15wvam',
+			classnames: '',
+		},
+		{
+			name: 'Fogateros',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/haolgsezvuqjatefaolu',
+			classnames: '',
+		},
+		{
+			name: 'Lobby 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/atjraixickcmmm0b4y4b',
+			classnames: '',
+		},
+		{
+			name: 'Lobby 2',
+			path: '../../img/proyectos/VIVE PLM_ALIAGA/LOBBY2 (1).jpg',
+			classnames: '',
+		},
+		{
+			name: 'Lounge',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/p0rhodwnoz6tiqbxggc4',
+			classnames: '',
+		},
+		{
+			name: 'Pet Zone',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/xnsxy6lxvewpatkhgbrg',
+			classnames: '',
+		},
+		{
+			name: 'Piscina',
+			path: '../../img/proyectos/VIVE PLM_ALIAGA/PISCINA (1).jpg',
+			classnames: '',
+		},
+		{
+			name: 'Sala comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/psxj5bwvnitevapzhqhp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de niños',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/bqk5hh3fkkljyizarwvr',
+			classnames: '',
+		},
+		{
+			name: 'Social Kitchen',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/VIVE%20PLM%20_ALIAGA/xnvn6a9udmi8w4zmxfve',
+			classnames: '',
+		}
 	],
 }
 const carousel3 = {
 	logo: '../../img/marcas/HENDERSON.jpg',
 	images: [
 		{
-			name: 'Nocturna',
-			path: '../../img/proyectos/msb/NOCTURNA.webp',
+			name: 'Piscina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/frv7oi83f93wynt4tfx4',
 			classnames: '',
 		},
 		{
-			name: 'Post',
-			path: '../../img/proyectos/msb/POST.webp',
+			name: 'Diurna',
+			path: '../../img/proyectos/INMOBILIARIA HENDERSON _JACINTO DE LARA/DIURNA.jpg',
 			classnames: '',
 		},
+		{
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/zcebvclbovpqwqtiw6d7',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/zqglh6gzo1y0vktv5lbl',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio secundario',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/oi9i6rrewlohalbyvp6b',
+			classnames: '',
+		},
+		{
+			name: 'Sala de estar',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/ueenvtepcrgxpwulmhhp',
+			classnames: '',
+		}
 	],
 }
 const carousel4 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Sala comedor',
-			path: '../../img/proyectos/pasaje-laureles/Sala_Comedor.webp',
+			name: 'Parrilla',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/qolwnwskjtdkldkigyvr',
 			classnames: '',
 		},
 		{
-			name: 'Baño principal',
-			path: '../../img/proyectos/pasaje-laureles/Bano_principal.webp',
+			name: 'Fachada',
+			path: '../../img/proyectos/TYC_PARDO/fachada.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Baño visita',
-			path: '../../img/proyectos/pasaje-laureles/Bano_visita.webp',
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/m0qvibd0olzdzlidtrok',
 			classnames: '',
 		},
 		{
-			name: 'Cocina abierta',
-			path: '../../img/proyectos/pasaje-laureles/Cocina_abierta.webp',
+			name: 'Cine',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/fjnpvgrlstc82fxdhrid',
 			classnames: '',
 		},
 		{
-			name: 'Cocina abierta verde',
-			path: '../../img/proyectos/pasaje-laureles/Cocina_abierta_Verde.webp',
+			name: 'Balcones',
+			path: '../../img/proyectos/TYC_PARDO/BALCONES.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Cocina cerrada',
-			path: '../../img/proyectos/pasaje-laureles/Cocina_cerrada.webp',
+			name: 'CoWorking',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/imdvcnwyhmbv3mpml6jw',
 			classnames: '',
 		},
 		{
-			name: 'Estudio',
-			path: '../../img/proyectos/pasaje-laureles/Estudio.webp',
+			name: 'Dormitorio',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/dwlxioqdmemmxvqxp2uu',
 			classnames: '',
 		},
+		{
+			name: 'Estacionamiento de bicicletas',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/nq7jpr3trasgbu7k162w',
+			classnames: '',
+		},
+		{
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/vglphu3iqyeznjrdkaef',
+			classnames: '',
+		},
+		{
+			name: 'Lobby atmósfera',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/eew0nt8wtcr0wj9rquof',
+			classnames: '',
+		},
+		{
+			name: 'Paseo de mascotas',
+			path: '../../img/proyectos/TYC_PARDO/mascotas.jpg',
+			classnames: '',
+		},
+		{
+			name: 'Sala Bar',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/yvn2oo7sikaerf2l4png',
+			classnames: '',
+		},
+		{
+			name: 'Sala Comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/ty9tkli3qp1sb6s78vds',
+			classnames: '',
+		},
+		{
+			name: 'Sala Gourmet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/sdfz9vyyfxs00l6accpl',
+			classnames: '',
+		},
+		{
+			name: 'SUM',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/adqxqpfy5mbajilqfi53',
+			classnames: '',
+		},
+		{
+			name: 'Terraza Parrilla',
+			path: '../../img/proyectos/TYC_PARDO/TERRAZAPARRILLA_.jpg',
+			classnames: '',
+		},
+		{
+			name: 'Zona de juegos',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/ufjjd8xfv3nlfl3xi5zr',
+			classnames: '',
+		},
+		{
+			name: 'Zona Pet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/qoesbudil0w3jvgk2qpp',
+			classnames: '',
+		},
+
 	],
 }
 const carousel5 = {
 	logo: '../../img/marcas/MARCAN.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/pod/FACHADA.webp',
+			name: 'Soggiorno',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/s1jfw4vn841q5ko685u3',
 			classnames: '',
 		},
 		{
-			name: '13',
-			path: '../../img/proyectos/pod/13.webp',
+			name: 'Vista aérea',
+			path: '../../img/proyectos/ARCOLUX_BREGRASSONA/aerea.jpg',
 			classnames: '',
 		},
 		{
-			name: '25',
-			path: '../../img/proyectos/pod/25.webp',
+			name: 'Terraza',
+			path: '../../img/proyectos/ARCOLUX_BREGRASSONA/terraza.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Acercamiento',
-			path: '../../img/proyectos/pod/ACERCAMIENTO-1.webp',
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/zlqqbkznqvfygxawschu',
 			classnames: '',
 		},
 		{
-			name: 'Cocina abierta verde',
-			path: '../../img/proyectos/pod/ACERCAMIENTO-2.webp',
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/jh7hmuyloivdithtm9y7',
 			classnames: '',
 		},
 		{
-			name: 'Cocina 606',
-			path: '../../img/proyectos/pod/COCINA-606.webp',
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/sqbnm9np2zkvzer5ov78',
 			classnames: '',
 		},
 		{
-			name: 'Corredor business center',
-			path: '../../img/proyectos/pod/CORREDOR-BUSINESS-CENTER.webp',
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/sqgvmtsy22s2du9zt0tr',
 			classnames: '',
 		},
 		{
-			name: 'Cuarto multiusos',
-			path: '../../img/proyectos/pod/CUARTO-MULTIUSOS.webp',
+			name: 'Soggiorno',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/ehj38bynwlq6lycoxbmo',
 			classnames: '',
 		},
 
 		{
-			name: 'Fachada frontal',
-			path: '../../img/proyectos/pod/FACHADA-FRONTAL.webp',
+			name: 'Soggiorno',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/htpvxtvn028casc5khsf',
 			classnames: '',
 		},
 		{
-			name: 'Fachada interna',
-			path: '../../img/proyectos/pod/FACHADA-INTERNA.webp',
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/trmclnrapijxzu0y12tf',
 			classnames: '',
 		},
 		{
-			name: 'Gimnasio',
-			path: '../../img/proyectos/pod/GIMNASIO.webp',
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/ygmjqfb0vmcvc4qdtfju',
 			classnames: '',
 		},
-		{
-			name: 'Parrilla',
-			path: '../../img/proyectos/pod/PARRILLA-1.webp',
-			classnames: '',
-		},
-		{
-			name: 'Patio de ingreso',
-			path: '../../img/proyectos/pod/PATIO-DE-INGRESO-01.webp',
-			classnames: '',
-		},
-		{
-			name: 'Patio de ingreso 2',
-			path: '../../img/proyectos/pod/PATIO-DE-INGRESO-02.webp',
-			classnames: '',
-		},
-		{
-			name: 'Piloto oficina',
-			path: '../../img/proyectos/pod/PILOTO-OFICINA-2-B.webp',
-			classnames: '',
-		},
-		{
-			name: 'Principal 606',
-			path: '../../img/proyectos/pod/PRINCIPAL-606.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala reuniones azotea',
-			path: '../../img/proyectos/pod/SALA-REUNIONES-AZOTEA.webp',
-			classnames: '',
-		},
+		
 	],
 }
 const carousel6 = {
 	logo: '../../img/marcas/ESTEOESTE.jpg',
 	images: [
 		{
-			name: 'Bar',
-			path: '../../img/proyectos/holiday-inn/bar.webp',
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/hclrn3vpb5sfip7f9jcn',
 			classnames: '',
 		},
 		{
-			name: 'Comedor',
-			path: '../../img/proyectos/holiday-inn/comedor.webp',
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/ofpuq53nhy1mglijly2q',
 			classnames: '',
 		},
 		{
-			name: 'Lobby',
-			path: '../../img/proyectos/holiday-inn/lobby.webp',
+			name: 'Fachada Frontal',
+			path: '../../img/proyectos/CONFORTA_ALJOVIN/frontal.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Sauna',
-			path: '../../img/proyectos/holiday-inn/sauna.webp',
+			name: 'Nocturna',
+			path: '../../img/proyectos/CONFORTA_ALJOVIN/nocturna.jpg',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/fyma7rqlojr75pltca0j',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/pdsnyblgc709w7nqybvu',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/pzfijoc1rhgwufxkh8eh',
+			classnames: '',
+		},
+		{
+			name: 'Sala comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/fucizzwz1cd8rxutcyiv',
 			classnames: '',
 		},
 	],
@@ -228,88 +360,40 @@ const carousel7 = {
 	logo: '../../img/marcas/MARCAN.jpg',
 	images: [
 		{
-			name: 'Acercamiento fachada',
-			path: '../../img/proyectos/tandem-parc/ACERCAMIENTO-FACHADA-2.webp',
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/HAUSBRICK_MONTE%20ALEGRE/ngevlu60bqhdzwoloa3u',
 			classnames: '',
 		},
 		{
-			name: 'Acercamiento fachada 2',
-			path: '../../img/proyectos/tandem-parc/ACERCAMIENTO-FACHADA-1.webp',
+			name: 'Fachada frontal',
+			path: '../../img/proyectos/HAUSBRICK_MONTE ALEGRE/frontal.webp',
 			classnames: '',
 		},
 		{
-			name: 'Bañador mascotas',
-			path: '../../img/proyectos/tandem-parc/BANADOR-MASCOTAS.webp',
+			name: 'Fachada lateral',
+			path: '../../img/proyectos/HAUSBRICK_MONTE ALEGRE/lateral.webp',
 			classnames: '',
 		},
 		{
-			name: 'Bicicletas',
-			path: '../../img/proyectos/tandem-parc/BICICLETAS.webp',
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/HAUSBRICK_MONTE%20ALEGRE/rxoyog0jtqhrbdx1fea4',
+			classnames: '',
+		},
+		
+		{
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/HAUSBRICK_MONTE%20ALEGRE/tkuvibal2284mmld4hep',
 			classnames: '',
 		},
 		{
-			name: 'Coworking',
-			path: '../../img/proyectos/tandem-parc/COWORKING.webp',
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/HAUSBRICK_MONTE%20ALEGRE/jx1t2mqvepdc8mqwib6m',
 			classnames: '',
 		},
-		{
-			name: 'Fachada atardecer',
-			path: '../../img/proyectos/tandem-parc/FACHADA-ATARDECER.webp',
-			classnames: '',
-		},
-		{
-			name: 'Fachada atardecer 2',
-			path: '../../img/proyectos/tandem-parc/FACHADA-ATARDECER-2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Gym',
-			path: '../../img/proyectos/tandem-parc/GYM.webp',
-			classnames: '',
-		},
-		{
-			name: 'Lobby ingreso',
-			path: '../../img/proyectos/tandem-parc/LOBBY-INGRESO.webp',
-			classnames: '',
-		},
-		{
-			name: 'Patio',
-			path: '../../img/proyectos/tandem-parc/PATIO.webp',
-			classnames: '',
-		},
-		{
-			name: 'Patio 2',
-			path: '../../img/proyectos/tandem-parc/PATIO-2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala de niños',
-			path: '../../img/proyectos/tandem-parc/SALA-DE-NINOS.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala de reunión 60 m2',
-			path: '../../img/proyectos/tandem-parc/SALA-DE-REUNION.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala reuniones',
-			path: '../../img/proyectos/tandem-parc/SALA-REUNIONES.webp',
-			classnames: '',
-		},
+		
 		{
 			name: 'Terraza',
-			path: '../../img/proyectos/tandem-parc/TERRAZA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Yoga',
-			path: '../../img/proyectos/tandem-parc/YOGA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Zoom fachada',
-			path: '../../img/proyectos/tandem-parc/ZOOM-FACHADA.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/HAUSBRICK_MONTE%20ALEGRE/k3gnx6enbud4wtxqmjtw',
 			classnames: '',
 		},
 	],
@@ -318,63 +402,64 @@ const carousel8 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Ingreso',
-			path: '../../img/proyectos/libertad/Ingreso.webp',
+			name: 'Vista',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMINVEST_RESIDENZA%20CASTAGNI/w8em67bohlqhd6aear09',
 			classnames: '',
 		},
-		{
-			name: 'Fachada',
-			path: '../../img/proyectos/libertad/Fachada.webp',
-			classnames: '',
-		},
-		{
-			name: 'Kitchenette',
-			path: '../../img/proyectos/libertad/Kitchenette.webp',
-			classnames: '',
-		},
-		{
-			name: 'Lobby',
-			path: '../../img/proyectos/libertad/Lobby.webp',
-			classnames: '',
-		},
-		{
-			name: 'Oficina 30 m2',
-			path: '../../img/proyectos/libertad/Oficina-30-m2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Oficina 60 m2',
-			path: '../../img/proyectos/libertad/Oficina-60-m2.webp',
-			classnames: '',
-		},
+		
 	],
 }
 const carousel9 = {
 	logo: '../../img/marcas/MARCAN.jpg',
 	images: [
 		{
-			name: 'Aérea',
-			path: '../../img/proyectos/lagunas-de-bujama/Aerea.webp',
+			name: 'Sala 2',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/kw6snkuhxc9yijjofjhb',
 			classnames: '',
 		},
 		{
-			name: 'Frontón',
-			path: '../../img/proyectos/lagunas-de-bujama/Fronton.webp',
+			name: 'Sala 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/hsiks2qf98wwc187zhjb',
 			classnames: '',
 		},
 		{
-			name: 'Ingreso',
-			path: '../../img/proyectos/lagunas-de-bujama/Ingreso.webp',
+			name: 'Fachada frontal',
+			path: '../../img/proyectos/MARCAN_LLANO_ZAPATA/frontal.webp',
 			classnames: '',
 		},
 		{
-			name: 'Parrilla',
-			path: '../../img/proyectos/lagunas-de-bujama/Parrilla.webp',
+			name: 'Fachada lateral',
+			path: '../../img/proyectos/MARCAN_LLANO_ZAPATA/lateral.webp',
 			classnames: '',
 		},
 		{
-			name: 'Puente',
-			path: '../../img/proyectos/lagunas-de-bujama/Puente.webp',
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/qcahtneywxmrosxtscmv',
+			classnames: '',
+		},
+		{
+			name: 'Azotea',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/yepn5kilbl4vkueu1e3o',
+			classnames: '',
+		},
+		{
+			name: 'Patio interior',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/negkxgyf0yz2zwkcn3ra',
+			classnames: '',
+		},
+		{
+			name: 'Patio interior nocturna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/fhmhu4tvgotd1vb9zk03',
+			classnames: '',
+		},
+		{
+			name: 'Sala comedor 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/rqzy1bhnfrlmivhbdpjh',
+			classnames: '',
+		},
+		{
+			name: 'Sala comedor 2',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/asu6049w0emrpgazucgb',
 			classnames: '',
 		},
 	],

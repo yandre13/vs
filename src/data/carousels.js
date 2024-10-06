@@ -1,11 +1,41 @@
 const carousel1 = {
-	logo: '../../img/marcas/MODULAR.jpg',
+	logo: '../../img/marcas/COLLECTIVEARCHITECTURE.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/mendiburu/Fachada.webp',
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/bl1hmeu4f2voz3vdtzos',
 			classnames: '',
 		},
+		{
+			name: 'Lobby B',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/vbnwcxvuoxthhtarffjx',
+			classnames: '',
+		},
+		{
+			name: 'Lobby A',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/xosdgpqrb1zaqvt049hv',
+			classnames: '',
+		},
+		{
+			name: 'Hall',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/rtg87jdo6j2zz57e7mqx',
+			classnames: '',
+		},
+		{
+			name: 'Sala de conferencias',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/pwvkd2fugevi5j47dysi',
+			classnames: '',
+		},
+		{
+			name: 'Comedor 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/jkauerd6o9luopyg8o0v',
+			classnames: '',
+		},
+		{
+			name: 'Comedor 2',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/ehesf9gkcprkomrih0ps',
+			classnames: '',
+		}
 	],
 }
 const carousel2 = {
@@ -24,7 +54,7 @@ const carousel2 = {
 	],
 }
 const carousel3 = {
-	logo: '../../img/marcas/VE_ARQUITECTURA.jpg',
+	logo: '../../img/marcas/HENDERSON.jpg',
 	images: [
 		{
 			name: 'Nocturna',
@@ -320,7 +350,7 @@ const carousel8 = {
 	],
 }
 const carousel9 = {
-	logo: '../../img/marcas/PB.jpeg',
+	logo: '../../img/marcas/MARCAN.jpg',
 	images: [
 		{
 			name: 'Aérea',
@@ -510,7 +540,7 @@ const carousel12 = {
 	],
 }
 const carousel13 = {
-	logo: '../../img/marcas/QUISPE_MAMANI.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
 			name: 'Ingreso',
@@ -525,7 +555,7 @@ const carousel13 = {
 	],
 }
 const carousel14 = {
-	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
 			name: 'Lobby bloque B',
@@ -581,7 +611,7 @@ const carousel15 = {
 }
 
 const carousel16 = {
-	logo: '../../img/marcas/ICONO.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
 			name: 'Oficina BIRTRANKS',
@@ -717,7 +747,7 @@ const carousel19 = {
 	],
 }
 const carousel20 = {
-	logo: '../../img/marcas/OB_RA.jpg',
+	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
 			name: 'Fachada',
@@ -742,7 +772,7 @@ const carousel20 = {
 	],
 }
 const carousel21 = {
-	logo: '../../img/marcas/falta.jpg',
+	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
 			name: 'Dormitorio',
@@ -787,7 +817,7 @@ const carousel21 = {
 	],
 }
 const carousel22 = {
-	logo: '../../img/marcas/SOMA_LIMA.jpg',
+	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
 			name: 'Ingreso',
@@ -852,7 +882,7 @@ const carousel23 = {
 	],
 }
 const carousel24 = {
-	logo: '../../img/marcas/MARCAN.jpg',
+	logo: '../../img/marcas/RF.jpg',
 	images: [
 		{
 			name: 'Fachada',
@@ -932,7 +962,7 @@ const carousel26 = {
 	],
 }
 const carousel27 = {
-	logo: '../../img/marcas/PUENTE.jpg',
+	logo: '../../img/marcas/LIBRE.jpg',
 	images: [
 		{
 			name: 'Corredor',
@@ -987,7 +1017,7 @@ const carousel28 = {
 	],
 }
 const carousel29 = {
-	logo: '../../img/marcas/falta.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
 			name: 'Estación',

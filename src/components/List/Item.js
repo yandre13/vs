@@ -1,11 +1,11 @@
 import React from 'react'
-import {AnimatePresence, motion} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
-import {data as api} from 'data'
-import {useQuery} from 'react-query'
+import { data as api } from 'data'
+import { useQuery } from 'react-query'
 
-import {Swiper, SwiperSlide} from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
@@ -16,14 +16,15 @@ import SwiperCore, {
 	Navigation,
 	EffectFade,
 	Keyboard,
+	Autoplay,
 } from 'swiper/core'
 import useMedia from 'hooks/useMedia'
 
 // install Swiper modules
-SwiperCore.use([Pagination, Navigation, EffectFade, Keyboard])
+SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade, Keyboard])
 
-function Item({id}) {
-	const {data: project, isLoading} = useQuery(['item', id], () =>
+function Item({ id }) {
+	const { data: project, isLoading } = useQuery(['item', id], () =>
 		api.find(p => p.id === Number(id)),
 	)
 
@@ -73,7 +74,7 @@ function Item({id}) {
 				// animate={{opacity: 1}}
 				// exit={{opacity: 0, transition: {duration: 0.15}}}
 				// transition={{duration: 0.2, delay: 0.15}}
-				style={{pointerEvents: 'auto'}}
+				style={{ pointerEvents: 'auto' }}
 				className="overlay"
 			>
 				<Link href="proyectos" scroll={false} legacyBehavior >
@@ -82,10 +83,10 @@ function Item({id}) {
 			</motion.div>
 
 			<motion.div
-				initial={{opacity: 0}}
-				animate={{opacity: 1}}
-				exit={{opacity: 0, transition: {duration: 0.6}}}
-				transition={{duration: 1}}
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				exit={{ opacity: 0, transition: { duration: 0.6 } }}
+				transition={{ duration: 1 }}
 				className="fixed z-20
 				w-full inset-0
 				md:w-[96%] lg:w-[98%] md:top-[6%] md:bottom-[5%] mx-auto"
@@ -102,9 +103,9 @@ function Item({id}) {
 									src={project.carousel.logo}
 									alt={project.title}
 									className="h-auto w-full max-w-[160px]"
-									// layout="fill"
-									// width={1920}
-									// height={1440}
+								// layout="fill"
+								// width={1920}
+								// height={1440}
 								/>
 								<div
 									className="text-right self-end md:self-auto lg:self-end 
@@ -132,7 +133,11 @@ function Item({id}) {
 									className="w-full h-full flex justify-center items-center"
 								>
 									<Swiper
-										pagination={{clickable: true}}
+										autoplay={{
+											delay: 3000, // 3 segundos entre cada slide
+											disableOnInteraction: false, // Continúa autoplay tras interacción del usuario
+										}}
+										pagination={{ clickable: true }}
 										loop={project.carousel.images.length > 1}
 										effect={'fade'}
 										keyboard={{
@@ -143,19 +148,18 @@ function Item({id}) {
 										onSwiper={() => {
 											setImageName(project.carousel.images[0]?.name)
 										}}
-										className={`transition-opacity duration-300 port_slider ${
-											debouncedLoading ? 'opacity-0' : ''
-										}`}
+										className={`transition-opacity duration-300 port_slider ${debouncedLoading ? 'opacity-0' : ''
+											}`}
 										onSlideChange={e => {
 											if (project.carousel.images.length > 1) {
 												setImageName(
 													project.carousel.images[e.activeIndex - 1]?.name ??
-														project.carousel.images[0].name,
+													project.carousel.images[0].name,
 												)
 											}
 										}}
 									>
-										{project.carousel.images.map(({path, name}) => (
+										{project.carousel.images.map(({ path, name }) => (
 											<SwiperSlide key={path}>
 												<article className="w-full h-full">
 													<div className="flex justify-center vertical-center bg-white">
@@ -166,9 +170,9 @@ function Item({id}) {
 															onClick={() => {
 																!isOpen ? setIsOpen(path) : setIsOpen(false)
 															}}
-															// layout="fill"
-															// width={1920}
-															// height={1440}
+														// layout="fill"
+														// width={1920}
+														// height={1440}
 														/>
 													</div>
 												</article>
@@ -192,22 +196,22 @@ function Item({id}) {
 			</motion.div>
 			{
 				isMobile && <AnimatePresence>
-				{isOpen && (
-					<motion.div
-						initial={{opacity: 0}}
-						animate={{opacity: 1}}
-						exit={{opacity: 0, transition: {duration: 0.3}}}
-						transition={{duration: 0.3, delay: 0.15}}
-						style={{pointerEvents: 'auto', zIndex: 1000}}
-						className="overlay flex items-center !bg-black"
-					>
-						<div className="absolute flex justify-center items-center font-bold text-xl top-6 right-6 text-white">
-							<span onClick={() => setIsOpen(false)}>X</span>
-						</div>
-						<img src={isOpen} className="w-full h-auto" />
-					</motion.div>
-				)}
-			</AnimatePresence>
+					{isOpen && (
+						<motion.div
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							exit={{ opacity: 0, transition: { duration: 0.3 } }}
+							transition={{ duration: 0.3, delay: 0.15 }}
+							style={{ pointerEvents: 'auto', zIndex: 1000 }}
+							className="overlay flex items-center !bg-black"
+						>
+							<div className="absolute flex justify-center items-center font-bold text-xl top-6 right-6 text-white">
+								<span onClick={() => setIsOpen(false)}>X</span>
+							</div>
+							<img src={isOpen} className="w-full h-auto" />
+						</motion.div>
+					)}
+				</AnimatePresence>
 			}
 		</>
 	)

@@ -14,7 +14,7 @@ function CardPortfolio({project, width, query}) {
 	}
 
 	return (
-		<div
+		<div 
 			style={{
 				width: `${width * 6}px`,
 				height: `${width * project.height}px`,
@@ -23,7 +23,7 @@ function CardPortfolio({project, width, query}) {
 				marginBottom: `${width * project?.styles?.[query]?.mb}px`,
 			}}
 		>
-			<div className={cn('w-full h-0 overflow-hidden relative', aspectRatio)}>
+			<div className={cn('relative w-full h-0 overflow-hidden ', aspectRatio)}>
 				<a role="button" onClick={e => open(e, id)}>
 					<Image
 						src={image}

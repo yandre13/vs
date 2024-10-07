@@ -1360,77 +1360,72 @@ const carousel28 = {
 	images: [
 		{
 			name: 'Fachada frontal',
-			path: '../../img/proyectos/academicos/ESTACION.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/sdiauewx0tnhyqacbd7a',
 			classnames: '',
 		},
 		{
 			name: 'Exterior 1',
-			path: '../../img/proyectos/academicos/AULAS.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/zgme3mi7xeoi6ub0c4sn',
 			classnames: '',
 		},
 		{
 			name: 'Exterior 2',
-			path: '../../img/proyectos/academicos/AULAS.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/tujllvabkkvpmsx5jvyx',
 			classnames: '',
 		},
 		{
 			name: 'Exterior 3',
-			path: '../../img/proyectos/academicos/AULAS.webp',
-			classnames: '',
-		},
-		{
-			name: 'Exterior 4',
-			path: '../../img/proyectos/academicos/AULAS.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/tyceueaodrorlnlpblmj',
 			classnames: '',
 		},
 		{
 			name: 'Baño',
-			path: '../../img/proyectos/academicos/BANOS-TERMALES.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/lmllu9u17bgqilorplj1',
 			classnames: '',
 		},
 		{
 			name: 'Cocina',
-			path: '../../img/proyectos/academicos/BANOS-TERMALES-2.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/cm2lgr4ls7fka3ckk2ls',
 			classnames: '',
 		},
 		{
 			name: 'Dormitorio',
-			path: '../../img/proyectos/academicos/CASA-BASADRE.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/hjdpywaaj28s6zawp41a',
 			classnames: '',
 		},
 		{
 			name: 'Sala de juegos',
-			path: '../../img/proyectos/academicos/CENTRO-COMUNITARIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/ykryzbs9cqkjdk2ihliz',
 			classnames: '',
 		},
 		{
 			name: 'Gym',
-			path: '../../img/proyectos/academicos/FABRICA.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/s9piaf14q22lbgojzvi0',
 			classnames: '',
 		},
 		{
 			name: 'Patio',
-			path: '../../img/proyectos/academicos/FABRICA-2.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/wogyyugbsxzxlkl2pivt',
 			classnames: '',
 		},
 		{
 			name: 'Sala',
-			path: '../../img/proyectos/academicos/MERCADO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/arcqxhzzjjy4zjbvqjwt',
 			classnames: '',
 		},
 		{
 			name: 'Sala de estar',
-			path: '../../img/proyectos/academicos/PASAJE.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/ekq0undhuwmlxwzkm1bw',
 			classnames: '',
 		},
 		{
 			name: 'Sala nocturna',
-			path: '../../img/proyectos/academicos/PUERTO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/rlabqgepgufoxxqb0irs',
 			classnames: '',
 		},
 		{
 			name: 'Terraza',
-			path: '../../img/proyectos/academicos/SUM.webp',
+			path: '../../img/proyectos/GRACIA_INMOBILIARIA_GEMMA/terraza.jpg',
 			classnames: '',
 		},
 	],
@@ -1440,7 +1435,7 @@ const carousel29 = {
 	images: [
 		{
 			name: 'Fachada',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_SAENZ%20PE%C3%91A/rwf4fkrh1azivpl1qrng',
 			classnames: '',
 		},
 	],
@@ -1450,57 +1445,57 @@ const carousel30 = {
 	images: [
 		{
 			name: 'Comedor',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/rgguazrvjkoflvnnd64i',
 			classnames: '',
 		},
 		{
 			name: 'Fachada diurna',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: '../../img/proyectos/INARCO_SONHOS/diurna.jpg',
 			classnames: '',
 		},
 		{
 			name: 'Fachada nocturna',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: '../../img/proyectos/INARCO_SONHOS/nocturna.jpg',
 			classnames: '',
 		},
 		{
 			name: 'Dormitorio',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/b7kzk5toaiambwkm3whq',
 			classnames: '',
 		},
 		{
 			name: 'Estacionamiento de bicicletas',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: '../../img/proyectos/INARCO_SONHOS/bici.jpg',
 			classnames: '',
 		},
 		{
 			name: 'Gym',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/cwi6uuwmyaaxqrdkzbkw',
 			classnames: '',
 		},
 		{
 			name: 'Lavanderia',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/l7o8snsyy69jwx03ilmn',
 			classnames: '',
 		},
 		{
 			name: 'Lobby',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/p4xpxi2ilusopedxpq6r',
 			classnames: '',
 		},
 		{
 			name: 'Piscina',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/csxerr3dnlqvlocawmbe',
 			classnames: '',
 		},
 		{
 			name: 'Sala',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/ajvmgjindcgnouxlnece',
 			classnames: '',
 		},
 		{
 			name: 'Salon social',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/qr9ijn7b3wdyvxqs3xls',
 			classnames: '',
 		},
 		
@@ -2540,7 +2535,7 @@ const carousel60 = {
 		},
 		{
 			name: 'Aulas',
-			path: '../../img/proyectos/academicos/AULAS.webp',
+			path: '',
 			classnames: '',
 		},
 		{

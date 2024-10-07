@@ -850,8 +850,39 @@ const carousel16 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Oficina BIRTRANKS',
-			path: '../../img/proyectos/oficina-birtranks/OFICINA-BIRTRANKS.webp',
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/kw9wjxfv18klr9onuckr',
+			classnames: '',
+		},
+		{
+			name: 'Vista frontal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/pxhk6moewalix5mscwrk',
+			classnames: '',
+		},
+		{
+			name: 'Vista lateral',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/dp1x0zlpquhxlyyyg8tr',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/fhm0lddxq2mdiyyx1klw',
+			classnames: '',
+		},
+		
+		{
+			name: 'Dormitorio',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/ewpfvu7keqsxjhf6rt1m',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/imoxd58qndc0a1ltdccp',
+			classnames: '',
+		},
+		{
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/mdeuf1rwur5lc3kpuhir',
 			classnames: '',
 		},
 	],
@@ -861,53 +892,48 @@ const carousel17 = {
 	logo: '../../img/marcas/ARMONHY.jpg',
 	images: [
 		{
-			name: 'Lateral',
-			path: '../../img/proyectos/salaverry-3636/LATERAL.webp',
-			classnames: '',
-		},
-		{
-			name: 'Frontal',
-			path: '../../img/proyectos/salaverry-3636/FRONTAL.webp',
-			classnames: '',
-		},
-		{
-			name: 'Comedor',
-			path: '../../img/proyectos/salaverry-3636/COMEDOR.webp',
-			classnames: '',
-		},
-		{
-			name: 'Dormitorio principal',
-			path: '../../img/proyectos/salaverry-3636/DORMITORIO-PRINCIPAL.webp',
-			classnames: '',
-		},
-		{
-			name: 'Home office',
-			path: '../../img/proyectos/salaverry-3636/HOME-OFFICE.webp',
-			classnames: '',
-		},
-		{
-			name: 'Ingreso',
-			path: '../../img/proyectos/salaverry-3636/INGRESO.webp',
-			classnames: '',
-		},
-		{
 			name: 'Lobby',
-			path: '../../img/proyectos/salaverry-3636/LOBBY.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/siomvp0jmdefpvxrdzus',
 			classnames: '',
 		},
 		{
-			name: 'Nocturna',
-			path: '../../img/proyectos/salaverry-3636/NOCTURNA.webp',
+			name: 'Terraza Primer nivel',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/egfezcucb7o6al85gnr3',
 			classnames: '',
 		},
 		{
-			name: 'Patio interior',
-			path: '../../img/proyectos/salaverry-3636/PATIO-INTERIOR.webp',
+			name: 'Sala comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/hzynmfoygpi3ytwpsf51',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio secundario',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/yp2inbec1nwthznmrhxo',
 			classnames: '',
 		},
 		{
 			name: 'Sala',
-			path: '../../img/proyectos/salaverry-3636/SALA-1.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/dnk2czfucqjoebfbcdin',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/ko5l3xiyc3qnn1kb1llz',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/nzv0g4yjwp9u9sdwxxml',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/nr1yzhwztol8j2oxohsw',
+			classnames: '',
+		},
+		{
+			name: 'Home Office',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CARET%20CAPITAL_VASQUEZ%20DE%20MELLA/pgatefipem5qgucoo4qs',
 			classnames: '',
 		},
 	],
@@ -916,33 +942,33 @@ const carousel18 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Ingreso',
-			path: '../../img/proyectos/machaypuito/INGRESO.webp',
+			name: 'Hidromasaje',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/z07us13akzuzkh6cl5gp',
 			classnames: '',
 		},
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/machaypuito/FACHADA.webp',
+			name: 'Hall',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/pt0qjkwlcqi646ilmikm',
 			classnames: '',
 		},
 		{
-			name: 'Dormitorio principal',
-			path: '../../img/proyectos/machaypuito/DORMITORIO-PRINCIPAL.webp',
+			name: 'Baño principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/oax1mb8qaaej8kkigbzd',
 			classnames: '',
 		},
 		{
-			name: 'Lobby',
-			path: '../../img/proyectos/machaypuito/LOBBY.webp',
+			name: 'Sala comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/hdpglvrdg8zeyuktky1b',
 			classnames: '',
 		},
 		{
-			name: 'Machaypuito 1',
-			path: '../../img/proyectos/machaypuito/MACHAYPUITO-01.webp',
+			name: 'Dormitorio',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/jphevgiyhltt5rzlxsxg',
 			classnames: '',
 		},
 		{
-			name: 'Machaypuito 2',
-			path: '../../img/proyectos/machaypuito/MACHAYPUITO-02.webp',
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/jhwrp0b9lqbwnz8wxbap',
 			classnames: '',
 		},
 	],
@@ -951,36 +977,67 @@ const carousel19 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Fachada bloque A',
-			path: '../../img/proyectos/ugarte-y-moscoso/FACHADA-BLOQUE-A.webp',
+			name: 'Fachada nocturna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/bw9mwofn0ttglg9kixs0',
 			classnames: '',
 		},
 		{
-			name: 'Fachada bloque B',
-			path: '../../img/proyectos/ugarte-y-moscoso/FACHADA-BLOQUE-B.webp',
+			name: 'Fachada diurna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/iwrms8glc9a5x8nxfh6u',
 			classnames: '',
 		},
 		{
-			name: 'Lobby bloque A',
-			path: '../../img/proyectos/ugarte-y-moscoso/LOBBY-BLOQUE-A.webp',
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/yuwjyshxdwknixtbyor3',
 			classnames: '',
 		},
 		{
-			name: 'Lobby bloque B',
-			path: '../../img/proyectos/ugarte-y-moscoso/LOBBY-BLOQUE-B.webp',
+			name: 'Parrilla',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/fw75bpcw6uijcfhux8fz',
 			classnames: '',
 		},
 		{
-			name: 'Baño 1',
-			path: '../../img/proyectos/ugarte-y-moscoso/BANO-1.webp',
+			name: 'Sala comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/ns0vqsinyznadfeyv0ht',
 			classnames: '',
 		},
 		{
-			name: 'Baño 2',
-			path: '../../img/proyectos/ugarte-y-moscoso/BANO-2.webp',
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/nv18hskvdtq2gk0nltgm',
+			classnames: '',
+		},
+		{
+			name: 'Gym',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/npx7twibiqt2zykqsu9z',
+			classnames: '',
+		},
+		{
+			name: 'Sala de niños',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/o2ppdp3v0adgynltgnvd',
+			classnames: '',
+		},
+		{
+			name: 'CoWorking',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/exm8vcw05kvthfm6dtlb',
+			classnames: '',
+		},
+		{
+			name: 'SUM',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/zombtxkvrkoksqwaguio',
+			classnames: '',
+		},
+		{
+			name: 'Sala Gourmet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/qkzsul6mmkkqkrjesupv',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/spfprvevu5axbltdlbjo',
 			classnames: '',
 		},
 	],
+
 }
 const carousel20 = {
 	logo: '../../img/marcas/CHECOR.jpg',

@@ -26,7 +26,7 @@ function Navbar() {
         md:w-[15%] md:h-[100vh] md:justify-center
         lg:w-[13%] xl:w-[11%] 
         md:relative md:top-auto md:z-auto
-		bg-white shadow-md p-4 
+		bg-white  p-4 
 		"
 		>
 			<div

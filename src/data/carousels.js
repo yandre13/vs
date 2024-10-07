@@ -684,13 +684,28 @@ const carousel13 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Ingreso',
-			path: '../../img/proyectos/grimaldo-del-solar/INGRESO.webp',
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_PUM/e25ffgk9n0vxh1054el7',
 			classnames: '',
 		},
 		{
 			name: 'Fachada',
-			path: '../../img/proyectos/grimaldo-del-solar/FACHADA.webp',
+			path: '../../img/proyectos/ARMANDO PAREDES_PUM/fachada.jpg',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_PUM/xnawrizblcqn559sjd1g',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_PUM/mbijvbhanmaqbqteobr5',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_PUM/lxx2akahcff78vkohg8y',
 			classnames: '',
 		},
 	],
@@ -699,33 +714,78 @@ const carousel14 = {
 	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
-			name: 'Lobby bloque B',
-			path: '../../img/proyectos/ugarte-y-moscoso/LOBBY-BLOQUE-B.webp',
+			name: 'Fachada diurna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/n4ycf32z6k1dw5dvyezh',
 			classnames: '',
 		},
 		{
-			name: 'Lobby bloque A',
-			path: '../../img/proyectos/ugarte-y-moscoso/LOBBY-BLOQUE-A.webp',
+			name: 'Fachada atardecer',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/hzin9vm8kby3wwno78kj',
 			classnames: '',
 		},
 		{
-			name: 'Fachada bloque B',
-			path: '../../img/proyectos/ugarte-y-moscoso/FACHADA-BLOQUE-B.webp',
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/hsciwtxukrgmlw1z6djq',
 			classnames: '',
 		},
 		{
-			name: 'Fachada bloque A',
-			path: '../../img/proyectos/ugarte-y-moscoso/FACHADA-BLOQUE-A.webp',
+			name: 'Zona de espera',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/njmg83mdnvsf818wndpr',
 			classnames: '',
 		},
 		{
-			name: 'Baño 1',
-			path: '../../img/proyectos/ugarte-y-moscoso/BANO-1.webp',
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/uydiybmg9h8mvecv7th9',
 			classnames: '',
 		},
 		{
-			name: 'Baño 2',
-			path: '../../img/proyectos/ugarte-y-moscoso/BANO-2.webp',
+			name: 'Gourmet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/mh7jxv6vz4excpqgxege',
+			classnames: '',
+		},
+		{
+			name: 'Gym',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/qllogeh69xpausnnebv7',
+			classnames: '',
+		},
+		{
+			name: 'CoWorking',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/eqylin3n0ljnnmtgca4w',
+			classnames: '',
+		},
+		{
+			name: 'Estacionamiento de bicicletas',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/g4oop396uboschvtjevq',
+			classnames: '',
+		},
+		{
+			name: 'Sala 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/oqv4qyyfpvzui2wtpzkh',
+			classnames: '',
+		},
+		{
+			name: 'Sala 2',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/y3sn1mceawknj3bjee8s',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/jqfzdgur5ydpdgkeae9v',
+			classnames: '',
+		},
+		{
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/uj7h3nmn0mhnrawq7ili',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/c2mgad49wbr2toupqmy1',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio secundario',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_LIRIOS/pp5tpwnezwrbs640kbw1',
 			classnames: '',
 		},
 	],
@@ -734,18 +794,53 @@ const carousel15 = {
 	logo: '../../img/marcas/SOMA_LIMA.jpg',
 	images: [
 		{
-			name: 'Frontal',
-			path: '../../img/proyectos/casa-chincha/FRONTAL.webp',
+			name: 'Cocina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/a9656lbxdvx361l9hxxe',
 			classnames: '',
 		},
 		{
-			name: 'Lateral',
-			path: '../../img/proyectos/casa-chincha/LATERAL.webp',
+			name: 'Fachada lateral',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/ix0nfcki0dqxcdbdvjin',
 			classnames: '',
 		},
 		{
-			name: 'Patio interior',
-			path: '../../img/proyectos/casa-chincha/PATIO-INTERIOR.webp',
+			name: 'Fachada esquinada',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/siypwxgqkgzzaiksi4vv',
+			classnames: '',
+		},
+		{
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/xwpcojuzrqjappqd1pll',
+			classnames: '',
+		},
+		{
+			name: 'Vista atardecer',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/mtq04gskvm0vghxg4qef',
+			classnames: '',
+		},
+		{
+			name: 'Bike Parking',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/shbhrj8kgpngrqjzervr',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/mdefogbsl4ls2npnr2wm',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/carlsieqarwc7jwaao2e',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/wjryelzqyydzldxjjtgf',
+			classnames: '',
+		},
+		{
+			name: 'Pet Zone',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/znt6joulbflqvch6ranr',
 			classnames: '',
 		},
 	],

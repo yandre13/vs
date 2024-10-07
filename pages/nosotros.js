@@ -130,9 +130,9 @@ export default function Home() {
 									}}
 								>
 									En VISUALIZA transformamos tus proyectos inmobiliarios en experiencias visuales cautivadoras que impulsan las ventas y capturan la atención del mercado. Con más de una década de experiencia, somos especialistas en la creación de renders, recorridos virtuales y material audiovisual de alto impacto, diseñados para hacer que tus proyectos destaquen y se vendan con éxito.
-									<br></br>
+									<br></br><br></br>
 									Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
-									<br></br>
+									<br></br><br></br>
 									En VISUALIZA, creemos que la clave de un proceso de venta efectivo radica en el compromiso, la comunicación abierta y la pasión por lo que hacemos. Nos esforzamos por ofrecer resultados excepcionales y personalizados, asegurando que cada cliente se sienta acompañado en cada etapa del proceso.
 									<br></br>
 									Deja que tu proyecto cobre vida con nosotros. Juntos, crearemos imágenes que no solo impresionan, sino que también convierten.
@@ -215,7 +215,7 @@ export default function Home() {
 													(query === 'xl' ? 12 : query === 'lg' ? 11 : 10)
 													}px`,
 												marginLeft: width,
-												marginTop: `${width * size.titleMt}px`,
+												marginTop: `${width}px`,
 												zIndex: 10,
 											}}
 										>
@@ -233,15 +233,14 @@ export default function Home() {
 											</h2>
 											<div
 												style={{
-													marginTop: `${width * size.textMt + 1}px`,
+													marginTop: 10,
 													marginLeft: 1,
 													zIndex: 10,
 												}}
 											>
 												<p
 													style={{
-														background: '#fff',
-														overflow: isHovered ? 'auto' : 'hidden',
+														// overflow: isHovered ? 'auto' : 'hidden',
 														height: `${width *
 															(query === 'xl' ? 7 : query === 'lg' ? 8 : 7) -
 															1
@@ -260,12 +259,13 @@ export default function Home() {
 													onMouseLeave={() => setIsHovered(false)}
 												>
 													En VISUALIZA transformamos tus proyectos inmobiliarios en experiencias visuales cautivadoras que impulsan las ventas y capturan la atención del mercado. Con más de una década de experiencia, somos especialistas en la creación de renders, recorridos virtuales y material audiovisual de alto impacto, diseñados para hacer que tus proyectos destaquen y se vendan con éxito.
-													<br></br>
+													<br></br><br></br>
 													Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
 													<br></br>
 													En VISUALIZA, creemos que la clave de un proceso de venta efectivo radica en el compromiso, la comunicación abierta y la pasión por lo que hacemos. Nos esforzamos por ofrecer resultados excepcionales y personalizados, asegurando que cada cliente se sienta acompañado en cada etapa del proceso.
 													<br></br>
 													Deja que tu proyecto cobre vida con nosotros. Juntos, crearemos imágenes que no solo impresionan, sino que también convierten.
+
 												</p>
 											</div>
 										</div>
@@ -276,9 +276,10 @@ export default function Home() {
 													(query === 'xl' ? 10 : query === 'lg' ? 11 : 14)
 													}px`,
 												marginLeft: `${width * size.ml}px`,
-												marginTop: query === 'xl' ? width : 0,
+												marginTop: width,
 											}}
 										>
+
 											<h3
 												className="font-sec text-[22px] md:text-[28px] pl-1 flex items-center"
 												style={{ height: width }}

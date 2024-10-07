@@ -67,7 +67,7 @@ export default function Home() {
               className={`font-sec ${isMobile ? 'text-2xl text-center mb-4' : 'text-3xl'} pl-1`}
               style={{
                 width: '100%',
-                marginTop: `${width * (isMobile ? 1.5: 1)}px`,
+                marginTop: `${width * (isMobile ? 1.5: 0.6)}px`,
                 marginLeft: `${width * (isMobile ? 0 : 0.7)}px`,
               }}
             >

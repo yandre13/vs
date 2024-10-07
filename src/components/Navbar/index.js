@@ -55,8 +55,8 @@ function Navbar() {
 					})}>
 						<Link href="/brochure.pdf" download legacyBehavior>
 							<a className="flex items-center bg-[#FDD704] py-1 px-2 sm:py-2 sm:px-4 md:py-1 md:px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg mr-2 sm:mr-5 max-w-xs sm:max-w-sm md:max-w-xs">
-								<div className="text-center text-black text-xs sm:text-sm md:text-xs">
-								 <span>Descargar Brochure</span>	
+								<div className="font-sec text-sm text-center text-black sm:text-sm md:text-xs">
+									Descargar Brochure
 								</div>
 							</a>
 						</Link>
@@ -138,8 +138,8 @@ function Navbar() {
 						{!isMobile ? (
 							<div className="fixed bottom-5 left-2">
 								<Link href="/brochure.pdf" download legacyBehavior>
-									<a className="relative flex items-center justify-center bg-[#FDD704] py-2 px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg">
-										<div className="text-center text-sm ">
+									<a className="relative flex items-center justify-center bg-[#FDD704] w-[106px] md:w-[96px] lg:w-[106px] 2xl:w-[116px] py-2 px-2 sm:py-2 sm:px-4 md:py-1 md:px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg  ml-2 sm:ml-3 md:ml-3 lg:ml-5 xl:ml-6 2xl:ml-7">
+										<div className="text-center text-xs font-sec ">
 											Descargar Brochure
 										</div>
 									</a>

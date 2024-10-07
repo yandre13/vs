@@ -402,8 +402,23 @@ const carousel8 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Vista',
-			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMINVEST_RESIDENZA%20CASTAGNI/w8em67bohlqhd6aear09',
+			name: 'Vista aérea',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMNIVEST_PIAZZA/sjeexjzulb3hopkf6kzx',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMNIVEST_PIAZZA/qf8mnahen8a8ucfbp1o4',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMNIVEST_PIAZZA/ehtz0byhthuopcv2frhv',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMNIVEST_PIAZZA/pwktpfi7gkn52qbtjcpg',
 			classnames: '',
 		},
 		
@@ -1168,18 +1183,13 @@ const carousel22 = {
 	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
-			name: 'Ingreso',
-			path: '../../img/proyectos/casa-pucusana/INGRESO.webp',
+			name: 'Comedor',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_FIBRA/b4o2aalfow328uyxytve',
 			classnames: '',
 		},
 		{
-			name: 'Nocturna',
-			path: '../../img/proyectos/casa-pucusana/NOCTURNA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Patio interior',
-			path: '../../img/proyectos/casa-pucusana/PATIO-INTERIOR.webp',
+			name: 'Gym',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_FIBRA/it1zuxm6ek9lrwom79uq',
 			classnames: '',
 		},
 	],
@@ -1188,43 +1198,8 @@ const carousel23 = {
 	logo: '../../img/marcas/VE_ARQUITECTURA.jpg',
 	images: [
 		{
-			name: 'Terrazas v1',
-			path: '../../img/proyectos/mariano-cornejo/Terrazas.webp',
-			classnames: '',
-		},
-		{
-			name: 'Terrazas v2',
-			path: '../../img/proyectos/mariano-cornejo/Terrazas-v2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Coworking v1',
-			path: '../../img/proyectos/mariano-cornejo/Coworking-v1.webp',
-			classnames: '',
-		},
-		{
-			name: 'Coworking v2',
-			path: '../../img/proyectos/mariano-cornejo/Coworking-v2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Piscina',
-			path: '../../img/proyectos/mariano-cornejo/Piscina.webp',
-			classnames: '',
-		},
-		{
-			name: 'Plaza v1',
-			path: '../../img/proyectos/mariano-cornejo/Plaza-v1.webp',
-			classnames: '',
-		},
-		{
-			name: 'Plaza v2',
-			path: '../../img/proyectos/mariano-cornejo/Plaza-v1.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala',
-			path: '../../img/proyectos/mariano-cornejo/Sala.webp',
+			name: 'Vista',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMINVEST_RESIDENZA%20CASTAGNI/w8em67bohlqhd6aear09',
 			classnames: '',
 		},
 	],
@@ -1233,18 +1208,38 @@ const carousel24 = {
 	logo: '../../img/marcas/RF.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/qualis/FACHADA.webp',
+			name: 'Interior Sala de Estar',
+			path: '../../img/proyectos/RAFAEL_FREYRE/sala1.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Fachada nocturna',
-			path: '../../img/proyectos/qualis/FACHADA-NOCTURNA.webp',
+			name: 'Interior Sala de Estar',
+			path: '../../img/proyectos/RAFAEL_FREYRE/sala2.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Acercamiento fachada',
-			path: '../../img/proyectos/qualis/ACERCAMIENTO-FACHADA.webp',
+			name: 'Exterior',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/oxxsxvfmvz9gobfoiibt',
+			classnames: '',
+		},
+		{
+			name: 'Exterior',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/pa9oicq3lq2hrgaxeyyb',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/fk2mwfmxqnqk4uwmpxws',
+			classnames: '',
+		},
+		{
+			name: 'Patio trasero',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/kpbrzmc4kzu6yvalmthm',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/anihczd6ncxhs5x3v41p',
 			classnames: '',
 		},
 	],
@@ -1253,33 +1248,8 @@ const carousel25 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Fachada bloque B',
-			path: '../../img/proyectos/ugarte-y-moscoso/FACHADA-BLOQUE-B.webp',
-			classnames: '',
-		},
-		{
-			name: 'Fachada bloque A',
-			path: '../../img/proyectos/ugarte-y-moscoso/FACHADA-BLOQUE-A.webp',
-			classnames: '',
-		},
-		{
-			name: 'Lobby bloque A',
-			path: '../../img/proyectos/ugarte-y-moscoso/LOBBY-BLOQUE-A.webp',
-			classnames: '',
-		},
-		{
-			name: 'Lobby bloque B',
-			path: '../../img/proyectos/ugarte-y-moscoso/LOBBY-BLOQUE-B.webp',
-			classnames: '',
-		},
-		{
-			name: 'Baño 1',
-			path: '../../img/proyectos/ugarte-y-moscoso/BANO-1.webp',
-			classnames: '',
-		},
-		{
-			name: 'Baño 2',
-			path: '../../img/proyectos/ugarte-y-moscoso/BANO-2.webp',
+			name: 'Vista',
+			path: '../../img/proyectos/JEAN_SPORTFIELD/vista.webp',
 			classnames: '',
 		},
 	],
@@ -1288,23 +1258,68 @@ const carousel26 = {
 	logo: '../../img/marcas/ESTEOESTE.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/humanidades/FACHADA.webp',
+			name: 'Fachada diurna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/yg4qvo1ciy6s5f6dyj34',
 			classnames: '',
 		},
 		{
-			name: 'Fachada lateral',
-			path: '../../img/proyectos/humanidades/FACHADA-LATERAL.webp',
+			name: 'Fachada nocturna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/qcpp3mfl08ozoklc8d4v',
 			classnames: '',
 		},
 		{
-			name: 'Oficinas',
-			path: '../../img/proyectos/humanidades/OFICINAS.webp',
+			name: 'Jardin seco',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/zqu3hpbqlfis5my1quvj',
 			classnames: '',
 		},
 		{
-			name: 'Sum',
-			path: '../../img/proyectos/humanidades/SUM.webp',
+			name: 'Piscina ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/t31fbtof31cudhtb0ldn',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/tgrkijpuln9ag1xvs5ba',
+			classnames: '',
+		},
+		{
+			name: 'Lobby ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/zujxzuuoufixdepishcw',
+			classnames: '',
+		},
+		{
+			name: 'Cocina 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/zzggpaaruftgi6h0loqx',
+			classnames: '',
+		},
+		{
+			name: 'Cocina 2',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/a4it3lhoqpuze3kbmzrp',
+			classnames: '',
+		},
+		{
+			name: 'Sala 1',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/onduymylhcc1zoiwzd0t',
+			classnames: '',
+		},
+		{
+			name: 'Sala 2',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/omceroqvzpis6nekxypw',
+			classnames: '',
+		},
+		{
+			name: 'CoWorking',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/byblvw1jf9eonl0nnpyh',
+			classnames: '',
+		},
+		{
+			name: 'Estacionamiento de bicicletas',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/tefv69bccvaa6x9hatof',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/ytnunomrttuagg3sj5ns',
 			classnames: '',
 		},
 	],
@@ -1313,53 +1328,109 @@ const carousel27 = {
 	logo: '../../img/marcas/LIBRE.jpg',
 	images: [
 		{
-			name: 'Corredor',
-			path: '../../img/proyectos/la-aldea/CORREDOR.webp',
+			name: 'Fachada frontal',
+			path: '../../img/proyectos/LIBRE_28DEJULIO/FACHADA.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Comedor doble altura',
-			path: '../../img/proyectos/la-aldea/COMEDOR-DOBLE-ALTURA.webp',
+			name: 'Fachada',
+			path: '../../img/proyectos/LIBRE_28DEJULIO/frontal.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Doble altura',
-			path: '../../img/proyectos/la-aldea/DOBLE-ALTURA.webp',
+			name: 'Lobby ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/LIBRE_28%20DE%20JULIO/lokntqzfdx7r0fw2i0o0',
 			classnames: '',
 		},
 		{
-			name: 'Frontal',
-			path: '../../img/proyectos/la-aldea/FRONTAL.webp',
+			name: 'Comedor ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/LIBRE_28%20DE%20JULIO/lqohytanhkicneonk9n4',
 			classnames: '',
 		},
 		{
-			name: 'Interior módulo A',
-			path: '../../img/proyectos/la-aldea/INTERIOR-MODULO-A.webp',
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/LIBRE_28%20DE%20JULIO/eyxwzyco15zvj6h8t0ai',
 			classnames: '',
 		},
-		{
-			name: 'Módulo individual',
-			path: '../../img/proyectos/la-aldea/MODULO-INDIVIDUAL.webp',
-			classnames: '',
-		},
-		{
-			name: 'Terraza',
-			path: '../../img/proyectos/la-aldea/TERRAZA.webp',
-			classnames: '',
-		},
+		
 	],
 }
 const carousel28 = {
 	logo: '../../img/marcas/DESSIN.jpg',
 	images: [
 		{
-			name: 'Vista B',
-			path: '../../img/proyectos/oficinas-interseguro/VISTA-B.webp',
+			name: 'Fachada frontal',
+			path: '../../img/proyectos/academicos/ESTACION.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista A',
-			path: '../../img/proyectos/oficinas-interseguro/VISTA-A.webp',
+			name: 'Exterior 1',
+			path: '../../img/proyectos/academicos/AULAS.webp',
+			classnames: '',
+		},
+		{
+			name: 'Exterior 2',
+			path: '../../img/proyectos/academicos/AULAS.webp',
+			classnames: '',
+		},
+		{
+			name: 'Exterior 3',
+			path: '../../img/proyectos/academicos/AULAS.webp',
+			classnames: '',
+		},
+		{
+			name: 'Exterior 4',
+			path: '../../img/proyectos/academicos/AULAS.webp',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: '../../img/proyectos/academicos/BANOS-TERMALES.webp',
+			classnames: '',
+		},
+		{
+			name: 'Cocina',
+			path: '../../img/proyectos/academicos/BANOS-TERMALES-2.webp',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio',
+			path: '../../img/proyectos/academicos/CASA-BASADRE.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de juegos',
+			path: '../../img/proyectos/academicos/CENTRO-COMUNITARIO.webp',
+			classnames: '',
+		},
+		{
+			name: 'Gym',
+			path: '../../img/proyectos/academicos/FABRICA.webp',
+			classnames: '',
+		},
+		{
+			name: 'Patio',
+			path: '../../img/proyectos/academicos/FABRICA-2.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: '../../img/proyectos/academicos/MERCADO.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala de estar',
+			path: '../../img/proyectos/academicos/PASAJE.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala nocturna',
+			path: '../../img/proyectos/academicos/PUERTO.webp',
+			classnames: '',
+		},
+		{
+			name: 'Terraza',
+			path: '../../img/proyectos/academicos/SUM.webp',
 			classnames: '',
 		},
 	],
@@ -1368,68 +1439,8 @@ const carousel29 = {
 	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{
-			name: 'Estación',
-			path: '../../img/proyectos/academicos/ESTACION.webp',
-			classnames: '',
-		},
-		{
-			name: 'Aulas',
-			path: '../../img/proyectos/academicos/AULAS.webp',
-			classnames: '',
-		},
-		{
-			name: 'Baños termales',
-			path: '../../img/proyectos/academicos/BANOS-TERMALES.webp',
-			classnames: '',
-		},
-		{
-			name: 'Baños termales 2',
-			path: '../../img/proyectos/academicos/BANOS-TERMALES-2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Casa Basadre',
-			path: '../../img/proyectos/academicos/CASA-BASADRE.webp',
-			classnames: '',
-		},
-		{
-			name: 'Centro comunitario',
-			path: '../../img/proyectos/academicos/CENTRO-COMUNITARIO.webp',
-			classnames: '',
-		},
-		{
-			name: 'Fábrica',
-			path: '../../img/proyectos/academicos/FABRICA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Fábrica 2',
-			path: '../../img/proyectos/academicos/FABRICA-2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Mercado',
-			path: '../../img/proyectos/academicos/MERCADO.webp',
-			classnames: '',
-		},
-		{
-			name: 'Pasaje',
-			path: '../../img/proyectos/academicos/PASAJE.webp',
-			classnames: '',
-		},
-		{
-			name: 'Puerto',
-			path: '../../img/proyectos/academicos/PUERTO.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sum',
-			path: '../../img/proyectos/academicos/SUM.webp',
-			classnames: '',
-		},
-		{
-			name: 'Taller',
-			path: '../../img/proyectos/academicos/TALLER.webp',
+			name: 'Fachada',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 	],
@@ -1438,45 +1449,61 @@ const carousel30 = {
 	logo: '../../img/marcas/VCV_DESIGN.jpg',
 	images: [
 		{
-			name: 'Vista dormitorio',
+			name: 'Comedor',
 			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista dormitorio 2',
-			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO-2.webp',
+			name: 'Fachada diurna',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista baño principal',
-			path: '../../img/proyectos/casa-hamptons/VISTA-BANO-PRINCIPAL.webp',
+			name: 'Fachada nocturna',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista baño principal 2',
-			path: '../../img/proyectos/casa-hamptons/VISTA-BANO-PRINCIPAL-2.webp',
+			name: 'Dormitorio',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista cocina',
-			path: '../../img/proyectos/casa-hamptons/VISTA-COCINA.webp',
+			name: 'Estacionamiento de bicicletas',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista cocina 2',
-			path: '../../img/proyectos/casa-hamptons/VISTA-COCINA-2.webp',
+			name: 'Gym',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista lobby',
-			path: '../../img/proyectos/casa-hamptons/VISTA-LOBBY-2.webp',
+			name: 'Lavanderia',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
 		{
-			name: 'Vista WC',
-			path: '../../img/proyectos/casa-hamptons/VISTA-WC-2.webp',
+			name: 'Lobby',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
 			classnames: '',
 		},
+		{
+			name: 'Piscina',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			classnames: '',
+		},
+		{
+			name: 'Salon social',
+			path: '../../img/proyectos/casa-hamptons/VISTA-DORMITORIO.webp',
+			classnames: '',
+		},
+		
 	],
 }
 
@@ -1484,13 +1511,8 @@ const carousel31 = {
 	logo: '../../img/marcas/2k.jpg',
 	images: [
 		{
-			name: 'Bello Horizonte fachada nocturna',
-			path: '../../img/proyectos/bello-horizonte/BELLO-HORIZONTE_FACHADA-NOCTURNA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Bello Horizonte fachada',
-			path: '../../img/proyectos/bello-horizonte/BELLO-HORIZONTE_FACHADA.webp',
+			name: 'Fachada',
+			path: '../../img/proyectos/mendiburu/Fachada.webp',
 			classnames: '',
 		},
 	],

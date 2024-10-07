@@ -133,10 +133,10 @@ function Item({ id }) {
 									className="w-full h-full flex justify-center items-center"
 								>
 									<Swiper
-										autoplay={{
-											delay: 3000, // 3 segundos entre cada slide
-											disableOnInteraction: false, // Continúa autoplay tras interacción del usuario
-										}}
+										// autoplay={{
+										// 	delay: 3000, // 3 segundos entre cada slide
+										// 	disableOnInteraction: true, 
+										// }}
 										pagination={{ clickable: true }}
 										loop={project.carousel.images.length > 1}
 										effect={'fade'}

@@ -192,7 +192,7 @@ const data = [
 	{
 		id: 12,
 		title: 'Magallanes',
-		place: 'Asunción, Paraguar.',
+		place: 'Asunción, Paraguay.',
 		alt: 'Render de un restaurante en Lima, Perú',
 		date: 'Diciembre 2023',
 		image: miniaturas.image12,

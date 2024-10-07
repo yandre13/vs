@@ -468,148 +468,139 @@ const carousel10 = {
 	logo: '../../img/marcas/MARCAN.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/r6000/FACHADA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Fachada lateral',
-			path: '../../img/proyectos/r6000/FACHADA_LATERAL.webp',
-			classnames: '',
-		},
-		{
-			name: 'Gym',
-			path: '../../img/proyectos/r6000/GYM.webp',
-			classnames: '',
-		},
-		{
-			name: 'Lobby oficinas',
-			path: '../../img/proyectos/r6000/LOBBY_OFICINAS.webp',
-			classnames: '',
-		},
-		{
-			name: 'Piscina',
-			path: '../../img/proyectos/r6000/PISCINA.webp',
-			classnames: '',
-		},
-		{
-			name: 'Estacionamiento bicicletas',
-			path: '../../img/proyectos/r6000/ESTACIONAMIENTO_BICICLETAS.webp',
-			classnames: '',
-		},
-		{
-			name: 'Auditorio',
-			path: '../../img/proyectos/r6000/Auditorio.webp',
-			classnames: '',
-		},
-		{
-			name: 'Baños',
-			path: '../../img/proyectos/r6000/Banos.webp',
-			classnames: '',
-		},
-		{
-			name: 'Cafetería',
-			path: '../../img/proyectos/r6000/Cafeteria.webp',
-			classnames: '',
-		},
-		{
-			name: 'Co Working',
-			path: '../../img/proyectos/r6000/CoWorking.webp',
-			classnames: '',
-		},
-		{
-			name: 'Parrilla',
-			path: '../../img/proyectos/r6000/Parrilla.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala de juegos',
-			path: '../../img/proyectos/r6000/Sala-juegos.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala de juegos 2',
-			path: '../../img/proyectos/r6000/Sala-juegos-2.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala de reuniones',
-			path: '../../img/proyectos/r6000/Sala-Reuniones.webp',
-			classnames: '',
-		},
-		{
-			name: 'Sala de reuniones Terraza',
-			path: '../../img/proyectos/r6000/Sala-Reuniones-Terraza.webp',
+			name: 'Terraza',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/dzq3jxffqicdpt3l3wor',
 			classnames: '',
 		},
 		{
 			name: 'Terraza',
-			path: '../../img/proyectos/r6000/Terraza.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/pqi6durocyikdpyuhqe6',
 			classnames: '',
 		},
+		{
+			name: 'Patio interior',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/mx8wwmygfymczcoy3amm',
+			classnames: '',
+		},
+		{
+			name: 'Salon Gourmet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/eddbdq7xafnlr5s3vyj2',
+			classnames: '',
+		},
+		{
+			name: 'Gym',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/f772todjedmhofcbqa96',
+			classnames: '',
+		},
+		{
+			name: 'BBQ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/zk6yts2bqzjnrvcdn8a4',
+			classnames: '',
+		},
+		{
+			name: 'SUM',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/ypevtysbzqmrmq3yiu9u',
+			classnames: '',
+		},
+		{
+			name: 'SUM',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/y6wpgd21cmuq5oz13aze',
+			classnames: '',
+		},
+		{
+			name: 'Lobby',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/mtztdksz375gu7bahnot',
+			classnames: '',
+		},
+		{
+			name: 'Estacionamiento de bicicletas',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/ozqo9mouq4nmw621azu1',
+			classnames: '',
+		},
+		{
+			name: 'PetZone',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/i6rwjug3ynmwmnnbnari',
+			classnames: '',
+		},
+		{
+			name: 'CoWorking',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/u1cjhvw96zary0lan6qk',
+			classnames: '',
+		},
+		
 	],
 }
 const carousel11 = {
 	logo: '../../img/marcas/CHECOR.jpg',
 	images: [
 		{
-			name: 'Cocina sala',
-			path: '../../img/proyectos/las-magnolias/COCINA-SALA.webp',
+			name: 'Closet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/pbselsioljgiqec4gwzx',
 			classnames: '',
 		},
 		{
-			name: 'Cocina',
-			path: '../../img/proyectos/las-magnolias/COCINA.webp',
+			name: 'Baño',
+			path: '../../img/proyectos/INARCO_MAGALLANES/baño.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Dormitorio secundario',
-			path: '../../img/proyectos/las-magnolias/DORMITORIO-SECUNDARIO.webp',
+			name: 'Minimarket',
+			path: '../../img/proyectos/INARCO_MAGALLANES/minimarket.jpg',
 			classnames: '',
 		},
 		{
-			name: 'Fachada atardecer',
-			path: '../../img/proyectos/las-magnolias/FACHADA-ATARDECER.webp',
+			name: 'Fachada diurna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/qptyuhyjwfkcolf4hayh',
 			classnames: '',
 		},
 		{
-			name: 'Co Working',
-			path: '../../img/proyectos/las-magnolias/COWORKING.webp',
+			name: 'Cafeteria',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/qybtmdbf4mkleib5q3rh',
 			classnames: '',
 		},
 		{
 			name: 'Gym',
-			path: '../../img/proyectos/las-magnolias/GYM.webp',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/yp7jzawq2e3quhedxc4g',
 			classnames: '',
 		},
 		{
-			name: 'Lavandería',
-			path: '../../img/proyectos/las-magnolias/LAVANDERIA.webp',
+			name: 'Lounge',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/rnpozapkjzw9mybpdmbs',
 			classnames: '',
 		},
 		{
-			name: 'Lobby',
-			path: '../../img/proyectos/las-magnolias/LOBBYY.webp',
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/rfjuvidouohyss6adn6f',
 			classnames: '',
 		},
 		{
-			name: 'Salón Social',
-			path: '../../img/proyectos/las-magnolias/SALON-SOCIAL.webp',
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/upzsm23z8dtuawisyvcg',
 			classnames: '',
 		},
 		{
-			name: 'Tendal',
-			path: '../../img/proyectos/las-magnolias/TENDAL.webp',
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/spvm9jyvloh6edziikdo',
 			classnames: '',
 		},
 		{
-			name: 'Terraza',
-			path: '../../img/proyectos/las-magnolias/TERRAZA.webp',
+			name: 'Piscina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/chlyihcj7d9qemugumfx',
 			classnames: '',
 		},
 		{
-			name: 'Zona Gourmet',
-			path: '../../img/proyectos/las-magnolias/ZONA-GOURMET.webp',
+			name: 'Dormitorio secundario',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/vsk0st6udphjikyk3owy',
+			classnames: '',
+		},
+		{
+			name: 'Gourmet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/u5ns4xpzyij3zlanuyzh',
+			classnames: '',
+		},
+		{
+			name: 'Cocina ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/fe2p6bs6dgyksxtuz3gw',
 			classnames: '',
 		},
 	],
@@ -618,8 +609,73 @@ const carousel12 = {
 	logo: '../../img/marcas/LIBRE.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/mmxx/Fachada.webp',
+			name: 'Closet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/pbselsioljgiqec4gwzx',
+			classnames: '',
+		},
+		{
+			name: 'Baño',
+			path: '../../img/proyectos/INARCO_MAGALLANES/baño.jpg',
+			classnames: '',
+		},
+		{
+			name: 'Minimarket',
+			path: '../../img/proyectos/INARCO_MAGALLANES/minimarket.jpg',
+			classnames: '',
+		},
+		{
+			name: 'Fachada diurna',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/qptyuhyjwfkcolf4hayh',
+			classnames: '',
+		},
+		{
+			name: 'Cafeteria',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/qybtmdbf4mkleib5q3rh',
+			classnames: '',
+		},
+		{
+			name: 'Gym',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/yp7jzawq2e3quhedxc4g',
+			classnames: '',
+		},
+		{
+			name: 'Lounge',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/rnpozapkjzw9mybpdmbs',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/rfjuvidouohyss6adn6f',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio principal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/upzsm23z8dtuawisyvcg',
+			classnames: '',
+		},
+		{
+			name: 'Sala',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/spvm9jyvloh6edziikdo',
+			classnames: '',
+		},
+		{
+			name: 'Piscina',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/chlyihcj7d9qemugumfx',
+			classnames: '',
+		},
+		{
+			name: 'Dormitorio secundario',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/vsk0st6udphjikyk3owy',
+			classnames: '',
+		},
+		{
+			name: 'Gourmet',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/u5ns4xpzyij3zlanuyzh',
+			classnames: '',
+		},
+		{
+			name: 'Cocina ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/fe2p6bs6dgyksxtuz3gw',
 			classnames: '',
 		},
 	],

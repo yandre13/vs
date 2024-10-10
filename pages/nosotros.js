@@ -252,8 +252,7 @@ export default function Home() {
 																: query === 'lg'
 																	? 1.7
 																	: 1.7,
-														fontSize:
-															query === 'xl' ? 17 : query === 'lg' ? 16 : 14,
+														fontSize: query === 'xl' ? '85%' : query === 'lg' ? '80%' : '45%',
 													}}
 													className={cn('p-3 pscroll')}
 
@@ -262,44 +261,17 @@ export default function Home() {
 												>
 													En VISUALIZA transformamos tus proyectos inmobiliarios en experiencias visuales cautivadoras que impulsan las ventas y capturan la atención del mercado. Con más de una década de experiencia, somos especialistas en la creación de renders, recorridos virtuales y material audiovisual de alto impacto, diseñados para hacer que tus proyectos destaquen y se vendan con éxito.
 													<br></br><br></br>
-													<span
-														className={cn({ hidden: !isPC })}
-													>
-														Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
-													</span>
+													Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
+													<br></br><br></br>
+													En VISUALIZA, creemos que la clave de un proceso de venta efectivo radica en el compromiso, la comunicación abierta y la pasión por lo que hacemos. Nos esforzamos por ofrecer resultados excepcionales y personalizados, asegurando que cada cliente se sienta acompañado en cada etapa del proceso.
+													<br></br>
+													Deja que tu proyecto cobre vida con nosotros. Juntos, crearemos imágenes que no solo impresionan, sino que también convierten.
+
 
 												</p>
 											</div>
 										</div>
-										<div>
-											<p
-												style={{
-													marginLeft: `${width * size.ml}px`,
-													marginTop: width - 80,
-													fontSize:
-													query === 'xl' ? 17 : query === 'lg' ? 16 : 14,
-													lineHeight:
-															query === 'xl'
-																? 1.84
-																: query === 'lg'
-																	? 1.7
-																	: 1.7,
-												}}
-												className={cn('p-3 pscroll')}
-												onMouseEnter={() => setIsHovered(true)}
-												onMouseLeave={() => setIsHovered(false)}
-											>
-												<span
-													className={cn({ hidden: isPC })}
-												>
-													Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
-												</span><br></br><br></br>
-												En VISUALIZA, creemos que la clave de un proceso de venta efectivo radica en el compromiso, la comunicación abierta y la pasión por lo que hacemos. Nos esforzamos por ofrecer resultados excepcionales y personalizados, asegurando que cada cliente se sienta acompañado en cada etapa del proceso.
-												<br></br>
-												Deja que tu proyecto cobre vida con nosotros. Juntos, crearemos imágenes que no solo impresionan, sino que también convierten.
 
-											</p>
-										</div>
 										<div
 											style={{
 												width: `${width * 24}px`,

@@ -138,7 +138,7 @@ function Navbar() {
 						{!isMobile ? (
 							<div className="fixed bottom-5 left-2">
 								<Link href="/brochure.pdf" download legacyBehavior>
-									<a className="relative flex items-center justify-center bg-[#FDD704] w-[106px] md:w-[96px] lg:w-[106px] 2xl:w-[116px] py-2 px-2 sm:py-2 sm:px-4 md:py-1 md:px-2 hover:bg-[#FFD700] transition duration-300 shadow-lg  ml-2 sm:ml-3 md:ml-3 lg:ml-5 xl:ml-6 2xl:ml-7">
+									<a className="relative flex items-center justify-center bg-[#FDD704] w-[106px] md:w-[96px] lg:w-[106px] 2xl:w-[116px] py-2 px-2 sm:py-2 sm:px-4 md:py-1 md:px-4 lg:px-3 lg:py-1 hover:bg-[#FFD700] transition duration-300 shadow-lg  ml-2 sm:ml-3 md:ml-5 lg:ml-6 xl:ml-5 2xl:ml-7">
 										<div className="text-center text-xs font-sec ">
 											Descargar Brochure
 										</div>

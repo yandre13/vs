@@ -29,7 +29,7 @@ const ContactForm = () => {
           aria-label='Contacto Página Web'
           frameBorder="0"
           style={{ height: "800px", width: "100%", border: "none" }} // Cambié la altura a 800px
-          src='https://forms.zohopublic.com/visualiza/form/ContactoPaginaWeb/formperma/mn_4Lw0wSRSK6cpD-SzVf0SoaXtR-D1kRN-PMwf6r8Q'
+          src='https://forms.zohopublic.com/digitalizala/form/ContactoVisualiza/formperma/KVySmLfDTieWktj6EWyqsHZdKfMmVhB9b-YojiPhn-c'
         ></iframe>
 
       </div>

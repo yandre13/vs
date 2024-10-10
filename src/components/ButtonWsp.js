@@ -36,7 +36,7 @@ const ButtonWsp = () => {
 	return (
 		<div className="fixed z-10 bottom-6 right-6">
 			<a
-				href="https://wa.link/9y5dhg"
+				href="https://api.whatsapp.com/send?phone=51957676024"
 				target="_blank"
 				rel="noopener noreferrer"
 				className=""

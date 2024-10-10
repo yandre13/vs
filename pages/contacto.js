@@ -81,9 +81,10 @@ export default function Home() {
                 aria-label='Contacto Página Web'
                 frameBorder="0"
                 style={{ height: "800px", width: "100%", border: "none" }} // Altura a 800px y ancho completo
-                src='https://forms.zohopublic.com/visualiza/form/ContactoPaginaWeb/formperma/mn_4Lw0wSRSK6cpD-SzVf0SoaXtR-D1kRN-PMwf6r8Q'
+                src='https://forms.zohopublic.com/digitalizala/form/ContactoVisualiza/formperma/KVySmLfDTieWktj6EWyqsHZdKfMmVhB9b-YojiPhn-c'
               ></iframe>
             </div>
+            
 
             {/* Imagen del sofá, visible solo en escritorio */}
             {!isMobile && (

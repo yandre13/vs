@@ -64,7 +64,8 @@ export default function Home() {
           <Grid hidden />
           <div className={`flex flex-col ${isMobile ? 'items-center' : 'flex-row'}`}>
             <h1
-              className={`font-sec ${isMobile ? 'text-2xl text-center mb-4' : 'text-3xl'} pl-1`}
+              className={`font-sec ${isMobile ? 'text-2xl text-center mb-4' : 'md:text-2xl lg:text-3xl'} pl-1`}
+              
               style={{
                 width: '100%',
                 marginTop: `${width * (isMobile ? 1.5: 0.6)}px`,
@@ -76,7 +77,7 @@ export default function Home() {
             </h1>
 
             {/* Formulario incrustado */}
-            <div className={`mt-4 ${isMobile ? 'w-full' : 'w-1/3'}`}>
+            <div className={`mt-4 ${isMobile ? 'w-full' : 'w-1/3'}`} >
               <iframe
                 aria-label='Contacto Página Web'
                 frameBorder="0"
@@ -88,7 +89,11 @@ export default function Home() {
 
             {/* Imagen del sofá, visible solo en escritorio */}
             {!isMobile && (
-              <div className="absolute top-0 right-0 w-1/2 h-screen">
+              <div className="absolute top-0 right-0 w-1/2  md:h-[61%] lg:h-[62%] xl:h-[62%]"
+              style={{
+                marginTop: `${width * (isMobile ? 1.5: 0.6)}px`,
+              }}
+              >
                 <Image
                   src={sofaSVG}
                   alt="Silla en fondo amarillo"

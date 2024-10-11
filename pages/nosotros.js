@@ -220,18 +220,15 @@ export default function Home() {
 												zIndex: 10,
 											}}
 										>
-											<h1
-												style={{ height: width }}
-												className="flex flex-col justify-center font-sec text-5xl pl-3"
-											>
-												Somos
-											</h1>
-											<h2 style={{ height: width }} className="pl-3">
-												<Logo
-													color="black"
-													classname="w-[106px] md:w-[184px] lg:w-[186px] 2xl:w-[216px]"
-												/>
-											</h2>
+											<div className="flex items-center">
+              <h1 className="font-sec text-5xl pl-3">Somos</h1>
+              <h2 className="pl-3">
+                <Logo
+                  color="black"
+                  classname="w-[106px] md:w-[184px] lg:w-[186px] 2xl:w-[216px]"
+                />
+              </h2>
+            </div>
 											<div
 												style={{
 													marginTop: 10,

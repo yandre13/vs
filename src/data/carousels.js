@@ -1506,8 +1506,33 @@ const carousel31 = {
 	logo: '../../img/marcas/2k.jpg',
 	images: [
 		{
-			name: 'Fachada',
-			path: '../../img/proyectos/mendiburu/Fachada.webp',
+			name: 'Zona Comensal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/rlw29yiacwnlyf2crqym',
+			classnames: '',
+		},
+		{
+			name: 'Zona Comensal',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/tmfeqlid9zxpiaif5yaw',
+			classnames: '',
+		},
+		{
+			name: 'Bar',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/xnfti2fjb6pvkvdactsq',
+			classnames: '',
+		},
+		{
+			name: 'Terraza ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/eunesz2kpqscn2lihkui',
+			classnames: '',
+		},
+		{
+			name: 'Terraza Bar',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/bxjju9cney7nfbafuiig',
+			classnames: '',
+		},
+		{
+			name: 'Terraza DJ',
+			path: 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/vvt3d0hkgcsvdblqfbot',
 			classnames: '',
 		},
 	],

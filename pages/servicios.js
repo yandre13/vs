@@ -13,8 +13,30 @@ import visual2 from '../public/img/carrusel_servicios/ACERCAMIENTO.webp'
 import visual3 from '../public/img/carrusel_servicios/R6000-FINAL.webp'
 import visual4 from '../public/img/carrusel_servicios/SALA-COMEDOR_PUMACAHUA-_3_.webp'
 import visual5 from '../public/img/carrusel_servicios/SALA-DE-ESPERA-_2_.webp'
+import plano1 from '../public/img/carrusel_servicios/CHECOR PORTA DPTO-102.jpg'
+import plano2 from '../public/img/carrusel_servicios/CHECOR PORTA PISO 01.jpg'
+import plano3 from '../public/img/carrusel_servicios/MONTE ALEGRE DPTO 501 P2.webp'
+import plano4 from '../public/img/carrusel_servicios/IMN HENDERSON JACINTO DE LARA DPTO 201.webp'
+import plano5 from '../public/img/carrusel_servicios/IMN HENDERSON JACINTO DE LARA DPTO 502 P3.webp'
+import plano6 from '../public/img/carrusel_servicios/MONTE ALEGRE DPTO 102.webp'
+import fachada1 from '../public/img/carrusel_servicios/ALJOVIN DIURNA.webp'
+import fachada2 from '../public/img/carrusel_servicios/ALJOVIN NOCTURNA.webp'
+import fachada3 from '../public/img/carrusel_servicios/FACHADA.webp'
+import fachada4 from '../public/img/carrusel_servicios/FLORA 21.webp'
+import fachada5 from '../public/img/carrusel_servicios/INCLÁN 21(1).webp'
+import fachada6 from '../public/img/carrusel_servicios/INCLÁN 21.webp'
+import interiorismore1 from '../public/img/carrusel_servicios/interiorismo_residencial/DORM PRINC ETEN (2) (1).webp'
+import interiorismore2 from '../public/img/carrusel_servicios/interiorismo_residencial/DORM SEC (1).webp'
+import interiorismore3 from '../public/img/carrusel_servicios/interiorismo_residencial/ESTAR_JUEGOS (1).webp'
+import interiorismore4 from '../public/img/carrusel_servicios/interiorismo_residencial/HOME OFFICE .webp'
+import interiorismore5 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA (11).webp'
+import interiorismore6 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA COMEDOR (7).webp'
+import interiorismore7 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA COMEDOR .webp'
+import interiorismore8 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA GOURMET.webp'
+import interiorismore9 from '../public/img/carrusel_servicios/interiorismo_residencial/SUM (2).webp'
+import interiorismore10 from '../public/img/carrusel_servicios/interiorismo_residencial/TERRAZA (3).webp'
 
-const images = [
+const visualizacion3d = [
 	{
 	  original: visual1.src,
 	  thumbnail: visual1.src,
@@ -36,7 +58,100 @@ const images = [
 	  thumbnail: visual5.src,
 	}
   ];
-
+  const planosdeventa = [
+	{
+	  original: plano1.src,
+	  thumbnail: plano1.src,
+	},
+	{
+	  original: plano2.src,
+	  thumbnail: plano2.src,
+	},
+	{
+	  original: plano3.src,
+	  thumbnail: plano3.src,
+	},
+	{
+	  original: plano4.src,
+	  thumbnail: plano4.src,
+	},
+	{
+	  original: plano5.src,
+	  thumbnail: plano5.src,
+	},
+	{
+		original: plano6.src,
+		thumbnail: plano6.src,
+	  }
+  ];
+  const fachadas = [
+	{
+	  original: fachada1.src,
+	  thumbnail: fachada1.src,
+	},
+	{
+	  original: fachada2.src,
+	  thumbnail: fachada2.src,
+	},
+	{
+	  original: fachada3.src,
+	  thumbnail: fachada3.src,
+	},
+	{
+	  original: fachada4.src,
+	  thumbnail: fachada4.src,
+	},
+	{
+	  original: fachada5.src,
+	  thumbnail: fachada5.src,
+	},
+	{
+		original: fachada6.src,
+		thumbnail: fachada6.src,
+	  }
+  ];
+  const interiorismore = [
+	{
+	  original: interiorismore1.src,
+	  thumbnail: interiorismore1.src,
+	},
+	{
+	  original: interiorismore2.src,
+	  thumbnail: interiorismore2.src,
+	},
+	{
+	  original: interiorismore3.src,
+	  thumbnail: interiorismore3.src,
+	},
+	{
+	  original: interiorismore4.src,
+	  thumbnail: interiorismore4.src,
+	},
+	{
+	  original: interiorismore5.src,
+	  thumbnail: interiorismore5.src,
+	},
+	{
+		original: interiorismore6.src,
+		thumbnail: interiorismore6.src,
+	  },
+	  {
+		original: interiorismore7.src,
+		thumbnail: interiorismore7.src,
+	  },
+	  {
+		original: interiorismore8.src,
+		thumbnail: interiorismore8.src,
+	  },
+	  {
+		original: interiorismore9.src,
+		thumbnail: interiorismore9.src,
+	  },
+	  {
+		original: interiorismore10.src,
+		thumbnail: interiorismore10.src,
+	  }
+  ];
 import { useAppQuery, useAppWidth } from 'context'
 
 import useMedia from 'hooks/useMedia'
@@ -166,7 +281,33 @@ export default function Home() {
 									zIndex: 1,
 								}}
 							>
-								 <ImageGallery items={images} 
+								 <ImageGallery items={visualizacion3d} 
+								 showBullets={true}
+								 showPlayButton={false}
+								 autoPlay={true}
+
+								 />
+							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Planos de Venta.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								 <ImageGallery items={planosdeventa} 
 								 showBullets={true}
 								 showPlayButton={false}
 								 autoPlay={true}
@@ -200,36 +341,11 @@ export default function Home() {
 									allow="xr-spatial-tracking; gyroscope; accelerometer"
 									scrolling="no"
 									style={{ width: '100%', height: '100%' }}
-									src="https://mls.kuu.la/share/collection/7kHxv?fs=1&vr=1&autorotate=0.22&autop=25&thumbs=1&inst=0"
+									src="https://storage.net-fs.com/hosting/6849337/16/"
 								></iframe>
 							</div>
 
-							<h2
-								style={{
-									height: width,
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
-								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
-							>
-								Vistas aéreas - drone.
-							</h2>
-							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<Image
-									src={drone}
-									alt="Vista aérea de proyecto arquitectónico en Lima, realizada con drone"
-									className="object-cover"
-									placeholder="blur"
-								/>
-							</div>
+							
 
 							<h2
 								style={{
@@ -283,15 +399,125 @@ export default function Home() {
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/embed/0uekokAx7hM?rel=0"
+									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
 									title="Marketing inmobiliario"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowFullScreen
 								></iframe>
 							</div>
-
 							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Vistas aéreas - drone.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<iframe
+									width="100%"
+									height="100%"
+									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+									title="Vistas aereas"
+									frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen
+								></iframe>
+							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Videotracking.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<iframe
+									width="100%"
+									height="100%"
+									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+									title="Videotracking"
+									frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen
+								></iframe>
+							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Diseño Integral de Fachadas.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								 <ImageGallery items={fachadas} 
+								 showBullets={true}
+								 showPlayButton={false}
+								 autoPlay={true}
+
+								 />
+							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Interiorismo Residencial.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								 <ImageGallery items={interiorismore} 
+								 showBullets={true}
+								 showPlayButton={false}
+								 autoPlay={true}
+
+								 />
+							</div>
+							
+							{/* <h2
 								style={{
 									height: isText2 ? width * 2 : width,
 									width: isText2 ? width * 6 : 'auto',
@@ -408,7 +634,7 @@ export default function Home() {
 										/>
 									)}
 								</AnimatePresence>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<ButtonWsp />

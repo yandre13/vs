@@ -4,7 +4,6 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Trirong:ital,wght@1,100;1,200;1,300;1,400&display=swap');
 @font-face {
@@ -319,3 +318,5 @@ button:focus {
 }
 
 
+  
+  

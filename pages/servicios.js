@@ -1,18 +1,47 @@
 import React from 'react'
 import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
+import ImageGallery from "react-image-gallery"
+import "react-image-gallery/styles/css/image-gallery.css"
 
 import Image from 'next/image'
 
 import modelado3D from '../public/img/servicios/MODELADO_3D.webp'
 import drone from '../public/img/servicios/VISTAS_AEREAS_DRONE.webp'
-import visual from '../public/img/servicios/VISUALIZACION_ARQUITECTONICA.webp'
+import visual1 from '../public/img/carrusel_servicios/DORM-PRINC-ETEN-_2_.webp'
+import visual2 from '../public/img/carrusel_servicios/ACERCAMIENTO.webp'
+import visual3 from '../public/img/carrusel_servicios/R6000-FINAL.webp'
+import visual4 from '../public/img/carrusel_servicios/SALA-COMEDOR_PUMACAHUA-_3_.webp'
+import visual5 from '../public/img/carrusel_servicios/SALA-DE-ESPERA-_2_.webp'
 
-import {useAppQuery, useAppWidth} from 'context'
+const images = [
+	{
+	  original: visual1.src,
+	  thumbnail: visual1.src,
+	},
+	{
+	  original: visual2.src,
+	  thumbnail: visual2.src,
+	},
+	{
+	  original: visual3.src,
+	  thumbnail: visual3.src,
+	},
+	{
+	  original: visual4.src,
+	  thumbnail: visual4.src,
+	},
+	{
+	  original: visual5.src,
+	  thumbnail: visual5.src,
+	}
+  ];
+
+import { useAppQuery, useAppWidth } from 'context'
 
 import useMedia from 'hooks/useMedia'
-import {useRouter} from 'next/router'
-import {AnimatePresence, motion} from 'framer-motion'
+import { useRouter } from 'next/router'
+import { AnimatePresence, motion } from 'framer-motion'
 import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
@@ -27,6 +56,7 @@ const metadata = {
 	},
 }
 
+
 export default function Home() {
 	const [width] = useAppWidth()
 	const query = useAppQuery()
@@ -39,13 +69,13 @@ export default function Home() {
 
 	const size = React.useMemo(() => {
 		if (query === 'xl') {
-			return {imgWidth: 23, imgHeight: 13, imgMl: 3}
+			return { imgWidth: 23, imgHeight: 13, imgMl: 3 }
 		} else if (query === 'lg') {
-			return {imgWidth: 18, imgHeight: 10, imgMl: 2}
+			return { imgWidth: 18, imgHeight: 10, imgMl: 2 }
 		} else if (query === 'md') {
-			return {imgWidth: 13, imgHeight: 7, imgMl: 1}
+			return { imgWidth: 13, imgHeight: 7, imgMl: 1 }
 		} else {
-			return {imgWidth: 6, imgHeight: 4, imgMl: 1}
+			return { imgWidth: 6, imgHeight: 4, imgMl: 1 }
 		}
 	}, [query])
 
@@ -78,9 +108,9 @@ export default function Home() {
 			<SEO config={metadata} />
 			{router.isReady ? (
 				<motion.main
-					initial={{opacity: 0}}
-					animate={{opacity: loaded ? 1 : 0}}
-					transition={{duration: 0.8}}
+					initial={{ opacity: 0 }}
+					animate={{ opacity: loaded ? 1 : 0 }}
+					transition={{ duration: 0.8 }}
 					className="flex flex-wrap my-3 mx-3 md:my-4 md:ml-0 md:mr-4"
 				>
 					<Navbar />
@@ -125,7 +155,7 @@ export default function Home() {
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
-								Visualización de arquitectura.
+								Visualización 3D.
 							</h2>
 							<div
 								className="overflow-hidden custom-height"
@@ -136,12 +166,12 @@ export default function Home() {
 									zIndex: 1,
 								}}
 							>
-								<Image
-									src={visual}
-									alt="Visualización arquitectónica para proyectos en Lima, Perú"
-									placeholder="blur"
-									className="object-cover"
-								/>
+								 <ImageGallery items={images} 
+								 showBullets={true}
+								 showPlayButton={false}
+								 autoPlay={true}
+
+								 />
 							</div>
 
 							<h2
@@ -169,7 +199,7 @@ export default function Home() {
 									allowFullScreen
 									allow="xr-spatial-tracking; gyroscope; accelerometer"
 									scrolling="no"
-									style={{width: '100%', height: '100%'}}
+									style={{ width: '100%', height: '100%' }}
 									src="https://mls.kuu.la/share/collection/7kHxv?fs=1&vr=1&autorotate=0.22&autop=25&thumbs=1&inst=0"
 								></iframe>
 							</div>
@@ -287,10 +317,10 @@ export default function Home() {
 										<motion.img
 											key={'/img/servicios/S1.webp'}
 											src={'/img/servicios/S1.webp'}
-											initial={{opacity: 0.7}}
-											animate={{opacity: 1}}
-											exit={{opacity: 0.8, transition: {duration: 0.8}}}
-											transition={{duration: 0.8, delay: 0.6}}
+											initial={{ opacity: 0.7 }}
+											animate={{ opacity: 1 }}
+											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
+											transition={{ duration: 0.8, delay: 0.6 }}
 											alt="Fotogrametría y levantamiento topográfico en drone 1"
 											className="w-full h-full object-cover"
 										/>
@@ -298,10 +328,10 @@ export default function Home() {
 										<motion.img
 											key={'/img/servicios/S2.webp'}
 											src={'/img/servicios/S2.webp'}
-											initial={{opacity: 0.7}}
-											animate={{opacity: 1}}
-											exit={{opacity: 0.8, transition: {duration: 0.8}}}
-											transition={{duration: 0.8, delay: 0.6}}
+											initial={{ opacity: 0.7 }}
+											animate={{ opacity: 1 }}
+											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
+											transition={{ duration: 0.8, delay: 0.6 }}
 											alt="Fotogrametría y levantamiento topográfico en Lima realizado con drone"
 											className="w-full h-full object-cover"
 										/>
@@ -336,10 +366,10 @@ export default function Home() {
 										<motion.img
 											key={'/img/servicios/Z1.webp'}
 											src={'/img/servicios/Z1.webp'}
-											initial={{opacity: 0.7}}
-											animate={{opacity: 1}}
-											exit={{opacity: 0.8, transition: {duration: 0.8}}}
-											transition={{duration: 0.8, delay: 0.8}}
+											initial={{ opacity: 0.7 }}
+											animate={{ opacity: 1 }}
+											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
+											transition={{ duration: 0.8, delay: 0.8 }}
 											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
@@ -347,10 +377,10 @@ export default function Home() {
 										<motion.img
 											key={'/img/servicios/Z2.webp'}
 											src={'/img/servicios/Z2.webp'}
-											initial={{opacity: 0.7}}
-											animate={{opacity: 1}}
-											exit={{opacity: 0.8, transition: {duration: 0.8}}}
-											transition={{duration: 0.8, delay: 0.8}}
+											initial={{ opacity: 0.7 }}
+											animate={{ opacity: 1 }}
+											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
+											transition={{ duration: 0.8, delay: 0.8 }}
 											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
@@ -358,10 +388,10 @@ export default function Home() {
 										<motion.img
 											key={'/img/servicios/Z3.webp'}
 											src={'/img/servicios/Z3.webp'}
-											initial={{opacity: 0.7}}
-											animate={{opacity: 1}}
-											exit={{opacity: 0.8, transition: {duration: 0.8}}}
-											transition={{duration: 0.8, delay: 0.8}}
+											initial={{ opacity: 0.7 }}
+											animate={{ opacity: 1 }}
+											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
+											transition={{ duration: 0.8, delay: 0.8 }}
 											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>
@@ -369,10 +399,10 @@ export default function Home() {
 										<motion.img
 											key={'/img/servicios/Z4.webp'}
 											src={'/img/servicios/Z4.webp'}
-											initial={{opacity: 0.7}}
-											animate={{opacity: 1}}
-											exit={{opacity: 0.8, transition: {duration: 0.8}}}
-											transition={{duration: 0.8, delay: 0.8}}
+											initial={{ opacity: 0.7 }}
+											animate={{ opacity: 1 }}
+											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
+											transition={{ duration: 0.8, delay: 0.8 }}
 											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
 											className="w-full h-full object-cover"
 										/>

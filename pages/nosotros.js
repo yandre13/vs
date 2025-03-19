@@ -130,13 +130,9 @@ export default function Home() {
 										fontSize: 16,
 									}}
 								>
-									En VISUALIZA transformamos tus proyectos inmobiliarios en experiencias visuales cautivadoras que impulsan las ventas y capturan la atención del mercado. Con más de una década de experiencia, somos especialistas en la creación de renders, recorridos virtuales y material audiovisual de alto impacto, diseñados para hacer que tus proyectos destaquen y se vendan con éxito.
-									<br></br><br></br>
-									Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
-									<br></br><br></br>
-									En VISUALIZA, creemos que la clave de un proceso de venta efectivo radica en el compromiso, la comunicación abierta y la pasión por lo que hacemos. Nos esforzamos por ofrecer resultados excepcionales y personalizados, asegurando que cada cliente se sienta acompañado en cada etapa del proceso.
+									En VISUALIZA, convertimos proyectos inmobiliarios en experiencias visuales que cautivan y venden. Con más de una década de experiencia, creamos renders, recorridos virtuales y material audiovisual de alto impacto, destacando cada proyecto con creatividad e innovación.
 									<br></br>
-									Deja que tu proyecto cobre vida con nosotros. Juntos, crearemos imágenes que no solo impresionan, sino que también convierten.
+									Nuestro equipo de arquitectos y diseñadores combina tecnología 3D avanzada con una narrativa única, permitiendo visualizar espacios aún no construidos. Creemos en la comunicación, el compromiso y la pasión por los detalles, asegurando resultados excepcionales. Hacemos que tu proyecto cobre vida y genere impacto.
 								</p>
 							</section>
 							<section className="px-8 py-4 mb-10">
@@ -256,14 +252,9 @@ export default function Home() {
 													onMouseEnter={() => setIsHovered(true)}
 													onMouseLeave={() => setIsHovered(false)}
 												>
-													En VISUALIZA transformamos tus proyectos inmobiliarios en experiencias visuales cautivadoras que impulsan las ventas y capturan la atención del mercado. Con más de una década de experiencia, somos especialistas en la creación de renders, recorridos virtuales y material audiovisual de alto impacto, diseñados para hacer que tus proyectos destaquen y se vendan con éxito.
-													<br></br><br></br>
-													Nuestro equipo multidisciplinario, compuesto por arquitectos, diseñadores y artistas apasionados por el arte digital, se enfrenta a cada nuevo desafío con entusiasmo y creatividad. Nos enorgullece adoptar una metodología innovadora que integra técnicas avanzadas de visualización en 3D, permitiéndonos plasmar espacios aún no construidos y narrar la historia única de cada proyecto.
-													<br></br><br></br>
-													En VISUALIZA, creemos que la clave de un proceso de venta efectivo radica en el compromiso, la comunicación abierta y la pasión por lo que hacemos. Nos esforzamos por ofrecer resultados excepcionales y personalizados, asegurando que cada cliente se sienta acompañado en cada etapa del proceso.
+													En VISUALIZA, convertimos proyectos inmobiliarios en experiencias visuales que cautivan y venden. Con más de una década de experiencia, creamos renders, recorridos virtuales y material audiovisual de alto impacto, destacando cada proyecto con creatividad e innovación.
 													<br></br>
-													Deja que tu proyecto cobre vida con nosotros. Juntos, crearemos imágenes que no solo impresionan, sino que también convierten.
-
+													Nuestro equipo de arquitectos y diseñadores combina tecnología 3D avanzada con una narrativa única, permitiendo visualizar espacios aún no construidos. Creemos en la comunicación, el compromiso y la pasión por los detalles, asegurando resultados excepcionales. Hacemos que tu proyecto cobre vida y genere impacto.
 
 												</p>
 											</div>

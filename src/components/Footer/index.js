@@ -14,13 +14,13 @@ export default function index() {
 							<a href="mailto:contacto@visualiza.pe">contacto@visualiza.pe</a>
 						</li>
 						<li className="mb-8 font-main text-sm text-gray-300">
-							<a href="tel:+51956453424">+51 956 453 424</a>
+							<a href="tel:+51956453424">+51 957 676 024</a>
 						</li>
 						<li className="mb-1 font-main text-sm text-gray-300">
-							Avenida dos de mayo 1830
+						Av. Jose Pardo 1167 
 						</li>
 						<li className="mb-3 font-main text-sm text-gray-300">
-						San Isidro 17056, Lima - Perú
+						Miraflores 15074, Lima - Perú
 						</li>
 						<li className="font-main text-sm text-gray-300"><b>Arquitecto en Perú</b> para Proyectos Arquitectónicos
 						</li>

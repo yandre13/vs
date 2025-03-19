@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react';
+
 import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
 import ImageGallery from "react-image-gallery"
@@ -38,120 +39,120 @@ import interiorismore10 from '../public/img/carrusel_servicios/interiorismo_resi
 
 const visualizacion3d = [
 	{
-	  original: visual1.src,
-	  thumbnail: visual1.src,
+		original: visual1.src,
+		thumbnail: visual1.src,
 	},
 	{
-	  original: visual2.src,
-	  thumbnail: visual2.src,
+		original: visual2.src,
+		thumbnail: visual2.src,
 	},
 	{
-	  original: visual3.src,
-	  thumbnail: visual3.src,
+		original: visual3.src,
+		thumbnail: visual3.src,
 	},
 	{
-	  original: visual4.src,
-	  thumbnail: visual4.src,
+		original: visual4.src,
+		thumbnail: visual4.src,
 	},
 	{
-	  original: visual5.src,
-	  thumbnail: visual5.src,
+		original: visual5.src,
+		thumbnail: visual5.src,
 	}
-  ];
-  const planosdeventa = [
+];
+const planosdeventa = [
 	{
-	  original: plano1.src,
-	  thumbnail: plano1.src,
+		original: plano1.src,
+		thumbnail: plano1.src,
 	},
 	{
-	  original: plano2.src,
-	  thumbnail: plano2.src,
+		original: plano2.src,
+		thumbnail: plano2.src,
 	},
 	{
-	  original: plano3.src,
-	  thumbnail: plano3.src,
+		original: plano3.src,
+		thumbnail: plano3.src,
 	},
 	{
-	  original: plano4.src,
-	  thumbnail: plano4.src,
+		original: plano4.src,
+		thumbnail: plano4.src,
 	},
 	{
-	  original: plano5.src,
-	  thumbnail: plano5.src,
+		original: plano5.src,
+		thumbnail: plano5.src,
 	},
 	{
 		original: plano6.src,
 		thumbnail: plano6.src,
-	  }
-  ];
-  const fachadas = [
+	}
+];
+const fachadas = [
 	{
-	  original: fachada1.src,
-	  thumbnail: fachada1.src,
+		original: fachada1.src,
+		thumbnail: fachada1.src,
 	},
 	{
-	  original: fachada2.src,
-	  thumbnail: fachada2.src,
+		original: fachada2.src,
+		thumbnail: fachada2.src,
 	},
 	{
-	  original: fachada3.src,
-	  thumbnail: fachada3.src,
+		original: fachada3.src,
+		thumbnail: fachada3.src,
 	},
 	{
-	  original: fachada4.src,
-	  thumbnail: fachada4.src,
+		original: fachada4.src,
+		thumbnail: fachada4.src,
 	},
 	{
-	  original: fachada5.src,
-	  thumbnail: fachada5.src,
+		original: fachada5.src,
+		thumbnail: fachada5.src,
 	},
 	{
 		original: fachada6.src,
 		thumbnail: fachada6.src,
-	  }
-  ];
-  const interiorismore = [
+	}
+];
+const interiorismore = [
 	{
-	  original: interiorismore1.src,
-	  thumbnail: interiorismore1.src,
+		original: interiorismore1.src,
+		thumbnail: interiorismore1.src,
 	},
 	{
-	  original: interiorismore2.src,
-	  thumbnail: interiorismore2.src,
+		original: interiorismore2.src,
+		thumbnail: interiorismore2.src,
 	},
 	{
-	  original: interiorismore3.src,
-	  thumbnail: interiorismore3.src,
+		original: interiorismore3.src,
+		thumbnail: interiorismore3.src,
 	},
 	{
-	  original: interiorismore4.src,
-	  thumbnail: interiorismore4.src,
+		original: interiorismore4.src,
+		thumbnail: interiorismore4.src,
 	},
 	{
-	  original: interiorismore5.src,
-	  thumbnail: interiorismore5.src,
+		original: interiorismore5.src,
+		thumbnail: interiorismore5.src,
 	},
 	{
 		original: interiorismore6.src,
 		thumbnail: interiorismore6.src,
-	  },
-	  {
+	},
+	{
 		original: interiorismore7.src,
 		thumbnail: interiorismore7.src,
-	  },
-	  {
+	},
+	{
 		original: interiorismore8.src,
 		thumbnail: interiorismore8.src,
-	  },
-	  {
+	},
+	{
 		original: interiorismore9.src,
 		thumbnail: interiorismore9.src,
-	  },
-	  {
+	},
+	{
 		original: interiorismore10.src,
 		thumbnail: interiorismore10.src,
-	  }
-  ];
+	}
+];
 import { useAppQuery, useAppWidth } from 'context'
 
 import useMedia from 'hooks/useMedia'
@@ -173,6 +174,8 @@ const metadata = {
 
 
 export default function Home() {
+	const [activeTab, setActiveTab] = useState('avances');
+
 	const [width] = useAppWidth()
 	const query = useAppQuery()
 	const isMobileTablet = useMedia('(max-width: 1047px)')
@@ -281,12 +284,12 @@ export default function Home() {
 									zIndex: 1,
 								}}
 							>
-								 <ImageGallery items={visualizacion3d} 
-								 showBullets={true}
-								 showPlayButton={false}
-								 autoPlay={true}
+								<ImageGallery items={visualizacion3d}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
-								 />
+								/>
 							</div>
 							<h2
 								style={{
@@ -307,12 +310,12 @@ export default function Home() {
 									zIndex: 1,
 								}}
 							>
-								 <ImageGallery items={planosdeventa} 
-								 showBullets={true}
-								 showPlayButton={false}
-								 autoPlay={true}
+								<ImageGallery items={planosdeventa}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
-								 />
+								/>
 							</div>
 
 							<h2
@@ -345,7 +348,7 @@ export default function Home() {
 								></iframe>
 							</div>
 
-							
+
 
 							<h2
 								style={{
@@ -483,12 +486,12 @@ export default function Home() {
 									zIndex: 1,
 								}}
 							>
-								 <ImageGallery items={fachadas} 
-								 showBullets={true}
-								 showPlayButton={false}
-								 autoPlay={true}
+								<ImageGallery items={fachadas}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
-								 />
+								/>
 							</div>
 							<h2
 								style={{
@@ -509,15 +512,139 @@ export default function Home() {
 									zIndex: 1,
 								}}
 							>
-								 <ImageGallery items={interiorismore} 
-								 showBullets={true}
-								 showPlayButton={false}
-								 autoPlay={true}
+								<ImageGallery items={interiorismore}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
-								 />
+								/>
 							</div>
-							
-							{/* <h2
+							{/*PESTAÑAS */}
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Servicios Audiovisuales Inmobiliario.
+							</h2>
+							<div
+								className="overflow-hidden mt-0"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+									borderTop: '1px solid #dedede',
+									borderLeft: '1px solid #dedede',
+								}}
+							>
+								{/* Pestañas */}
+								<div>
+									<button
+										onClick={() => setActiveTab('avances')}
+										className={`py-2 px-4 focus:outline-none ${activeTab === 'avances'
+											? 'border-b-2 border-[#FDD704] font-bold text-[#FDD704]'
+											: 'text-gray-600'
+											}`}
+									>
+										Avances de obra
+									</button>
+									<button
+										onClick={() => setActiveTab('eventos')}
+										className={`py-2 px-4 focus:outline-none ${activeTab === 'eventos'
+											? 'border-b-2 border-[#FDD704] font-bold text-[#FDD704]'
+											: 'text-gray-600'
+											}`}
+									>
+										Registro de eventos
+									</button>
+									<button
+										onClick={() => setActiveTab('videos')}
+										className={`py-2 px-4 focus:outline-none ${activeTab === 'videos'
+											? 'border-b-2 border-[#FDD704] font-bold text-[#FDD704]'
+											: 'text-gray-600'
+											}`}
+									>
+										Videos testimoniales
+									</button>
+								</div>
+
+								{/* Contenido de cada pestaña */}
+								<div className="p-4">
+									{activeTab === 'avances' && (
+										<div>
+											<iframe
+												width="100%"
+												height="100%"
+												src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+												title="Videotracking"
+												frameBorder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowFullScreen
+											></iframe>
+										</div>
+									)}
+									{activeTab === 'eventos' && (
+										<div>
+											<iframe
+												width="100%"
+												height="100%"
+												src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+												title="Videotracking"
+												frameBorder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowFullScreen
+											></iframe>										</div>
+									)}
+									{activeTab === 'videos' && (
+										<div>
+											<iframe
+												width="100%"
+												height="100%"
+												src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+												title="Videotracking"
+												frameBorder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowFullScreen
+											></iframe>										</div>
+									)}
+								</div>
+							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Brochure Comercial.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<iframe
+									width="100%"
+									height="100%"
+									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+									title="Videotracking"
+									frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen
+								></iframe>
+							</div>
+
+
+							<h2
 								style={{
 									height: isText2 ? width * 2 : width,
 									width: isText2 ? width * 6 : 'auto',
@@ -634,7 +761,7 @@ export default function Home() {
 										/>
 									)}
 								</AnimatePresence>
-							</div> */}
+							</div>
 						</div>
 					</div>
 					<ButtonWsp />

@@ -1025,13 +1025,9 @@ const carousel1 = {
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/FRONTAL169(1).webp',
 		classnames: '',
 	  },
+	  
 	  {
-		name: 'Piscina',
-		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/PISCINA .tif',
-		classnames: '',
-	  },
-	  {
-		name: 'Piscina 13',
+		name: 'Piscina ',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/PISCINA(13).webp',
 		classnames: '',
 	  },

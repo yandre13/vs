@@ -36,6 +36,35 @@ import interiorismore7 from '../public/img/carrusel_servicios/interiorismo_resid
 import interiorismore8 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA GOURMET.webp'
 import interiorismore9 from '../public/img/carrusel_servicios/interiorismo_residencial/SUM (2).webp'
 import interiorismore10 from '../public/img/carrusel_servicios/interiorismo_residencial/TERRAZA (3).webp'
+import interiorismoco1 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 56_20230223_073630_13_11zon.webp'
+import interiorismoco2 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 57_20230223_073231_14_11zon.webp'
+import interiorismoco3 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 58_20230223_072833 (1)_15_11zon.webp'
+import interiorismoco4 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 62_20230223_071154_16_11zon.webp'
+import interiorismoco5 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 67_20230223_065405_18_11zon.webp'
+import interiorismoco6 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 71_20230223_063908_17_11zon.webp'
+import interiorismoco7 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 1_11_1_11zon.webp'
+import interiorismoco8 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 3_1 (2)_8_11zon.webp'
+import interiorismoco9 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 5_9_11zon.webp'
+import interiorismoco10 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 6_10_11zon.webp'
+import interiorismoco11 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 8_11_11zon.webp'
+import interiorismoco12 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 9_1_6_11zon.webp'
+import interiorismoco13 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 10_15_2_11zon.webp'
+import interiorismoco14 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 11_9_3_11zon.webp'
+import interiorismoco15 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 12_1_7_11zon.webp'
+import interiorismoco16 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 13_13_4_11zon.webp'
+import interiorismoco17 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 16_3_5_11zon.webp'
+import interiorismoco18 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 16_12_11zon.webp'
+import fotografia1 from '../public/img/carrusel_servicios/fotografia/DSC01121-HDR_3_11zon.webp'
+import fotografia2 from '../public/img/carrusel_servicios/fotografia/DSC01171-HDR_11_11zon.webp'
+import fotografia3 from '../public/img/carrusel_servicios/fotografia/DSC03589-HDR_4_11zon.webp'
+import fotografia4 from '../public/img/carrusel_servicios/fotografia/DSC03613-HDR_5_11zon.webp'
+import fotografia5 from '../public/img/carrusel_servicios/fotografia/DSC03658-HDR_8_11zon.webp'
+import fotografia6 from '../public/img/carrusel_servicios/fotografia/DSC03760-HDR_9_11zon.webp'
+import fotografia7 from '../public/img/carrusel_servicios/fotografia/DSC03850-HDR_1_11zon.webp'
+import fotografia8 from '../public/img/carrusel_servicios/fotografia/DSC03885-HDR_2_11zon.webp'
+import fotografia9 from '../public/img/carrusel_servicios/fotografia/DSC03733-HDR.jpg'
+import fotografia10 from '../public/img/carrusel_servicios/fotografia/DSC01172-HDR.jpg'
+
 
 const visualizacion3d = [
 	{
@@ -153,6 +182,123 @@ const interiorismore = [
 		thumbnail: interiorismore10.src,
 	}
 ];
+const interiorismoco = [
+	{
+		original: interiorismoco1.src,
+		thumbnail: interiorismoco1.src,
+	},
+	{
+		original: interiorismoco2.src,
+		thumbnail: interiorismoco2.src,
+	},
+	{
+		original: interiorismoco3.src,
+		thumbnail: interiorismoco3.src,
+	},
+	{
+		original: interiorismoco4.src,
+		thumbnail: interiorismoco4.src,
+	},
+	{
+		original: interiorismoco5.src,
+		thumbnail: interiorismoco5.src,
+	},
+	{
+		original: interiorismoco6.src,
+		thumbnail: interiorismoco6.src,
+	},
+	{
+		original: interiorismoco7.src,
+		thumbnail: interiorismoco7.src,
+	},
+	{
+		original: interiorismoco8.src,
+		thumbnail: interiorismoco8.src,
+	},
+	{
+		original: interiorismoco9.src,
+		thumbnail: interiorismoco9.src,
+	},
+	{
+		original: interiorismoco10.src,
+		thumbnail: interiorismoco10.src,
+	},
+	{
+		original: interiorismoco11.src,
+		thumbnail: interiorismoco11.src,
+	},
+	{
+		original: interiorismoco12.src,
+		thumbnail: interiorismoco12.src,
+	},
+	{
+		original: interiorismoco13.src,
+		thumbnail: interiorismoco13.src,
+	},
+	{
+		original: interiorismoco14.src,
+		thumbnail: interiorismoco14.src,
+	},
+	{
+		original: interiorismoco15.src,
+		thumbnail: interiorismoco15.src,
+	},
+	{
+		original: interiorismoco16.src,
+		thumbnail: interiorismoco16.src,
+	},
+	{
+		original: interiorismoco17.src,
+		thumbnail: interiorismoco17.src,
+	},
+	{
+		original: interiorismoco18.src,
+		thumbnail: interiorismoco18.src,
+	},
+];
+const fotografia = [
+	{
+		original: fotografia1.src,
+		thumbnail: fotografia1.src,
+	},
+	{
+		original: fotografia2.src,
+		thumbnail: fotografia2.src,
+	},
+	{
+		original: fotografia3.src,
+		thumbnail: fotografia3.src,
+	},
+	{
+		original: fotografia4.src,
+		thumbnail: fotografia4.src,
+	},
+	{
+		original: fotografia5.src,
+		thumbnail: fotografia5.src,
+	},
+	{
+		original: fotografia6.src,
+		thumbnail: fotografia6.src,
+	},
+	{
+		original: fotografia7.src,
+		thumbnail: fotografia7.src,
+	},
+	{
+		original: fotografia8.src,
+		thumbnail: fotografia8.src,
+	},
+	{
+		original: fotografia9.src,
+		thumbnail: fotografia9.src,
+	},
+	{
+		original: fotografia10.src,
+		thumbnail: fotografia10.src,
+	}
+];
+
 import { useAppQuery, useAppWidth } from 'context'
 
 import useMedia from 'hooks/useMedia'
@@ -519,6 +665,32 @@ export default function Home() {
 
 								/>
 							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Interiorismo Corporativo.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={interiorismoco}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
+
+								/>
+							</div>
 							{/*PESTAÑAS */}
 							<h2
 								style={{
@@ -642,7 +814,32 @@ export default function Home() {
 									allowFullScreen
 								></iframe>
 							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: `${width * size.imgMl}px`,
+									marginTop: width,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Fotografia de Arquitectura.
+							</h2>
+							<div
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={fotografia}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
+								/>
+							</div>
 
 							<h2
 								style={{

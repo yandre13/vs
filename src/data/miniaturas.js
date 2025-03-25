@@ -1,73 +1,73 @@
-const image1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_CR35/bl1hmeu4f2voz3vdtzos';
-import image2 from '../../public/img/miniaturas/2.webp'
-const image3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMOBILIARIA%20HENDERSON%20_JACINTO%20DE%20LARA/frv7oi83f93wynt4tfx4';
-const image4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_PARDO/qolwnwskjtdkldkigyvr';
-const image5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARCOLUX_BREGRASSONA/s1jfw4vn841q5ko685u3';
-const image6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_ALJOVIN/hclrn3vpb5sfip7f9jcn';
-const image7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/HAUSBRICK_MONTE%20ALEGRE/ngevlu60bqhdzwoloa3u';
-const image8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMNIVEST_PIAZZA/ral03wcjga0inpctdwcw';
-const image9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/MARCAN_LLANO%20ZAPATA/kw6snkuhxc9yijjofjhb';
-const image10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/EDIFIKARTE_AREQUIPA%20AVENUE%204015/ibl51aq8zmtezuuo0cta';
-import image11 from '../../public/img/miniaturas/11.jpg'
-const image12 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_MAGALLANES/pbselsioljgiqec4gwzx';
-const image13 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_PUM/e25ffgk9n0vxh1054el7';
-import image14 from '../../public/img/miniaturas/14.jpg'
-const image15 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INMGENIO_INSERT/a9656lbxdvx361l9hxxe';
-const image16 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_LOS%20PINOS/kw9wjxfv18klr9onuckr';
-import image17 from '../../public/img/miniaturas/17.jpg'
-const image18 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CONFORTA_AMARA/pt0qjkwlcqi646ilmikm';
-const image19 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/TYC_NIUS/npx7twibiqt2zykqsu9z';
-const image20 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_DALIAS/mohwjgkucmkhw61if3rb';
-const image21 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/CHECOR_PORTA/zrl04amsfwxkrtom6icm';
-const image22 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/COLLECTIVE_FIBRA/b4o2aalfow328uyxytve';
-const image23 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/OMINVEST_RESIDENZA%20CASTAGNI/w8em67bohlqhd6aear09';
-const image24 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/RAFAEL%20FREYRE/y9wmjeqbqf8oovivd9se';
-import image25 from '../../public/img/miniaturas/25.webp'
-const image26 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_HENKOS/qcpp3mfl08ozoklc8d4v';
-const image27 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/LIBRE_28%20DE%20JULIO/lokntqzfdx7r0fw2i0o0';
-const image28 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/GRACIA%20INMOBILIARIA_GEMMA/ykryzbs9cqkjdk2ihliz';
-const image29 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/ARMANDO%20PAREDES_SAENZ%20PE%C3%91A/rwf4fkrh1azivpl1qrng';
-const image30 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/INARCO_SONHOS/l7o8snsyy69jwx03ilmn';
-const image31 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/v1/INSUMOS/FRANCESCA%20CERF%20QUIMERA/xnfti2fjb6pvkvdactsq';
-import image32 from '../../public/img/miniaturas/32.jpg'
-import image33 from '../../public/img/miniaturas/33.jpg'
-import image34 from '../../public/img/miniaturas/34.jpg'
-import image35 from '../../public/img/miniaturas/35.jpg'
-import image36 from '../../public/img/miniaturas/36.jpg'
-import image37 from '../../public/img/miniaturas/37.jpg'
-import image38 from '../../public/img/miniaturas/38.jpg'
-import image39 from '../../public/img/miniaturas/39.jpg'
-import image40 from '../../public/img/miniaturas/40.jpg'
-import image41 from '../../public/img/miniaturas/41.jpg'
-import image42 from '../../public/img/miniaturas/42.jpg'
-import image43 from '../../public/img/miniaturas/43.jpg'
-import image44 from '../../public/img/miniaturas/44.jpg'
-import image45 from '../../public/img/miniaturas/45.jpg'
-import image46 from '../../public/img/miniaturas/46.jpg'
-import image47 from '../../public/img/miniaturas/47.jpg'
-import image48 from '../../public/img/miniaturas/48.jpg'
-import image49 from '../../public/img/miniaturas/49.jpg'
-import image50 from '../../public/img/miniaturas/50.jpg'
-import image51 from '../../public/img/miniaturas/51.jpg'
-import image52 from '../../public/img/miniaturas/52.jpg'
-import image53 from '../../public/img/miniaturas/53.jpg'
-import image54 from '../../public/img/miniaturas/54.jpg'
-import image55 from '../../public/img/miniaturas/55.jpg'
-import image56 from '../../public/img/miniaturas/56.jpg'
-import image57 from '../../public/img/miniaturas/57.jpg'
-import image58 from '../../public/img/miniaturas/58.jpg'
-import image59 from '../../public/img/miniaturas/59.jpg'
-import image60 from '../../public/img/miniaturas/60.jpg'
-import image61 from '../../public/img/miniaturas/61.jpg'
-import image62 from '../../public/img/miniaturas/62.jpg'
-import image63 from '../../public/img/miniaturas/63.jpg'
-import image64 from '../../public/img/miniaturas/64.jpg'
-import image65 from '../../public/img/miniaturas/65.jpg'
-import image66 from '../../public/img/miniaturas/66.jpg'
-import image67 from '../../public/img/miniaturas/67.jpg'
-import image68 from '../../public/img/miniaturas/68.jpg'
-import image69 from '../../public/img/miniaturas/69.jpg'
-import image70 from '../../public/img/miniaturas/70.jpg'
+import image1 from '../../public/img/miniaturas/malaga.baltazar.webp'
+import image2 from '../../public/img/miniaturas/edifica_acacias.webp'
+import image3 from '../../public/img/miniaturas/fd_arquitectos_rex.webp'
+
+import image4 from '../../public/img/miniaturas/morada_pardo664.webp'
+import image5 from '../../public/img/miniaturas/marcan_pod.webp'
+import image6 from '../../public/img/miniaturas/rafisegal_carehouse.webp'
+
+import image7 from '../../public/img/miniaturas/aliaga_viveplm.webp'
+import image8 from '../../public/img/miniaturas/edifica_palacios.webp'
+import image9 from '../../public/img/miniaturas/bregassona_ascolux.webp'
+
+import image10 from '../../public/img/miniaturas/hausbrik_montealegre.webp'
+import image11 from '../../public/img/miniaturas/jacinto_lara.webp'
+import image12 from '../../public/img/miniaturas/checor_porta.webp'
+
+import image13 from '../../public/img/miniaturas/pardo_tyc.webp'
+import image14 from '../../public/img/miniaturas/silice_quadrat.webp'
+import image15 from '../../public/img/miniaturas/viveplm_eten1.webp'
+
+import image16 from '../../public/img/miniaturas/abril_catleya.webp'
+import image17 from '../../public/img/miniaturas/chechor_lirios.webp'
+import image18 from '../../public/img/miniaturas/linea21_flora21.webp'
+
+import image19 from '../../public/img/miniaturas/armando_ugarte.webp'
+import image20 from '../../public/img/miniaturas/edifikarte_arequipa.webp'
+import image21 from '../../public/img/miniaturas/emmeinmobiliaria_morales.jpg'
+
+import image22 from '../../public/img/miniaturas/gracia_gema.webp'
+import image23 from '../../public/img/miniaturas/caret_benicalap.webp'
+import image24 from '../../public/img/miniaturas/armando_libertad.webp'
+
+import image25 from '../../public/img/miniaturas/marcan_r6000.webp'
+import image26 from '../../public/img/miniaturas/inarco_paraguay.webp'
+import image27 from '../../public/img/miniaturas/novabildin_henko.webp'
+
+import image28 from '../../public/img/miniaturas/linea21_prada.png'
+import image29 from '../../public/img/miniaturas/omnivest_residenza.webp'
+import image30 from '../../public/img/miniaturas/inmgenio_insert.webp'
+
+import image31 from '../../public/img/miniaturas/marcan_llanozapata.webp'
+import image32 from '../../public/img/miniaturas/yair_casamodelo.webp'
+import image33 from '../../public/img/miniaturas/cadiz_malaga.webp'
+
+import image34 from '../../public/img/miniaturas/caret_vasquez.webp'
+import image35 from '../../public/img/miniaturas/armando_incario.webp'
+import image36 from '../../public/img/miniaturas/libreinmb_28julio.webp'
+
+import image37 from '../../public/img/miniaturas/sancharbel_botanika.webp'
+import image38 from '../../public/img/miniaturas/armonhy_mdp.webp'
+import image39 from '../../public/img/miniaturas/tyc_nius.webp'
+
+import image40 from '../../public/img/miniaturas/checor_dalias.webp'
+import image41 from '../../public/img/miniaturas/qata_gtd.webp'
+import image42 from '../../public/img/miniaturas/conforta_amara.webp'
+
+import image43 from '../../public/img/miniaturas/armando_saenzp.webp'
+import image44 from '../../public/img/miniaturas/abril_kava.webp'
+import image45 from '../../public/img/miniaturas/modular_mendiburu.webp'
+
+import image46 from '../../public/img/miniaturas/libre_mmxx.webp'
+import image47 from '../../public/img/miniaturas/armando_toribio.webp'
+import image48 from '../../public/img/miniaturas/duoma_lacoruña.webp'
+
+import image49 from '../../public/img/miniaturas/solar_soldado.webp'
+import image50 from '../../public/img/miniaturas/checor_magnolias.webp'
+import image51 from '../../public/img/miniaturas/novaldin_sonhos.webp'
+
+import image52 from '../../public/img/miniaturas/linea21_inclan21.webp'
+import image53 from '../../public/img/miniaturas/puente_oxapampa.webp'
 
 
 const miniaturas = {
@@ -123,24 +123,6 @@ const miniaturas = {
 	image50,
 	image51,
 	image52,
-	image53,
-	image54,
-	image55,
-	image56,
-	image57,
-	image58,
-	image59,
-	image60,
-	image61,
-	image62,
-	image63,
-	image64,
-	image65,
-	image66,
-	image67,
-	image68,
-	image69,
-	image70,
-
+	image53
 }
 export default miniaturas

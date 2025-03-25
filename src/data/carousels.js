@@ -1,5 +1,5 @@
 const carousel1 = {
-	logo: '',
+	logo: 'ABRIL.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -45,7 +45,7 @@ const carousel1 = {
   };
   
   const carousel2 = {
-	logo: '',
+	logo: 'ABRIL.png',
 	images: [
 	  {
 		name: 'Baño Secundario',
@@ -121,7 +121,7 @@ const carousel1 = {
   };
   
   const carousel3 = {
-	logo: '',
+	logo: 'ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Baño UYM',
@@ -152,7 +152,7 @@ const carousel1 = {
   };
   
   const carousel4 = {
-	logo: '',
+	logo: 'ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Cocina 106',
@@ -178,7 +178,7 @@ const carousel1 = {
   };
   
   const carousel5 = {
-	logo: '',
+	logo: 'ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Boutique',
@@ -214,7 +214,7 @@ const carousel1 = {
   };
   
   const carousel6 = {
-	logo: '',
+	logo: 'ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'F5',
@@ -225,7 +225,7 @@ const carousel1 = {
   };
   
   const carousel7 = {
-	logo: '',
+	logo: 'ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'SUM',
@@ -266,7 +266,7 @@ const carousel1 = {
   };
   
   const carousel8 = {
-	logo: '',
+	logo: 'ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Cocina',
@@ -307,7 +307,7 @@ const carousel1 = {
   };
   
   const carousel9 = {
-	logo: '',
+	logo: 'ASCOLUX.png',
 	images: [
 	  {
 		name: 'Terrazza',
@@ -358,7 +358,7 @@ const carousel1 = {
   };
   
   const carousel10 = {
-	logo: '',
+	logo: 'CADIZ.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -404,7 +404,7 @@ const carousel1 = {
   };
   
   const carousel11 = {
-	logo: '',
+	logo: 'CARETCAPITAL.png',
 	images: [
 	  {
 		name: 'Baño',
@@ -450,7 +450,7 @@ const carousel1 = {
   };
   
   const carousel12 = {
-	logo: '',
+	logo: 'CARETCAPITAL.png',
 	images: [
 	  {
 		name: 'Dormitorio Principal',
@@ -501,7 +501,7 @@ const carousel1 = {
   };
   
   const carousel13 = {
-	logo: '',
+	logo: 'CHECOR.png',
 	images: [
 	  {
 		name: 'Baño Dalias',
@@ -537,7 +537,7 @@ const carousel1 = {
   };
   
   const carousel14 = {
-	logo: '',
+	logo: 'CHECOR.png',
 	images: [
 	  {
 		name: 'Bike Zone',
@@ -603,7 +603,7 @@ const carousel1 = {
   };
   
   const carousel15 = {
-	logo: '',
+	logo: 'CHECOR.png',
 	images: [
 	  {
 		name: 'AC3',
@@ -624,7 +624,7 @@ const carousel1 = {
   };
   
   const carousel16 = {
-	logo: '',
+	logo: 'CHECOR.png',
 	images: [
 	  {
 		name: 'Bike Parking',
@@ -752,7 +752,7 @@ const carousel1 = {
   };
   
   const carousel19 = {
-	logo: '',
+	logo: 'EDIFICA.png',
 	images: [
 	  {
 		name: 'Lobby 1',
@@ -773,7 +773,7 @@ const carousel1 = {
   };
   
   const carousel20 = {
-	logo: '',
+	logo: 'EDIFICA.png',
 	images: [
 	  {
 		name: 'Dpto 101 Dormitorio',
@@ -870,7 +870,7 @@ const carousel1 = {
   };
   
   const carousel22 = {
-	logo: '',
+	logo: 'FD_ARQ.jpg',
 	images: [
 	  {
 		name: 'Fachada Externa Final',
@@ -942,7 +942,7 @@ const carousel1 = {
   };
   
   const carousel24 = {
-	logo: '',
+	logo: 'HAUSBRIK.png',
 	images: [
 	  {
 		name: 'Baños 401 - 2',
@@ -993,7 +993,7 @@ const carousel1 = {
   };
   
   const carousel25 = {
-	logo: '',
+	logo: 'I.M.HENDERSON.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -1065,7 +1065,7 @@ const carousel1 = {
   };
   
   const carousel26 = {
-	logo: '',
+	logo: 'INARCO.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -1167,7 +1167,7 @@ const carousel1 = {
   };
   
   const carousel28 = {
-	logo: '',
+	logo: 'LIBRE.png',
 	images: [
 	  {
 		name: 'Terraza',
@@ -1208,7 +1208,7 @@ const carousel1 = {
   };
   
   const carousel29 = {
-	logo: '',
+	logo: 'LIBRE.png',
 	images: [
 	  {
 		name: 'F6',
@@ -1219,7 +1219,7 @@ const carousel1 = {
   };
   
   const carousel30 = {
-	logo: '',
+	logo: 'linea_21.png',
 	images: [
 	  {
 		name: 'Fachada',
@@ -1260,7 +1260,7 @@ const carousel1 = {
   };
   
   const carousel31 = {
-	logo: '',
+	logo: 'linea_21.png',
 	images: [
 	  {
 		name: 'Sala 80m2',
@@ -1286,7 +1286,7 @@ const carousel1 = {
   };
   
   const carousel32 = {
-	logo: '',
+	logo: 'linea_21.png',
 	images: [
 	  {
 		name: 'C3',
@@ -1317,7 +1317,7 @@ const carousel1 = {
   };
   
   const carousel33 = {
-	logo: '',
+	logo: 'MARCAN.png',
 	images: [
 	  {
 		name: 'Lobby',
@@ -1368,7 +1368,7 @@ const carousel1 = {
   };
   
   const carousel34 = {
-	logo: '',
+	logo: 'MARCAN.png',
 	images: [
 	  {
 		name: 'Auditorio',
@@ -1439,7 +1439,7 @@ const carousel1 = {
   };
   
   const carousel35 = {
-	logo: '',
+	logo: 'MARCAN.png',
 	images: [
 	  {
 		name: 'R6000 SUM',
@@ -1495,7 +1495,7 @@ const carousel1 = {
   };
   
   const carousel36 = {
-	logo: '',
+	logo: 'MODULAR.jpg',
 	images: [
 	  {
 		name: 'Mendiburú',
@@ -1506,7 +1506,7 @@ const carousel1 = {
   };
   
   const carousel37 = {
-	logo: '',
+	logo: 'MORADA.png',
 	images: [
 	  {
 		name: 'Morada Baño Principal',
@@ -1578,7 +1578,7 @@ const carousel1 = {
   };
   
   const carousel39 = {
-	logo: '',
+	logo: 'NOVABILDIN.png',
 	images: [
 	  {
 		name: 'AC5',
@@ -1629,7 +1629,7 @@ const carousel1 = {
   };
   
   const carousel40 = {
-	logo: '',
+	logo: 'NOVABILDIN.png',
 	images: [
 	  {
 		name: 'Diurna',
@@ -1650,7 +1650,7 @@ const carousel1 = {
   };
   
   const carousel41 = {
-	logo: '',
+	logo: 'OMNINVEST.png',
 	images: [
 	  {
 		name: 'Vista Exterior',
@@ -1671,7 +1671,7 @@ const carousel1 = {
   };
   
   const carousel42 = {
-	logo: '',
+	logo: 'PUENTE.jpg',
 	images: [
 	  {
 		name: 'Corredor',
@@ -1758,14 +1758,14 @@ const carousel1 = {
   };
   
   const carousel44 = {
-	logo: '',
+	logo: 'emme_inmob.png',
 	images: [
 	  // No se listaron imágenes en esta carpeta
 	]
   };
   
   const carousel45 = {
-	logo: '',
+	logo: 'QUADRAT.png',
 	images: [
 	  {
 		name: 'Cocina Duplex',
@@ -1816,7 +1816,7 @@ const carousel1 = {
   };
   
   const carousel46 = {
-	logo: '',
+	logo: 'rafi_segal.png',
 	images: [
 	  {
 		name: 'ISO',
@@ -1889,7 +1889,7 @@ const carousel1 = {
   };
   
   const carousel49 = {
-	logo: '',
+	logo: 'TYC.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -1955,7 +1955,7 @@ const carousel1 = {
   };
   
   const carousel50 = {
-	logo: '',
+	logo: 'TYC.png',
 	images: [
 	  {
 		name: 'Balcones',

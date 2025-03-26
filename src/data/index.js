@@ -463,7 +463,7 @@ const data = [
 	},
 	{
 		id: 28,
-		title: 'Prada',
+		title: 'Prada 21',
 		place: 'San Isidro, Lima.',
 		alt: 'Proyecto de arquitectura para un estadio en Lima, Perú',
 		date: 'Mayo 2022',
@@ -582,7 +582,7 @@ const data = [
 	},
 	{
 		id: 35,
-		title: 'Incaro',
+		title: 'Incario',
 		place: 'San Isidro, Lima.',
 		alt: 'Render de un proyecto de oficinas en Miraflores, Lima',
 		date: 'Julio 2021',
@@ -803,7 +803,7 @@ const data = [
 	},
 	{
 		id: 48,
-		title: 'Lacoruña',
+		title: 'La Coruña',
 		place: 'San Isidro, Lima.',
 		alt: 'Visualización 3D de un proyecto residencial en Lima',
 		date: 'Julio 2021',

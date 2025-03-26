@@ -1,5 +1,93 @@
 const carousel1 = {
-	logo: 'ABRIL.png',
+	logo: '',
+	images: [
+	  {
+		name: 'Acercamiento',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/ACERCAMIENTO.webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Baño',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/BAÑO(4).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Cocina',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/COCINA(14).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Dormitorio',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/DORMITORIO(5).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Fachada Exterior',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/FACHADAEXTERIOR.webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Patio',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/PATIO(4).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Sala Comedor',
+		path: '../../img/proyectos/MÁLAGA_BALTAZAR/SALACOMEDOR(13).webp',
+		classnames: '',
+	  },
+	]
+  };
+
+  const carousel2 = {
+	logo: '../../public/img/marcas/EDIFICA.png',
+	images: [
+	  {
+		name: 'Lobby 1',
+		path: '../../img/proyectos/EDIFICA_ACACIAS/LOBBY1(1).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Lobby 2',
+		path: '../../img/proyectos/EDIFICA_ACACIAS/LOBBY2(2).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Sala de Espera',
+		path: '../../img/proyectos/EDIFICA_ACACIAS/SALADEESPERA(2).webp',
+		classnames: '',
+	  },
+	]
+  };
+
+  const carousel3 = {
+	logo: '../../public/img/marcas/FD_ARQ.jpg',
+	images: [
+	  {
+		name: 'Fachada Externa Final',
+		path: '../../img/proyectos/FD ARQUITECTOS_REX/FACHADAEXTERNAFINAL.webp',
+		classnames: '',
+	  },
+	  {
+		name: 'Plaza Interior Actualizada Final',
+		path: '../../img/proyectos/FD ARQUITECTOS_REX/PLAZAINTERNAACTUALIZADAFINAL.webp',
+		classnames: '',
+	  },
+	  {
+		name: 'V1',
+		path: '../../img/proyectos/FD ARQUITECTOS_REX/V1(3).webp',
+		classnames: '',
+	  },
+	  {
+		name: 'V2',
+		path: '../../img/proyectos/FD ARQUITECTOS_REX/V2(5).webp',
+		classnames: '',
+	  },
+	]
+  };
+  
+const carousel16 = {
+	logo: '../../public/img/marcas/ABRIL.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -44,8 +132,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel2 = {
-	logo: 'ABRIL.png',
+  const carousel44 = {
+	logo: '../../public/img/marcas/ABRIL.png',
 	images: [
 	  {
 		name: 'Baño Secundario',
@@ -120,8 +208,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel3 = {
-	logo: 'ARMANDO_PAREDES.jpg',
+  const carousel19 = {
+	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Baño UYM',
@@ -151,8 +239,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel4 = {
-	logo: 'ARMANDO_PAREDES.jpg',
+  const carousel35 = {
+	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Cocina 106',
@@ -177,8 +265,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel5 = {
-	logo: 'ARMANDO_PAREDES.jpg',
+  const carousel24 = {
+	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Boutique',
@@ -213,8 +301,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel6 = {
-	logo: 'ARMANDO_PAREDES.jpg',
+  const carousel43 = {
+	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'F5',
@@ -224,8 +312,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel7 = {
-	logo: 'ARMANDO_PAREDES.jpg',
+  const carousel47 = {
+	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'SUM',
@@ -265,8 +353,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel8 = {
-	logo: 'ARMANDO_PAREDES.jpg',
+  const carousel38 = {
+	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
 		name: 'Cocina',
@@ -307,7 +395,7 @@ const carousel1 = {
   };
   
   const carousel9 = {
-	logo: 'ASCOLUX.png',
+	logo: '../../public/img/marcas/ASCOLUX.png',
 	images: [
 	  {
 		name: 'Terrazza',
@@ -357,8 +445,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel10 = {
-	logo: 'CADIZ.png',
+  const carousel33 = {
+	logo: '../../public/img/marcas/CADIZ.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -403,8 +491,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel11 = {
-	logo: 'CARETCAPITAL.png',
+  const carousel23 = {
+	logo: '../../public/img/marcas/CARETCAPITAL.png',
 	images: [
 	  {
 		name: 'Baño',
@@ -449,8 +537,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel12 = {
-	logo: 'CARETCAPITAL.png',
+  const carousel34 = {
+	logo: '../../public/img/marcas/CARETCAPITAL.png',
 	images: [
 	  {
 		name: 'Dormitorio Principal',
@@ -500,8 +588,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel13 = {
-	logo: 'CHECOR.png',
+  const carousel40 = {
+	logo: '../../public/img/marcas/CHECOR.png',
 	images: [
 	  {
 		name: 'Baño Dalias',
@@ -536,8 +624,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel14 = {
-	logo: 'CHECOR.png',
+  const carousel17 = {
+	logo: '../../public/img/marcas/CHECOR.png',
 	images: [
 	  {
 		name: 'Bike Zone',
@@ -602,8 +690,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel15 = {
-	logo: 'CHECOR.png',
+  const carousel50 = {
+	logo: '../../public/img/marcas/CHECOR.png',
 	images: [
 	  {
 		name: 'AC3',
@@ -623,8 +711,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel16 = {
-	logo: 'CHECOR.png',
+  const carousel12 = {
+	logo: '../../public/img/marcas/CHECOR.png',
 	images: [
 	  {
 		name: 'Bike Parking',
@@ -679,7 +767,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel17 = {
+  const carousel42 = {
 	logo: '',
 	images: [
 	  {
@@ -725,7 +813,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel18 = {
+  const carousel48 = {
 	logo: '',
 	images: [
 	  {
@@ -751,29 +839,10 @@ const carousel1 = {
 	]
   };
   
-  const carousel19 = {
-	logo: 'EDIFICA.png',
-	images: [
-	  {
-		name: 'Lobby 1',
-		path: '../../img/proyectos/EDIFICA_ACACIAS/LOBBY1(1).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Lobby 2',
-		path: '../../img/proyectos/EDIFICA_ACACIAS/LOBBY2(2).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Sala de Espera',
-		path: '../../img/proyectos/EDIFICA_ACACIAS/SALADEESPERA(2).webp',
-		classnames: '',
-	  },
-	]
-  };
   
-  const carousel20 = {
-	logo: 'EDIFICA.png',
+  
+  const carousel8 = {
+	logo: '../../public/img/marcas/EDIFICA.png',
 	images: [
 	  {
 		name: 'Dpto 101 Dormitorio',
@@ -808,7 +877,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel21 = {
+  const carousel20 = {
 	logo: '',
 	images: [
 	  {
@@ -869,33 +938,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel22 = {
-	logo: 'FD_ARQ.jpg',
-	images: [
-	  {
-		name: 'Fachada Externa Final',
-		path: '../../img/proyectos/FD ARQUITECTOS_REX/FACHADAEXTERNAFINAL.webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Plaza Interior Actualizada Final',
-		path: '../../img/proyectos/FD ARQUITECTOS_REX/PLAZAINTERNAACTUALIZADAFINAL.webp',
-		classnames: '',
-	  },
-	  {
-		name: 'V1',
-		path: '../../img/proyectos/FD ARQUITECTOS_REX/V1(3).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'V2',
-		path: '../../img/proyectos/FD ARQUITECTOS_REX/V2(5).webp',
-		classnames: '',
-	  },
-	]
-  };
   
-  const carousel23 = {
+  const carousel22 = {
 	logo: '',
 	images: [
 	  {
@@ -941,8 +985,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel24 = {
-	logo: 'HAUSBRIK.png',
+  const carousel10 = {
+	logo: '../../public/img/marcas/HAUSBRIK.png',
 	images: [
 	  {
 		name: 'Baños 401 - 2',
@@ -992,8 +1036,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel25 = {
-	logo: 'I.M.HENDERSON.png',
+  const carousel11 = {
+	logo: '../../public/img/marcas/I.M.HENDERSON.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -1065,7 +1109,7 @@ const carousel1 = {
   };
   
   const carousel26 = {
-	logo: 'INARCO.png',
+	logo: '../../public/img/marcas/INARCO.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -1125,7 +1169,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel27 = {
+  const carousel30 = {
 	logo: '',
 	images: [
 	  {
@@ -1166,8 +1210,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel28 = {
-	logo: 'LIBRE.png',
+  const carousel36 = {
+	logo: '../../public/img/marcas/LIBRE.png',
 	images: [
 	  {
 		name: 'Terraza',
@@ -1207,8 +1251,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel29 = {
-	logo: 'LIBRE.png',
+  const carousel46 = {
+	logo: '../../public/img/marcas/LIBRE.png',
 	images: [
 	  {
 		name: 'F6',
@@ -1218,8 +1262,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel30 = {
-	logo: 'linea_21.png',
+  const carousel18 = {
+	logo: '../../public/img/marcas/linea_21.png',
 	images: [
 	  {
 		name: 'Fachada',
@@ -1259,8 +1303,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel31 = {
-	logo: 'linea_21.png',
+  const carousel52 = {
+	logo: '../../public/img/marcas/linea_21.png',
 	images: [
 	  {
 		name: 'Sala 80m2',
@@ -1285,8 +1329,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel32 = {
-	logo: 'linea_21.png',
+  const carousel28 = {
+	logo: '../../public/img/marcas/linea_21.png',
 	images: [
 	  {
 		name: 'C3',
@@ -1316,8 +1360,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel33 = {
-	logo: 'MARCAN.png',
+  const carousel31 = {
+	logo: '../../public/img/marcas/MARCAN.png',
 	images: [
 	  {
 		name: 'Lobby',
@@ -1367,8 +1411,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel34 = {
-	logo: 'MARCAN.png',
+  const carousel5 = {
+	logo: '../../public/img/marcas/MARCAN.png',
 	images: [
 	  {
 		name: 'Auditorio',
@@ -1438,8 +1482,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel35 = {
-	logo: 'MARCAN.png',
+  const carousel25 = {
+	logo: '../../public/img/marcas/MARCAN.png',
 	images: [
 	  {
 		name: 'R6000 SUM',
@@ -1494,8 +1538,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel36 = {
-	logo: 'MODULAR.jpg',
+  const carousel45 = {
+	logo: '../../public/img/marcas/MODULAR.jpg',
 	images: [
 	  {
 		name: 'Mendiburú',
@@ -1505,8 +1549,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel37 = {
-	logo: 'MORADA.png',
+  const carousel4 = {
+	logo: '../../public/img/marcas/MORADA.png',
 	images: [
 	  {
 		name: 'Morada Baño Principal',
@@ -1536,49 +1580,10 @@ const carousel1 = {
 	]
   };
   
-  const carousel38 = {
-	logo: '',
-	images: [
-	  {
-		name: 'Acercamiento',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/ACERCAMIENTO.webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Baño',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/BAÑO(4).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Cocina',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/COCINA(14).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Dormitorio',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/DORMITORIO(5).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Fachada Exterior',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/FACHADAEXTERIOR.webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Patio',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/PATIO(4).webp',
-		classnames: '',
-	  },
-	  {
-		name: 'Sala Comedor',
-		path: '../../img/proyectos/MÁLAGA_BALTAZAR/SALACOMEDOR(13).webp',
-		classnames: '',
-	  },
-	]
-  };
   
-  const carousel39 = {
-	logo: 'NOVABILDIN.png',
+  
+  const carousel27 = {
+	logo: '../../public/img/marcas/NOVABILDIN.png',
 	images: [
 	  {
 		name: 'AC5',
@@ -1628,8 +1633,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel40 = {
-	logo: 'NOVABILDIN.png',
+  const carousel51 = {
+	logo: '../../public/img/marcas/NOVABILDIN.png',
 	images: [
 	  {
 		name: 'Diurna',
@@ -1649,8 +1654,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel41 = {
-	logo: 'OMNINVEST.png',
+  const carousel29 = {
+	logo: '../../public/img/marcas/OMNINVEST.png',
 	images: [
 	  {
 		name: 'Vista Exterior',
@@ -1670,8 +1675,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel42 = {
-	logo: 'PUENTE.jpg',
+  const carousel53 = {
+	logo: '../../public/img/marcas/PUENTE.jpg',
 	images: [
 	  {
 		name: 'Corredor',
@@ -1711,7 +1716,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel43 = {
+  const carousel41 = {
 	logo: '',
 	images: [
 	  {
@@ -1757,15 +1762,15 @@ const carousel1 = {
 	]
   };
   
-  const carousel44 = {
-	logo: 'emme_inmob.png',
+  const carousel21 = {
+	logo: '../../public/img/marcas/emme_inmob.png',
 	images: [
 	  // No se listaron imágenes en esta carpeta
 	]
   };
   
-  const carousel45 = {
-	logo: 'QUADRAT.png',
+  const carousel14 = {
+	logo: '../../public/img/marcas/QUADRAT.png',
 	images: [
 	  {
 		name: 'Cocina Duplex',
@@ -1815,8 +1820,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel46 = {
-	logo: 'rafi_segal.png',
+  const carousel6 = {
+	logo: '../../public/img/marcas/rafi_segal.png',
 	images: [
 	  {
 		name: 'ISO',
@@ -1846,7 +1851,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel47 = {
+  const carousel37 = {
 	logo: '',
 	images: [
 	  {
@@ -1867,7 +1872,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel48 = {
+  const carousel49 = {
 	logo: '',
 	images: [
 	  {
@@ -1888,8 +1893,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel49 = {
-	logo: 'TYC.png',
+  const carousel39 = {
+	logo: '../../public/img/marcas/TYC.png',
 	images: [
 	  {
 		name: 'Baño Principal',
@@ -1954,8 +1959,8 @@ const carousel1 = {
 	]
   };
   
-  const carousel50 = {
-	logo: 'TYC.png',
+  const carousel13 = {
+	logo: '../../public/img/marcas/TYC.png',
 	images: [
 	  {
 		name: 'Balcones',
@@ -2055,7 +2060,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel51 = {
+  const carousel7 = {
 	logo: '',
 	images: [
 	  {
@@ -2091,7 +2096,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel52 = {
+  const carousel15 = {
 	logo: '',
 	images: [
 	  {
@@ -2122,7 +2127,7 @@ const carousel1 = {
 	]
   };
   
-  const carousel53 = {
+  const carousel32 = {
 	logo: '',
 	images: [
 	  {

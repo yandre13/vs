@@ -7,7 +7,7 @@ import image5 from '../../public/img/miniaturas/marcan_pod.webp'
 import image6 from '../../public/img/miniaturas/rafisegal_carehouse.webp'
 
 import image7 from '../../public/img/miniaturas/aliaga_viveplm.webp'
-import image8 from '../../public/img/miniaturas/edifica_palacios.webp'
+import image8 from '../../public/img/miniaturas/nopal_palacios.webp'
 import image9 from '../../public/img/miniaturas/bregassona_ascolux.webp'
 
 import image10 from '../../public/img/miniaturas/hausbrik_montealegre.webp'

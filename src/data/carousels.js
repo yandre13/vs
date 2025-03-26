@@ -1,5 +1,5 @@
 const carousel1 = {
-	logo: '',
+	logo: '../../public/img/marcas/malaga.png',
 	images: [
 	  {
 		name: 'Acercamiento',
@@ -768,7 +768,7 @@ const carousel16 = {
   };
   
   const carousel42 = {
-	logo: '',
+	logo: '../../public/img/marcas/conforta.png',
 	images: [
 	  {
 		name: 'Dormitorio',
@@ -814,7 +814,7 @@ const carousel16 = {
   };
   
   const carousel48 = {
-	logo: '',
+	logo: '../../public/img/marcas/duoma.png',
 	images: [
 	  {
 		name: 'Cocina Comedor',
@@ -842,43 +842,43 @@ const carousel16 = {
   
   
   const carousel8 = {
-	logo: '../../public/img/marcas/EDIFICA.png',
+	logo: '../../public/img/marcas/nopal.png',
 	images: [
 	  {
 		name: 'Dormitorio',
-		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTO101DORMITORIO.webp',
+		path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/DPTO101DORMITORIO.webp',
 		classnames: '',
 	  },
 	  {
 		name: 'Sala',
-		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTO101SALA.webp',
+		path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/DPTO101SALA.webp',
 		classnames: '',
 	  },
 	  {
 		name: 'Dormitorio Principal',
-		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTOX2DORMITORIOPRINCIPAL(2).webp',
+		path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/DPTOX2DORMITORIOPRINCIPAL(2).webp',
 		classnames: '',
 	  },
 	  {
 		name: 'Sala Comedor',
-		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTOX2SALACOMEDOR.webp',
+		path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/DPTOX2SALACOMEDOR.webp',
 		classnames: '',
 	  },
 	  {
 		name: 'Lobby ',
-		path: '../../img/proyectos/EDIFICA_PALACIOS/LOBBY1(4).webp',
+		path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/LOBBY1(4).webp',
 		classnames: '',
 	  },
 	  {
 		name: 'Lobby ',
-		path: '../../img/proyectos/EDIFICA_PALACIOS/LOBBY2(3).webp',
+		path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/LOBBY2(3).webp',
 		classnames: '',
 	  },
 	]
   };
   
   const carousel20 = {
-	logo: '',
+	logo: '../../public/img/marcas/edifikarte.png',
 	images: [
 	  {
 		name: 'Parrilla',
@@ -940,7 +940,7 @@ const carousel16 = {
   
   
   const carousel22 = {
-	logo: '',
+	logo: '../../public/img/marcas/gracia.png',
 	images: [
 	  {
 		name: 'Baño',
@@ -1170,7 +1170,7 @@ const carousel16 = {
   };
   
   const carousel30 = {
-	logo: '',
+	logo: '../../public/img/marcas/inmgenio.png',
 	images: [
 	  {
 		name: 'Bike Parking',
@@ -1717,7 +1717,7 @@ const carousel16 = {
   };
   
   const carousel41 = {
-	logo: '',
+	logo: '../../public/img/marcas/qata.png',
 	images: [
 	  {
 		name: 'Coworking',
@@ -1852,7 +1852,7 @@ const carousel16 = {
   };
   
   const carousel37 = {
-	logo: '',
+	logo: '../../public/img/marcas/san_charbel.png',
 	images: [
 	  {
 		name: 'Acercamiento',
@@ -1873,7 +1873,7 @@ const carousel16 = {
   };
   
   const carousel49 = {
-	logo: '',
+	logo: '../../public/img/marcas/solar.png',
 	images: [
 	  {
 		name: 'Patio Interior',
@@ -2061,7 +2061,7 @@ const carousel16 = {
   };
   
   const carousel7 = {
-	logo: '',
+	logo: '../../public/img/marcas/vive.png',
 	images: [
 	  {
 		name: 'Acercamiento',
@@ -2097,7 +2097,7 @@ const carousel16 = {
   };
   
   const carousel15 = {
-	logo: '',
+	logo: '../../public/img/marcas/vive.png',
 	images: [
 	  {
 		name: 'Dormitorio Secundario',
@@ -2128,7 +2128,7 @@ const carousel16 = {
   };
   
   const carousel32 = {
-	logo: '',
+	logo: '../../public/img/marcas/yair_mayo.png',
 	images: [
 	  {
 		name: 'Cocina',

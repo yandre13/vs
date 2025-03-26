@@ -64,22 +64,22 @@ const carousel1 = {
 	logo: '../../public/img/marcas/FD_ARQ.jpg',
 	images: [
 	  {
-		name: 'Fachada Externa Final',
+		name: 'Fachada Externa',
 		path: '../../img/proyectos/FD ARQUITECTOS_REX/FACHADAEXTERNAFINAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Plaza Interior Actualizada Final',
+		name: 'Plaza Interior',
 		path: '../../img/proyectos/FD ARQUITECTOS_REX/PLAZAINTERNAACTUALIZADAFINAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V1',
+		name: 'Vista Aérea 1',
 		path: '../../img/proyectos/FD ARQUITECTOS_REX/V1(3).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V2',
+		name: 'Vista Aérea 2',
 		path: '../../img/proyectos/FD ARQUITECTOS_REX/V2(5).webp',
 		classnames: '',
 	  },
@@ -100,12 +100,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Detalle',
+		name: 'Vista Aérea',
 		path: '../../img/proyectos/ABRIL INMOBILIARIA_CATLEYA/DETALLE.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Frontal',
+		name: 'Fachada Frontal',
 		path: '../../img/proyectos/ABRIL INMOBILIARIA_CATLEYA/FRONTAL.webp',
 		classnames: '',
 	  },
@@ -125,7 +125,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Nocturna',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/ABRIL INMOBILIARIA_CATLEYA/NOCTURNA(2).webp',
 		classnames: '',
 	  },
@@ -171,12 +171,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Detalle',
+		name: 'Acercamiento',
 		path: '../../img/proyectos/ABRIL INMOBILIARIA_KAVA/DETALLE(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Diurna',
+		name: 'Fachada Diurna',
 		path: '../../img/proyectos/ABRIL INMOBILIARIA_KAVA/DIURNA(1).webp',
 		classnames: '',
 	  },
@@ -191,7 +191,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Nocturna',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/ABRIL INMOBILIARIA_KAVA/NOCTURNA(3).webp',
 		classnames: '',
 	  },
@@ -212,27 +212,27 @@ const carousel16 = {
 	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
-		name: 'Baño UYM',
+		name: 'Baño ',
 		path: '../../img/proyectos/ARMANDO PAREDES_ UGARTE Y MOSCOSO/BAÑOUYM.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina UYM',
+		name: 'Cocina ',
 		path: '../../img/proyectos/ARMANDO PAREDES_ UGARTE Y MOSCOSO/COCINA_UYM.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio UYM',
+		name: 'Dormitorio ',
 		path: '../../img/proyectos/ARMANDO PAREDES_ UGARTE Y MOSCOSO/DORMITORIOUYM.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Fachada UYM',
+		name: 'Fachada ',
 		path: '../../img/proyectos/ARMANDO PAREDES_ UGARTE Y MOSCOSO/FACHADAUYM(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala UYM',
+		name: 'Sala ',
 		path: '../../img/proyectos/ARMANDO PAREDES_ UGARTE Y MOSCOSO/SALAUYM(1).webp',
 		classnames: '',
 	  },
@@ -243,12 +243,12 @@ const carousel16 = {
 	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
-		name: 'Cocina 106',
+		name: 'Cocina ',
 		path: '../../img/proyectos/ARMANDO PAREDES_INCARIO/COCINA106.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 604',
+		name: 'Cocina ',
 		path: '../../img/proyectos/ARMANDO PAREDES_INCARIO/COCINA604.webp',
 		classnames: '',
 	  },
@@ -274,12 +274,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'C2',
+		name: 'Cocina',
 		path: '../../img/proyectos/ARMANDO PAREDES_LIBERTAD/C2.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Estudio Arq',
+		name: 'Estudio Arquitectónico',
 		path: '../../img/proyectos/ARMANDO PAREDES_LIBERTAD/ESTUDIOARQ(1).webp',
 		classnames: '',
 	  },
@@ -289,12 +289,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Fachada Final',
+		name: 'Fachada ',
 		path: '../../img/proyectos/ARMANDO PAREDES_LIBERTAD/FACHADA_V1FINALRGB.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Lobby Final',
+		name: 'Lobby ',
 		path: '../../img/proyectos/ARMANDO PAREDES_LIBERTAD/LIB_FINALENALTA_LOBBY.webp',
 		classnames: '',
 	  },
@@ -305,7 +305,7 @@ const carousel16 = {
 	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  {
-		name: 'F5',
+		name: 'Fachada',
 		path: '../../img/proyectos/ARMANDO PAREDES_SAENZ PEÑA/F5.webp',
 		classnames: '',
 	  },
@@ -321,17 +321,17 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Tor Cocina',
+		name: 'Cocina',
 		path: '../../img/proyectos/ARMANDO PAREDES_TORIBIO/TOR_COCINA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Tor Dormitorio Principal',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/ARMANDO PAREDES_TORIBIO/TOR_DORMITORIOPRINCIPAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Tor Dormitorio Secundario',
+		name: 'Dormitorio Secundario',
 		path: '../../img/proyectos/ARMANDO PAREDES_TORIBIO/TOR_DORMITORIOSECUNDARIO.webp',
 		classnames: '',
 	  },
@@ -362,7 +362,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cropped Fachada',
+		name: 'Fachada',
 		path: '../../img/proyectos/ARMHONY_MAR DE PLATA/CROPFACHADA.webp',
 		classnames: '',
 	  },
@@ -372,7 +372,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'F4',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/ARMHONY_MAR DE PLATA/F4.webp',
 		classnames: '',
 	  },
@@ -398,7 +398,7 @@ const carousel16 = {
 	logo: '../../public/img/marcas/ASCOLUX.png',
 	images: [
 	  {
-		name: 'Terrazza',
+		name: 'Terraza',
 		path: '../../img/proyectos/ASCOLUX_BREGASSONA/09TERRAZZA.webp',
 		classnames: '',
 	  },
@@ -408,7 +408,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Dorm Principal App12',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/ASCOLUX_BREGASSONA/DORMPRINC_APP12.webp',
 		classnames: '',
 	  },
@@ -418,22 +418,22 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Sala de Pranzo',
+		name: 'Sala da Pranzo',
 		path: '../../img/proyectos/ASCOLUX_BREGASSONA/SALADAPRANZO.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Soggiorno 1',
+		name: 'Soggiorno ',
 		path: '../../img/proyectos/ASCOLUX_BREGASSONA/SOGGIORNO(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Soggiorno 2',
+		name: 'Soggiorno ',
 		path: '../../img/proyectos/ASCOLUX_BREGASSONA/SOGGIORNO.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Terrazza 2',
+		name: 'Terraza ',
 		path: '../../img/proyectos/ASCOLUX_BREGASSONA/TERRAZZA2.webp',
 		classnames: '',
 	  },
@@ -454,7 +454,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 2',
+		name: 'Cocina ',
 		path: '../../img/proyectos/CADIZ INMB_MÁLAGA/COCINA2.webp',
 		classnames: '',
 	  },
@@ -469,7 +469,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Loft 401-1',
+		name: 'Loft',
 		path: '../../img/proyectos/CADIZ INMB_MÁLAGA/LOFT401-1.webp',
 		classnames: '',
 	  },
@@ -510,12 +510,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Principal 1',
+		name: 'Dormitorio Principal ',
 		path: '../../img/proyectos/CARET CAPITAL_BENICALAP/DORMITORIOPRINCIPAL(3).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Principal 2',
+		name: 'Dormitorio Principal ',
 		path: '../../img/proyectos/CARET CAPITAL_BENICALAP/DORMITORIOPRINCIPAL(4).webp',
 		classnames: '',
 	  },
@@ -566,12 +566,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 1',
+		name: 'Sala ',
 		path: '../../img/proyectos/CARET CAPITAL_VASQUEZ DE MELLA/SALA1.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 2',
+		name: 'Sala ',
 		path: '../../img/proyectos/CARET CAPITAL_VASQUEZ DE MELLA/SALA2.webp',
 		classnames: '',
 	  },
@@ -592,27 +592,27 @@ const carousel16 = {
 	logo: '../../public/img/marcas/CHECOR.png',
 	images: [
 	  {
-		name: 'Baño Dalias',
+		name: 'Baño ',
 		path: '../../img/proyectos/CHECOR_DALIAS/BANO_DALIAS.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'F1',
+		name: 'Fachada',
 		path: '../../img/proyectos/CHECOR_DALIAS/F1.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 1 Dalias',
+		name: 'Sala ',
 		path: '../../img/proyectos/CHECOR_DALIAS/SALA1_DALIAS.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Cocina 2 Dalias',
+		name: 'Sala Cocina',
 		path: '../../img/proyectos/CHECOR_DALIAS/SALA_COCINA2_DALIAS.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'SUM 3',
+		name: 'SUM ',
 		path: '../../img/proyectos/CHECOR_DALIAS/SUM_3.webp',
 		classnames: '',
 	  },
@@ -633,7 +633,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina X01',
+		name: 'Cocina ',
 		path: '../../img/proyectos/CHECOR_LIRIOS/COCINAX01.webp',
 		classnames: '',
 	  },
@@ -643,7 +643,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Diurna',
+		name: 'Fachada Diurna',
 		path: '../../img/proyectos/CHECOR_LIRIOS/DIA(2).webp',
 		classnames: '',
 	  },
@@ -663,7 +663,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Nocturna',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/CHECOR_LIRIOS/NOCHE(1).webp',
 		classnames: '',
 	  },
@@ -673,12 +673,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Baño X01',
+		name: 'Baño',
 		path: '../../img/proyectos/CHECOR_LIRIOS/X01BAÑO.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala X01',
+		name: 'Sala',
 		path: '../../img/proyectos/CHECOR_LIRIOS/X01SALA.webp',
 		classnames: '',
 	  },
@@ -694,17 +694,17 @@ const carousel16 = {
 	logo: '../../public/img/marcas/CHECOR.png',
 	images: [
 	  {
-		name: 'AC3',
+		name: 'Sala de Estar',
 		path: '../../img/proyectos/CHECOR_MAGNOLIAS/AC3.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'AC4',
+		name: 'Cocina Comedor',
 		path: '../../img/proyectos/CHECOR_MAGNOLIAS/AC4.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'AC6',
+		name: 'Lavandería',
 		path: '../../img/proyectos/CHECOR_MAGNOLIAS/AC6(1).webp',
 		classnames: '',
 	  },
@@ -720,17 +720,17 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina Frontal Porta',
+		name: 'Cocina Frontal',
 		path: '../../img/proyectos/CHECOR_PORTA/COCINAFRONTAL_PORTA(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina Integrada Porta',
+		name: 'Cocina Integrada',
 		path: '../../img/proyectos/CHECOR_PORTA/COCINAINTEGRADA_PORTA_.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Diurna',
+		name: 'Fachada Diurna',
 		path: '../../img/proyectos/CHECOR_PORTA/DIURNA(1).webp',
 		classnames: '',
 	  },
@@ -740,7 +740,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Estar X01',
+		name: 'Sala de Estar',
 		path: '../../img/proyectos/CHECOR_PORTA/ESTARX01.webp',
 		classnames: '',
 	  },
@@ -750,12 +750,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Nocturna',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/CHECOR_PORTA/NOCTURNA(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor X01',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/CHECOR_PORTA/SALACOMEDORX01.webp',
 		classnames: '',
 	  },
@@ -817,22 +817,22 @@ const carousel16 = {
 	logo: '',
 	images: [
 	  {
-		name: 'C1',
+		name: 'Cocina Comedor',
 		path: '../../img/proyectos/DUOMA_LACORUÑA/C1.png',
 		classnames: '',
 	  },
 	  {
-		name: 'L2',
+		name: 'Lobby',
 		path: '../../img/proyectos/DUOMA_LACORUÑA/L2.png',
 		classnames: '',
 	  },
 	  {
-		name: 'S1',
+		name: 'Sala',
 		path: '../../img/proyectos/DUOMA_LACORUÑA/S1.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'S4',
+		name: 'Sala',
 		path: '../../img/proyectos/DUOMA_LACORUÑA/S4.png',
 		classnames: '',
 	  },
@@ -845,32 +845,32 @@ const carousel16 = {
 	logo: '../../public/img/marcas/EDIFICA.png',
 	images: [
 	  {
-		name: 'Dpto 101 Dormitorio',
+		name: 'Dormitorio',
 		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTO101DORMITORIO.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dpto 101 Sala',
+		name: 'Sala',
 		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTO101SALA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dpto X2 Dormitorio Principal',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTOX2DORMITORIOPRINCIPAL(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dpto X2 Sala Comedor',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/EDIFICA_PALACIOS/DPTOX2SALACOMEDOR.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Lobby 1',
+		name: 'Lobby ',
 		path: '../../img/proyectos/EDIFICA_PALACIOS/LOBBY1(4).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Lobby 2',
+		name: 'Lobby ',
 		path: '../../img/proyectos/EDIFICA_PALACIOS/LOBBY2(3).webp',
 		classnames: '',
 	  },
@@ -881,17 +881,17 @@ const carousel16 = {
 	logo: '',
 	images: [
 	  {
-		name: 'BBQ 03',
+		name: 'Parrilla',
 		path: '../../img/proyectos/EDIFIKARTE_AREQUIPA AVENUE 4015/BBQ03.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'BBQ 04',
+		name: 'Parrilla',
 		path: '../../img/proyectos/EDIFIKARTE_AREQUIPA AVENUE 4015/BBQ04(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'BBQ 02',
+		name: 'Parrilla',
 		path: '../../img/proyectos/EDIFIKARTE_AREQUIPA AVENUE 4015/BBQ_02.webp',
 		classnames: '',
 	  },
@@ -931,7 +931,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'SUM 02',
+		name: 'SUM',
 		path: '../../img/proyectos/EDIFIKARTE_AREQUIPA AVENUE 4015/SUM02(1).webp',
 		classnames: '',
 	  },
@@ -948,7 +948,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio (DOMR)',
+		name: 'Dormitorio',
 		path: '../../img/proyectos/GRACIA_GEMA/DOMR.webp',
 		classnames: '',
 	  },
@@ -989,37 +989,37 @@ const carousel16 = {
 	logo: '../../public/img/marcas/HAUSBRIK.png',
 	images: [
 	  {
-		name: 'Baños 401 - 2',
-		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/BAÑOS401_2.webp',
+		name: 'Baños',
+		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/BAÑOS.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Baños 401 - 3',
-		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/BAÑOS401_3.webp',
+		name: 'Baños',
+		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/BAÑO.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina Final en Alta',
+		name: 'Cocina Final',
 		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/COCINAFINALENALTA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Principal 401',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/DORMPRINC401.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Secundario 401',
+		name: 'Dormitorio Secundario',
 		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/DORMSEC_401MA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Frontal',
+		name: 'Fachada Frontal',
 		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/FRONTAL(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Lateral',
+		name: 'Fachada Lateral',
 		path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/LATERAL(1).webp',
 		classnames: '',
 	  },
@@ -1045,27 +1045,27 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 11',
+		name: 'Cocina',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/COCINA(11).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 12',
+		name: 'Cocina',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/COCINA(12).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Principal 6',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/DORMITORIOPRINCIPAL(6).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Principal 7',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/DORMITORIOPRINCIPAL(7).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Frontal 169',
+		name: 'Fachada Frontal',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/FRONTAL169(1).webp',
 		classnames: '',
 	  },
@@ -1076,32 +1076,32 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 10',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/SALACOMEDOR(10).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 11',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/SALACOMEDOR(11).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala de Estar 2',
+		name: 'Sala de Estar',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/SALADEESTAR(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala de Estar 3',
+		name: 'Sala de Estar',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/SALADEESTAR(3).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V2',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/V2(5).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V2 Diurna',
+		name: 'Fachada Diurna',
 		path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/V2DIURNA(1).webp',
 		classnames: '',
 	  },
@@ -1122,7 +1122,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 13',
+		name: 'Cocina',
 		path: '../../img/proyectos/INARCO PARAGUAY_MAGALLANES/COCINA(13).webp',
 		classnames: '',
 	  },
@@ -1255,7 +1255,7 @@ const carousel16 = {
 	logo: '../../public/img/marcas/LIBRE.png',
 	images: [
 	  {
-		name: 'F6',
+		name: 'Fachada',
 		path: '../../img/proyectos/LIBRE INMOBILIARIA_MMXX/F6.webp',
 		classnames: '',
 	  },
@@ -1286,17 +1286,17 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 2',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/LINEA 21_FLORA 21/SALACOMEDOR2.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 3',
+		name: 'Sala Comedor ',
 		path: '../../img/proyectos/LINEA 21_FLORA 21/SALACOMEDOR3.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 4',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/LINEA 21_FLORA 21/SALACOMEDOR4.webp',
 		classnames: '',
 	  },
@@ -1307,17 +1307,17 @@ const carousel16 = {
 	logo: '../../public/img/marcas/linea_21.png',
 	images: [
 	  {
-		name: 'Sala 80m2',
+		name: 'Sala ',
 		path: '../../img/proyectos/LINEA 21_INCLÁN21/SALA80M2.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 39mts',
+		name: 'Sala',
 		path: '../../img/proyectos/LINEA 21_INCLÁN21/SALA_39MTS.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 702',
+		name: 'Sala ',
 		path: '../../img/proyectos/LINEA 21_INCLÁN21/SALA_702.webp',
 		classnames: '',
 	  },
@@ -1333,17 +1333,17 @@ const carousel16 = {
 	logo: '../../public/img/marcas/linea_21.png',
 	images: [
 	  {
-		name: 'C3',
+		name: 'Cocina',
 		path: '../../img/proyectos/LINEA 21_PRADA21/C3.png',
 		classnames: '',
 	  },
 	  {
-		name: 'D3',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/LINEA 21_PRADA21/D3.png',
 		classnames: '',
 	  },
 	  {
-		name: 'D5',
+		name: 'Dormitorio Secundario',
 		path: '../../img/proyectos/LINEA 21_PRADA21/D5.png',
 		classnames: '',
 	  },
@@ -1353,7 +1353,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'S2',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/LINEA 21_PRADA21/S2.png',
 		classnames: '',
 	  },
@@ -1369,12 +1369,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Patio 2',
+		name: 'Patio',
 		path: '../../img/proyectos/MARCAN_LLANO ZAPATA/PATIO(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Patio 3',
+		name: 'Patio',
 		path: '../../img/proyectos/MARCAN_LLANO ZAPATA/PATIO(3).webp',
 		classnames: '',
 	  },
@@ -1384,17 +1384,17 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 3',
+		name: 'Sala ',
 		path: '../../img/proyectos/MARCAN_LLANO ZAPATA/SALA3.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 4',
+		name: 'Sala ',
 		path: '../../img/proyectos/MARCAN_LLANO ZAPATA/SALA4.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 2',
+		name: 'Sala Comedor ',
 		path: '../../img/proyectos/MARCAN_LLANO ZAPATA/SALACOMEDOR2.webp',
 		classnames: '',
 	  },
@@ -1404,7 +1404,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Vista Exterior 1',
+		name: 'Vista Exterior ',
 		path: '../../img/proyectos/MARCAN_LLANO ZAPATA/VISTAEXT1.webp',
 		classnames: '',
 	  },
@@ -1430,12 +1430,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Frontal Final',
+		name: 'Fachada Frontal ',
 		path: '../../img/proyectos/MARCAN_POD/FRONTALFINAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Lateral Final',
+		name: 'Fachada Lateral ',
 		path: '../../img/proyectos/MARCAN_POD/LATERALFINAL.webp',
 		classnames: '',
 	  },
@@ -1445,7 +1445,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Lobby Vivienda Alta',
+		name: 'Lobby Vivienda ',
 		path: '../../img/proyectos/MARCAN_POD/LOBBYVIVIENDAALTA.webp',
 		classnames: '',
 	  },
@@ -1486,12 +1486,12 @@ const carousel16 = {
 	logo: '../../public/img/marcas/MARCAN.png',
 	images: [
 	  {
-		name: 'R6000 SUM',
+		name: 'SUM',
 		path: '../../img/proyectos/MARCAN_R6000/210916R6000SUM.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'R6000 SJ01',
+		name: 'Sala',
 		path: '../../img/proyectos/MARCAN_R6000/210917R6000SJ01.webp',
 		classnames: '',
 	  },
@@ -1501,27 +1501,27 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'F9',
+		name: 'Fachada',
 		path: '../../img/proyectos/MARCAN_R6000/F9.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Montaje Final',
+		name: 'Fachada ',
 		path: '../../img/proyectos/MARCAN_R6000/MONTAJEFINAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'R6000 Final',
+		name: 'Fachada',
 		path: '../../img/proyectos/MARCAN_R6000/R6000FINAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'SUM Primer Piso',
+		name: 'SUM ',
 		path: '../../img/proyectos/MARCAN_R6000/SUMPRIMERPISO.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Terraza Piso 8',
+		name: 'Terraza ',
 		path: '../../img/proyectos/MARCAN_R6000/TERRAZAPISO8.webp',
 		classnames: '',
 	  },
@@ -1542,7 +1542,7 @@ const carousel16 = {
 	logo: '../../public/img/marcas/MODULAR.jpg',
 	images: [
 	  {
-		name: 'Mendiburú',
+		name: 'Fachada',
 		path: '../../img/proyectos/MODULAR_MENDIBURÚ/MENDIBURÚ.webp',
 		classnames: '',
 	  },
@@ -1553,27 +1553,27 @@ const carousel16 = {
 	logo: '../../public/img/marcas/MORADA.png',
 	images: [
 	  {
-		name: 'Morada Baño Principal',
+		name: 'Baño Principal',
 		path: '../../img/proyectos/MORADA_PARDO664/MORADA_BAÑOPRINC(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Morada Cocina',
+		name: 'Cocina',
 		path: '../../img/proyectos/MORADA_PARDO664/MORADA_COCINA(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Morada Dormitorio Principal',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/MORADA_PARDO664/MORADA_DORMITORIOPRINCIPAL(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Morada Dormitorio Secundario',
+		name: 'Dormitorio Secundario',
 		path: '../../img/proyectos/MORADA_PARDO664/MORADA_DORMSEC(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Morada Sala Comedor',
+		name: 'Sala Comedor',
 		path: '../../img/proyectos/MORADA_PARDO664/MORADA_SALACOMEDOR(2).webp',
 		classnames: '',
 	  },
@@ -1586,12 +1586,12 @@ const carousel16 = {
 	logo: '../../public/img/marcas/NOVABILDIN.png',
 	images: [
 	  {
-		name: 'AC5',
+		name: 'Coworking',
 		path: '../../img/proyectos/NOVABILDIN_HENKO/AC5.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Departamento',
+		name: 'Sala',
 		path: '../../img/proyectos/NOVABILDIN_HENKO/DPTO.webp',
 		classnames: '',
 	  },
@@ -1601,17 +1601,17 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'F2',
+		name: 'Fachada Diurna',
 		path: '../../img/proyectos/NOVABILDIN_HENKO/F2.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Henkonoche',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/NOVABILDIN_HENKO/HENKONOCHE_.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Henkos',
+		name: 'Ingreso',
 		path: '../../img/proyectos/NOVABILDIN_HENKO/HENKOS.webp',
 		classnames: '',
 	  },
@@ -1621,7 +1621,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'L1',
+		name: 'Lobby',
 		path: '../../img/proyectos/NOVABILDIN_HENKO/L1.webp',
 		classnames: '',
 	  },
@@ -1637,17 +1637,17 @@ const carousel16 = {
 	logo: '../../public/img/marcas/NOVABILDIN.png',
 	images: [
 	  {
-		name: 'Diurna',
+		name: 'Fachada Diurna',
 		path: '../../img/proyectos/NOVABILDIN_SONHOS/DIURNA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Nocturna',
+		name: 'Fachada Nocturna',
 		path: '../../img/proyectos/NOVABILDIN_SONHOS/NOCTURNA(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sonhos',
+		name: 'Ingreso',
 		path: '../../img/proyectos/NOVABILDIN_SONHOS/SONHOS.webp',
 		classnames: '',
 	  },
@@ -1663,12 +1663,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Vista Interior 1',
+		name: 'Vista Interior ',
 		path: '../../img/proyectos/OMNIVEST_RESIDENZA CASTAGNI/Vistainterna1(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Vista Interior 2',
+		name: 'Vista Interior ',
 		path: '../../img/proyectos/OMNIVEST_RESIDENZA CASTAGNI/Vistainterna2(1).webp',
 		classnames: '',
 	  },
@@ -1684,32 +1684,32 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Exterior 1',
+		name: 'Exterior ',
 		path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/EXTERIOR1.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Exterior 2',
+		name: 'Exterior',
 		path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/EXTERIOR2.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Frontal',
+		name: 'Fachada Frontal',
 		path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/FRONTAL.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Interior 1',
+		name: 'Interior ',
 		path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/INTERIOR1.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Interior 2',
+		name: 'Interior ',
 		path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/INTERIOR2.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Interior 3',
+		name: 'Cocina Comedor',
 		path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/INTERIOR3.webp',
 		classnames: '',
 	  },
@@ -1720,42 +1720,42 @@ const carousel16 = {
 	logo: '',
 	images: [
 	  {
-		name: 'D5 Image56',
+		name: 'Coworking',
 		path: '../../img/proyectos/QATA_GTD/D5_Image56_20230223_073630.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image57',
+		name: 'Coworking',
 		path: '../../img/proyectos/QATA_GTD/D5_Image57_20230223_073231.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image58',
+		name: 'Sala de Espera',
 		path: '../../img/proyectos/QATA_GTD/D5_Image58_20230223_072833(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image62',
+		name: 'Sala de Espera',
 		path: '../../img/proyectos/QATA_GTD/D5_Image62_20230223_071154.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image67',
+		name: 'Coworking',
 		path: '../../img/proyectos/QATA_GTD/D5_Image67_20230223_065405.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image71',
+		name: 'Sala de reuniones',
 		path: '../../img/proyectos/QATA_GTD/D5_Image71_20230223_063908.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image84',
+		name: 'Sala de reuniones',
 		path: '../../img/proyectos/QATA_GTD/D5_Image84_20230223_103653.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'D5 Image85',
+		name: 'Sala de reuniones',
 		path: '../../img/proyectos/QATA_GTD/D5_Image85_20230223_103332.webp',
 		classnames: '',
 	  },
@@ -1773,37 +1773,37 @@ const carousel16 = {
 	logo: '../../public/img/marcas/QUADRAT.png',
 	images: [
 	  {
-		name: 'Cocina Duplex',
+		name: 'Cocina ',
 		path: '../../img/proyectos/QUADRAT_SILICE/COCINADUPLEX_PUMACAHUA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 75mts',
+		name: 'Cocina',
 		path: '../../img/proyectos/QUADRAT_SILICE/COCINA_75MTS(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dormitorio Principal 65mts',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/QUADRAT_SILICE/DORMITORIO_PRINCIPAL65MTS(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dorm Niño',
+		name: 'Dormitorio Secundario',
 		path: '../../img/proyectos/QUADRAT_SILICE/DORMNIÑO_PUMACAHUA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Dorm Principal',
+		name: 'Dormitorio Principal',
 		path: '../../img/proyectos/QUADRAT_SILICE/DORMPRINC_PUMACAHUA_(1).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala 75mts',
+		name: 'Sala ',
 		path: '../../img/proyectos/QUADRAT_SILICE/SALA75MTS_PUMACAHUA.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Sala Comedor 65mts',
+		name: 'Sala Comedor ',
 		path: '../../img/proyectos/QUADRAT_SILICE/SALACOMEDOR65MTS.webp',
 		classnames: '',
 	  },
@@ -1824,17 +1824,17 @@ const carousel16 = {
 	logo: '../../public/img/marcas/rafi_segal.png',
 	images: [
 	  {
-		name: 'ISO',
+		name: 'Maqueta',
 		path: '../../img/proyectos/RAFI SEGAL_CAREHOUSE CHICAGO/ISO(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V1',
+		name: 'Fachada',
 		path: '../../img/proyectos/RAFI SEGAL_CAREHOUSE CHICAGO/V1.webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V2',
+		name: 'Fachada',
 		path: '../../img/proyectos/RAFI SEGAL_CAREHOUSE CHICAGO/V2.webp',
 		classnames: '',
 	  },
@@ -1881,12 +1881,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'V1',
+		name: 'Fachada',
 		path: '../../img/proyectos/SOLAR INMOBILIARIA_SOLDADO CABADA 306/V1(3).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'V2',
+		name: 'Fachada',
 		path: '../../img/proyectos/SOLAR INMOBILIARIA_SOLDADO CABADA 306/V2(5).webp',
 		classnames: '',
 	  },
@@ -2074,12 +2074,12 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Lobby 1',
+		name: 'Lobby ',
 		path: '../../img/proyectos/VIVE PLM_ALIAGA/LOBBY1(2).webp',
 		classnames: '',
 	  },
 	  {
-		name: 'Lobby 2',
+		name: 'Lobby ',
 		path: '../../img/proyectos/VIVE PLM_ALIAGA/LOBBY2(4).webp',
 		classnames: '',
 	  },
@@ -2136,7 +2136,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Cocina 2',
+		name: 'Cocina ',
 		path: '../../img/proyectos/YAIR MAYO_CASA MODELO/COCINA2(1).webp',
 		classnames: '',
 	  },
@@ -2161,7 +2161,7 @@ const carousel16 = {
 		classnames: '',
 	  },
 	  {
-		name: 'Terraza con Poltrona',
+		name: 'Terraza con Poltronas',
 		path: '../../img/proyectos/YAIR MAYO_CASA MODELO/TERRAZA_POLTRONAS(2).webp',
 		classnames: '',
 	  },

@@ -3,7 +3,7 @@ import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
 import cn from 'classnames'
 import Image from 'next/image'
-import banner from '../public/img/miniaturas/1.jpg'
+import banner from '../public/img/miniaturas/marcan_pod.webp'
 import Footer from 'components/Footer'
 import {useAppWidth, useAppQuery} from 'context'
 import Logo from 'components/svgs/Logo'
@@ -30,7 +30,7 @@ const metadata = {
 		'Descubre cómo nuestros renders de arquitectura en Perú transforman tus proyectos arquitectónicos con visualizaciones de alta calidad.',
 	open_graph: {
 		url: 'https://www.visualiza.pe/renders-de-arquitectura',
-		image: '/img/miniaturas/1.jpg',
+		image: '/img/miniaturas/marcan_pod.webp',
 	},
 }
 
@@ -404,7 +404,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="img\proyectos\mendiburu\Fachada.webp"
+												src="img\proyectos\MODULAR_MENDIBURÚ\MENDIBURÚ.webp"
 												alt="Render de arquitectura residencial en San Isidro, Lima"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -430,7 +430,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="img\proyectos\r6000\FACHADA.webp"
+												src="img\proyectos\MARCAN_R6000\R6000FINAL.webp"
 												alt="Render de un centro comercial en Miraflores, Lima"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -450,7 +450,7 @@ export default function Home() {
 										</div>
 									</article>
 								</SwiperSlide>
-								<SwiperSlide>
+								{/* <SwiperSlide>
 									<article className="w-full">
 										<div
 											className="w-full"
@@ -477,7 +477,7 @@ export default function Home() {
 											</div>
 										</div>
 									</article>
-								</SwiperSlide>
+								</SwiperSlide> */}
 								
 							</Swiper>
 						</div>

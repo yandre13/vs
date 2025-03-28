@@ -6,7 +6,7 @@ const data = [
 		id: 1,
 		title: 'Baltazar',
 		place: 'San Isidro, Lima.',
-		date: 'Agosto 2024',
+		date: 'Diciembre 2022',
 		image: miniaturas.image1,
 		alt: 'Render de un edificio residencial en San Isidro, Lima',
 		carousel: carousels.carousel1,
@@ -21,10 +21,10 @@ const data = [
 	},
 	{
 		id: 2,
-		title: 'Acacias',
-		place: '',
-		alt: 'Proyecto de arquitectura para centro comercial en Lima',
-		date: 'Abril 2021',
+		title: 'Acacias 353',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Febrero 2025',
 		image: miniaturas.image2,
 		carousel: carousels.carousel2,
 		styles: {
@@ -39,9 +39,9 @@ const data = [
 	{
 		id: 3,
 		title: 'Rex',
-		place: 'Lima, Perú.',
-		alt: 'Visualización 3D de un complejo turístico en Cusco, Perú',
-		date: 'Julio 2024',
+		place: 'San Martín de Porres, Lima.',
+		alt: 'Render de un edificio comercial y corporativo en San Martín de Porres, Lima',
+		date: 'Noviembre 2021',
 		image: miniaturas.image3,
 		carousel: carousels.carousel3,
 		styles: {
@@ -57,8 +57,8 @@ const data = [
 		id: 4,
 		title: 'Pardo 664',
 		place: 'Miraflores, Lima.',
-		alt: 'Render de un proyecto de oficinas en Miraflores, Lima',
-		date: 'Junio 2024',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Marzo 2025',
 		image: miniaturas.image4,
 		carousel: carousels.carousel4,
 		styles: {
@@ -73,9 +73,9 @@ const data = [
 	{
 		id: 5,
 		title: 'Pod',
-		place: 'Lugano, Suiza.',
-		alt: 'Diseño de interiores para hotel en Lima, Perú',
-		date: 'Mayo 2024',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Febrero 2022',
 		image: miniaturas.image5,
 		carousel: carousels.carousel5,
 		styles: {
@@ -90,9 +90,9 @@ const data = [
 	{
 		id: 6,
 		title: 'Carehouse',
-		place: 'Surco, Lima.',
-		alt: 'Render de un parque urbano en Lima',
-		date: 'Mayo 2024',
+		place: 'Chicago, USA.',
+		alt: 'Render de edificio residencial en Chicago, USA',
+		date: 'Septiembre 2024',
 		image: miniaturas.image6,
 		carousel: carousels.carousel6,
 		styles: {
@@ -106,10 +106,10 @@ const data = [
 	},
 	{
 		id: 7,
-		title: 'Aliaga',
-		place: 'Surco, Lima.',
-		alt: 'Proyecto de arquitectura para casa residencial en Arequipa, Perú',
-		date: 'Abril 2024',
+		title: 'Aliaga 442',
+		place: 'Magdalena del Mar, Lima.',
+		alt: 'Render de edificio residencial en Magdalena del Mar, Lima',
+		date: 'Marzo 2024',
 		image: miniaturas.image7,
 		carousel: carousels.carousel7,
 		styles: {
@@ -123,10 +123,10 @@ const data = [
 	},
 	{
 		id: 8,
-		title: 'Palacios',
-		place: 'Suiza.',
-		alt: 'Visualización 3D de un complejo de departamentos en Lima',
-		date: 'Marzo 2024',
+		title: 'Palacios 406',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Marzo 2025',
 		image: miniaturas.image8,
 		carousel: carousels.carousel8,
 		styles: {
@@ -140,10 +140,10 @@ const data = [
 	},
 	{
 		id: 9,
-		title: 'Bregassona',
-		place: 'San Isidro, Lima.',
-		alt: 'Render de un proyecto educativo en San Borja, Lima',
-		date: 'Febrero 2024',
+		title: 'Pregassona',
+		place: 'Pregassona, Suiza.',
+		alt: 'Render de un edificio residencial en Pregassona, Suiza',
+		date: 'Noviembre 2024',
 		image: miniaturas.image9,
 		carousel: carousels.carousel9,
 		styles: {
@@ -157,10 +157,10 @@ const data = [
 	},
 	{
 		id: 10,
-		title: 'Monte Alegre',
-		place: 'Miraflores, Lima.',
-		alt: 'Proyecto de arquitectura para un hospital en Lima, Perú',
-		date: 'Diciembre 2023',
+		title: 'Monte Alegre 137',
+		place: 'Chacarilla del Estanque, Lima.',
+		alt: 'Render de un edificio residencial en Chacarilla, Lima',
+		date: 'Septiembre 2024',
 		image: miniaturas.image10,
 		carousel: carousels.carousel10,
 		styles: {
@@ -175,9 +175,9 @@ const data = [
 	{
 		id: 11,
 		title: 'Jacinto de Lara',
-		place: 'Santa Catalina, Lima.',
-		alt: 'Diseño de una tienda comercial en Lima',
-		date: 'Diciembre 2023',
+		place: 'San Isidro, Lima.',
+		alt: 'Render de un edificio residencial en San Isidro, Lima',
+		date: 'Octubre 2024 ',
 		image: miniaturas.image11,
 		carousel: carousels.carousel11,
 		styles: {
@@ -191,10 +191,10 @@ const data = [
 	},
 	{
 		id: 12,
-		title: 'Porta',
-		place: 'Asunción, Paraguay.',
-		alt: 'Render de un restaurante en Lima, Perú',
-		date: 'Diciembre 2023',
+		title: 'Porta 360',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Agosto 2024',
 		image: miniaturas.image12,
 		carousel: carousels.carousel12,
 		styles: {
@@ -208,10 +208,10 @@ const data = [
 	},
 	{
 		id: 13,
-		title: 'Pardo',
-		place: 'San Isidro, Lima.',
-		alt: 'Visualización 3D de un museo en Cusco, Perú',
-		date: 'Noviembre 2023',
+		title: 'Pardo Coast',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de edificio residencial en Miraflores, Lima',
+		date: 'Junio 2024',
 		image: miniaturas.image13,
 		carousel: carousels.carousel13,
 		styles: {
@@ -225,10 +225,10 @@ const data = [
 	},
 	{
 		id: 14,
-		title: 'Silice',
-		place: 'Lince, Lima.',
-		alt: 'Proyecto de arquitectura para oficinas corporativas en Lima',
-		date: 'Octubre 2023',
+		title: 'Silicce',
+		place: 'La Molina, Lima.',
+		alt: 'Render de edificio residencial en La Molina, Lima',
+		date: 'Enero 2025',
 		image: miniaturas.image14,
 		carousel: carousels.carousel14,
 		styles: {
@@ -242,10 +242,10 @@ const data = [
 	},
 	{
 		id: 15,
-		title: 'Eten 1',
-		place: 'San Borja, Lima.',
-		alt: 'Render de un centro deportivo en Lima',
-		date: 'Octubre 2023',
+		title: 'Eten 01',
+		place: 'Punta Hermosa, Lima.',
+		alt: 'Render de edificio residencial en Punta Hermosa, Lima',
+		date: 'Febrero 2025',
 		image: miniaturas.image15,
 		carousel: carousels.carousel15,
 		styles: {
@@ -260,9 +260,9 @@ const data = [
 	{
 		id: 16,
 		title: 'Catleya',
-		place: 'San Isidro, Lima.',
-		alt: 'Diseño arquitectónico de un aeropuerto en Perú',
-		date: 'Septiembre 2023',
+		place: 'Magdalena del Mar, Lima.',
+		alt: 'Render de un edificio residencial en Magdalena del Mar, Lima',
+		date: 'Marzo 2025',
 		image: miniaturas.image16,
 		carousel: carousels.carousel16,
 		styles: {
@@ -277,9 +277,9 @@ const data = [
 	{
 		id: 17,
 		title: 'Lirios',
-		place: 'Madrid, España.',
-		alt: 'Visualización 3D de un proyecto residencial en Lima',
-		date: 'Julio 2023',
+		place: 'Lince, Lima.',
+		alt: 'Render de un edificio residencial en Lince, Lima',
+		date: 'Octubre 2024',
 		image: miniaturas.image17,
 		carousel: carousels.carousel17,
 		styles: {
@@ -293,10 +293,10 @@ const data = [
 	},
 	{
 		id: 18,
-		title: 'Flora 21',
-		place: 'Surco, Lima.',
-		alt: 'Render de una clínica en Miraflores, Lima',
-		date: 'Julio 2023',
+		title: 'Tristán 21',
+		place: 'Magdalena del Mar, Lima.',
+		alt: 'Render de un edificio residencial en Magdalena del Mar, Lima',
+		date: 'Junio 2024',
 		image: miniaturas.image18,
 		carousel: carousels.carousel18,
 		styles: {
@@ -310,10 +310,10 @@ const data = [
 	},
 	{
 		id: 19,
-		title: 'Ugarte y Moscoso',
-		place: 'Magdalena del Mar, Lima.',
-		alt: 'Proyecto de arquitectura para un centro cultural en Lima',
-		date: 'Julio 2023',
+		title: 'Pasaje Ugarte y Moscoso',
+		place: 'San Isidro, Lima.',
+		alt: 'Render de un edificio residencial en San Isidro, Lima',
+		date: 'Noviembre 2024',
 		image: miniaturas.image19,
 		carousel: carousels.carousel19,
 		styles: {
@@ -327,10 +327,10 @@ const data = [
 	},
 	{
 		id: 20,
-		title: 'Arequipa',
-		place: 'Santa Beatriz, Lima.',
-		alt: 'Diseño de una escuela en Lima, Perú',
-		date: 'Julio 2023',
+		title: 'Arequipa Avenue 4015',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Junio 2024',
 		image: miniaturas.image20,
 		carousel: carousels.carousel20,
 		styles: {
@@ -344,10 +344,10 @@ const data = [
 	},
 	{
 		id: 21,
-		title: 'Morales',
-		place: 'Miraflores, Lima.',
-		alt: 'Render de un complejo de oficinas en San Isidro, Lima',
-		date: 'Mayo 2023',
+		title: 'Morales 144',
+		place: 'San Isidro, Lima.',
+		alt: 'Render de un edificio residencial en San Isidro, Lima',
+		date: 'Marzo 2025',
 		image: miniaturas.image21,
 		carousel: carousels.carousel21,
 		styles: {
@@ -361,10 +361,10 @@ const data = [
 	},
 	{
 		id: 22,
-		title: 'Gema',
-		place: 'Lima.',
-		alt: 'Visualización 3D de una planta industrial en Perú',
-		date: 'Mayo 2023',
+		title: 'Gemma',
+		place: 'San Isidro, Lima.',
+		alt: 'Render de un edificio residencial en San Isidro, Lima',
+		date: 'Diciembre 2023',
 		image: miniaturas.image22,
 		carousel: carousels.carousel22,
 		styles: {
@@ -379,9 +379,9 @@ const data = [
 	{
 		id: 23,
 		title: 'Benicalap',
-		place: 'Suiza.',
-		alt: 'Proyecto de arquitectura para un hotel en Cusco',
-		date: 'Marzo 2023',
+		place: 'Valencia, España.',
+		alt: 'Render de un edificio residencial en Valencia, España',
+		date: 'Octubre 2024',
 		image: miniaturas.image23,
 		carousel: carousels.carousel23,
 		styles: {
@@ -395,10 +395,10 @@ const data = [
 	},
 	{
 		id: 24,
-		title: 'Libertad',
-		place: 'Azpitia.',
-		alt: 'Render de un condominio residencial en Lima, Perú',
-		date: 'Marzo 2023',
+		title: 'Edificio Libertad',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial y corporativo en Miraflores, Lima',
+		date: 'Noviembre 2024',
 		image: miniaturas.image24,
 		carousel: carousels.carousel24,
 		styles: {
@@ -412,10 +412,10 @@ const data = [
 	},
 	{
 		id: 25,
-		title: 'R6000',
-		place: 'París.',
-		alt: 'Diseño arquitectónico de un centro de convenciones en Lima',
-		date: 'Diciembre 2022',
+		title: 'Roosevelt 6000',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial y corporativo en Miraflores, Lima',
+		date: 'Septiembre 2022',
 		image: miniaturas.image25,
 		carousel: carousels.carousel25,
 		styles: {
@@ -430,9 +430,9 @@ const data = [
 	{
 		id: 26,
 		title: 'Magallanes',
-		place: 'Miraflores, Lima.',
-		alt: 'Visualización 3D de una biblioteca en Lima, Perú',
-		date: 'Junio 2022',
+		place: 'Asunción, Paraguay.',
+		alt: 'Render de un edificio residencial en Asunción, Paraguay',
+		date: 'Abril 2024',
 		image: miniaturas.image26,
 		carousel: carousels.carousel26,
 		styles: {
@@ -447,9 +447,9 @@ const data = [
 	{
 		id: 27,
 		title: 'Henko',
-		place: 'Barranco, Lima.',
-		alt: 'Render de un centro comercial en San Miguel, Lima',
-		date: 'Junio 2022',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Febrero 2023',
 		image: miniaturas.image27,
 		carousel: carousels.carousel27,
 		styles: {
@@ -464,9 +464,9 @@ const data = [
 	{
 		id: 28,
 		title: 'Prada 21',
-		place: 'San Isidro, Lima.',
-		alt: 'Proyecto de arquitectura para un estadio en Lima, Perú',
-		date: 'Mayo 2022',
+		place: 'Magdalena del Mar, Lima.',
+		alt: 'Render de un edificio residencial en Magdalena del Mar, Lima',
+		date: 'Abril 2022',
 		image: miniaturas.image28,
 		carousel: carousels.carousel28,
 		styles: {
@@ -481,9 +481,9 @@ const data = [
 	{
 		id: 29,
 		title: 'Residenza Castagni',
-		place: 'Barranco, Lima.',
-		alt: 'Diseño de interiores para un restaurante en Lima',
-		date: '2022',
+		place: 'Minusio, Suiza.',
+		alt: 'Render de un edificio residencial en Minusio, Suiza',
+		date: 'Marzo 2023',
 		image: miniaturas.image29,
 		carousel: carousels.carousel29,
 		styles: {
@@ -498,9 +498,9 @@ const data = [
 	{
 		id: 30,
 		title: 'Insert',
-		place: 'Miraflores, Lima.',
-		alt: 'Render de un edificio corporativo en San Isidro, Lima',
-		date: 'Noviembre 2021',
+		place: 'San Borja, Lima.',
+		alt: 'Render de un edificio residencial en San Borja, Lima',
+		date: 'Enero 2024',
 		image: miniaturas.image30,
 		carousel: carousels.carousel30,
 		styles: {
@@ -514,10 +514,10 @@ const data = [
 	},
 	{
 		id: 31,
-		title: 'Llano Zapata',
-		place: 'Arequipa.',
-		alt: 'Visualización 3D de un parque industrial en Lima, Perú',
-		date: '2021',
+		title: 'Llano Zapata 430',
+		place: 'San Isidro, Lima.',
+		alt: 'Render de un edificio residencial en San Isidro, Lima',
+		date: 'Julio 2024',
 		image: miniaturas.image31,
 		carousel: carousels.carousel31,
 		styles: {
@@ -532,10 +532,10 @@ const data = [
 	{
 		id: 32,
 		title: 'Casa Modelo',
-		place: 'San Isidro, Lima.',
-		date: 'Abril 2021',
+		place: 'Miami, USA.',
+		date: 'Enero 2025',
 		image: miniaturas.image32,
-		alt: 'Render de un edificio residencial en San Isidro, Lima',
+		alt: 'Render de edificio residencial en Miami, USA',
 		carousel: carousels.carousel32,
 		styles: {
 			xl: { mt: -8, ml: 1 },
@@ -549,9 +549,9 @@ const data = [
 	{
 		id: 33,
 		title: 'Málaga',
-		place: 'Barranco, Lima.',
-		alt: 'Proyecto de arquitectura para centro comercial en Lima',
-		date: 'Abril 2021',
+		place: 'Málaga, San Miguel.',
+		alt: 'Render de un edificio residencial en San Miguel, Lima',
+		date: 'Diciembre 2024',
 		image: miniaturas.image33,
 		carousel: carousels.carousel33,
 		styles: {
@@ -565,10 +565,10 @@ const data = [
 	},
 	{
 		id: 34,
-		title: 'Vasquez de Mella',
-		place: 'San Borja, Lima.',
-		alt: 'Visualización 3D de un complejo turístico en Cusco, Perú',
-		date: 'Junio 2021',
+		title: 'Vázquez de Mella',
+		place: 'Madrid, España.',
+		alt: 'Render de un edificio residencial en Madrid, España',
+		date: 'Julio 2023',
 		image: miniaturas.image34,
 		carousel: carousels.carousel34,
 		styles: {
@@ -583,9 +583,9 @@ const data = [
 	{
 		id: 35,
 		title: 'Incario',
-		place: 'San Isidro, Lima.',
-		alt: 'Render de un proyecto de oficinas en Miraflores, Lima',
-		date: 'Julio 2021',
+		place: 'Santiago de Sucro, Lima.',
+		alt: 'Render de un edificio residencial en Santiago de Sucro, Lima',
+		date: 'Junio 2024',
 		image: miniaturas.image35,
 		carousel: carousels.carousel35,
 		styles: {
@@ -599,10 +599,10 @@ const data = [
 	},
 	{
 		id: 36,
-		title: '28 de julio',
+		title: '28 de julio 1365',
 		place: 'Miraflores, Lima.',
-		alt: 'Diseño de interiores para hotel en Lima, Perú',
-		date: 'Noviembre 2020',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Enero 2023',
 		image: miniaturas.image36,
 		carousel: carousels.carousel36,
 		styles: {
@@ -617,9 +617,9 @@ const data = [
 	{
 		id: 37,
 		title: 'Botanika',
-		place: 'Callao.',
-		alt: 'Render de un parque urbano en Lima',
-		date: 'Junio 2018',
+		place: 'Jesús María, Lima.',
+		alt: 'Render de edificio residencial en Jesús María, Lima',
+		date: 'Noviembre 2023',
 		image: miniaturas.image37,
 		carousel: carousels.carousel37,
 		styles: {
@@ -634,9 +634,9 @@ const data = [
 	{
 		id: 38,
 		title: 'Mar de Plata',
-		place: 'Breña, Lima.',
-		alt: 'Proyecto de arquitectura para casa residencial en Arequipa, Perú',
-		date: 'Julio 2020',
+		place: 'Magdalena del Mar, Lima.',
+		alt: 'Render de un edificio residencial en Magdalena del Mar, Lima',
+		date: 'Diciembre 2023',
 		image: miniaturas.image38,
 		carousel: carousels.carousel38,
 		styles: {
@@ -651,9 +651,9 @@ const data = [
 	{
 		id: 39,
 		title: 'Nius',
-		place: 'Miraflores, Lima.',
-		alt: 'Visualización 3D de un complejo de departamentos en Lima',
-		date: 'Marzo 2021',
+		place: 'Magdalena del Mar, Lima.',
+		alt: 'Render de edificio residencial en Magdalena del Mar, Lima',
+		date: 'Septiembre 2023',
 		image: miniaturas.image39,
 		carousel: carousels.carousel39,
 		styles: {
@@ -667,10 +667,10 @@ const data = [
 	},
 	{
 		id: 40,
-		title: 'Dalias',
-		place: 'Bujama, Mala.',
-		alt: 'Render de un proyecto educativo en San Borja, Lima',
-		date: 'Noviembre 2019',
+		title: 'Las Dalias',
+		place: 'Santa Beatriz, Lima.',
+		alt: 'Render de un edificio residencial en Santa Beatriz, Lima',
+		date: 'Febrero 2024',
 		image: miniaturas.image40,
 		carousel: carousels.carousel40,
 		styles: {
@@ -685,9 +685,9 @@ const data = [
 	{
 		id: 41,
 		title: 'GTD',
-		place: 'Miraflores, Lima.',
-		alt: 'Proyecto de arquitectura para un hospital en Lima, Perú',
-		date: 'Marzo 2021',
+		place: 'Santiago de Surco, Lima.',
+		alt: 'Render de espacios corporativos en Santiago de Surco, Lima',
+		date: 'Marzo 2024',
 		image: miniaturas.image41,
 		carousel: carousels.carousel41,
 		styles: {
@@ -702,9 +702,9 @@ const data = [
 	{
 		id: 42,
 		title: 'Amara',
-		place: 'Lince, Lima.',
-		alt: 'Diseño de una tienda comercial en Lima',
-		date: 'Marzo 2021',
+		place: 'Santiago de Surco, Lima.',
+		alt: 'Render de un edificio residencial en Santiago de Surco, Lima',
+		date: 'Agosto 2023',
 		image: miniaturas.image42,
 		carousel: carousels.carousel42,
 		styles: {
@@ -720,8 +720,8 @@ const data = [
 		id: 43,
 		title: 'Sáenz Peña',
 		place: 'Barranco, Lima.',
-		alt: 'Render de un restaurante en Lima, Perú',
-		date: 'Junio 2021',
+		alt: 'Render de un edificio residencial en Barranco, Lima',
+		date: 'Julio 2023',
 		image: miniaturas.image43,
 		carousel: carousels.carousel43,
 		styles: {
@@ -736,9 +736,9 @@ const data = [
 	{
 		id: 44,
 		title: 'Kava',
-		place: 'Miraflores, Lima.',
-		alt: 'Visualización 3D de un museo en Cusco, Perú',
-		date: 'Agosto 2020',
+		place: 'Santiago de Surco, Lima.',
+		alt: 'Render de un edificio residencial en Santiago de Sucro, Lima',
+		date: 'Marzo 2025',
 		image: miniaturas.image44,
 		carousel: carousels.carousel44,
 		styles: {
@@ -753,9 +753,9 @@ const data = [
 	{
 		id: 45,
 		title: 'Mendiburú',
-		place: 'San Isidro, Lima.',
-		alt: 'Proyecto de arquitectura para oficinas corporativas en Lima',
-		date: 'Febrero 2021',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Febrero 2023',
 		image: miniaturas.image45,
 		carousel: carousels.carousel45,
 		styles: {
@@ -770,9 +770,9 @@ const data = [
 	{
 		id: 46,
 		title: 'MMXX',
-		place: 'Chincha.',
-		alt: 'Render de un centro deportivo en Lima',
-		date: 'Diciembre 2020',
+		place: 'Barranco, Lima.',
+		alt: 'Render de un edificio residencial en Barranco, Lima',
+		date: 'Diciembre 2021',
 		image: miniaturas.image46,
 		carousel: carousels.carousel46,
 		styles: {
@@ -786,10 +786,10 @@ const data = [
 	},
 	{
 		id: 47,
-		title: 'Toribio',
-		place: '',
-		alt: 'Diseño arquitectónico de un aeropuerto en Perú',
-		date: 'Diciembre 2020',
+		title: 'Toribio Polo 322',
+		place: 'Miraflores, Lima',
+		alt: 'Render de un edificio residencial y comercial en Miraflores, Lima',
+		date: 'Noviembre 2024',
 		image: miniaturas.image47,
 		carousel: carousels.carousel47,
 		styles: {
@@ -804,9 +804,9 @@ const data = [
 	{
 		id: 48,
 		title: 'La Coruña',
-		place: 'San Isidro, Lima.',
-		alt: 'Visualización 3D de un proyecto residencial en Lima',
-		date: 'Julio 2021',
+		place: 'Santiago de Surco, Lima.',
+		alt: 'Render de un edificio residencial en Santiago de Surco, Lima',
+		date: 'Mayo 2023',
 		image: miniaturas.image48,
 		carousel: carousels.carousel48,
 		styles: {
@@ -821,9 +821,9 @@ const data = [
 	{
 		id: 49,
 		title: 'Soldado Cabada 306',
-		place: 'San Isidro, Lima.',
-		alt: 'Render de una clínica en Miraflores, Lima',
-		date: 'Mayo 2021',
+		place: 'Barranco, Lima.',
+		alt: 'Render de edificio residencial en Barranco, Lima',
+		date: 'Julio 2021',
 		image: miniaturas.image49,
 		carousel: carousels.carousel49,
 		styles: {
@@ -855,9 +855,9 @@ const data = [
 	{
 		id: 51,
 		title: 'Sonhos',
-		place: 'Cieneguilla, Lima.',
-		alt: 'Diseño de una escuela en Lima, Perú',
-		date: 'Noviembre 2020',
+		place: 'Miraflores, Lima.',
+		alt: 'Render de un edificio residencial en Miraflores, Lima',
+		date: 'Diciembre 2022',
 		image: miniaturas.image51,
 		carousel: carousels.carousel51,
 		styles: {
@@ -872,9 +872,9 @@ const data = [
 	{
 		id: 52,
 		title: 'Inclán 21',
-		place: '',
-		alt: 'Render de un complejo de oficinas en San Isidro, Lima',
-		date: '2019 - 2021',
+		place: 'Magdalena del Mar, Lima',
+		alt: 'Render de un edificio residencial en Magdalena del Mar, Lima',
+		date: 'Octubre 2023',
 		image: miniaturas.image52,
 		carousel: carousels.carousel52,
 		styles: {
@@ -888,9 +888,9 @@ const data = [
 	},
 	{
 		id: 53,
-		title: 'Oxapampa',
-		place: 'Pucusana.',
-		alt: 'Visualización 3D de una planta industrial en Perú',
+		title: 'Bungalows Oxapampa',
+		place: 'Oxapampa, Perú.',
+		alt: 'Render de bungalows en Oxapampa, Perú',
 		date: 'Febrero 2021',
 		image: miniaturas.image53,
 		carousel: carousels.carousel53,

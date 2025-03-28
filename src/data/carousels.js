@@ -1,6 +1,6 @@
 // carousel1
 const carousel1 = {
-	logo: '../../public/img/marcas/malaga.png',
+	logo: '../../img/marcas/malaga.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Exterior', path: '../../img/proyectos/MÁLAGA_BALTAZAR/FACHADAEXTERIOR.webp', classnames: '' },
@@ -17,7 +17,7 @@ const carousel1 = {
   
   // carousel2
   const carousel2 = {
-	logo: '../../public/img/marcas/EDIFICA.png',
+	logo: '../../img/marcas/EDIFICA.png',
 	images: [
 	  // Áreas comunes
 	  { name: 'Lobby 1', path: '../../img/proyectos/EDIFICA_ACACIAS/LOBBY1(1).webp', classnames: '' },
@@ -28,7 +28,7 @@ const carousel1 = {
   
   // carousel3
   const carousel3 = {
-	logo: '../../public/img/marcas/FD_ARQ.jpg',
+	logo: '../../img/marcas/FD_ARQ.jpg',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Externa', path: '../../img/proyectos/FD ARQUITECTOS_REX/FACHADAEXTERNAFINAL.webp', classnames: '' },
@@ -42,7 +42,7 @@ const carousel1 = {
   
   // carousel16
   const carousel16 = {
-	logo: '../../public/img/marcas/ABRIL.png',
+	logo: '../../img/marcas/ABRIL.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/ABRIL INMOBILIARIA_CATLEYA/FRONTAL.webp', classnames: '' },
@@ -61,7 +61,7 @@ const carousel1 = {
   
   // carousel44
   const carousel44 = {
-	logo: '../../public/img/marcas/ABRIL.png',
+	logo: '../../img/marcas/ABRIL.png',
 	images: [
 		// Grupo 3: Áreas comunes
 		{ name: 'Fachada Diurna', path: '../../img/proyectos/ABRIL INMOBILIARIA_KAVA/DIURNA(1).webp', classnames: '' },
@@ -85,7 +85,7 @@ const carousel1 = {
   
   // carousel19
   const carousel19 = {
-	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada ', path: '../../img/proyectos/ARMANDO PAREDES_ UGARTE Y MOSCOSO/FACHADAUYM(2).webp', classnames: '' },
@@ -99,7 +99,7 @@ const carousel1 = {
   
   // carousel35
   const carousel35 = {
-	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  // Grupo 4: Interiores
 	  { name: 'Sala Comedor', path: '../../img/proyectos/ARMANDO PAREDES_INCARIO/SALACOMEDOR(8).webp', classnames: '' },
@@ -111,7 +111,7 @@ const carousel1 = {
   
   // carousel24
   const carousel24 = {
-	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada ', path: '../../img/proyectos/ARMANDO PAREDES_LIBERTAD/FACHADA_V1FINALRGB.webp', classnames: '' },
@@ -128,7 +128,7 @@ const carousel1 = {
   
   // carousel43
   const carousel43 = {
-	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  { name: 'Fachada', path: '../../img/proyectos/ARMANDO PAREDES_SAENZ PEÑA/F5.webp', classnames: '' },
 	]
@@ -136,7 +136,7 @@ const carousel1 = {
   
   // carousel47
   const carousel47 = {
-	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 		{ name: 'Vista Atardecer', path: '../../img/proyectos/ARMANDO PAREDES_TORIBIO/VISTAATARDECER.webp', classnames: '' },
 		// Grupo 3: Áreas comunes
@@ -153,7 +153,7 @@ const carousel1 = {
   
   // carousel38
   const carousel38 = {
-	logo: '../../public/img/marcas/ARMANDO_PAREDES.jpg',
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/ARMHONY_MAR DE PLATA/CROPFACHADA.webp', classnames: '' },
@@ -170,7 +170,7 @@ const carousel1 = {
   
   // carousel9
   const carousel9 = {
-	logo: '../../public/img/marcas/ASCOLUX.png',
+	logo: '../../img/marcas/ASCOLUX.png',
 	images: [
 		// Grupo 5: Otros
 		{ name: 'Vista Aérea', path: '../../img/proyectos/ASCOLUX_BREGASSONA/VISTAAEREA.webp', classnames: '' },
@@ -189,7 +189,7 @@ const carousel1 = {
   
   // carousel33
   const carousel33 = {
-	logo: '../../public/img/marcas/CADIZ.png',
+	logo: '../../img/marcas/CADIZ.png',
 	images: [
 		{ name: 'Vista Diurna', path: '../../img/proyectos/CADIZ INMB_MÁLAGA/VISTADIURNA(1).webp', classnames: '' },
 		{ name: 'Vista Nocturna', path: '../../img/proyectos/CADIZ INMB_MÁLAGA/VISTANOCTURNA(4).webp', classnames: '' },
@@ -207,7 +207,7 @@ const carousel1 = {
   
   // carousel23
   const carousel23 = {
-	logo: '../../public/img/marcas/CARETCAPITAL.png',
+	logo: '../../img/marcas/CARETCAPITAL.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/CARET CAPITAL_BENICALAP/FACHADA(6).webp', classnames: '' },
@@ -225,7 +225,7 @@ const carousel1 = {
   
   // carousel34
   const carousel34 = {
-	logo: '../../public/img/marcas/CARETCAPITAL.png',
+	logo: '../../img/marcas/CARETCAPITAL.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/CARET CAPITAL_VASQUEZ DE MELLA/FACHADAFRONTAL(1)(1).webp', classnames: '' },
@@ -245,7 +245,7 @@ const carousel1 = {
   
   // carousel40
   const carousel40 = {
-	logo: '../../public/img/marcas/CHECOR.png',
+	logo: '../../img/marcas/CHECOR.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/CHECOR_DALIAS/F1.webp', classnames: '' },
@@ -261,7 +261,7 @@ const carousel1 = {
   
   // carousel17
   const carousel17 = {
-	logo: '../../public/img/marcas/CHECOR.png',
+	logo: '../../img/marcas/CHECOR.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Diurna', path: '../../img/proyectos/CHECOR_LIRIOS/DIA(2).webp', classnames: '' },
@@ -284,7 +284,7 @@ const carousel1 = {
   
   // carousel50
   const carousel50 = {
-	logo: '../../public/img/marcas/CHECOR.png',
+	logo: '../../img/marcas/CHECOR.png',
 	images: [
 	  { name: 'Sala de Estar', path: '../../img/proyectos/CHECOR_MAGNOLIAS/AC3.webp', classnames: '' },
 	  { name: 'Cocina Comedor', path: '../../img/proyectos/CHECOR_MAGNOLIAS/AC4.webp', classnames: '' },
@@ -294,7 +294,7 @@ const carousel1 = {
   
   // carousel12
   const carousel12 = {
-	logo: '../../public/img/marcas/CHECOR.png',
+	logo: '../../img/marcas/CHECOR.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Diurna', path: '../../img/proyectos/CHECOR_PORTA/DIURNA(1).webp', classnames: '' },
@@ -315,7 +315,7 @@ const carousel1 = {
   
   // carousel42
   const carousel42 = {
-	logo: '../../public/img/marcas/conforta.png',
+	logo: '../../img/marcas/conforta.png',
 	images: [
 	  // Grupo 3: Áreas comunes
 	  { name: 'Lobby', path: '../../img/proyectos/CONFORTA INMOBILIARIA_AMARA/LOBBY(10).webp', classnames: '' },
@@ -333,7 +333,7 @@ const carousel1 = {
   
   // carousel48
   const carousel48 = {
-	logo: '../../public/img/marcas/duoma.png',
+	logo: '../../img/marcas/duoma.png',
 	images: [
 	  // Grupo 3: Áreas comunes
 	  { name: 'Lobby', path: '../../img/proyectos/DUOMA_LACORUÑA/L2.png', classnames: '' },
@@ -346,7 +346,7 @@ const carousel1 = {
   
   // carousel8
   const carousel8 = {
-	logo: '../../public/img/marcas/nopal.png',
+	logo: '../../img/marcas/nopal.png',
 	images: [
 	  // Grupo 3: Áreas comunes
 	  { name: 'Lobby ', path: '../../img/proyectos/NOPAL INMOBILIARIA_PALACIOS/LOBBY1(4).webp', classnames: '' },
@@ -361,7 +361,7 @@ const carousel1 = {
   
   // carousel20
   const carousel20 = {
-	logo: '../../public/img/marcas/edifikarte.png',
+	logo: '../../img/marcas/edifikarte.png',
 	images: [
 	  // Grupo 3: Áreas comunes
 	  { name: 'Lobby', path: '../../img/proyectos/EDIFIKARTE_AREQUIPA AVENUE 4015/LOBBY(1).webp', classnames: '' },
@@ -381,7 +381,7 @@ const carousel1 = {
   
   // carousel22
   const carousel22 = {
-	logo: '../../public/img/marcas/gracia.png',
+	logo: '../../img/marcas/gracia.png',
 	images: [
 		// Grupo 3: Áreas comunes
 		{ name: 'Oficina Gym', path: '../../img/proyectos/GRACIA_GEMA/OFI_GYM.webp', classnames: '' },
@@ -398,7 +398,7 @@ const carousel1 = {
   
   // carousel10
   const carousel10 = {
-	logo: '../../public/img/marcas/HAUSBRIK.png',
+	logo: '../../img/marcas/HAUSBRIK.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/HAUSBRIK_MONTE ALEGRE/FRONTAL(1).webp', classnames: '' },
@@ -418,7 +418,7 @@ const carousel1 = {
   
   // carousel11
   const carousel11 = {
-	logo: '../../public/img/marcas/I.M.HENDERSON.png',
+	logo: '../../img/marcas/I.M.HENDERSON.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/IM HENDERSON_JACINTO DE LARA/FRONTAL169(1).webp', classnames: '' },
@@ -441,7 +441,7 @@ const carousel1 = {
   
   // carousel26
   const carousel26 = {
-	logo: '../../public/img/marcas/INARCO.png',
+	logo: '../../img/marcas/INARCO.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Diurna', path: '../../img/proyectos/INARCO PARAGUAY_MAGALLANES/FACHADADIURNA(1).webp', classnames: '' },
@@ -462,7 +462,7 @@ const carousel1 = {
   
   // carousel30
   const carousel30 = {
-	logo: '../../public/img/marcas/inmgenio.png',
+	logo: '../../img/marcas/inmgenio.png',
 	images: [
 	  // Grupo 1: Fachada (laterales/esquineras)
 	  { name: 'Fachada Lateral', path: '../../img/proyectos/INMGENIO_INSERT/FACHADALATERAL(2).webp', classnames: '' },
@@ -480,7 +480,7 @@ const carousel1 = {
   
   // carousel36
   const carousel36 = {
-	logo: '../../public/img/marcas/LIBRE.png',
+	logo: '../../img/marcas/LIBRE.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/LIBRE INMB_28 DE JULIO/FACHADA(2)(1).webp', classnames: '' },
@@ -498,7 +498,7 @@ const carousel1 = {
   
   // carousel46
   const carousel46 = {
-	logo: '../../public/img/marcas/LIBRE.png',
+	logo: '../../img/marcas/LIBRE.png',
 	images: [
 	  { name: 'Fachada', path: '../../img/proyectos/LIBRE INMOBILIARIA_MMXX/F6.webp', classnames: '' },
 	]
@@ -506,7 +506,7 @@ const carousel1 = {
   
   // carousel18
   const carousel18 = {
-	logo: '../../public/img/marcas/linea_21.png',
+	logo: '../../img/marcas/linea_21.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/LINEA 21_FLORA 21/FACHADA(7).webp', classnames: '' },
@@ -524,7 +524,7 @@ const carousel1 = {
   
   // carousel52
   const carousel52 = {
-	logo: '../../public/img/marcas/linea_21.png',
+	logo: '../../img/marcas/linea_21.png',
 	images: [
 	  // Grupo 4: Interiores
 	  { name: 'Sala ', path: '../../img/proyectos/LINEA 21_INCLÁN21/SALA80M2.webp', classnames: '' },
@@ -537,7 +537,7 @@ const carousel1 = {
   
   // carousel28
   const carousel28 = {
-	logo: '../../public/img/marcas/linea_21.png',
+	logo: '../../img/marcas/linea_21.png',
 	images: [
 		// Grupo 5: Otros
 		{ name: 'Patio', path: '../../img/proyectos/LINEA 21_PRADA21/PATIO(2).webp', classnames: '' },
@@ -551,7 +551,7 @@ const carousel1 = {
   
   // carousel31
   const carousel31 = {
-	logo: '../../public/img/marcas/MARCAN.png',
+	logo: '../../img/marcas/MARCAN.png',
 	images: [
 	  // Grupo 3: Áreas comunes
 	  { name: 'Lobby', path: '../../img/proyectos/MARCAN_LLANO ZAPATA/LOBBY(6).webp', classnames: '' },
@@ -570,7 +570,7 @@ const carousel1 = {
   
   // carousel5
   const carousel5 = {
-	logo: '../../public/img/marcas/MARCAN.png',
+	logo: '../../img/marcas/MARCAN.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal ', path: '../../img/proyectos/MARCAN_POD/FRONTALFINAL.webp', classnames: '' },
@@ -594,7 +594,7 @@ const carousel1 = {
   
   // carousel25
   const carousel25 = {
-	logo: '../../public/img/marcas/MARCAN.png',
+	logo: '../../img/marcas/MARCAN.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/MARCAN_R6000/F9.webp', classnames: '' },
@@ -614,7 +614,7 @@ const carousel1 = {
   
   // carousel45
   const carousel45 = {
-	logo: '../../public/img/marcas/MODULAR.jpg',
+	logo: '../../img/marcas/MODULAR.jpg',
 	images: [
 	  { name: 'Fachada', path: '../../img/proyectos/MODULAR_MENDIBURÚ/MENDIBURÚ.webp', classnames: '' },
 	]
@@ -622,7 +622,7 @@ const carousel1 = {
   
   // carousel4
   const carousel4 = {
-	logo: '../../public/img/marcas/MORADA.png',
+	logo: '../../img/marcas/MORADA.png',
 	images: [
 	  // Grupo 4: Interiores
 	  { name: 'Sala Comedor', path: '../../img/proyectos/MORADA_PARDO664/MORADA_SALACOMEDOR(2).webp', classnames: '' },
@@ -635,7 +635,7 @@ const carousel1 = {
   
   // carousel27
   const carousel27 = {
-	logo: '../../public/img/marcas/NOVABILDIN.png',
+	logo: '../../img/marcas/NOVABILDIN.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Diurna', path: '../../img/proyectos/NOVABILDIN_HENKO/F2.webp', classnames: '' },
@@ -654,7 +654,7 @@ const carousel1 = {
   
   // carousel51
   const carousel51 = {
-	logo: '../../public/img/marcas/NOVABILDIN.png',
+	logo: '../../img/marcas/NOVABILDIN.png',
 	images: [
 	  { name: 'Fachada Diurna', path: '../../img/proyectos/NOVABILDIN_SONHOS/DIURNA.webp', classnames: '' },
 	  { name: 'Fachada Nocturna', path: '../../img/proyectos/NOVABILDIN_SONHOS/NOCTURNA(1).webp', classnames: '' },
@@ -664,7 +664,7 @@ const carousel1 = {
   
   // carousel29
   const carousel29 = {
-	logo: '../../public/img/marcas/OMNINVEST.png',
+	logo: '../../img/marcas/OMNINVEST.png',
 	images: [
 	  { name: 'Vista Exterior', path: '../../img/proyectos/OMNIVEST_RESIDENZA CASTAGNI/VISTAEXTERIOR(4).webp', classnames: '' },
 	  { name: 'Vista Interior ', path: '../../img/proyectos/OMNIVEST_RESIDENZA CASTAGNI/Vistainterna1(1).webp', classnames: '' },
@@ -674,7 +674,7 @@ const carousel1 = {
   
   // carousel53
   const carousel53 = {
-	logo: '../../public/img/marcas/PUENTE.jpg',
+	logo: '../../img/marcas/PUENTE.jpg',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/PUENTE STUDIO_OXAPAMPA/FRONTAL.webp', classnames: '' },
@@ -692,7 +692,7 @@ const carousel1 = {
   
   // carousel41
   const carousel41 = {
-	logo: '../../public/img/marcas/qata.png',
+	logo: '../../img/marcas/qata.png',
 	images: [
 	  // Grupo 3: Áreas comunes
 	  { name: 'Coworking', path: '../../img/proyectos/QATA_GTD/D5_Image56_20230223_073630.webp', classnames: '' },
@@ -708,7 +708,7 @@ const carousel1 = {
   
   // carousel21
   const carousel21 = {
-	logo: '../../public/img/marcas/emme_inmob.png',
+	logo: '../../img/marcas/emme_inmob.png',
 	images: [
 	  // No se listaron imágenes en esta carpeta.
 	]
@@ -716,7 +716,7 @@ const carousel1 = {
   
   // carousel14
   const carousel14 = {
-	logo: '../../public/img/marcas/QUADRAT.png',
+	logo: '../../img/marcas/QUADRAT.png',
 	images: [
 	  // Grupo 4: Interiores
 	  { name: 'Terraza', path: '../../img/proyectos/QUADRAT_SILICE/TERRAZA(7).webp', classnames: '' },
@@ -734,7 +734,7 @@ const carousel1 = {
   
   // carousel6
   const carousel6 = {
-	logo: '../../public/img/marcas/rafi_segal.png',
+	logo: '../../img/marcas/rafi_segal.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/RAFI SEGAL_CAREHOUSE CHICAGO/V1.webp', classnames: '' },
@@ -749,7 +749,7 @@ const carousel1 = {
   
   // carousel37
   const carousel37 = {
-	logo: '../../public/img/marcas/san_charbel.png',
+	logo: '../../img/marcas/san_charbel.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/SAN CHARBEL_BOTANIKA/FACHADAFRONTAL.webp', classnames: '' },
@@ -761,7 +761,7 @@ const carousel1 = {
   
   // carousel49
   const carousel49 = {
-	logo: '../../public/img/marcas/solar.png',
+	logo: '../../img/marcas/solar.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/SOLAR INMOBILIARIA_SOLDADO CABADA 306/V1(3).webp', classnames: '' },
@@ -773,7 +773,7 @@ const carousel1 = {
   
   // carousel39
   const carousel39 = {
-	logo: '../../public/img/marcas/TYC.png',
+	logo: '../../img/marcas/TYC.png',
 	images: [
 	  // Grupo 1: Fachada (interpretamos "Diurna" y "Nocturna" como fachadas)
 	  { name: 'Diurna', path: '../../img/proyectos/TYC_NIUS/DIA(3).webp', classnames: '' },
@@ -796,7 +796,7 @@ const carousel1 = {
   
   // carousel13
   const carousel13 = {
-	logo: '../../public/img/marcas/TYC.png',
+	logo: '../../img/marcas/TYC.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Zoom Fachada', path: '../../img/proyectos/TYC_PARDO COAST/ZOOMFACHADA(1).webp', classnames: '' },
@@ -826,7 +826,7 @@ const carousel1 = {
   
   // carousel7
   const carousel7 = {
-	logo: '../../public/img/marcas/vive.png',
+	logo: '../../img/marcas/vive.png',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada General', path: '../../img/proyectos/VIVE PLM_ALIAGA/FACHADAGENERAL.webp', classnames: '' },
@@ -843,7 +843,7 @@ const carousel1 = {
   
   // carousel15
   const carousel15 = {
-	logo: '../../public/img/marcas/vive.png',
+	logo: '../../img/marcas/vive.png',
 	images: [
 		// Grupo 3: Áreas comunes
 		{ name: 'Lobby', path: '../../img/proyectos/VIVE PLM_ETEN1/LOBBY(17).webp', classnames: '' },
@@ -858,7 +858,7 @@ const carousel1 = {
   
   // carousel32
   const carousel32 = {
-	logo: '../../public/img/marcas/yair_mayo.png',
+	logo: '../../img/marcas/yair_mayo.png',
 	images: [
 		// Grupo 5: Otros
 		{ name: 'Terraza', path: '../../img/proyectos/YAIR MAYO_CASA MODELO/TERRAZA(8).webp', classnames: '' },

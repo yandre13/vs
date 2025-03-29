@@ -900,65 +900,7 @@ export default function Home() {
 							>
 								Diseño integral de fachadas e&nbsp;interiorismo.
 							</h2>
-							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-									marginBottom: `${width * (isMobileTablet ? 1 : 2)}px`,
-									backgroundColor: '#eee',
-								}}
-							>
-								<AnimatePresence>
-									{s2 === 'S1' ? (
-										<motion.img
-											key={'/img/servicios/Z1.webp'}
-											src={'/img/servicios/Z1.webp'}
-											initial={{ opacity: 0.7 }}
-											animate={{ opacity: 1 }}
-											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
-											transition={{ duration: 0.8, delay: 0.8 }}
-											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
-											className="w-full h-full object-cover"
-										/>
-									) : s2 === 'S2' ? (
-										<motion.img
-											key={'/img/servicios/Z2.webp'}
-											src={'/img/servicios/Z2.webp'}
-											initial={{ opacity: 0.7 }}
-											animate={{ opacity: 1 }}
-											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
-											transition={{ duration: 0.8, delay: 0.8 }}
-											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
-											className="w-full h-full object-cover"
-										/>
-									) : s2 === 'S3' ? (
-										<motion.img
-											key={'/img/servicios/Z3.webp'}
-											src={'/img/servicios/Z3.webp'}
-											initial={{ opacity: 0.7 }}
-											animate={{ opacity: 1 }}
-											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
-											transition={{ duration: 0.8, delay: 0.8 }}
-											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
-											className="w-full h-full object-cover"
-										/>
-									) : (
-										<motion.img
-											key={'/img/servicios/Z4.webp'}
-											src={'/img/servicios/Z4.webp'}
-											initial={{ opacity: 0.7 }}
-											animate={{ opacity: 1 }}
-											exit={{ opacity: 0.8, transition: { duration: 0.8 } }}
-											transition={{ duration: 0.8, delay: 0.8 }}
-											alt="Diseño integral de fachadas e interiorismo en Lima, Perú"
-											className="w-full h-full object-cover"
-										/>
-									)}
-								</AnimatePresence>
-							</div>
+							
 						</div>
 					</div>
 					<ButtonWsp />

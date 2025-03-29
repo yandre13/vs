@@ -72,8 +72,7 @@ export default function Home() {
                 marginLeft: `${width * (isMobile ? 0 : 0.7)}px`,
               }}
             >
-              Comienza a Visualizar tu<br></br>
-              Próximo Proyecto
+              Visualiza tu próximo proyecto
             </h1>
 
             {/* Formulario incrustado */}

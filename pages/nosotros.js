@@ -131,7 +131,7 @@ export default function Home() {
 									}}
 									className='bg-white'
 								>
-									En VISUALIZA, convertimos proyectos inmobiliarios en experiencias visuales que cautivan y venden. Con más de una década de experiencia, creamos renders, recorridos virtuales y material audiovisual de alto impacto, destacando cada proyecto con creatividad e innovación.
+									En VISUALIZA, convertimos proyectos inmobiliarios en experiencias visuales que cautivan y venden. Con más de una década de experiencia, creamos renders, recorridos virtuales y material audiovisual de alto impacto, destacando cada proyecto con creatividad e innovación. <br></br>
 									<br></br>
 									Nuestro equipo de arquitectos y diseñadores combina tecnología 3D avanzada con una narrativa única, permitiendo visualizar espacios aún no construidos. Creemos en la comunicación, el compromiso y la pasión por los detalles, asegurando resultados excepcionales. Hacemos que tu proyecto cobre vida y genere impacto.
 								</p>
@@ -213,13 +213,16 @@ export default function Home() {
 													(query === 'xl' ? 12 : query === 'lg' ? 11 : 10)
 													}px`,
 												marginLeft: width,
-												marginTop: width*4,
+												marginTop: width*3,
 												zIndex: 10,
 											}}
 										>
 											<div className="flex items-center">
 												<h1 className="font-sec text-5xl pl-3">Somos</h1>
-												<h2 className="pl-3">
+												
+											</div>
+											<div className="ml-20">
+											<h2 className="pl-3">
 													<Logo
 														color="black"
 														classname="w-[106px] md:w-[184px] lg:w-[186px] 2xl:w-[216px]"
@@ -228,7 +231,7 @@ export default function Home() {
 											</div>
 											<div
 												style={{
-													marginTop: 10,
+													marginTop: 25,
 													marginLeft: 1,
 													zIndex: 10,
 												}}
@@ -254,7 +257,7 @@ export default function Home() {
 													onMouseLeave={() => setIsHovered(false)}
 												>
 													En <strong>VISUALIZA</strong>, convertimos proyectos inmobiliarios en experiencias visuales que cautivan y venden. Con más de una década de experiencia, creamos <strong>renders, recorridos virtuales y material audiovisual</strong> de alto impacto, destacando cada proyecto con creatividad e innovación.
-													<br></br>
+													<br></br><br></br>
 													Nuestro equipo de arquitectos y diseñadores combina tecnología 3D avanzada con una narrativa única, permitiendo visualizar espacios aún no construidos. Creemos en la comunicación, el compromiso y la pasión por los detalles, asegurando resultados excepcionales. <strong>Hacemos que tu proyecto cobre vida y genere impacto</strong>.
 
 												</p>

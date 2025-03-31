@@ -317,7 +317,7 @@ export default function Home() {
 								className="overflow-hidden custom-height"
 							>
 								<Image
-									src={'/img/carrusel/1.webp'}
+									src={'/img/VISTA PIE DE PAGINA.jpg'}
 									className="w-full h-full object-cover"
 									width={1920}
 									height={1080}

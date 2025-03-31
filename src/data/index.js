@@ -237,7 +237,7 @@ const data = [
 			md: {mt: 1, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -284,7 +284,7 @@ const data = [
 		carousel: carousels.carousel17,
 		styles: {
 			xl: {mt: 1, ml: 1},
-			lg: {mt: -2, ml: 1},
+			lg: {mt: -5, ml: 1},
 			md: {mt: -2, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
@@ -335,7 +335,7 @@ const data = [
 		carousel: carousels.carousel20,
 		styles: {
 			xl: {mt: -2, ml: 1},
-			lg: {mt: -2, ml: 1},
+			lg: {mt: -5, ml: 1},
 			md: {mt: 1, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
@@ -386,7 +386,7 @@ const data = [
 		carousel: carousels.carousel23,
 		styles: {
 			xl: {mt: -5, ml: 1},
-			lg: {mt: -5, ml: 1},
+			lg: {mt: -8, ml: 1},
 			md: {mt: 1, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
@@ -437,7 +437,7 @@ const data = [
 		carousel: carousels.carousel26,
 		styles: {
 			xl: {mt: -2, ml: 1},
-			lg: {mt: -8, ml: 1},
+			lg: {mt: -11, ml: 1},
 			md: {mt: 1, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
@@ -488,7 +488,7 @@ const data = [
 		carousel: carousels.carousel29,
 		styles: {
 			xl: {mt: 1, ml: 1},
-			lg: {mt: -8, ml: 1},
+			lg: {mt: -11, ml: 1},
 			md: {mt: 1, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
@@ -539,11 +539,11 @@ const data = [
 		carousel: carousels.carousel32,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -8, ml: 1 },
+			lg: { mt: -11, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -577,7 +577,7 @@ const data = [
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -590,7 +590,7 @@ const data = [
 		carousel: carousels.carousel35,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -5, ml: 1 },
+			lg: { mt: -11, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
@@ -624,11 +624,11 @@ const data = [
 		carousel: carousels.carousel37,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: -2, ml: 1 },
+			lg: { mt: -5, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -641,11 +641,11 @@ const data = [
 		carousel: carousels.carousel38,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: -8, ml: 1 },
+			lg: { mt: -14, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	{
@@ -662,7 +662,7 @@ const data = [
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	{
@@ -675,11 +675,11 @@ const data = [
 		carousel: carousels.carousel40,
 		styles: {
 			xl: { mt: -5, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: -5, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	{
@@ -692,11 +692,11 @@ const data = [
 		carousel: carousels.carousel41,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: -8, ml: 1 },
+			lg: { mt: -11, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -709,7 +709,7 @@ const data = [
 		carousel: carousels.carousel42,
 		styles: {
 			xl: { mt: -2, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: 4, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
@@ -726,11 +726,11 @@ const data = [
 		carousel: carousels.carousel43,
 		styles: {
 			xl: { mt: -11, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: -5, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -743,11 +743,11 @@ const data = [
 		carousel: carousels.carousel44,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -5, ml: 1 },
+			lg: { mt: -14, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -764,7 +764,7 @@ const data = [
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	{
@@ -777,11 +777,11 @@ const data = [
 		carousel: carousels.carousel46,
 		styles: {
 			xl: { mt: -5, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: -5, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	{
@@ -794,7 +794,7 @@ const data = [
 		carousel: carousels.carousel47,
 		styles: {
 			xl: { mt: -11, ml: 1 },
-			lg: { mt: -5, ml: 1 },
+			lg: { mt: -14, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
@@ -811,11 +811,11 @@ const data = [
 		carousel: carousels.carousel48,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -2, ml: 1 },
+			lg: { mt: 4, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -828,7 +828,7 @@ const data = [
 		carousel: carousels.carousel49,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: -8, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
@@ -845,11 +845,11 @@ const data = [
 		carousel: carousels.carousel50,
 		styles: {
 			xl: { mt: -5, ml: 1 },
-			lg: { mt: -2, ml: 1 },
+			lg: { mt: -17, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -862,11 +862,11 @@ const data = [
 		carousel: carousels.carousel51,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: -2, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	{
@@ -879,11 +879,11 @@ const data = [
 		carousel: carousels.carousel52,
 		styles: {
 			xl: { mt: -5, ml: 1 },
-			lg: { mt: 1, ml: 1 },
+			lg: { mt: -2, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar4x6',
+		aspectRatio: 'ar3x3',
 		height: 9,
 	},
 	{
@@ -896,11 +896,11 @@ const data = [
 		carousel: carousels.carousel53,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: -2, ml: 1 },
+			lg: { mt: -14, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	

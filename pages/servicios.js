@@ -7,295 +7,291 @@ import "react-image-gallery/styles/css/image-gallery.css"
 
 import Image from 'next/image'
 
-import modelado3D from '../public/img/servicios/MODELADO_3D.webp'
+import  modelado3D from '../public/img/servicios/MODELADO_3D.webp'
 import drone from '../public/img/servicios/VISTAS_AEREAS_DRONE.webp'
-import visual1 from '../public/img/carrusel_servicios/DORM-PRINC-ETEN-_2_.webp'
-import visual2 from '../public/img/carrusel_servicios/ACERCAMIENTO.webp'
-import visual3 from '../public/img/carrusel_servicios/R6000-FINAL.webp'
-import visual4 from '../public/img/carrusel_servicios/SALA-COMEDOR_PUMACAHUA-_3_.webp'
-import visual5 from '../public/img/carrusel_servicios/SALA-DE-ESPERA-_2_.webp'
-import plano1 from '../public/img/carrusel_servicios/CHECOR PORTA DPTO-102.jpg'
-import plano2 from '../public/img/carrusel_servicios/CHECOR PORTA PISO 01.jpg'
-import plano3 from '../public/img/carrusel_servicios/MONTE ALEGRE DPTO 501 P2.webp'
-import plano4 from '../public/img/carrusel_servicios/IMN HENDERSON JACINTO DE LARA DPTO 201.webp'
-import plano5 from '../public/img/carrusel_servicios/IMN HENDERSON JACINTO DE LARA DPTO 502 P3.webp'
-import plano6 from '../public/img/carrusel_servicios/MONTE ALEGRE DPTO 102.webp'
-import fachada1 from '../public/img/carrusel_servicios/ALJOVIN DIURNA.webp'
-import fachada2 from '../public/img/carrusel_servicios/ALJOVIN NOCTURNA.webp'
-import fachada3 from '../public/img/carrusel_servicios/FACHADA.webp'
-import fachada4 from '../public/img/carrusel_servicios/FLORA 21.webp'
-import fachada5 from '../public/img/carrusel_servicios/INCLÁN 21(1).webp'
-import fachada6 from '../public/img/carrusel_servicios/INCLÁN 21.webp'
-import interiorismore1 from '../public/img/carrusel_servicios/interiorismo_residencial/DORM PRINC ETEN (2) (1).webp'
-import interiorismore2 from '../public/img/carrusel_servicios/interiorismo_residencial/DORM SEC (1).webp'
-import interiorismore3 from '../public/img/carrusel_servicios/interiorismo_residencial/ESTAR_JUEGOS (1).webp'
-import interiorismore4 from '../public/img/carrusel_servicios/interiorismo_residencial/HOME OFFICE .webp'
-import interiorismore5 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA (11).webp'
-import interiorismore6 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA COMEDOR (7).webp'
-import interiorismore7 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA COMEDOR .webp'
-import interiorismore8 from '../public/img/carrusel_servicios/interiorismo_residencial/SALA GOURMET.webp'
-import interiorismore9 from '../public/img/carrusel_servicios/interiorismo_residencial/SUM (2).webp'
-import interiorismore10 from '../public/img/carrusel_servicios/interiorismo_residencial/TERRAZA (3).webp'
-import interiorismoco1 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 56_20230223_073630_13_11zon.webp'
-import interiorismoco2 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 57_20230223_073231_14_11zon.webp'
-import interiorismoco3 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 58_20230223_072833 (1)_15_11zon.webp'
-import interiorismoco4 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 62_20230223_071154_16_11zon.webp'
-import interiorismoco5 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 67_20230223_065405_18_11zon.webp'
-import interiorismoco6 from '../public/img/carrusel_servicios/interiorismo_corporativo/D5_Image 71_20230223_063908_17_11zon.webp'
-import interiorismoco7 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 1_11_1_11zon.webp'
-import interiorismoco8 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 3_1 (2)_8_11zon.webp'
-import interiorismoco9 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 5_9_11zon.webp'
-import interiorismoco10 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 6_10_11zon.webp'
-import interiorismoco11 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 8_11_11zon.webp'
-import interiorismoco12 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 9_1_6_11zon.webp'
-import interiorismoco13 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 10_15_2_11zon.webp'
-import interiorismoco14 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 11_9_3_11zon.webp'
-import interiorismoco15 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 12_1_7_11zon.webp'
-import interiorismoco16 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 13_13_4_11zon.webp'
-import interiorismoco17 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 16_3_5_11zon.webp'
-import interiorismoco18 from '../public/img/carrusel_servicios/interiorismo_corporativo/Escena 16_12_11zon.webp'
-import fotografia1 from '../public/img/carrusel_servicios/fotografia/DSC01121-HDR_3_11zon.webp'
-import fotografia2 from '../public/img/carrusel_servicios/fotografia/DSC01171-HDR_11_11zon.webp'
-import fotografia3 from '../public/img/carrusel_servicios/fotografia/DSC03589-HDR_4_11zon.webp'
-import fotografia4 from '../public/img/carrusel_servicios/fotografia/DSC03613-HDR_5_11zon.webp'
-import fotografia5 from '../public/img/carrusel_servicios/fotografia/DSC03658-HDR_8_11zon.webp'
-import fotografia6 from '../public/img/carrusel_servicios/fotografia/DSC03760-HDR_9_11zon.webp'
-import fotografia7 from '../public/img/carrusel_servicios/fotografia/DSC03850-HDR_1_11zon.webp'
-import fotografia8 from '../public/img/carrusel_servicios/fotografia/DSC03885-HDR_2_11zon.webp'
-import fotografia9 from '../public/img/carrusel_servicios/fotografia/DSC03733-HDR.jpg'
-import fotografia10 from '../public/img/carrusel_servicios/fotografia/DSC01172-HDR.jpg'
+const visual1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM-PRINC-ETEN-_2__odgk5q'
+const visual2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ACERCAMIENTO_i945ys'
+const visual3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/R6000-FINAL_pcls36'
+const visual4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-COMEDOR_PUMACAHUA-_3__tdvah4'
+const visual5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-DE-ESPERA-_2__hucvji'
+const plano1 = '../public/img/carrusel_servicios/CHECOR PORTA DPTO-102.jpg'
+const plano2 = '../public/img/carrusel_servicios/CHECOR PORTA PISO 01.jpg'
+const plano3 = '../public/img/carrusel_servicios/MONTE ALEGRE DPTO 501 P2.webp'
+const plano4 = '../public/img/carrusel_servicios/IMN HENDERSON JACINTO DE LARA DPTO 201.webp'
+const plano5 = '../public/img/carrusel_servicios/IMN HENDERSON JACINTO DE LARA DPTO 502 P3.webp'
+const plano6 = '../public/img/carrusel_servicios/MONTE ALEGRE DPTO 102.webp'
+const fachada1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ALJOVIN_DIURNA_tsccpr'
+const fachada2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ALJOVIN_NOCTURNA_d4zebg'
+const fachada3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/FACHADA_hr1jxg'
+const fachada4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/FLORA_21_picmow'
+const fachada5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/INCL%C3%81N_21_1_megswn'
+const fachada6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/INCL%C3%81N_21_j12ylk'
+const interiorismore1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM_PRINC_ETEN_2_1_i5cah4'
+const interiorismore2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM_SEC_1_sppodh'
+const interiorismore3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ESTAR_JUEGOS_1_hhpjqt'
+const interiorismore4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/HOME_OFFICE_du10wj'
+const interiorismore5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_11_uxbz84'
+const interiorismore6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_COMEDOR_7_fftypf'
+const interiorismore7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_COMEDOR_zbncr3'
+const interiorismore8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_GOURMET_ekliio'
+const interiorismore9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SUM_2_onxwd3'
+const interiorismore10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/TERRAZA_3_cqck4h'
+const interiorismoco1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_56_20230223_073630_13_11zon_h10jg2'
+const interiorismoco2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_57_20230223_073231_14_11zon_ouvh1o'
+const interiorismoco3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_58_20230223_072833_1__15_11zon_pvk7xh'
+const interiorismoco4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_62_20230223_071154_16_11zon_azuhok'
+const interiorismoco5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_67_20230223_065405_18_11zon_jzzjqw'
+const interiorismoco6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_71_20230223_063908_17_11zon_zmtlgc'
+const interiorismoco7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_1_11_1_11zon_wkivh6'
+const interiorismoco8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_3_1_2__8_11zon_hktnnh'
+const interiorismoco9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_5_9_11zon_phj7xc'
+const interiorismoco10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_6_10_11zon_qdldke'
+const interiorismoco11 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_8_11_11zon_g9gn5h'
+const interiorismoco12 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_9_1_6_11zon_e6jv3x'
+const interiorismoco13 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_10_15_2_11zon_gkidzg'
+const interiorismoco14 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_11_9_3_11zon_g5q5wz'
+const interiorismoco15 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_12_1_7_11zon_skjduj'
+const interiorismoco16 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_13_13_4_11zon_m9ibve'
+const interiorismoco17 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_16_3_5_11zon_fqkja6'
+const interiorismoco18 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_16_12_11zon_o7q8ny'
+const fotografia1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01121-HDR_3_11zon_xcbvek'
+const fotografia3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03589-HDR_4_11zon_krr9ri'
+const fotografia4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03613-HDR_5_11zon_wgk0sg'
+const fotografia5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03658-HDR_8_11zon_wzkq4f'
+const fotografia6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03760-HDR_9_11zon_fwh0yb'
+const fotografia7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03850-HDR_1_11zon_senxhs'
+const fotografia8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03885-HDR_2_11zon_ne5oit'
+const fotografia9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03733-HDR_wc14sy'
+const fotografia10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01172-HDR_isc5wz'
 
 
 const visualizacion3d = [
 	{
-		original: visual1.src,
-		thumbnail: visual1.src,
+		original: visual1,
+		thumbnail: visual1,
 	},
 	{
-		original: visual2.src,
-		thumbnail: visual2.src,
+		original: visual2,
+		thumbnail: visual2,
 	},
 	{
-		original: visual3.src,
-		thumbnail: visual3.src,
+		original: visual3,
+		thumbnail: visual3,
 	},
 	{
-		original: visual4.src,
-		thumbnail: visual4.src,
+		original: visual4,
+		thumbnail: visual4,
 	},
 	{
-		original: visual5.src,
-		thumbnail: visual5.src,
+		original: visual5,
+		thumbnail: visual5,
 	}
 ];
 const planosdeventa = [
 	{
-		original: plano1.src,
-		thumbnail: plano1.src,
+		original: plano1,
+		thumbnail: plano1,
 	},
 	{
-		original: plano2.src,
-		thumbnail: plano2.src,
+		original: plano2,
+		thumbnail: plano2,
 	},
 	{
-		original: plano3.src,
-		thumbnail: plano3.src,
+		original: plano3,
+		thumbnail: plano3,
 	},
 	{
-		original: plano4.src,
-		thumbnail: plano4.src,
+		original: plano4,
+		thumbnail: plano4,
 	},
 	{
-		original: plano5.src,
-		thumbnail: plano5.src,
+		original: plano5,
+		thumbnail: plano5,
 	},
 	{
-		original: plano6.src,
-		thumbnail: plano6.src,
+		original: plano6,
+		thumbnail: plano6,
 	}
 ];
 const fachadas = [
 	{
-		original: fachada1.src,
-		thumbnail: fachada1.src,
+		original: fachada1,
+		thumbnail: fachada1,
 	},
 	{
-		original: fachada2.src,
-		thumbnail: fachada2.src,
+		original: fachada2,
+		thumbnail: fachada2,
 	},
 	{
-		original: fachada3.src,
-		thumbnail: fachada3.src,
+		original: fachada3,
+		thumbnail: fachada3,
 	},
 	{
-		original: fachada4.src,
-		thumbnail: fachada4.src,
+		original: fachada4,
+		thumbnail: fachada4,
 	},
 	{
-		original: fachada5.src,
-		thumbnail: fachada5.src,
+		original: fachada5,
+		thumbnail: fachada5,
 	},
 	{
-		original: fachada6.src,
-		thumbnail: fachada6.src,
+		original: fachada6,
+		thumbnail: fachada6,
 	}
 ];
 const interiorismore = [
 	{
-		original: interiorismore1.src,
-		thumbnail: interiorismore1.src,
+		original: interiorismore1,
+		thumbnail: interiorismore1,
 	},
 	{
-		original: interiorismore2.src,
-		thumbnail: interiorismore2.src,
+		original: interiorismore2,
+		thumbnail: interiorismore2,
 	},
 	{
-		original: interiorismore3.src,
-		thumbnail: interiorismore3.src,
+		original: interiorismore3,
+		thumbnail: interiorismore3,
 	},
 	{
-		original: interiorismore4.src,
-		thumbnail: interiorismore4.src,
+		original: interiorismore4,
+		thumbnail: interiorismore4,
 	},
 	{
-		original: interiorismore5.src,
-		thumbnail: interiorismore5.src,
+		original: interiorismore5,
+		thumbnail: interiorismore5,
 	},
 	{
-		original: interiorismore6.src,
-		thumbnail: interiorismore6.src,
+		original: interiorismore6,
+		thumbnail: interiorismore6,
 	},
 	{
-		original: interiorismore7.src,
-		thumbnail: interiorismore7.src,
+		original: interiorismore7,
+		thumbnail: interiorismore7,
 	},
 	{
-		original: interiorismore8.src,
-		thumbnail: interiorismore8.src,
+		original: interiorismore8,
+		thumbnail: interiorismore8,
 	},
 	{
-		original: interiorismore9.src,
-		thumbnail: interiorismore9.src,
+		original: interiorismore9,
+		thumbnail: interiorismore9,
 	},
 	{
-		original: interiorismore10.src,
-		thumbnail: interiorismore10.src,
+		original: interiorismore10,
+		thumbnail: interiorismore10,
 	}
 ];
 const interiorismoco = [
 	{
-		original: interiorismoco1.src,
-		thumbnail: interiorismoco1.src,
+		original: interiorismoco1,
+		thumbnail: interiorismoco1,
 	},
 	{
-		original: interiorismoco2.src,
-		thumbnail: interiorismoco2.src,
+		original: interiorismoco2,
+		thumbnail: interiorismoco2,
 	},
 	{
-		original: interiorismoco3.src,
-		thumbnail: interiorismoco3.src,
+		original: interiorismoco3,
+		thumbnail: interiorismoco3,
 	},
 	{
-		original: interiorismoco4.src,
-		thumbnail: interiorismoco4.src,
+		original: interiorismoco4,
+		thumbnail: interiorismoco4,
 	},
 	{
-		original: interiorismoco5.src,
-		thumbnail: interiorismoco5.src,
+		original: interiorismoco5,
+		thumbnail: interiorismoco5,
 	},
 	{
-		original: interiorismoco6.src,
-		thumbnail: interiorismoco6.src,
+		original: interiorismoco6,
+		thumbnail: interiorismoco6,
 	},
 	{
-		original: interiorismoco7.src,
-		thumbnail: interiorismoco7.src,
+		original: interiorismoco7,
+		thumbnail: interiorismoco7,
 	},
 	{
-		original: interiorismoco8.src,
-		thumbnail: interiorismoco8.src,
+		original: interiorismoco8,
+		thumbnail: interiorismoco8,
 	},
 	{
-		original: interiorismoco9.src,
-		thumbnail: interiorismoco9.src,
+		original: interiorismoco9,
+		thumbnail: interiorismoco9,
 	},
 	{
-		original: interiorismoco10.src,
-		thumbnail: interiorismoco10.src,
+		original: interiorismoco10,
+		thumbnail: interiorismoco10,
 	},
 	{
-		original: interiorismoco11.src,
-		thumbnail: interiorismoco11.src,
+		original: interiorismoco11,
+		thumbnail: interiorismoco11,
 	},
 	{
-		original: interiorismoco12.src,
-		thumbnail: interiorismoco12.src,
+		original: interiorismoco12,
+		thumbnail: interiorismoco12,
 	},
 	{
-		original: interiorismoco13.src,
-		thumbnail: interiorismoco13.src,
+		original: interiorismoco13,
+		thumbnail: interiorismoco13,
 	},
 	{
-		original: interiorismoco14.src,
-		thumbnail: interiorismoco14.src,
+		original: interiorismoco14,
+		thumbnail: interiorismoco14,
 	},
 	{
-		original: interiorismoco15.src,
-		thumbnail: interiorismoco15.src,
+		original: interiorismoco15,
+		thumbnail: interiorismoco15,
 	},
 	{
-		original: interiorismoco16.src,
-		thumbnail: interiorismoco16.src,
+		original: interiorismoco16,
+		thumbnail: interiorismoco16,
 	},
 	{
-		original: interiorismoco17.src,
-		thumbnail: interiorismoco17.src,
+		original: interiorismoco17,
+		thumbnail: interiorismoco17,
 	},
 	{
-		original: interiorismoco18.src,
-		thumbnail: interiorismoco18.src,
+		original: interiorismoco18,
+		thumbnail: interiorismoco18,
 	},
 ];
 const fotografia = [
 	{
-		original: fotografia1.src,
-		thumbnail: fotografia1.src,
+		original: fotografia1,
+		thumbnail: fotografia1,
+	},
+	
+	{
+		original: fotografia3,
+		thumbnail: fotografia3,
 	},
 	{
-		original: fotografia2.src,
-		thumbnail: fotografia2.src,
+		original: fotografia4,
+		thumbnail: fotografia4,
 	},
 	{
-		original: fotografia3.src,
-		thumbnail: fotografia3.src,
+		original: fotografia5,
+		thumbnail: fotografia5,
 	},
 	{
-		original: fotografia4.src,
-		thumbnail: fotografia4.src,
+		original: fotografia6,
+		thumbnail: fotografia6,
 	},
 	{
-		original: fotografia5.src,
-		thumbnail: fotografia5.src,
+		original: fotografia7,
+		thumbnail: fotografia7,
 	},
 	{
-		original: fotografia6.src,
-		thumbnail: fotografia6.src,
+		original: fotografia8,
+		thumbnail: fotografia8,
 	},
 	{
-		original: fotografia7.src,
-		thumbnail: fotografia7.src,
+		original: fotografia9,
+		thumbnail: fotografia9,
 	},
 	{
-		original: fotografia8.src,
-		thumbnail: fotografia8.src,
-	},
-	{
-		original: fotografia9.src,
-		thumbnail: fotografia9.src,
-	},
-	{
-		original: fotografia10.src,
-		thumbnail: fotografia10.src,
+		original: fotografia10,
+		thumbnail: fotografia10,
 	}
 ];
 
@@ -432,6 +428,8 @@ export default function Home() {
 							>
 								<ImageGallery items={visualizacion3d}
 									showBullets={true}
+									showThumbnails={false}
+									showNav={false}
 									showPlayButton={false}
 									autoPlay={true}
 
@@ -457,6 +455,8 @@ export default function Home() {
 								}}
 							>
 								<ImageGallery items={planosdeventa}
+								showThumbnails={false}
+								showNav={false}
 									showBullets={true}
 									showPlayButton={false}
 									autoPlay={true}
@@ -518,7 +518,7 @@ export default function Home() {
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/embed/LthDz0yyUsE?rel=0"
+									src="https://www.youtube.com/embed/rLEeC6tax44?si=x438UKVX5ftb4dd6" 
 									title="Recorridos virtuales"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -633,6 +633,8 @@ export default function Home() {
 								}}
 							>
 								<ImageGallery items={fachadas}
+								showThumbnails={false}
+								showNav={false}
 									showBullets={true}
 									showPlayButton={false}
 									autoPlay={true}
@@ -659,6 +661,8 @@ export default function Home() {
 								}}
 							>
 								<ImageGallery items={interiorismore}
+								showThumbnails={false}
+								showNav={false}
 									showBullets={true}
 									showPlayButton={false}
 									autoPlay={true}
@@ -685,6 +689,8 @@ export default function Home() {
 								}}
 							>
 								<ImageGallery items={interiorismoco}
+								showThumbnails={false}
+								showNav={false}
 									showBullets={true}
 									showPlayButton={false}
 									autoPlay={true}
@@ -834,6 +840,8 @@ export default function Home() {
 								}}
 							>
 								<ImageGallery items={fotografia}
+								showThumbnails={false}
+								showNav={false}
 									showBullets={true}
 									showPlayButton={false}
 									autoPlay={true}
@@ -889,17 +897,6 @@ export default function Home() {
 								</AnimatePresence>
 							</div>
 
-							<h2
-								style={{
-									height: isText2 ? width * 2 : width,
-									width: isText2 ? width * 6 : 'auto',
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
-								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
-							>
-								Diseño integral de fachadas e&nbsp;interiorismo.
-							</h2>
 							
 						</div>
 					</div>

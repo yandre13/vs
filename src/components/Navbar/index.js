@@ -157,10 +157,13 @@ function Navbar() {
   </header>
 ) : (
   /* ===== VISTA ESCRITORIO MODIFICADA ===== */
-  <header
-    className="sticky top-0 z-10 mb-3 md:mb-0 flex flex-col w-full
-      md:w-[15%] md:h-[100vh] lg:w-[13%] xl:w-[11%] md:relative md:top-auto md:z-auto bg-white p-4 md:pl-7"
-  >
+  // <header
+  //   className="sticky top-0 z-10 mb-3 md:mb-0 flex flex-col w-full
+  //     md:w-[15%] md:h-[100vh] lg:w-[13%] xl:w-[11%] md:relative md:top-auto md:z-auto bg-white p-4 md:pl-7"
+  // >
+  <header className="sticky top-0 z-10 mb-3 flex flex-col w-full
+  md:w-[15%] md:h-[100vh] lg:w-[13%] xl:w-[11%] bg-white p-4 md:pl-7">
+
     <div className="flex flex-col h-full">
       {/* LOGO en la parte superior */}
       <div className="mb-2">

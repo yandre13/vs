@@ -548,7 +548,7 @@ export default function Home() {
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+									src="https://www.youtube.com/embed/8nWhqfcxT7Q?si=da6rbpARwvQ1OfQl"
 									title="Marketing inmobiliario"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -577,7 +577,7 @@ export default function Home() {
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+									src="https://www.youtube.com/embed/HeYl4_sJQMQ?si=DE54_KmbYMPti2wQ"
 									title="Vistas aereas"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -606,7 +606,7 @@ export default function Home() {
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
+									src="https://www.youtube.com/embed/I8o1hf3QQtk?si=zfdY29DMObh9q7wD"
 									title="Videotracking"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -751,14 +751,14 @@ export default function Home() {
 								</div>
 
 								{/* Contenido de cada pestaña */}
-								<div className="p-4">
+								<div className="p-4 ">
 									{activeTab === 'avances' && (
 										<div>
 											<iframe
 												width="100%"
-												height="100%"
-												src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
-												title="Videotracking"
+												height="399.83px"
+												src="https://www.youtube.com/embed/fmyMoNRP9Yc?si=l5O0OzDnn1-I3nY4"
+												title="Avances de obra"
 												frameBorder="0"
 												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 												allowFullScreen
@@ -769,9 +769,9 @@ export default function Home() {
 										<div>
 											<iframe
 												width="100%"
-												height="100%"
-												src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
-												title="Videotracking"
+												height="399.83px"
+												src="https://www.youtube.com/embed/2-DHiGM8-jg?si=vsAuaOZjHm6AO4fX"
+												title="Registro de eventos"
 												frameBorder="0"
 												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 												allowFullScreen
@@ -781,9 +781,9 @@ export default function Home() {
 										<div>
 											<iframe
 												width="100%"
-												height="100%"
-												src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
-												title="Videotracking"
+												height="399.83px"
+												src="https://www.youtube.com/embed/9EWQCf9KDoQ?si=yrdi_vF25vP0uulO"
+												title="Videos testimoniales"
 												frameBorder="0"
 												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 												allowFullScreen
@@ -813,8 +813,8 @@ export default function Home() {
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/watch?v=8nWhqfcxT7Q"
-									title="Videotracking"
+									src="https://www.youtube.com/embed/4rg3v4zQtcY?si=bmxjDTm7oZZedJ_K"
+									title="Brochure comercial"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowFullScreen

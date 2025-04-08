@@ -170,7 +170,12 @@ export default function Home() {
       }
     `;
     document.body.appendChild(visitorScript);
-
+ // Inyecta el script de Zoho Analytics (wf_anal)
+ const analyticsScript = document.createElement('script');
+ analyticsScript.id = 'wf_anal';
+ analyticsScript.type = 'text/javascript';
+ analyticsScript.src = 'https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=2147dd8c64bf2c159e86155cf8b3ea54bbbee7f9daca2458c84b9e3c63518bf1817f2a5174cdfbb0b389e7ce4724e46dgid7fd7de9526d21bdaae1aff99fcf87d703c4f3cae7569a7ad49c871160343a492gid4d9acd184adf9f80313f346cf526c5b88f7ef873c05fb4c428c38774cab40859gid73a03b527bce254599ca95571c6abadfc0c973d1bcc352ae7fba9867c0ce40fd&tw=65f8a857dcf645b54887a22a3c618ae1d36301963cc5d7b99a1eba1e5a43e8a0';
+ document.body.appendChild(analyticsScript);
       })
       .catch(error => console.error('Error al cargar el formulario:', error));
   }, []);

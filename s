@@ -1,0 +1,489 @@
+[33mcommit 12952212a4a6ead7bbc025051fdd017131192087[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Tue Apr 1 10:06:31 2025 -0300
+
+    acomoda margenes entre proyectos en todas las pantallas
+
+[33mcommit c493e6d75c1c9d393c06fa3d790243d129a02dda[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Mar 31 17:22:19 2025 -0300
+
+    cambia detalles en nosotros
+
+[33mcommit bc1dc766b6015cba28112c6cd48628e35d4e2cfb[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Mar 31 17:10:50 2025 -0300
+
+    agrega planos de venta de cloudinary
+
+[33mcommit 4c082cdb132a88e0b64afebeb165e1bdbdd57d79[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Mar 31 16:53:22 2025 -0300
+
+    vuelve sticky al menu en escritorio
+
+[33mcommit 1730236f255d1005e535773d94ab406f05908ba3[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Mar 31 15:10:57 2025 -0300
+
+    cambia imagenes del home
+
+[33mcommit 323717177c7fc65e92af4d223dda67f2f9b27c97[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Mar 31 14:18:45 2025 -0300
+
+    cambia formato de imagenes de proyectos
+
+[33mcommit 67825c8e5f5f496ed0b6494cc58553645bbea17a[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Mar 29 10:15:10 2025 -0300
+
+    corrige frase de formulario y servicio
+
+[33mcommit 792cc847cbb5c10a9e27c3bb50170089a777681b[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Mar 28 14:19:46 2025 -0300
+
+    soluciona enlace a imagen de logos
+
+[33mcommit 6911a232412f2874b756c72957cd99d89cfe188d[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Mar 28 14:00:47 2025 -0300
+
+    agrega descripciones de proyectos
+
+[33mcommit c65831d598965afa7e8eb525272a072014ab4e52[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Thu Mar 27 17:26:24 2025 -0300
+
+    ordena imagenes de carrusel
+
+[33mcommit 766596d55965da9611ceeee023f058b0e0e40687[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Wed Mar 26 17:07:50 2025 -0300
+
+    agrega logos faltantes y modifica edifica_palacios
+
+[33mcommit ec6bafeb2b6d6c45f2356b9a21bf01f5bbe2dc28[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Wed Mar 26 13:26:03 2025 -0300
+
+    soluciona pag render de arquitectura
+
+[33mcommit b4ffd4f51204f401706c1db730dc981b41ebed3e[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Wed Mar 26 09:04:29 2025 -0300
+
+    ordena carrusel de proyectos
+
+[33mcommit b3ec9d8d034be584f8cf8308e52448b965cb39ee[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Tue Mar 25 20:17:22 2025 -0300
+
+    se agregan logos de clientesa los proyectos
+
+[33mcommit a39521ad27e9cd87bcecdb080e12f37889509d8e[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Tue Mar 25 14:11:21 2025 -0300
+
+    modifica pagina de proyectos
+
+[33mcommit d0af87b89b8cd7b8093beea1ba0a3c056df75df5[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Mar 21 22:08:25 2025 -0300
+
+    cambio de imagen piscina de jacinto de lara
+
+[33mcommit ffcdee10aa2c291cf5975c3fb6be4d8676b49a53[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Mar 21 21:58:24 2025 -0300
+
+    cambio de imagenes de proyectos y marcas
+
+[33mcommit 4da6e59cb15e3e35ea39f1a756357e830bb689c4[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Wed Mar 19 20:59:16 2025 -0300
+
+    completa las secciones de servicios, falta multimedia
+
+[33mcommit 85f52d9887911c77ca97fdd1ef0576faae0cb2cb[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Wed Mar 19 19:43:22 2025 -0300
+
+    agrega hasta interiorismo residencial en servicios
+
+[33mcommit 4adbe6bb2105d4809784eb68e0e0747b9075f90b[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Wed Mar 19 17:06:25 2025 -0300
+
+    Agrega carrusel de servicios y modifica header
+
+[33mcommit 0f48c8b1456bd8a51a1e7607b78ea31db4c77100[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Thu Oct 17 21:03:49 2024 -0300
+
+    Ordena imagenes de carrusel de proyectos
+
+[33mcommit 86973f8c01a8431b9126eb57d16bc122a9a9ee3d[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Oct 11 18:18:59 2024 -0300
+
+    Agrega imagenes del proyecto 31
+
+[33mcommit e7a6955427644235d3ed200a05c365f9ff2b0faa[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Oct 11 18:08:31 2024 -0300
+
+    Formulario alineado
+
+[33mcommit 22ab80b4a8082fe5695067e270ff55ac68972886[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Oct 11 17:20:54 2024 -0300
+
+    Texto de nosotros mas alineado
+
+[33mcommit 84b226c15cebb74aa453e96c83f512d75ece1060[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Thu Oct 10 19:15:18 2024 -0300
+
+    Agrega ultimas modificaciones
+
+[33mcommit 058927fe702e9b9fb5b4ba2b034ee04111744050[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 19:43:44 2024 -0300
+
+    Quita borde en el nav
+
+[33mcommit 4529a523fa8773841fdd756917a69f7f8403ed06[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 19:33:48 2024 -0300
+
+    Modifica texto de Nosotros
+
+[33mcommit 9e65a98119f6294d225e02572a4d5ccfcf6bba96[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 18:44:33 2024 -0300
+
+    Modifica formulario de contacto
+
+[33mcommit 03cf1cbed93771576aa793b0050053bd647887bb[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 16:51:05 2024 -0300
+
+    Modifica boton de Descargar Brochure
+
+[33mcommit 45920ff799d40504c5fa16bc258f86ee58a63315[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 12:42:08 2024 -0300
+
+    Agrega imagenes de todos los nuevos proyectos
+
+[33mcommit 7cb4aa5fa71d76eaecfc8194c1615e98ac685c1a[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 12:05:24 2024 -0300
+
+    Agrega imagenes hasta el proyecto 27
+
+[33mcommit a656007d4212e4bf25ef9c4fccf695c406bf4d0d[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 02:11:42 2024 -0300
+
+    Agrega imagenes hasta el proyecto 21
+
+[33mcommit 2a51b3a1bee882d02b6c4bbe1d2da8bfdd4118b2[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 01:53:34 2024 -0300
+
+    Agrega imagenes hasta el proyecto 19
+
+[33mcommit d344f112759a532cefc094cbe4c513b4c55ff924[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 01:30:06 2024 -0300
+
+    Agrega imagenes hasta el proyecto 15
+
+[33mcommit 65a3f96a17c9bfb1bfecd64882f969275a5c2e03[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Mon Oct 7 01:05:02 2024 -0300
+
+    Agrega imagenes hasta el proyecto 12 y quita autoplay por falta de eficiencia
+
+[33mcommit 6ea79fe3cbab94c65390596361044cddb62ee62a[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sun Oct 6 16:41:56 2024 -0300
+
+    Agrega imagenes hasta el proyecto 9
+
+[33mcommit 3d14ce14287c54687260fea8cf54187dec4c3695[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sun Oct 6 14:28:20 2024 -0300
+
+    Agrega imagenes del proyecto 1 y autoplay al carrusel de proyectos
+
+[33mcommit 5f51b6903f7570b962cfd6a2a93c61a6bc1fe7d3[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sun Oct 6 12:53:09 2024 -0300
+
+    Arregla margenes en imagenes en todas las pantallas
+
+[33mcommit ba6da8427dbe9470dc5b443970561da3e61f8fc6[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sun Oct 6 11:39:17 2024 -0300
+
+    Arregla margenes en imagenes en pantallas grandes
+
+[33mcommit 9acad7c47294aeb13376aa646f381d5be4f05e4e[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 20:04:38 2024 -0300
+
+    Agrega definicion a imagenes
+
+[33mcommit 5347eb8ffc3b47988d1b40cfaf2eeebbec193366[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 20:02:25 2024 -0300
+
+    Agrega archivo nextconfig
+
+[33mcommit 432576c2291224997bb9f1cdfcfa5f372b577efb[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 20:00:52 2024 -0300
+
+    Agrega miniaturas de proyectos nuevos
+
+[33mcommit 702fe3aa21ca39c758a0cf5f2b2ef559fd1fad15[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:57:44 2024 -0300
+
+    Agrega miniaturas de proyectos nuevos
+
+[33mcommit 2010d7c4005efa9b7b06e4cf4355d7d141e28b22[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:54:25 2024 -0300
+
+    Revert "Eliminacion temporal de las miniaturas"
+    
+    This reverts commit c5b3868d180dc5998e431e16667d9178f7615c94.
+
+[33mcommit b3841c4814d677b3387debd8fb67ff0817d3847a[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:54:11 2024 -0300
+
+    Revert "Agrega miniaturas de viejos proyectos"
+    
+    This reverts commit b8374fffd13ca80ebbfea83a5ea25eaba793c5a1.
+
+[33mcommit f8f1b91c44b27c6a4e2da98b4254e11bbe6517b2[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:53:54 2024 -0300
+
+    Revert "Agrega miniaturas de nuevos proyectos"
+    
+    This reverts commit 6b488d0aaca9b5645121eeb52fe299c76eaf8ea5.
+
+[33mcommit 935a489821901bd2693c962002c855ce45bcee8d[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:53:33 2024 -0300
+
+    Revert "Soluciona errores de compilacion"
+    
+    This reverts commit 552899c02e57c312b41115a0737344ef2985c2a3.
+
+[33mcommit 3fc192c93eccb58660d1e73e7ae0a4aa20cd20c2[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:53:30 2024 -0300
+
+    Modifica navbar
+
+[33mcommit 92bfbaa63459004d5fead42e8f37c7980b8feea5[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:45:32 2024 -0300
+
+    Revert "Modifica imagen y titulo en pagina de Contacto Modifica boton de Descargar Brochure"
+    
+    This reverts commit 0fddb0d815599723299e166e0ab26766931c1991.
+
+[33mcommit 552899c02e57c312b41115a0737344ef2985c2a3[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:18:26 2024 -0300
+
+    Soluciona errores de compilacion
+
+[33mcommit 6b488d0aaca9b5645121eeb52fe299c76eaf8ea5[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 19:00:41 2024 -0300
+
+    Agrega miniaturas de nuevos proyectos
+
+[33mcommit b8374fffd13ca80ebbfea83a5ea25eaba793c5a1[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 18:14:35 2024 -0300
+
+    Agrega miniaturas de viejos proyectos
+
+[33mcommit 62535c918982c94d305a2104bb1996e69b6a088c[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 17:24:17 2024 -0300
+
+    Agrega redirección a las imagenes de los nuevos proyectos
+
+[33mcommit c5b3868d180dc5998e431e16667d9178f7615c94[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Sat Oct 5 17:22:20 2024 -0300
+
+    Eliminacion temporal de las miniaturas
+
+[33mcommit 0fddb0d815599723299e166e0ab26766931c1991[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Fri Oct 4 11:39:06 2024 -0300
+
+    Modifica imagen y titulo en pagina de Contacto Modifica boton de Descargar Brochure
+
+[33mcommit 22febbe0c581020781c2fb474b88c94f14ca19dc[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Thu Oct 3 16:33:48 2024 -0300
+
+    Incrusta formulario de zoho forms
+
+[33mcommit 73f21527ff2d7c7a6fac05f8fd30c2085d389fa8[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Thu Oct 3 15:20:28 2024 -0300
+
+    Modifica el copy de Nosotros
+
+[33mcommit d94ed150789f6ed829dc021e0996b54f33031ab8[m
+Author: visualiza <visualiza27@gmail.com>
+Date:   Thu Oct 3 15:12:24 2024 -0300
+
+    Agrega boton de descarga de brochure
+
+[33mcommit de786bb3de015f21666cc5b96792cfac9e60b03c[m
+Author: Visualizape <visualiza27@gmail.com>
+Date:   Thu Oct 3 11:23:47 2024 -0300
+
+    Update index.js
+
+[33mcommit c6808938608e8dd425b0b0be02357115ad7e581e[m
+Author: Visualizape <visualiza27@gmail.com>
+Date:   Thu Oct 3 11:18:04 2024 -0300
+
+    Agrega boton de descarga de brochure
+
+[33mcommit 33b8f328d721d853cd9f7cacb1057d784e313caa[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Sep 26 20:49:56 2024 -0300
+
+    Add form in /contact without logic
+
+[33mcommit cdd920cb00217d2a7c49bf1910a9d3bcd099b190[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Tue Sep 17 14:37:11 2024 -0300
+
+    add robots.txt for index
+
+[33mcommit 5e231d3f4a519e174b69b942da675c6a6d0ebf9f[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Tue Sep 17 14:12:59 2024 -0300
+
+    add script tag
+
+[33mcommit d9dd6079550cd38ca65fd684fc3ea94649076df1[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Tue Sep 17 14:11:07 2024 -0300
+
+    add script tag
+
+[33mcommit 9fc76d677a8c876295e9197a4659efb9166f878b[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Tue Sep 17 14:09:42 2024 -0300
+
+    add google tag
+
+[33mcommit abe5f6df12b96f6d968143c3af94737c36ff1264[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Fri Sep 13 19:52:55 2024 -0300
+
+    Finish landing /render-de-arquitectura
+
+[33mcommit 52882ad48ea7be1235c25b0fb65991e6fe9cb784[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Wed Sep 4 16:51:10 2024 -0300
+
+    add carrousel of projects
+
+[33mcommit aa62aee229e63ed26348ac286da0d60b21ecf931[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Tue Sep 3 16:47:11 2024 -0300
+
+    development landing page... in construction
+
+[33mcommit e8fe82ca8e516839fdbb828380d2e1aa6dd88444[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Tue Sep 3 12:56:12 2024 -0300
+
+    Change alt text images
+
+[33mcommit 2238d46dac470b026ef905def11d4d0c0e0c703a[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Mon Sep 2 16:52:17 2024 -0300
+
+    Change meta data
+
+[33mcommit 924f11500d1c756a7ee09e7d2fd35b835e58add5[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 17:45:07 2024 -0300
+
+    Change alt text on logos in nosotros section
+
+[33mcommit 3dfebc8d7c34cd2f259e29df4d694968cdd85f45[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 16:58:25 2024 -0300
+
+    Update alt text on images proyects
+
+[33mcommit 181355c879698071c01f635060753a92d7f7a874[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 14:40:42 2024 -0300
+
+    Changes on alt text slider images
+
+[33mcommit 2ffc9ff344890403c498f82ed2ef9671094c09e1[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 14:34:27 2024 -0300
+
+    changes jpg images to webp images
+
+[33mcommit 72ed63d1f8c2766872f881ee21aa22fd653eb66d[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 13:38:48 2024 -0300
+
+    Changes text on Servicios and Conversemos section in Footer
+
+[33mcommit a4782cb44895888b15dba5e279235e9c6e076053[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 13:21:14 2024 -0300
+
+    add .gif loader instead .mp4
+
+[33mcommit 179be5722d42133a505830fbea73cac2c010e526[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 13:12:17 2024 -0300
+
+    Remove .mp4 loader
+
+[33mcommit fba59f4c50fb4e315ed44b98c884f56bd9577a31[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 13:05:21 2024 -0300
+
+    Adding loader
+
+[33mcommit 121af3da817cba3b2ed4df250650c60f74e6b80b[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Thu Aug 29 12:55:20 2024 -0300
+
+    Delete .mp4 loader
+
+[33mcommit 0e41a76e07465bdb3c3084f82a18e7c42333d9e6[m
+Author: visualizape <visualiza27@gmail.com>
+Date:   Wed Aug 28 14:58:09 2024 -0300
+
+    Migrating Visualiza project to new repository

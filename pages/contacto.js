@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Grid from 'components/Grid';
 import Navbar from 'components/Navbar';
 import Image from 'next/image';
@@ -21,10 +21,24 @@ const metadata = {
 };
 
 export default function Home() {
+  const [zohoForm, setZohoForm] = useState(''); // Estado para guardar el HTML del formulario
   const [width] = useAppWidth();
   const query = useAppQuery();
   const isMobile = useMedia('(max-width: 767px)');
   const loaded = useLoaded();
+
+  // useEffect para cargar el formulario desde un archivo HTML
+  useEffect(() => {
+    fetch('/form_zoho.html')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('No se pudo cargar form-zoho.html');
+        }
+        return response.text();
+      })
+      .then(html => setZohoForm(html))
+      .catch(error => console.error('Error al cargar el formulario:', error));
+  }, []);
 
   const size = React.useMemo(() => {
     if (query === 'xl') {
@@ -57,7 +71,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: loaded ? 1 : 0 }}
         transition={{ duration: 0.8 }}
-        className="flex flex-wrap my-3 mx-0 md:my-4 md:ml-0 md:mr-4" // Cambié mx-3 a mx-0 para evitar márgenes
+        className="flex flex-wrap my-3 mx-0 md:my-4 md:ml-0 md:mr-4"
       >
         <Navbar />
         <div className="relative h-full w-full md:w-[85%] lg:w-[87%] xl:w-[89%]">
@@ -65,33 +79,41 @@ export default function Home() {
           <div className={`flex flex-col ${isMobile ? 'items-center' : 'flex-row'}`}>
             <h1
               className={`font-sec ${isMobile ? 'text-2xl text-center mb-4' : 'md:text-2xl lg:text-3xl'} pl-1`}
-              
               style={{
                 width: '100%',
-                marginTop: `${width * (isMobile ? 1.5: 0.6)}px`,
+                marginTop: `${width * (isMobile ? 1.5 : 0.6)}px`,
                 marginLeft: `${width * (isMobile ? 0 : 0.7)}px`,
               }}
             >
               Visualiza tu próximo proyecto
             </h1>
-
-            {/* Formulario incrustado */}
-            <div className={`mt-4 ${isMobile ? 'w-full' : 'w-1/3'}`} >
+              {/* Formulario incrustado
+            <div className={mt-4 ${isMobile ? 'w-full' : 'w-1/3'}} >
               <iframe
                 aria-label='Contacto Página Web'
                 frameBorder="0"
                 style={{ height: "800px", width: "100%", border: "none" }} // Altura a 800px y ancho completo
                 src='https://forms.zohopublic.com/digitalizala/form/ContactoVisualiza/formperma/KVySmLfDTieWktj6EWyqsHZdKfMmVhB9b-YojiPhn-c'
               ></iframe>
+            </div> */}
+
+            {/* Formulario incrustado */}
+            <div className={`mt-4 ${isMobile ? 'w-full' : 'w-1/3'}`}>
+              {zohoForm ? (
+                // Inyectamos el contenido HTML usando dangerouslySetInnerHTML
+                <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+              ) : (
+                <p>Cargando formulario...</p>
+              )}
             </div>
-            
 
             {/* Imagen del sofá, visible solo en escritorio */}
             {!isMobile && (
-              <div className="absolute top-0 right-0 w-1/2  md:h-[61%] lg:h-[62%] xl:h-[62%]"
-              style={{
-                marginTop: `${width * (isMobile ? 1.5: 0.6)}px`,
-              }}
+              <div
+                className="absolute top-0 right-0 w-1/2 md:h-[61%] lg:h-[62%] xl:h-[62%]"
+                style={{
+                  marginTop: `${width * (isMobile ? 1.5 : 0.6)}px`,
+                }}
               >
                 <Image
                   src={sofaSVG}

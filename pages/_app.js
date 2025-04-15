@@ -74,7 +74,6 @@ function MyApp({ Component, pageProps }) {
       </Script>
       <Script
         id="zsiqscript"
-        strategy="afterInteractive"
         src="https://salesiq.zohopublic.com/widget?wc=siq1d987b3e8d606e8cc9439a9455f015d12a2ed8a02b14274fe91bf7206d034b70"
         defer
       />

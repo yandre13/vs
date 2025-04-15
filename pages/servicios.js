@@ -14,20 +14,18 @@ const visual2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto
 const visual3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/R6000-FINAL_pcls36'
 const visual4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-COMEDOR_PUMACAHUA-_3__tdvah4'
 const visual5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-DE-ESPERA-_2__hucvji'
-const plano1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/CHECOR_PORTA_DPTO-102_pksojn'
-const plano2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/CHECOR_PORTA_PISO_01_ml9uqm'
-const plano3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/MONTE_ALEGRE_DPTO_501_P2_p0tusu'
-const plano4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/IMN_HENDERSON_JACINTO_DE_LARA_DPTO_201_fzadly'
-const plano5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/IMN_HENDERSON_JACINTO_DE_LARA_DPTO_502_P3_l7nkbz'
-const plano6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/MONTE_ALEGRE_DPTO_102_fxswcf'
-const fachada1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ALJOVIN_DIURNA_tsccpr'
-const fachada2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ALJOVIN_NOCTURNA_d4zebg'
-const fachada3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/FACHADA_hr1jxg'
-const fachada4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/FLORA_21_picmow'
-const fachada5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/INCL%C3%81N_21_1_megswn'
-const fachada6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/INCL%C3%81N_21_j12ylk'
+const plano1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/PORTA_domyq3'
+const plano2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/PORTA2_h4rkif'
+const plano3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/JACINTO_DE_LARA_ivmy6e'
+const plano4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/MONTE_ALEGRE_apenea'
+const fachada1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/INCL%C3%81N_21_1_sktyzk'
+const fachada2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/FACHADA_xxy6tr'
+const fachada3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/INCL%C3%81N_21_pdamed'
+const fachada4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ALJOVIN_DIURNA_aoujbx'
+const fachada5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/FLORA_21_qzavti'
+const fachada6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ALJOVIN_NOCTURNA_td1vkj'
 const interiorismore1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM_PRINC_ETEN_2_1_i5cah4'
-const interiorismore2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM_SEC_1_sppodh'
+const interiorismore2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM_SEC_1_udhhbq'
 const interiorismore3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ESTAR_JUEGOS_1_hhpjqt'
 const interiorismore4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/HOME_OFFICE_du10wj'
 const interiorismore5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_11_uxbz84'
@@ -36,33 +34,33 @@ const interiorismore7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_aut
 const interiorismore8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_GOURMET_ekliio'
 const interiorismore9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SUM_2_onxwd3'
 const interiorismore10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/TERRAZA_3_cqck4h'
-const interiorismoco1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_56_20230223_073630_13_11zon_h10jg2'
-const interiorismoco2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_57_20230223_073231_14_11zon_ouvh1o'
-const interiorismoco3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_58_20230223_072833_1__15_11zon_pvk7xh'
-const interiorismoco4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_62_20230223_071154_16_11zon_azuhok'
-const interiorismoco5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_67_20230223_065405_18_11zon_jzzjqw'
-const interiorismoco6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_71_20230223_063908_17_11zon_zmtlgc'
-const interiorismoco7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_1_11_1_11zon_wkivh6'
-const interiorismoco8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_3_1_2__8_11zon_hktnnh'
-const interiorismoco9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_5_9_11zon_phj7xc'
-const interiorismoco10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_6_10_11zon_qdldke'
-const interiorismoco11 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_8_11_11zon_g9gn5h'
-const interiorismoco12 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_9_1_6_11zon_e6jv3x'
-const interiorismoco13 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_10_15_2_11zon_gkidzg'
-const interiorismoco14 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_11_9_3_11zon_g5q5wz'
-const interiorismoco15 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_12_1_7_11zon_skjduj'
-const interiorismoco16 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_13_13_4_11zon_m9ibve'
-const interiorismoco17 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_16_3_5_11zon_fqkja6'
-const interiorismoco18 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_16_12_11zon_o7q8ny'
-const fotografia1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01121-HDR_3_11zon_xcbvek'
-const fotografia3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03589-HDR_4_11zon_krr9ri'
-const fotografia4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03613-HDR_5_11zon_wgk0sg'
-const fotografia5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03658-HDR_8_11zon_wzkq4f'
-const fotografia6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03760-HDR_9_11zon_fwh0yb'
-const fotografia7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03850-HDR_1_11zon_senxhs'
-const fotografia8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03885-HDR_2_11zon_ne5oit'
-const fotografia9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03733-HDR_wc14sy'
-const fotografia10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01172-HDR_isc5wz'
+const interiorismoco1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_5_yfsic6'
+const interiorismoco2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_56_20230223_073630_nijab7'
+const interiorismoco3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_8_f4cwsq'
+const interiorismoco4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_16_x4sgv9'
+const interiorismoco5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_62_20230223_071154_vcsxvm'
+const interiorismoco6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_58_20230223_072833_1_aqpbbw'
+const interiorismoco7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_9_1_vs8fb3'
+const interiorismoco8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_12_1_nlqdxw'
+const interiorismoco9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_1_11_n2fyy2'
+const interiorismoco10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_67_20230223_065405_g0aseo'
+const interiorismoco11 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_6_rsffbc'
+const interiorismoco12 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_57_20230223_073231_xxjznd'
+const interiorismoco13 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_11_9_cxqkfn'
+const interiorismoco14 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_10_15_tczn2a'
+const interiorismoco15 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/D5_Image_71_20230223_063908_iqqxkx'
+const interiorismoco16 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_13_13_voizst'
+const interiorismoco17 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_16_3_mr3gbl'
+const interiorismoco18 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/Escena_3_1_2_qazyrc'
+const fotografia1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01172-HDR_u6dkj5'
+const fotografia3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03850-HDR_egqzkw'
+const fotografia4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01139-HDR_uye5if'
+const fotografia5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03760-HDR_io6gov'
+const fotografia6 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03658-HDR_whdfgj'
+const fotografia7 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03733-HDR_cf6gfr'
+const fotografia8 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03589-HDR_ytkg00'
+const fotografia9 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC03885-HDR_oshq1q'
+const fotografia10 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DSC01121-HDR_q7vvqu'
 
 
 const visualizacion3d = [
@@ -104,14 +102,7 @@ const planosdeventa = [
 		original: plano4,
 		thumbnail: plano4,
 	},
-	{
-		original: plano5,
-		thumbnail: plano5,
-	},
-	{
-		original: plano6,
-		thumbnail: plano6,
-	}
+	
 ];
 const fachadas = [
 	{
@@ -724,7 +715,7 @@ export default function Home() {
 									<button
 										onClick={() => setActiveTab('avances')}
 										className={`py-2 px-4 focus:outline-none ${activeTab === 'avances'
-											? 'border-b-2 border-[#FDD704] font-bold text-[#FDD704]'
+											? 'border-b-2 border-[#000000] font-bold text-[#000000]'
 											: 'text-gray-600'
 											}`}
 									>
@@ -733,7 +724,7 @@ export default function Home() {
 									<button
 										onClick={() => setActiveTab('eventos')}
 										className={`py-2 px-4 focus:outline-none ${activeTab === 'eventos'
-											? 'border-b-2 border-[#FDD704] font-bold text-[#FDD704]'
+											? 'border-b-2 border-[#000000] font-bold text-[#000000]'
 											: 'text-gray-600'
 											}`}
 									>
@@ -742,7 +733,7 @@ export default function Home() {
 									<button
 										onClick={() => setActiveTab('videos')}
 										className={`py-2 px-4 focus:outline-none ${activeTab === 'videos'
-											? 'border-b-2 border-[#FDD704] font-bold text-[#FDD704]'
+											? 'border-b-2 border-[#000000] font-bold text-[#000000]'
 											: 'text-gray-600'
 											}`}
 									>

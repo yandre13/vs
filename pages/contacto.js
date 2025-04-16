@@ -61,8 +61,8 @@ export default function Home() {
         return true;
       }
       function checkMandatory6461872000001294544 (){
-        var mndFileds = new Array('Last Name','Email','Phone');
-        var fldLangVal = new Array('Nombre completo','Correo electrónico','Teléfono');
+        var mndFileds = new Array ( 'Company', 'Last Name', 'Email', 'Phone' );
+        var fldLangVal = new Array ( 'Empresa', 'Nombre\x20completo', 'Correo\x20electr\xF3nico', 'Tel\xE9fono' );
         for(var i = 0; i < mndFileds.length; i++ ){
           var fieldObj = document.forms['WebToLeads6461872000001294544'][mndFileds[i]];
           if(fieldObj){
@@ -174,7 +174,7 @@ export default function Home() {
  const analyticsScript = document.createElement('script');
  analyticsScript.id = 'wf_anal';
  analyticsScript.type = 'text/javascript';
- analyticsScript.src = 'https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=2147dd8c64bf2c159e86155cf8b3ea54bbbee7f9daca2458c84b9e3c63518bf1817f2a5174cdfbb0b389e7ce4724e46dgid7fd7de9526d21bdaae1aff99fcf87d703c4f3cae7569a7ad49c871160343a492gid4d9acd184adf9f80313f346cf526c5b88f7ef873c05fb4c428c38774cab40859gid73a03b527bce254599ca95571c6abadfc0c973d1bcc352ae7fba9867c0ce40fd&tw=65f8a857dcf645b54887a22a3c618ae1d36301963cc5d7b99a1eba1e5a43e8a0';
+ analyticsScript.src = 'https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=99384b86221f93b8e5d62f119d1e9008cb7b013cb407b66842193d61996f68d630119c280b129a7a1d6b203e9203580fgid1f4691c35d645e67cdf8d699f353f65dcb84b34d879eb15ade967c7eeb053a56gida645efd981f1cbc3eed8aea2cc80a561db1be54ec0dd14076c25b431b2ad278cgid4b5e00d79945be80ccb97c047487cb5b4e3da998892713a7f25fd524b2aaca49&tw=e956a685922384229f390cb4d907880ed0d563309857fe3ad0f8ac03abc31fe1';
  document.body.appendChild(analyticsScript);
       })
       .catch(error => console.error('Error al cargar el formulario:', error));

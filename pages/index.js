@@ -128,7 +128,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/1.webp"
+												src="https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ACERCAMIENTO_wow5uy"
 												alt="Render de arquitectura moderna en Lima realizado por Visualiza.pe"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -144,7 +144,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/2.webp"
+												src="https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA_COMEDOR_PUMACAHUA_3_qq8zlg"
 												alt="Vista 3D de un edificio residencial en Perú"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -160,7 +160,7 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/3.webp"
+												src="https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM_PRINC_ETEN_2_mzqumq"
 												alt="Diseño arquitectónico con render 3D en Lima, Perú"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -176,7 +176,23 @@ export default function Home() {
 											style={{height: `${width * size.height}px`}}
 										>
 											<img
-												src="/img/carrusel/4.webp"
+												src="https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/R6000-FINAL_yqdtag"
+												alt="Render de un proyecto de arquitectura comercial en Perú"
+												className="absolute top-0 w-full h-full object-cover"
+												width={1920}
+												height={1080}
+											/>
+										</div>
+									</article>
+								</SwiperSlide>
+								<SwiperSlide>
+									<article className="w-full">
+										<div
+											className="w-full"
+											style={{height: `${width * size.height}px`}}
+										>
+											<img
+												src="https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-DE-ESPERA-_2__lzcnvv"
 												alt="Render de un proyecto de arquitectura comercial en Perú"
 												className="absolute top-0 w-full h-full object-cover"
 												width={1920}
@@ -213,7 +229,12 @@ export default function Home() {
 								marginTop: `${width * data[1].styles[query].mt}px`,
 								marginLeft: `${width * data[1].styles[query].ml}px`,
 								// marginBottom: `${width * project?.styles?.[query]?.mb}px`,
+								
 							}}
+							imgStyle={{
+								objectFit: "cover",
+								objectPosition: "left"  // Esto hará que la imagen se enfoque a la derecha
+							  }}
 							aspectRatio={data[1].aspectRatio}
 							title={data[1].title}
 							description={data[1].description}
@@ -251,6 +272,10 @@ export default function Home() {
 								marginLeft: `${width * data[2].styles[query].ml}px`,
 								// marginBottom: `${width * project?.styles?.[query]?.mb}px`,
 							}}
+							imgStyle={{
+								objectFit: "cover",
+								objectPosition: "right"  // Esto hará que la imagen se enfoque a la derecha
+							  }}
 							aspectRatio={data[2].aspectRatio}
 							title={data[2].title}
 							description={data[2].description}
@@ -267,6 +292,10 @@ export default function Home() {
 									marginLeft: `${width * data[3].styles[query].ml}px`,
 									// marginBottom: `${width * project?.styles?.[query]?.mb}px`,
 								}}
+								imgStyle={{
+									objectFit: "cover",
+									objectPosition: "right"  // Esto hará que la imagen se enfoque a la derecha
+								  }}
 								aspectRatio={data[3].aspectRatio}
 								title={data[3].title}
 								description={data[3].description}
@@ -318,9 +347,10 @@ export default function Home() {
 							>
 								<Image
 									src={'/img/VISTA PIE DE PAGINA.jpg'}
-									className="w-full h-full object-cover"
+									className="w-full h-full object-cover object-bottom"
 									width={1920}
 									height={1080}
+
 									alt={'Visualiza.pe - Expertos en renders de arquitectura y servicios de arquitectura en Perú'}
 									// placeholder="blur"
 								/>

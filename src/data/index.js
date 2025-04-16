@@ -69,6 +69,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
+		objectPosition: 'left'
 	},
 	{
 		id: 5,
@@ -137,6 +138,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
+		
 	},
 	{
 		id: 9,
@@ -222,6 +224,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
+		
 	},
 	{
 		id: 14,
@@ -239,6 +242,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
+		objectPosition: 'left'
 	},
 	{
 		id: 15,
@@ -358,6 +362,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
+		objectPosition: 'right'
 	},
 	{
 		id: 22,
@@ -392,6 +397,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
+		objectPosition: 'right'
 	},
 	{
 		id: 24,
@@ -460,6 +466,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
+		
 	},
 	{
 		id: 28,
@@ -545,6 +552,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
+		
 	},
 	{
 		id: 33,
@@ -562,6 +570,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
+		objectPosition: 'right'
 	},
 	{
 		id: 34,
@@ -595,6 +604,7 @@ const data = [
 			sm: { mt: -2, ml: 1 },
 		},
 		aspectRatio: 'ar3x3',
+	objectPosition: 'left',
 		height: 6,
 	},
 	{
@@ -664,6 +674,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
+		
 	},
 	{
 		id: 40,
@@ -715,6 +726,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
+		objectPosition: 'right'
 	},
 	{
 		id: 43,
@@ -817,6 +829,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
+		objectPosition: 'left'
 	},
 	{
 		id: 49,
@@ -834,6 +847,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
+		
 	},
 	{
 		id: 50,
@@ -851,6 +865,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
+		objectPosition: 'right'
 	},
 	{
 		id: 51,
@@ -868,6 +883,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
+		
 	},
 	{
 		id: 52,
@@ -885,6 +901,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
+		objectPosition: 'left'
 	},
 	{
 		id: 53,

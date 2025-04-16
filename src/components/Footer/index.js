@@ -19,11 +19,13 @@ export default function index() {
 						<li className="mb-1 font-main text-sm text-gray-300">
 						Av. Jose Pardo 1167 
 						</li>
-						<li className="mb-3 font-main text-sm text-gray-300">
-						Miraflores 15074, Lima - Perú
+						<li className="mb-1 font-main text-sm text-gray-300">
+						Miraflores 15074
 						</li>
-						<li className="font-main text-sm text-gray-300"><b>Arquitecto en Perú</b> para Proyectos Arquitectónicos
+						<li className="mb-2 font-main text-sm text-gray-300">
+						Lima - Perú
 						</li>
+						
 					</ul>
 				</div>
 				<div className="py-5 sm:pt-10 xl:py-10">

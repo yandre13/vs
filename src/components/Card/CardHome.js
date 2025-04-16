@@ -9,6 +9,7 @@ export default function CardHome({
 	alt,
 	description,
 	children,
+	imgStyle, // Nuevo prop para estilos de la imagen
 	...props
 }) {
 	return (
@@ -16,9 +17,10 @@ export default function CardHome({
 			<div className={cn('w-full h-full relative', aspectRatio)}>
 				<Image
 					src={image}
-					className="w-full h-full absolute top-0 left-0 object-cover"
 					alt={alt}
 					placeholder="blur"
+					className="w-full h-full absolute top-0 left-0 object-cover"
+					style={imgStyle}  // Se aplican los estilos enviados desde el componente padre
 				/>
 
 				<div

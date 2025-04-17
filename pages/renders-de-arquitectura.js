@@ -95,7 +95,7 @@ export default function Home() {
 				className={cn(
 					'flex flex-wrap mx-3',
 					'my-3',
-					'md:my-4 md:ml-0 md:mr-4',
+					'md:my-4 md:ml-0 md:mr-4 md:ml-[0.3%]  lg:ml-[0.2%] xl:ml-[15%] ',
 				)}
 			>
 				<Navbar />

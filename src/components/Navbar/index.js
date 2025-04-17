@@ -161,7 +161,10 @@ function Navbar() {
   //   className="sticky top-0 z-10 mb-3 md:mb-0 flex flex-col w-full
   //     md:w-[15%] md:h-[100vh] lg:w-[13%] xl:w-[11%] md:relative md:top-auto md:z-auto bg-white p-4 md:pl-7"
   // >
-  <header className="sticky top-0 z-10 mb-3 flex flex-col w-full
+  // 1) Placeholder para reservar el ancho del menú
+  <>
+     <div className="hidden md:block md:w-[15%] lg:w-[13%] xl:w-[15%]" />
+  <header className="fixed top-0 left-0 bottom-0 z-10 mb-3 flex flex-col w-full
   md:w-[15%] md:h-[100vh] lg:w-[13%] xl:w-[11%] bg-white p-4 md:pl-7">
 
     <div className="flex flex-col h-full">
@@ -245,6 +248,7 @@ function Navbar() {
       </div>
     </div>
   </header>
+  </>
 )}
 
 		  </>

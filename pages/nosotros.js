@@ -105,6 +105,7 @@ export default function Home() {
 				transition={{ duration: 0.8 }}
 				className={cn(
 					'flex flex-wrap mx-3',
+					'md:ml-[0.3%]  lg:ml-[0.2%] xl:ml-[15%]   ',
 					isMobile ? 'mt-3' : 'my-3',
 					'md:my-4 md:ml-0 md:mr-4',
 				)}
@@ -296,7 +297,8 @@ export default function Home() {
 															marginBottom: width,
 															zIndex: 10,
 														}}
-														className="bg-black"
+														className="bg-black
+														"
 													>
 														<motion.img
 															key={alt}

@@ -30,7 +30,7 @@ export default function Home() {
 				initial={{opacity: 0}}
 				animate={{opacity: loaded ? 1 : 0}}
 				transition={{duration: 0.8}}
-				className="flex flex-wrap my-3 mx-3 md:my-4 md:ml-0 md:mr-4"
+				className="flex flex-wrap my-3 mx-3 md:my-4 md:ml-0 md:mr-4 md:ml-[0.3%]  lg:ml-[0.2%] xl:ml-[15%] "
 			>
 				<Navbar />
 				<div className="relative h-full w-full md:w-[85%] lg:w-[87%] xl:w-[89%]">

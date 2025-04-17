@@ -131,7 +131,8 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: loaded ? 1 : 0 }}
         transition={{ duration: 0.8 }}
-        className="flex flex-wrap my-3 mx-0 md:my-4 md:ml-0 md:mr-4"
+        className="flex flex-wrap my-3 mx-0 md:my-4 md:ml-0 md:mr-4
+        "
       >
         <Navbar />
 

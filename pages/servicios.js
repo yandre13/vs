@@ -466,7 +466,7 @@ export default function Home() {
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
-								Tour virtual 360.
+								Tour virtual 360°.
 							</h2>
 							<div
 								className="overflow-hidden custom-height"
@@ -498,7 +498,7 @@ export default function Home() {
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
-								Recorridos virtuales.
+								Video recorrido.
 							</h2>
 							<div
 								className="overflow-hidden custom-height"
@@ -528,7 +528,7 @@ export default function Home() {
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
-								Marketing inmobiliario.
+								Video publicitario.
 							</h2>
 							<div
 								className="overflow-hidden custom-height"
@@ -557,7 +557,7 @@ export default function Home() {
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
-								Vistas aéreas - drone.
+								Tomas Drone.
 							</h2>
 							<div
 								className="overflow-hidden custom-height"

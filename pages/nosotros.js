@@ -213,7 +213,9 @@ export default function Home() {
 													(query === 'xl' ? 12 : query === 'lg' ? 11 : 10)
 													}px`,
 												marginLeft: width,
-												marginTop: width*3,
+												marginTop: `${width *
+													(query === 'xl' ? 7.2 : query === 'lg' ? 5.5 : 3.5)
+													}px`,
 												zIndex: 10,
 											}}
 										>
@@ -221,7 +223,7 @@ export default function Home() {
 												<h1 className="font-sec text-5xl pl-3">Somos</h1>
 												
 											</div>
-											<div className="ml-20">
+											<div className="ml-">
 											<h2 className="pl-3">
 													<Logo
 														color="black"
@@ -240,7 +242,7 @@ export default function Home() {
 													style={{
 														// overflow: isHovered ? 'auto' : 'hidden',
 														height: `${width *
-															(query === 'xl' ? 7 : query === 'lg' ? 8 : 7) -
+															(query === 'xl' ? 7 : query === 'lg' ? 5.2 : 3.9) -
 															1
 															}px`,
 														lineHeight:
@@ -249,7 +251,7 @@ export default function Home() {
 																: query === 'lg'
 																	? 1.7
 																	: 1.7,
-														fontSize: query === 'xl' ? '85%' : query === 'lg' ? '80%' : '45%',
+														fontSize: query === 'xl' ? '85%' : query === 'lg' ? '80%' : '75%',
 													}}
 													className={cn('p-3 pscroll bg-white')}
 

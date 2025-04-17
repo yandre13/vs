@@ -1,15 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import Grid from 'components/Grid';
-import Navbar from 'components/Navbar';
-import Image from 'next/image';
-import sofaSVG from '../public/img/contacto.webp';
-import { useAppQuery, useAppWidth } from 'context';
-import useMedia from 'hooks/useMedia';
-import { motion } from 'framer-motion';
-import ButtonWsp from 'components/ButtonWsp';
-import useLoaded from 'hooks/useLoaded';
-import SEO from 'components/SEO';
-
+import React, { useEffect, useState } from 'react'
+import Grid from 'components/Grid'
+import Navbar from 'components/Navbar'
+import { useAppWidth } from 'context'
+import useMedia from 'hooks/useMedia'
+import { motion } from 'framer-motion'
+import ButtonWsp from 'components/ButtonWsp'
+import useLoaded from 'hooks/useLoaded'
+import SEO from 'components/SEO'
 
 const metadata = {
   title: 'Contáctanos para Servicios de Arquitecto en Perú - Visualiza.pe',
@@ -19,194 +16,117 @@ const metadata = {
     url: 'https://www.visualiza.pe/contacto',
     image: '/img/contacto.webp',
   },
-};
+}
 
 export default function Home() {
-  const [zohoForm, setZohoForm] = useState(''); // Estado para guardar el HTML del formulario
-  const [width] = useAppWidth();
-  const query = useAppQuery();
-  const isMobile = useMedia('(max-width: 767px)');
-  const loaded = useLoaded();
+  const [zohoForm, setZohoForm] = useState('')    // HTML del formulario Zoho
+  const [width] = useAppWidth()                   // ancho para márgenes dinámicos
+  const isMobile = useMedia('(max-width: 767px)') // detecta móvil
+  const loaded = useLoaded()                      // listo para animar
 
-  // useEffect para cargar el formulario desde un archivo HTML
   useEffect(() => {
     fetch('/form_zoho.html')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('No se pudo cargar form-zoho.html');
-        }
-        return response.text();
+      .then(res => {
+        if (!res.ok) throw new Error('No se pudo cargar form_zoho.html')
+        return res.text()
       })
       .then(html => {
-        setZohoForm(html);
-        // Paso 2: Inyectar manualmente el script que define las funciones de validación
-        // Puedes copiar aquí el contenido de los scripts que Zoho te proporciona
-        const script = document.createElement('script');
-        script.text = `
-           function validateEmail6461872000001294544 (){
-        var form = document.forms['WebToLeads6461872000001294544'];
-        var emailFld = form.querySelectorAll('[ftype=email]');
-        for(var i = 0; i < emailFld.length; i++ ){
-          var emailVal = emailFld[i].value;
-          if(emailVal.trim().length != 0){
-            var atpos = emailVal.indexOf('@');
-            var dotpos = emailVal.lastIndexOf('.');
-            if(atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length){
-              alert('Introduzca una dirección de correo electrónico válida.');
-              emailFld[i].focus();
-              return false;
-            }
+        setZohoForm(html)
+
+        // — Inyectar validación y tooltips —
+        const validateScript = document.createElement('script')
+        validateScript.text = `
+          function addAriaSelected6461872000001294544() {
+            var el = event.target;
+            var prev = el.querySelector('[aria-selected=true]');
+            if (prev) prev.removeAttribute('aria-selected');
+            el.querySelectorAll('option')[el.selectedIndex].ariaSelected = 'true';
           }
-        }
-        return true;
-      }
-      function checkMandatory6461872000001294544 (){
-        var mndFileds = new Array ( 'Company', 'Last Name', 'Email', 'Phone' );
-        var fldLangVal = new Array ( 'Empresa', 'Nombre\x20completo', 'Correo\x20electr\xF3nico', 'Tel\xE9fono' );
-        for(var i = 0; i < mndFileds.length; i++ ){
-          var fieldObj = document.forms['WebToLeads6461872000001294544'][mndFileds[i]];
-          if(fieldObj){
-            if(fieldObj.value.trim().length == 0){
-              if(fieldObj.type == 'file'){
-                alert('Seleccione un archivo para cargar.');
-                fieldObj.focus();
-                return false;
-              }
-              alert(fldLangVal[i] + ' no puede estar vacío.');
-              fieldObj.focus();
-              return false;
-            }
-            else if(fieldObj.nodeName === 'SELECT'){
-              if(fieldObj.options[fieldObj.selectedIndex].value == '-None-'){
-                alert(fldLangVal[i] + ' no puede ser nulo.');
-                fieldObj.focus();
-                return false;
+          function validateEmail6461872000001294544() {
+            var form = document.forms['WebToLeads6461872000001294544'];
+            var emails = form.querySelectorAll('[ftype=email]');
+            for (var i = 0; i < emails.length; i++) {
+              var v = emails[i].value.trim();
+              if (v) {
+                var at = v.indexOf('@'), dot = v.lastIndexOf('.');
+                if (at < 1 || dot < at + 2 || dot + 2 >= v.length) {
+                  alert('Introduzca una dirección de correo electrónico válida.');
+                  emails[i].focus();
+                  return false;
+                }
               }
             }
-            else if(fieldObj.type === 'checkbox'){
-              if(fieldObj.checked === false){
-                alert('Please accept ' + fldLangVal[i]);
-                fieldObj.focus();
-                return false;
+            return true;
+          }
+          function checkMandatory6461872000001294544() {
+            var m = ['Company','Last Name','Email','Phone'],
+                l = ['Empresa','Nombre completo','Correo electrónico','Teléfono'];
+            for (var i = 0; i < m.length; i++) {
+              var f = document.forms['WebToLeads6461872000001294544'][m[i]];
+              if (f) {
+                var v = f.value.trim();
+                if (!v || (f.nodeName === 'SELECT' && v === '-None-')) {
+                  alert(l[i] + ' no puede estar vacío.');
+                  f.focus();
+                  return false;
+                }
               }
             }
+            trackVisitor6461872000001294544();
+            return validateEmail6461872000001294544();
+          }
+          function tooltipShow6461872000001294544(el) {
+            var tip = el.nextElementSibling;
+            tip.style.display = tip.style.display === 'none' ? 'block' : 'none';
+          }
+        `
+        document.body.appendChild(validateScript)
+
+        // — Inyectar VisitorTracking —
+        const visitorScript = document.createElement('script')
+        visitorScript.id = 'VisitorTracking'
+        visitorScript.defer = true
+        visitorScript.text = `
+          var $zoho = $zoho || {};
+          $zoho.salesiq = $zoho.salesiq || {
+            widgetcode:'siq1d987b3e8d606e8cc9439a9455f015d12a2ed8a02b14274fe91bf7206d034b70',
+            values:{}, ready:function(){}
+          };
+          (function(d){
+            var s = d.createElement('script');
+            s.id='zsiqscript'; s.defer=true;
+            s.src='https://salesiq.zoho.com/widget';
+            d.getElementsByTagName('script')[0]
+             .parentNode.insertBefore(s, d.getElementsByTagName('script')[0]);
+          })(document);
+          function trackVisitor6461872000001294544() {
             try {
-              if(fieldObj.name === 'Last Name'){
-                name = fieldObj.value;
-              }
+              var form = document.forms['WebToLeads6461872000001294544'],
+                  u = form['LDTuvid'], fn = form['First Name'],
+                  em = form['Email'], name;
+              if (u) u.value = $zoho.salesiq.visitor.uniqueid();
+              if (fn) name = fn.value + ' ' + name;
+              $zoho.salesiq.visitor.name(name);
+              if (em) $zoho.salesiq.visitor.email(em.value);
             } catch(e){}
           }
-        }
-        trackVisitor6461872000001294544();
-        if(!validateEmail6461872000001294544()){
-          return false;
-        }
-        var urlparams = new URLSearchParams(window.location.search);
-        if(urlparams.has('service') && (urlparams.get('service') === 'smarturl')){
-          var webform = document.getElementById('webform6461872000001294544');
-          var service = urlparams.get('service');
-          var smarturlfield = document.createElement('input');
-          smarturlfield.setAttribute('type', 'hidden');
-          smarturlfield.setAttribute('value', service);
-          smarturlfield.setAttribute('name', 'service');
-          webform.appendChild(smarturlfield);
-        }
-        document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-      }
-      function tooltipShow6461872000001294544(el){
-        var tooltip = el.nextElementSibling;
-        if(tooltip.style.display === 'none'){
-          var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
-          for(var i = 0; i < allTooltip.length; i++){
-            allTooltip[i].style.display = 'none';
-          }
-          tooltip.style.display = 'block';
-        } else {
-          tooltip.style.display = 'none';
-        }
-      }
-        `;
-        document.body.appendChild(script);
+        `
+        document.body.appendChild(visitorScript)
 
-        // 3. Inyectar el script de VisitorTracking de Zoho
-    const visitorScript = document.createElement('script');
-    visitorScript.type = 'text/javascript';
-    visitorScript.id = 'VisitorTracking';
-    visitorScript.defer = true;
-    visitorScript.text = `
-      var $zoho = $zoho || {};
-      $zoho.salesiq = $zoho.salesiq || {
-        widgetcode: 'siq1d987b3e8d606e8cc9439a9455f015d12a2ed8a02b14274fe91bf7206d034b70',
-        values: {},
-        ready: function(){}
-      };
-      var d = document;
-      var s = d.createElement('script');
-      s.type = 'text/javascript';
-      s.id = 'zsiqscript';
-      s.defer = true;
-      s.src = 'https://salesiq.zoho.com/widget';
-      var t = d.getElementsByTagName('script')[0];
-      t.parentNode.insertBefore(s, t);
-      function trackVisitor6461872000001294544() {
-        try {
-          if ($zoho) {
-            var LDTuvidObj = document.forms['WebToLeads6461872000001294544']['LDTuvid'];
-            if (LDTuvidObj) {
-              LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();
-            }
-            var firstnameObj = document.forms['WebToLeads6461872000001294544']['First Name'];
-            if (firstnameObj) {
-              name = firstnameObj.value + ' ' + name;
-            }
-            $zoho.salesiq.visitor.name(name);
-            var emailObj = document.forms['WebToLeads6461872000001294544']['Email'];
-            if (emailObj) {
-              email = emailObj.value;
-              $zoho.salesiq.visitor.email(email);
-            }
-          }
-        } catch(e){}
-      }
-    `;
-    document.body.appendChild(visitorScript);
- // Inyecta el script de Zoho Analytics (wf_anal)
- const analyticsScript = document.createElement('script');
- analyticsScript.id = 'wf_anal';
- analyticsScript.type = 'text/javascript';
- analyticsScript.src = 'https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=99384b86221f93b8e5d62f119d1e9008cb7b013cb407b66842193d61996f68d630119c280b129a7a1d6b203e9203580fgid1f4691c35d645e67cdf8d699f353f65dcb84b34d879eb15ade967c7eeb053a56gida645efd981f1cbc3eed8aea2cc80a561db1be54ec0dd14076c25b431b2ad278cgid4b5e00d79945be80ccb97c047487cb5b4e3da998892713a7f25fd524b2aaca49&tw=e956a685922384229f390cb4d907880ed0d563309857fe3ad0f8ac03abc31fe1';
- document.body.appendChild(analyticsScript);
+        // — Inyectar Analytics —
+        const analyticsScript = document.createElement('script')
+        analyticsScript.id = 'wf_anal'
+        analyticsScript.src =
+          'https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=99384b86221f93b8e5d62f119d1e9008cb7b013cb407b66842193d61996f68d630119c280b129a7a1d6b203e9203580fgid4e…&tw=e956a685922384229f390cb4d907880ed0d563309857fe3ad0f8ac03abc31fe1'
+        document.body.appendChild(analyticsScript)
       })
-      .catch(error => console.error('Error al cargar el formulario:', error));
-  }, []);
-
-  const size = React.useMemo(() => {
-    if (query === 'xl') {
-      return {
-        imgWidth: 7,
-        textWidth: 4,
-      };
-    } else if (query === 'lg') {
-      return {
-        imgWidth: 6,
-        textWidth: 7,
-      };
-    } else if (query === 'md') {
-      return {
-        imgWidth: 5.5,
-        textWidth: 4,
-      };
-    } else {
-      return {
-        imgWidth: 6,
-        textWidth: 6,
-      };
-    }
-  }, [query]);
+      .catch(err => console.error('Error al cargar el formulario:', err))
+  }, [])
 
   return (
     <>
       <SEO config={metadata} />
+
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: loaded ? 1 : 0 }}
@@ -214,60 +134,73 @@ export default function Home() {
         className="flex flex-wrap my-3 mx-0 md:my-4 md:ml-0 md:mr-4"
       >
         <Navbar />
-        <div className="relative h-full w-full md:w-[85%] lg:w-[87%] xl:w-[89%]">
+
+        <div className="w-full md:w-[85%] lg:w-[87%] xl:w-[89%]">
           <Grid hidden />
-          <div className={`flex flex-col ${isMobile ? 'items-center' : 'flex-row'}`}>
-            <h1
-              className={`font-sec ${isMobile ? 'text-2xl text-center mb-4' : 'md:text-2xl lg:text-3xl'} pl-1`}
-              style={{
-                width: '100%',
-                marginTop: `${width * (isMobile ? 1.5 : 0.6)}px`,
-                marginLeft: `${width * (isMobile ? 0 : 0.7)}px`,
-              }}
-            >
-              Visualiza tu próximo proyecto
-            </h1>
-              {/* Formulario incrustado
-            <div className={mt-4 ${isMobile ? 'w-full' : 'w-1/3'}} >
-              <iframe
-                aria-label='Contacto Página Web'
-                frameBorder="0"
-                style={{ height: "800px", width: "100%", border: "none" }} // Altura a 800px y ancho completo
-                src='https://forms.zohopublic.com/digitalizala/form/ContactoVisualiza/formperma/KVySmLfDTieWktj6EWyqsHZdKfMmVhB9b-YojiPhn-c'
-              ></iframe>
-            </div> */}
 
-            {/* Formulario incrustado */}
-            <div className={`mt-4 ${isMobile ? 'w-full' : 'w-1/3'}`}>
-              {zohoForm ? (
-                // Inyectamos el contenido HTML usando dangerouslySetInnerHTML
-                <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
-              ) : (
-                <p>Cargando formulario...</p>
-              )}
-            </div>
-
-
-            {/* Imagen del sofá, visible solo en escritorio */}
-            {!isMobile && (
-              <div
-                className="absolute top-0 right-0 w-1/2 md:h-[61%] lg:h-[62%] xl:h-[62%]"
-                style={{
-                  marginTop: `${width * (isMobile ? 1.5 : 0.6)}px`,
-                }}
-              >
-                <Image
-                  src={sofaSVG}
-                  alt="Silla en fondo amarillo"
-                  layout="fill"
-                  className="scale-10"
+          {isMobile ? (
+            // MOVIL: apilar
+            <>
+              <h1 className="text-2xl text-center mb-4 font-sec">
+                Visualiza tu próximo proyecto
+              </h1>
+              <div className="w-full mb-6">
+                {zohoForm ? (
+                  <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+                ) : (
+                  <p>Cargando formulario…</p>
+                )}
+              </div>
+              
+            </>
+          ) : (
+            // DESKTOP: side‑by‑side pegado a la derecha, 40% + 40%
+            <div className="flex justify-end items-start">
+              {/* Título + Formulario 40% */}
+              <div className="
+              w-full
+    pt-4
+    md:w-2/5
+    md:pt-2 md:pr-2 md:mt-2
+    lg:pt-8  lg:pr-2  lg:mt-[6%]
+    xl:pt-10 xl:pr-8 xl:mt-[22.9%]
+    2xl:pt-14 2xl:pr-10 2xl:mt-[38.8%]
+              ">
+                <h1
+                  className="md:text-xl lg:text-[1.8rem] mb-4 font-sec"
+                  style={{ marginLeft: width * 0.15 }}
+                >
+                  Visualiza tu próximo proyecto
+                </h1>
+                {zohoForm ? (
+                  <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+                ) : (
+                  <p>Cargando formulario…</p>
+                )}
+              </div>
+              
+              {/* Imagen 40%, sin recortes */}
+              <div className="
+              
+    md:w-2/5
+    md:pt-6
+    lg:pt-8
+    xl:pt-10
+    2xl:pt-14
+              ">
+                <img
+                  src="/img/contacto.webp"
+                  alt="Sofá y lámpara"
+                  className="w-full h-auto object-contain"
                 />
               </div>
-            )}
-          </div>
+              
+            </div>
+          )}
         </div>
+
         <ButtonWsp />
       </motion.main>
     </>
-  );
+  )
 }

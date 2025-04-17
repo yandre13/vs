@@ -550,7 +550,7 @@ const data = [
 			md: { mt: -5, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 9,
 		
 	},
@@ -599,7 +599,7 @@ const data = [
 		carousel: carousels.carousel35,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -11, ml: 1 },
+			lg: { mt: -8, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: -2, ml: 1 },
 		},
@@ -651,7 +651,7 @@ const data = [
 		carousel: carousels.carousel38,
 		styles: {
 			xl: { mt: -5, ml: 1 },
-			lg: { mt: -14, ml: 1 },
+			lg: { mt: -11, ml: 1 },
 			md: { mt: -5, ml: 1 },
 			sm: { mt: -2, ml: 1 },
 		},
@@ -703,11 +703,11 @@ const data = [
 		carousel: carousels.carousel41,
 		styles: {
 			xl: { mt: -2, ml: 1 },
-			lg: { mt: -11, ml: 1 },
+			lg: { mt: -8, ml: 1 },
 			md: { mt: 4, ml: 1 },
 			sm: { mt: 4, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 9,
 	},
 	{
@@ -755,7 +755,7 @@ const data = [
 		carousel: carousels.carousel44,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -14, ml: 1 },
+			lg: { mt: -8, ml: 1 },
 			md: { mt: -5, ml: 1 },
 			sm: { mt: -2, ml: 1 },
 		},
@@ -806,7 +806,7 @@ const data = [
 		carousel: carousels.carousel47,
 		styles: {
 			xl: { mt: -8, ml: 1 },
-			lg: { mt: -14, ml: 1 },
+			lg: { mt: -8, ml: 1 },
 			md: { mt: 4, ml: 1 },
 			sm: { mt: 4, ml: 1 },
 		},
@@ -859,7 +859,7 @@ const data = [
 		carousel: carousels.carousel50,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: -17, ml: 1 },
+			lg: { mt: -11, ml: 1 },
 			md: { mt: -5, ml: 1 },
 			sm: { mt: 1, ml: 1 },
 		},
@@ -885,23 +885,7 @@ const data = [
 		height: 6,
 		
 	},
-	{
-		id: 52,
-		title: 'Machaypuito',
-		place: 'Oxapampa, Perú.',
-		alt: 'Render de bungalows en Oxapampa, Perú',
-		date: 'Febrero 2021',
-		image: miniaturas.image52,
-		carousel: carousels.carousel52,
-		styles: {
-			xl: { mt: 1, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: 4, ml: 1 },
-			sm: { mt: -2, ml: 1 },
-		},
-		aspectRatio: 'ar4x6',
-		height: 6,
-	},
+	
 	{
 		id: 53,
 		title: 'Inclán 21',
@@ -912,7 +896,7 @@ const data = [
 		carousel: carousels.carousel53,
 		styles: {
 			xl: { mt: -5, ml: 1 },
-			lg: { mt: -14, ml: 1 },
+			lg: { mt: -5, ml: 1 },
 			md: { mt: -8, ml: 1 },
 			sm: { mt: 4, ml: 1 },
 		},
@@ -930,11 +914,11 @@ const data = [
 		carousel: carousels.carousel54,
 		styles: {
 			xl: { mt: 1, ml: 1 },
-			lg: { mt: 4, ml: 1 },
+			lg: { mt: -8, ml: 1 },
 			md: { mt: 4, ml: 1 },
 			sm: { mt: -2, ml: 1 },
 		},
-		aspectRatio: 'ar3x3',
+		aspectRatio: 'ar4x6',
 		height: 6,
 	},
 	

@@ -522,8 +522,8 @@ const carousel1 = {
 	]
   };
   
-  // carousel52
-  const carousel52 = {
+  // carousel53
+  const carousel53 = {
 	logo: '../../img/marcas/linea_21.png',
 	images: [
 	  // Grupo 4: Interiores
@@ -672,8 +672,35 @@ const carousel1 = {
 	]
   };
   
-  // carousel53
-  const carousel53 = {
+  // carousel52
+  const carousel52 = {
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
+	images: [
+	  // Grupo 1: Fachada
+	  { name: 'Exterior ', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/EXTERIOR.webp', classnames: '' },
+	  { name: 'Lobby', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/LOBBY.webp', classnames: '' },
+
+	  { name: 'Dormitorio', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/DORMITORIO.webp', classnames: '' },
+	  { name: 'Fachada Acercamiento', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/Armando-Paredes_MACHAYPUITO-Fachada-Acercamiento.webp', classnames: '' },
+
+	]
+  };
+  // carousel55prueba
+  const carousel55 = {
+	logo: '../../img/marcas/ARMANDO_PAREDES.jpg',
+	images: [
+	  // Grupo 1: Fachada
+	  { name: 'Exterior ', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/EXTERIOR.webp', classnames: '' },
+	  { name: 'Lobby', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/LOBBY.webp', classnames: '' },
+
+	  { name: 'Dormitorio', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/DORMITORIO.webp', classnames: '' },
+	  { name: 'Fachada Acercamiento', path: '../../img/proyectos/ARMANDO PAREDES_MACHAYPUITO/Armando-Paredes_MACHAYPUITO-Fachada-Acercamiento.webp', classnames: '' },
+
+	]
+  };
+
+  // carousel54
+  const carousel54 = {
 	logo: '../../img/marcas/PUENTE.jpg',
 	images: [
 	  // Grupo 1: Fachada
@@ -948,7 +975,9 @@ const carousels = {
 	carousel50,
 	carousel51,
 	carousel52,
-	carousel53
+	carousel53,
+	carousel54, 
+	carousel55
 
 }
 

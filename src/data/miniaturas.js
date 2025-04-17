@@ -65,9 +65,12 @@ import image48 from '../../public/img/miniaturas/duoma_lacoruña.webp'
 import image49 from '../../public/img/miniaturas/solar_soldado.webp'
 import image50 from '../../public/img/miniaturas/checor_magnolias.webp'
 import image51 from '../../public/img/miniaturas/novaldin_sonhos.webp'
+import image52 from '../../public/img/miniaturas/Armando-Paredes_MACHAYPUITO-Fachada-Acercamiento.webp'
 
-import image52 from '../../public/img/miniaturas/linea21_inclan21.webp'
-import image53 from '../../public/img/miniaturas/puente_oxapampa.webp'
+import image53 from '../../public/img/miniaturas/linea21_inclan21.webp'
+import image54 from '../../public/img/miniaturas/puente_oxapampa.webp'
+import image55 from '../../public/img/miniaturas/solar_soldado.webp'
+
 
 
 const miniaturas = {
@@ -123,6 +126,8 @@ const miniaturas = {
 	image50,
 	image51,
 	image52,
-	image53
+	image53,
+	image54,
+	image55
 }
 export default miniaturas

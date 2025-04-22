@@ -616,7 +616,7 @@ const data = [
 		image: miniaturas.image36,
 		carousel: carousels.carousel36,
 		styles: {
-			xl: { mt: -11, ml: 1 },
+			xl: { mt: -8, ml: 1 },
 			lg: { mt: 1, ml: 1 },
 			md: { mt: -8, ml: 1 },
 			sm: { mt: 1, ml: 1 },
@@ -685,7 +685,7 @@ const data = [
 		image: miniaturas.image40,
 		carousel: carousels.carousel40,
 		styles: {
-			xl: { mt: -8, ml: 1 },
+			xl: { mt: -5, ml: 1 },
 			lg: { mt: -5, ml: 1 },
 			md: { mt: -5, ml: 1 },
 			sm: { mt: 4, ml: 1 },
@@ -754,7 +754,7 @@ const data = [
 		image: miniaturas.image44,
 		carousel: carousels.carousel44,
 		styles: {
-			xl: { mt: -8, ml: 1 },
+			xl: { mt: -5, ml: 1 },
 			lg: { mt: -8, ml: 1 },
 			md: { mt: -5, ml: 1 },
 			sm: { mt: -2, ml: 1 },
@@ -771,7 +771,7 @@ const data = [
 		image: miniaturas.image45,
 		carousel: carousels.carousel45,
 		styles: {
-			xl: { mt: -2, ml: 1 },
+			xl: { mt: 1, ml: 1 },
 			lg: { mt: 1, ml: 1 },
 			md: { mt: -2, ml: 1 },
 			sm: { mt: -2, ml: 1 },
@@ -822,7 +822,7 @@ const data = [
 		image: miniaturas.image48,
 		carousel: carousels.carousel48,
 		styles: {
-			xl: { mt: -8, ml: 1 },
+			xl: { mt: -5, ml: 1 },
 			lg: { mt: 4, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: 1, ml: 1 },
@@ -858,7 +858,7 @@ const data = [
 		image: miniaturas.image50,
 		carousel: carousels.carousel50,
 		styles: {
-			xl: { mt: 1, ml: 1 },
+			xl: { mt: -2, ml: 1 },
 			lg: { mt: -11, ml: 1 },
 			md: { mt: -5, ml: 1 },
 			sm: { mt: 1, ml: 1 },
@@ -876,7 +876,7 @@ const data = [
 		image: miniaturas.image51,
 		carousel: carousels.carousel51,
 		styles: {
-			xl: { mt: -2, ml: 1 },
+			xl: { mt: -5, ml: 1 },
 			lg: { mt: -2, ml: 1 },
 			md: { mt: 1, ml: 1 },
 			sm: { mt: -2, ml: 1 },
@@ -913,7 +913,7 @@ const data = [
 		image: miniaturas.image54,
 		carousel: carousels.carousel54,
 		styles: {
-			xl: { mt: 1, ml: 1 },
+			xl: { mt: -2, ml: 1 },
 			lg: { mt: -8, ml: 1 },
 			md: { mt: 4, ml: 1 },
 			sm: { mt: -2, ml: 1 },

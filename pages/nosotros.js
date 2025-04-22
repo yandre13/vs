@@ -215,7 +215,7 @@ export default function Home() {
 													}px`,
 												marginLeft: width,
 												marginTop: `${width *
-													(query === 'xl' ? 7.2 : query === 'lg' ? 5.5 : 3.5)
+													(query === 'xl' ? 4.2 : query === 'lg' ? 5.5 : 3.5)
 													}px`,
 												zIndex: 10,
 											}}

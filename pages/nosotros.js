@@ -29,6 +29,7 @@ export default function Home() {
 	const [width] = useAppWidth()
 	const query = useAppQuery()
 	const isMobile = useMedia('(max-width: 767px)')
+	const is2xl = useMedia('(min-width: 1536px)');
 	const isPC = useMedia('(min-width: 1024px)')
 	const loaded = useLoaded()
 	const { data: logos } = useQuery('logos')
@@ -38,8 +39,19 @@ export default function Home() {
 	)
 	const [isHovered, setIsHovered] = React.useState(false)
 
+
 	const size = React.useMemo(() => {
-		if (query === 'xl') {
+		if (query === is2xl) {
+			return {
+				width: 13,
+				height: 16,
+				ml: 3,
+				textWidth: 20,
+				titleMt: 4,
+				textMt: 1,
+				gap: 1,
+			}
+		} else if (query === 'xl') {
 			return {
 				width: 11,
 				height: 16,
@@ -215,8 +227,8 @@ export default function Home() {
 													}px`,
 												marginLeft: width,
 												marginTop: `${width *
-													(query === 'xl' ? 4.2 : query === 'lg' ? 5.5 : 3.5)
-													}px`,
+													(query === 'xl' ? 0.5 : query === 'lg' ? 0.46 : 0.4)
+													}vh`,
 												zIndex: 10,
 											}}
 										>
@@ -234,7 +246,9 @@ export default function Home() {
 											</div>
 											<div
 												style={{
-													marginTop: 25,
+													marginTop: `${width *
+														(query === 'xl' ? 0.18 : query === 'lg' ? 0.18 : 0.18)
+														}vh`,
 													marginLeft: 1,
 													zIndex: 10,
 												}}
@@ -252,9 +266,9 @@ export default function Home() {
 																: query === 'lg'
 																	? 1.7
 																	: 1.7,
-														fontSize: query === 'xl' ? '85%' : query === 'lg' ? '80%' : '75%',
+														fontSize: is2xl ? '100%' : query === 'xl' ? '85%' : query === 'lg' ? '80%' : '75%',
 													}}
-													className={cn('p-3 pscroll bg-white')}
+													className={cn('p-3 pscroll bg-white text-justify')}
 
 													onMouseEnter={() => setIsHovered(true)}
 													onMouseLeave={() => setIsHovered(false)}

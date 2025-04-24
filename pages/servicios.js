@@ -484,7 +484,7 @@ export default function Home() {
 									allow="xr-spatial-tracking; gyroscope; accelerometer"
 									scrolling="no"
 									style={{ width: '100%', height: '100%' }}
-									src="https://storage.net-fs.com/hosting/6849337/16/"
+									src="https://kuula.co/share/collection/7Fn4R?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1"
 								></iframe>
 							</div>
 
@@ -860,6 +860,7 @@ export default function Home() {
 									width: `${width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
 									marginLeft: `${width * size.imgMl}px`,
+									marginBottom: width,
 									zIndex: 1,
 									backgroundColor: '#333',
 								}}

@@ -3,7 +3,7 @@ import React from 'react'
 function Loader() {
 	return (
 		<div
-			className="bg-white"
+			className=""
 			style={{
 				width: '100vw',
 				height: '100vh',

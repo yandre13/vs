@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
+import Box from '@mui/material/Box';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
 import ImageGallery from "react-image-gallery"
@@ -304,11 +308,31 @@ const metadata = {
 		image: '/img/servicios/VISUALIZACION_ARQUITECTONICA.webp',
 	},
 }
-
+const theme = createTheme({
+	components: {
+	  MuiTab: {
+		styleOverrides: {
+		  root: {
+			fontFamily: 'AtypBLDisplay-Regular',
+		  },
+		},
+	  },
+	},
+  });
 
 export default function Home() {
 	const [activeTab, setActiveTab] = useState('avances');
-
+	const [value, setValue] = React.useState(0);
+	const handleChange = (event, newValue) => {
+	  setValue(newValue);
+	};
+  
+	const labels = ['Avances de obra', 'Registro de eventos', 'Videos testimoniales'];
+	const srcs = [
+	  'https://www.youtube.com/embed/fmyMoNRP9Yc?si=l5O0OzDnn1-I3nY4',
+	  'https://www.youtube.com/embed/2-DHiGM8-jg?si=vsAuaOZjHm6AO4fX',
+	  'https://www.youtube.com/embed/9EWQCf9KDoQ?si=yrdi_vF25vP0uulO'
+	];
 	const [width] = useAppWidth()
 	const query = useAppQuery()
 	const isMobileTablet = useMedia('(max-width: 1047px)')
@@ -693,98 +717,66 @@ export default function Home() {
 							</div>
 							{/*PESTAÑAS */}
 							<h2
-								style={{
-									height: width,
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
-								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
-							>
-								Servicios Audiovisuales Inmobiliario.
-							</h2>
-							<div
-								className="overflow-hidden mt-0"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-									borderTop: '1px solid #dedede',
-									borderLeft: '1px solid #dedede',
-								}}
-							>
-								{/* Pestañas */}
-								<div>
-									<button
-										onClick={() => setActiveTab('avances')}
-										className={`py-2 px-4 focus:outline-none ${activeTab === 'avances'
-											? 'border-b-2 border-[#000000] font-bold text-[#000000]'
-											: 'text-gray-600'
-											}`}
-									>
-										Avances de obra
-									</button>
-									<button
-										onClick={() => setActiveTab('eventos')}
-										className={`py-2 px-4 focus:outline-none ${activeTab === 'eventos'
-											? 'border-b-2 border-[#000000] font-bold text-[#000000]'
-											: 'text-gray-600'
-											}`}
-									>
-										Registro de eventos
-									</button>
-									<button
-										onClick={() => setActiveTab('videos')}
-										className={`py-2 px-4 focus:outline-none ${activeTab === 'videos'
-											? 'border-b-2 border-[#000000] font-bold text-[#000000]'
-											: 'text-gray-600'
-											}`}
-									>
-										Videos testimoniales
-									</button>
-								</div>
+        style={{
+          height: width,
+          marginLeft: width * size.imgMl,
+          marginTop: width,
+        }}
+        className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
+      >
+        Servicios Audiovisuales Inmobiliario.
+      </h2>
+	  <ThemeProvider theme={theme}>
 
-								{/* Contenido de cada pestaña */}
-								<div className="p-4 ">
-									{activeTab === 'avances' && (
-										<div>
-											<iframe
-												width="100%"
-												height="399.83px"
-												src="https://www.youtube.com/embed/fmyMoNRP9Yc?si=l5O0OzDnn1-I3nY4"
-												title="Avances de obra"
-												frameBorder="0"
-												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-												allowFullScreen
-											></iframe>
-										</div>
-									)}
-									{activeTab === 'eventos' && (
-										<div>
-											<iframe
-												width="100%"
-												height="399.83px"
-												src="https://www.youtube.com/embed/2-DHiGM8-jg?si=vsAuaOZjHm6AO4fX"
-												title="Registro de eventos"
-												frameBorder="0"
-												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-												allowFullScreen
-											></iframe>										</div>
-									)}
-									{activeTab === 'videos' && (
-										<div>
-											<iframe
-												width="100%"
-												height="399.83px"
-												src="https://www.youtube.com/embed/9EWQCf9KDoQ?si=yrdi_vF25vP0uulO"
-												title="Videos testimoniales"
-												frameBorder="0"
-												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-												allowFullScreen
-											></iframe>										</div>
-									)}
-								</div>
-							</div>
+      {/* Pestañas Scrollable con MUI */}
+      <Box sx={{ bgcolor: 'background.paper', }}>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          variant="scrollable"
+          scrollButtons="auto"
+          allowScrollButtonsMobile
+		  style={{marginLeft: width * size.imgMl,width: width * size.imgWidth,}}
+		  TabIndicatorProps={{ style: { backgroundColor: 'black' } }}
+
+          aria-label="Pestañas de servicios audiovisuales"
+        >
+          {labels.map((label, index) => (
+            <Tab key={index} label={label} 
+			sx={{
+                textTransform: 'capitalize',
+                fontWeight: 'bold',            // Negrita
+                fontSize: { xs: '12px', md: '12px', lg: '15px' }, // Tamaño responsive
+                '&.Mui-selected': { color: 'black' },
+              }} 
+			  className="text-[45px] md:text-[28px] "
+			/>
+          ))}
+        </Tabs>
+      </Box>
+	  </ThemeProvider>
+
+      {/* Contenido de cada pestaña */}
+      <div
+        className="overflow-hidden mt-4"
+        style={{
+          width: width * size.imgWidth,
+          height: width * size.imgHeight,
+          marginLeft: width * size.imgMl,
+          borderTop: '1px solid #dedede',
+          borderLeft: '1px solid #dedede',
+        }}
+      >
+        <iframe
+          width="100%"
+          height="100%"
+          src={srcs[value]}
+          title={labels[value]}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
 							<h2
 								style={{
 									height: width,
@@ -850,7 +842,7 @@ export default function Home() {
 									marginLeft: `${width * size.imgMl}px`,
 									marginTop: width,
 								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
 							>
 								Fotogrametría y levantamiento topográfico en&nbsp;drone.
 							</h2>
@@ -861,6 +853,7 @@ export default function Home() {
 									height: `${width * size.imgHeight}px`,
 									marginLeft: `${width * size.imgMl}px`,
 									marginBottom: width,
+									
 									zIndex: 1,
 									backgroundColor: '#333',
 								}}

@@ -8,6 +8,9 @@
 		"start": "next start"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@mui/material": "^7.0.2",
 		"classnames": "^2.3.1",
 		"fitty": "^2.4.2",
 		"framer-motion": "^4.1.16",

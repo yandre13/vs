@@ -247,7 +247,7 @@ export default function Home() {
 											<div
 												style={{
 													marginTop: `${width *
-														(query === 'xl' ? 0.18 : query === 'lg' ? 0.18 : 0.18)
+														(query === 'xl' ? 0.15 : query === 'lg' ? 0.18 : 0.18)
 														}vh`,
 													marginLeft: 1,
 													zIndex: 10,

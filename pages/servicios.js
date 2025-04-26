@@ -354,6 +354,8 @@ export default function Home() {
 		}
 	}, [query])
 
+	const isMd = query==='md';
+
 	React.useEffect(() => {
 		let timeout
 		timeout = setTimeout(() => {
@@ -400,7 +402,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -428,13 +430,14 @@ export default function Home() {
 							<h2
 								style={{
 									height: width,
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginLeft: width * size.imgMl,
+									marginTop: isMd ? width : 0,
 								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
-							>
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 "
+								>
 								Visualización 3D.
-							</h2>
+								</h2>
+
 							<div
 								className="overflow-hidden custom-height"
 								style={{
@@ -457,7 +460,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -486,7 +489,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -518,7 +521,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -548,9 +551,9 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
 							>
 								Video publicitario.
 							</h2>
@@ -577,7 +580,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -606,7 +609,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -635,7 +638,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -663,7 +666,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -691,7 +694,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -720,9 +723,9 @@ export default function Home() {
         style={{
           height: width,
           marginLeft: width * size.imgMl,
-          marginTop: width,
+          marginTop: isMd ? width : 0,
         }}
-        className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
+        className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
       >
         Servicios Audiovisuales Inmobiliario.
       </h2>
@@ -781,7 +784,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -810,7 +813,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -840,7 +843,7 @@ export default function Home() {
 									height: isText2 ? width * 2 : width,
 									width: isText2 ? width * 6 : 'auto',
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: width,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
 							>

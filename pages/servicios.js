@@ -341,6 +341,8 @@ export default function Home() {
 	const loaded = useLoaded()
 	const [s1, setS1] = React.useState(false)
 	const [s2, setS2] = React.useState('S1')
+	const mb_query =
+	query === '2xl' ? 1.3 : query === 'xl' ? 1.3 : query === 'lg' ? 1.5 : query === 'md' ? 0.9 : 0.9
 
 	const size = React.useMemo(() => {
 		if (query === 'xl') {
@@ -855,7 +857,7 @@ export default function Home() {
 									width: `${width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
 									marginLeft: `${width * size.imgMl}px`,
-									marginBottom:`${width-5}px`,
+									marginBottom:`${width * mb_query}px`,
 									zIndex: 1,
 									backgroundColor: '#333',
 								}}

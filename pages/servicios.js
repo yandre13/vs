@@ -15,7 +15,7 @@ import  modelado3D from '../public/img/servicios/MODELADO_3D.webp'
 import drone from '../public/img/servicios/VISTAS_AEREAS_DRONE.webp'
 const visual1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM-PRINC-ETEN-_2__odgk5q'
 const visual2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ACERCAMIENTO_i945ys'
-const visual3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/R6000-FINAL_pcls36'
+const visual3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/IMAGEN_ryhz4y'
 const visual4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-COMEDOR_PUMACAHUA-_3__tdvah4'
 const visual5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-DE-ESPERA-_2__hucvji'
 const plano1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/PORTA_domyq3'
@@ -855,8 +855,7 @@ export default function Home() {
 									width: `${width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
 									marginLeft: `${width * size.imgMl}px`,
-									marginBottom: width,
-									
+									marginBottom:`${width-5}px`,
 									zIndex: 1,
 									backgroundColor: '#333',
 								}}

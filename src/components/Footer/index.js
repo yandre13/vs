@@ -99,7 +99,7 @@ export default function index() {
 						</div>
 						<div>
 							<a
-								href="https://www.youtube.com/channel/UCdXiz10RHjdY5pqQRkJAD7Q"
+								href="https://www.youtube.com/@VisualizaStudio"
 								rel="noreferrer noopener"
 							>
 								<img

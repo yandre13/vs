@@ -131,14 +131,11 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: loaded ? 1 : 0 }}
         transition={{ duration: 0.8 }}
-        className="flex flex-wrap my-3 mx-0 md:my-4 md:ml-0 md:mr-4
-        "
+        className="flex flex-wrap items-start my-3 mx-0 md:my-4 md:ml-0 md:mr-4"
       >
         <Navbar />
 
-        <div className="w-full md:w-[85%] lg:w-[87%] xl:w-[89%]">
-          <Grid hidden />
-
+        <div className="w-full md:w-[85%] lg:w-[87%] xl:w-[89%] h-auto">
           {isMobile ? (
             // MOVIL: apilar
             <>
@@ -147,25 +144,32 @@ export default function Home() {
               </h1>
               <div className="w-full mb-6">
                 {zohoForm ? (
-                  <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+                  <>
+                    {/* Anula el height fijado de Zoho */}
+                    <style jsx global>{`
+                      #crmWebToEntityForm {
+                        height: auto !important;
+                      }
+                    `}</style>
+                    <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+                  </>
                 ) : (
                   <p>Cargando formulario…</p>
                 )}
               </div>
-              
             </>
           ) : (
-            // DESKTOP: side‑by‑side pegado a la derecha, 40% + 40%
+            // DESKTOP: side-by-side pegado a la derecha, 40% + 40%
             <div className="flex justify-end items-start">
               {/* Título + Formulario 40% */}
               <div className="
-              w-full
-    pt-4
-    md:w-2/5
-    md:pt-2 md:pr-2 md:mt-2
-    lg:pt-8  lg:pr-2  lg:mt-[6%]
-    xl:pt-10 xl:pr-8 xl:mt-[22.5%]
-    2xl:pt-14 2xl:pr-10 2xl:mt-[38.8%]
+                w-full
+                pt-4
+                md:w-2/5
+                md:pt-2 md:pr-2 md:mt-2
+                lg:pt-8 lg:pr-2 lg:mt-[6%]
+                xl:pt-10 xl:pr-8 xl:mt-[22.5%]
+                2xl:pt-14 2xl:pr-10 2xl:mt-[35.8%]
               ">
                 <h1
                   className="md:text-xl lg:text-[1.8rem] mb-4 font-sec"
@@ -174,20 +178,27 @@ export default function Home() {
                   Visualiza tu próximo proyecto
                 </h1>
                 {zohoForm ? (
-                  <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+                  <>
+                    {/* Anula el height fijado de Zoho */}
+                    <style jsx global>{`
+                      #crmWebToEntityForm {
+                        height: auto !important;
+                      }
+                    `}</style>
+                    <div dangerouslySetInnerHTML={{ __html: zohoForm }} />
+                  </>
                 ) : (
                   <p>Cargando formulario…</p>
                 )}
               </div>
-              
+
               {/* Imagen 40%, sin recortes */}
               <div className="
-              
-    md:w-2/5
-    md:pt-6
-    lg:pt-8
-    xl:pt-10
-    2xl:pt-14
+                md:w-2/5
+                md:pt-6
+                lg:pt-8
+                xl:pt-10
+                2xl:pt-14
               ">
                 <img
                   src="/img/contacto.webp"
@@ -195,7 +206,6 @@ export default function Home() {
                   className="w-full h-auto object-contain"
                 />
               </div>
-              
             </div>
           )}
         </div>

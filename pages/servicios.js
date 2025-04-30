@@ -356,7 +356,7 @@ export default function Home() {
 		}
 	}, [query])
 
-	const isMd = query==='md';
+	const isMd = query==='md' || query==='lg' || query==='xl' || query==='2xl';
 
 	React.useEffect(() => {
 		let timeout
@@ -742,7 +742,7 @@ export default function Home() {
           scrollButtons="auto"
           allowScrollButtonsMobile
 		  style={{marginLeft: width * size.imgMl,width: width * size.imgWidth,}}
-		  TabIndicatorProps={{ style: { backgroundColor: 'black' } }}
+		  TabIndicatorProps={{ style: { display: 'none' } }}
 
           aria-label="Pestañas de servicios audiovisuales"
         >
@@ -753,6 +753,7 @@ export default function Home() {
                 fontWeight: 'bold',            // Negrita
                 fontSize: { xs: '12px', md: '12px', lg: '15px' }, // Tamaño responsive
                 '&.Mui-selected': { color: 'black' },
+				
               }} 
 			  className="text-[45px] md:text-[28px] "
 			/>
@@ -763,12 +764,12 @@ export default function Home() {
 
       {/* Contenido de cada pestaña */}
       <div
-        className="overflow-hidden mt-4"
+        className="overflow-hidden"
         style={{
           width: width * size.imgWidth,
           height: width * size.imgHeight,
           marginLeft: width * size.imgMl,
-          borderTop: '1px solid #dedede',
+        //   borderTop: '1px solid #dedede',
           borderLeft: '1px solid #dedede',
         }}
       >

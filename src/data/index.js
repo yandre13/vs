@@ -328,6 +328,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
+		objectPosition: 'left'
 	},
 	{
 		id: 20,
@@ -362,7 +363,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-		objectPosition: 'right'
+		objectPosition: 'left'
 	},
 	{
 		id: 22,

@@ -98,7 +98,11 @@ body {
 	z-index: 1;
 	pointer-events: none;
 }
-
+.img_r600 {
+	object-fit: cover !important;
+	width: 100% !important;
+	height: 100% !important;
+}
 .line-left {
 	position: absolute;
 	width: 1%;

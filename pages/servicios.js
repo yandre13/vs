@@ -15,7 +15,8 @@ import  modelado3D from '../public/img/servicios/MODELADO_3D.webp'
 import drone from '../public/img/servicios/VISTAS_AEREAS_DRONE.webp'
 const visual1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM-PRINC-ETEN-_2__odgk5q'
 const visual2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ACERCAMIENTO_i945ys'
-const visual3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/IMAGEN_ryhz4y'
+// const visual3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/IMAGEN_ryhz4y'
+import visual3 from '../public/img/carrusel_servicios/IMAGEN.jpg'
 const visual4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-COMEDOR_PUMACAHUA-_3__tdvah4'
 const visual5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/SALA-DE-ESPERA-_2__hucvji'
 const plano1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/PORTA_domyq3'
@@ -77,7 +78,7 @@ const visualizacion3d = [
 		thumbnail: visual2,
 	},
 	{
-		original: visual3,
+		original: visual3.src,
 		thumbnail: visual3,
 	},
 	{
@@ -441,7 +442,7 @@ export default function Home() {
 								</h2>
 
 							<div
-								className="overflow-hidden custom-height"
+								className="relative custom-height "
 								style={{
 									width: `${width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
@@ -491,7 +492,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width :0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -523,7 +524,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width*1,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -553,7 +554,8 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width,
+									marginBottom: 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
 							>
@@ -582,7 +584,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -611,7 +613,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -640,7 +642,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -668,7 +670,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width*0.05,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -725,7 +727,7 @@ export default function Home() {
         style={{
           height: width,
           marginLeft: width * size.imgMl,
-          marginTop: isMd ? width : 0,
+          marginTop: isMd ? width : width*0.1,
         }}
         className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
       >
@@ -787,7 +789,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width*0.8,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -816,7 +818,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width*0.9,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -846,9 +848,9 @@ export default function Home() {
 									height: isText2 ? width * 2 : width,
 									width: isText2 ? width * 6 : 'auto',
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : 0,
+									marginTop: isMd ? width : width*0.1,
 								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-4 md:mb-0"
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-0 md:mb-0"
 							>
 								Fotogrametría y levantamiento topográfico en&nbsp;drone.
 							</h2>

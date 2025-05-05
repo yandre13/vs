@@ -12,6 +12,7 @@ module.exports = {
 			lg: '1024px',
 			xl: '1367px',
 			'2xl': '1536px',
+			'3xl': '2560px',
 		},
 		extend: {
 			grayscale: ['hover', 'focus'],

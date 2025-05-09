@@ -1,6 +1,21 @@
 import React, { useState } from 'react';
+
 import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.min.css'
+import 'swiper/components/pagination/pagination.min.css'
+import 'swiper/components/navigation/navigation.min.css'
+import 'swiper/components/effect-fade/effect-fade.min.css'
+import SwiperCore, {
+	Pagination,
+	Navigation,
+	EffectFade,
+	Keyboard,
+	Autoplay,
+} from 'swiper/core'
+// install Swiper modules
+SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade, Keyboard])
 
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -411,24 +426,26 @@ export default function Home() {
 							>
 								Modelado 3D.
 							</h2>
+							{/* Antes: <Image src={modelado3D} className="object-cover" … /> */}
 							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-									borderTop: '1px solid #dedede',
-									borderLeft: '1px solid #dedede',
-								}}
+							className="relative overflow-hidden"
+							style={{
+								width: `${width * size.imgWidth}px`,
+								height: `${width * size.imgHeight}px`,   // □ = ancho
+								marginLeft: `${width * size.imgMl}px`,
+								zIndex: 1,
+								border: '1px solid #dedede',
+							}}
 							>
-								<Image
-									src={modelado3D}
-									alt="Modelado 3D de arquitectura para proyectos en Lima, Perú"
-									placeholder="blur"
-									className="object-cover"
-								/>
+							<Image
+								src={modelado3D}
+								alt="Modelado 3D"
+								placeholder="blur"
+								fill                                    // ocupa 100% del padre
+								style={{ objectFit: 'cover' }}         // recorta y centra
+							/>
 							</div>
+
 
 							<h2
 								style={{
@@ -440,25 +457,40 @@ export default function Home() {
 								>
 								Visualización 3D.
 								</h2>
+								<div
+									style={{
+										width:       `${width * size.imgWidth}px`,
+										height:       `${width * size.imgHeight}px`,
+										marginLeft:  `${width * size.imgMl}px`,
+									}}
+								>
+									<Swiper
+										loop
+										autoplay={{ delay: 3000, disableOnInteraction: false }}
+										navigation
+										keyboard={{ enabled: true }}
+										effect="fade"
+										style={{ width: '100%', height: '100%' }}
+									>
+										{visualizacion3d.map(item => (
+										<SwiperSlide key={item.original}>
+											<div
+											style={{
+												width: '100%', height: '100%',
+												backgroundImage: `url(${item.original})`,
+												backgroundSize:  'cover',
+												backgroundPosition:'center',
+											}}
+											/>
+										</SwiperSlide>
+										))}
+									</Swiper>
+									</div>
 
-							<div
-								className="relative custom-height "
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<ImageGallery items={visualizacion3d}
-									showBullets={true}
-									showThumbnails={false}
-									showNav={false}
-									showPlayButton={false}
-									autoPlay={true}
 
-								/>
-							</div>
+								
+
+
 							<h2
 								style={{
 									height: width,
@@ -470,23 +502,40 @@ export default function Home() {
 								Planos de Venta.
 							</h2>
 							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<ImageGallery items={planosdeventa}
-								showThumbnails={false}
-								showNav={false}
-									showBullets={true}
-									showPlayButton={false}
-									autoPlay={true}
+									style={{
+										width:       `${width * size.imgWidth}px`,
+										height:       `${width * size.imgHeight}px`,
+										marginLeft:  `${width * size.imgMl}px`,
+									}}
+								>
+									<Swiper
+										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+										slidesPerView={1}
+										loop={true}
+										autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
+										}}
+										pagination={{ clickable: true }} // ••• puntitos clicables
+										keyboard={{ enabled: true }}     // mueve con flechas del teclado
+										effect="fade"                    // si quieres fade
+										style={{ width: '100%', height: '100%' }}
+									>
+										{planosdeventa.map(item => (
+										<SwiperSlide key={item.original}>
+											<div
+											style={{
+												width: '100%', height: '100%',
+												backgroundImage: `url(${item.original})`,
+												backgroundSize:  'cover',
+												backgroundPosition:'center',
+											}}
+											/>
+										</SwiperSlide>
+										))}
+									</Swiper>
+									</div>
 
-								/>
-							</div>
 
 							<h2
 								style={{
@@ -649,23 +698,40 @@ export default function Home() {
 								Diseño Integral de Fachadas.
 							</h2>
 							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<ImageGallery items={fachadas}
-								showThumbnails={false}
-								showNav={false}
-									showBullets={true}
-									showPlayButton={false}
-									autoPlay={true}
+									style={{
+										width:       `${width * size.imgWidth}px`,
+										height:       `${width * size.imgHeight}px`,
+										marginLeft:  `${width * size.imgMl}px`,
+									}}
+								>
+									<Swiper
+										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+										slidesPerView={1}
+										loop={true}
+										autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
+										}}
+										pagination={{ clickable: true }} // ••• puntitos clicables
+										keyboard={{ enabled: true }}     // mueve con flechas del teclado
+										effect="fade"                    // si quieres fade
+										style={{ width: '100%', height: '100%' }}
+									>
+										{fachadas.map(item => (
+										<SwiperSlide key={item.original}>
+											<div
+											style={{
+												width: '100%', height: '100%',
+												backgroundImage: `url(${item.original})`,
+												backgroundSize:  'cover',
+												backgroundPosition:'center',
+											}}
+											/>
+										</SwiperSlide>
+										))}
+									</Swiper>
+									</div>
 
-								/>
-							</div>
 							<h2
 								style={{
 									height: width,
@@ -677,23 +743,40 @@ export default function Home() {
 								Interiorismo Residencial.
 							</h2>
 							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<ImageGallery items={interiorismore}
-								showThumbnails={false}
-								showNav={false}
-									showBullets={true}
-									showPlayButton={false}
-									autoPlay={true}
+									style={{
+										width:       `${width * size.imgWidth}px`,
+										height:       `${width * size.imgHeight}px`,
+										marginLeft:  `${width * size.imgMl}px`,
+									}}
+								>
+									<Swiper
+										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+										slidesPerView={1}
+										loop={true}
+										autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
+										}}
+										pagination={{ clickable: true }} // ••• puntitos clicables
+										keyboard={{ enabled: true }}     // mueve con flechas del teclado
+										effect="fade"                    // si quieres fade
+										style={{ width: '100%', height: '100%' }}
+									>
+										{interiorismore.map(item => (
+										<SwiperSlide key={item.original}>
+											<div
+											style={{
+												width: '100%', height: '100%',
+												backgroundImage: `url(${item.original})`,
+												backgroundSize:  'cover',
+												backgroundPosition:'center',
+											}}
+											/>
+										</SwiperSlide>
+										))}
+									</Swiper>
+									</div>
 
-								/>
-							</div>
 							<h2
 								style={{
 									height: width,
@@ -705,23 +788,40 @@ export default function Home() {
 								Interiorismo Corporativo.
 							</h2>
 							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<ImageGallery items={interiorismoco}
-								showThumbnails={false}
-								showNav={false}
-									showBullets={true}
-									showPlayButton={false}
-									autoPlay={true}
+									style={{
+										width:       `${width * size.imgWidth}px`,
+										height:       `${width * size.imgHeight}px`,
+										marginLeft:  `${width * size.imgMl}px`,
+									}}
+								>
+									<Swiper
+										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+										slidesPerView={1}
+										loop={true}
+										autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
+										}}
+										pagination={{ clickable: true }} // ••• puntitos clicables
+										keyboard={{ enabled: true }}     // mueve con flechas del teclado
+										effect="fade"                    // si quieres fade
+										style={{ width: '100%', height: '100%' }}
+									>
+										{interiorismoco.map(item => (
+										<SwiperSlide key={item.original}>
+											<div
+											style={{
+												width: '100%', height: '100%',
+												backgroundImage: `url(${item.original})`,
+												backgroundSize:  'cover',
+												backgroundPosition:'center',
+											}}
+											/>
+										</SwiperSlide>
+										))}
+									</Swiper>
+									</div>
 
-								/>
-							</div>
 							{/*PESTAÑAS */}
 							<h2
         style={{
@@ -825,23 +925,40 @@ export default function Home() {
 								Fotografia de Arquitectura.
 							</h2>
 							<div
-								className="overflow-hidden custom-height"
-								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									zIndex: 1,
-								}}
-							>
-								<ImageGallery items={fotografia}
-								showThumbnails={false}
-								showNav={false}
-									showBullets={true}
-									showPlayButton={false}
-									autoPlay={true}
+									style={{
+										width:       `${width * size.imgWidth}px`,
+										height:       `${width * size.imgHeight}px`,
+										marginLeft:  `${width * size.imgMl}px`,
+									}}
+								>
+									<Swiper
+										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+										slidesPerView={1}
+										loop={true}
+										autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
+										}}
+										pagination={{ clickable: true }} // ••• puntitos clicables
+										keyboard={{ enabled: true }}     // mueve con flechas del teclado
+										effect="fade"                    // si quieres fade
+										style={{ width: '100%', height: '100%' }}
+									>
+										{fotografia.map(item => (
+										<SwiperSlide key={item.original}>
+											<div
+											style={{
+												width: '100%', height: '100%',
+												backgroundImage: `url(${item.original})`,
+												backgroundSize:  'cover',
+												backgroundPosition:'center',
+											}}
+											/>
+										</SwiperSlide>
+										))}
+									</Swiper>
+									</div>
 
-								/>
-							</div>
 
 							<h2
 								style={{
@@ -854,6 +971,7 @@ export default function Home() {
 							>
 								Fotogrametría y levantamiento topográfico en&nbsp;drone.
 							</h2>
+							
 							<div
 								className="overflow-hidden custom-height"
 								style={{

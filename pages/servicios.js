@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-
 import Box from '@mui/material/Box';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.min.css'
-import 'swiper/components/pagination/pagination.min.css'
 import 'swiper/components/navigation/navigation.min.css'
+import 'swiper/components/pagination/pagination.min.css'
 import 'swiper/components/effect-fade/effect-fade.min.css'
 import SwiperCore, {
 	Pagination,
@@ -26,7 +25,7 @@ import "react-image-gallery/styles/css/image-gallery.css"
 
 import Image from 'next/image'
 
-import  modelado3D from '../public/img/servicios/MODELADO_3D.webp'
+import modelado3D from '../public/img/servicios/MODELADO_3D.webp'
 import drone from '../public/img/servicios/VISTAS_AEREAS_DRONE.webp'
 const visual1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/DORM-PRINC-ETEN-_2__odgk5q'
 const visual2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/ACERCAMIENTO_i945ys'
@@ -122,7 +121,7 @@ const planosdeventa = [
 		original: plano4,
 		thumbnail: plano4,
 	},
-	
+
 ];
 const fachadas = [
 	{
@@ -271,7 +270,7 @@ const fotografia = [
 		original: fotografia1,
 		thumbnail: fotografia1,
 	},
-	
+
 	{
 		original: fotografia3,
 		thumbnail: fotografia3,
@@ -326,28 +325,28 @@ const metadata = {
 }
 const theme = createTheme({
 	components: {
-	  MuiTab: {
-		styleOverrides: {
-		  root: {
-			fontFamily: 'AtypBLDisplay-Regular',
-		  },
+		MuiTab: {
+			styleOverrides: {
+				root: {
+					fontFamily: 'AtypBLDisplay-Regular',
+				},
+			},
 		},
-	  },
 	},
-  });
+});
 
 export default function Home() {
 	const [activeTab, setActiveTab] = useState('avances');
 	const [value, setValue] = React.useState(0);
 	const handleChange = (event, newValue) => {
-	  setValue(newValue);
+		setValue(newValue);
 	};
-  
+
 	const labels = ['Avances de obra', 'Registro de eventos', 'Videos testimoniales'];
 	const srcs = [
-	  'https://www.youtube.com/embed/fmyMoNRP9Yc?si=l5O0OzDnn1-I3nY4',
-	  'https://www.youtube.com/embed/2-DHiGM8-jg?si=vsAuaOZjHm6AO4fX',
-	  'https://www.youtube.com/embed/9EWQCf9KDoQ?si=yrdi_vF25vP0uulO'
+		'https://www.youtube.com/embed/fmyMoNRP9Yc?si=l5O0OzDnn1-I3nY4',
+		'https://www.youtube.com/embed/2-DHiGM8-jg?si=vsAuaOZjHm6AO4fX',
+		'https://www.youtube.com/embed/9EWQCf9KDoQ?si=yrdi_vF25vP0uulO'
 	];
 	const [width] = useAppWidth()
 	const query = useAppQuery()
@@ -358,7 +357,7 @@ export default function Home() {
 	const [s1, setS1] = React.useState(false)
 	const [s2, setS2] = React.useState('S1')
 	const mb_query =
-	query === '2xl' ? 1.3 : query === 'xl' ? 1.3 : query === 'lg' ? 1.5 : query === 'md' ? 0.9 : 0.9
+		query === '2xl' ? 1.3 : query === 'xl' ? 1.3 : query === 'lg' ? 1.5 : query === 'md' ? 0.9 : 0.9
 
 	const size = React.useMemo(() => {
 		if (query === 'xl') {
@@ -372,7 +371,7 @@ export default function Home() {
 		}
 	}, [query])
 
-	const isMd = query==='md' || query==='lg' || query==='xl' || query==='2xl';
+	const isMd = query === 'md' || query === 'lg' || query === 'xl' || query === '2xl';
 
 	React.useEffect(() => {
 		let timeout
@@ -428,22 +427,22 @@ export default function Home() {
 							</h2>
 							{/* Antes: <Image src={modelado3D} className="object-cover" … /> */}
 							<div
-							className="relative overflow-hidden"
-							style={{
-								width: `${width * size.imgWidth}px`,
-								height: `${width * size.imgHeight}px`,   // □ = ancho
-								marginLeft: `${width * size.imgMl}px`,
-								zIndex: 1,
-								border: '1px solid #dedede',
-							}}
+								className="relative overflow-hidden"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,   // □ = ancho
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+									border: '1px solid #dedede',
+								}}
 							>
-							<Image
-								src={modelado3D}
-								alt="Modelado 3D"
-								placeholder="blur"
-								fill                                    // ocupa 100% del padre
-								style={{ objectFit: 'cover' }}         // recorta y centra
-							/>
+								<Image
+									src={modelado3D}
+									alt="Modelado 3D"
+									placeholder="blur"
+									fill                                    // ocupa 100% del padre
+									style={{ objectFit: 'cover' }}         // recorta y centra
+								/>
 							</div>
 
 
@@ -454,41 +453,48 @@ export default function Home() {
 									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 "
-								>
+							>
 								Visualización 3D.
-								</h2>
-								<div
-									style={{
-										width:       `${width * size.imgWidth}px`,
-										height:       `${width * size.imgHeight}px`,
-										marginLeft:  `${width * size.imgMl}px`,
+							</h2>
+							<div
+							className='flex-shrink-0'
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+								}}
+							>
+								<Swiper
+									modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
+									slidesPerView={1}
+									loop={true}
+									autoplay={{
+										delay: 3000,
+										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
 									}}
+									pagination={{ clickable: true }} // ••• puntitos clicables
+									keyboard={{ enabled: true }}     // mueve con flechas del teclado
+									effect="fade"                    // si quieres fade
+									style={{ width: '100%', height: '100%' }}
 								>
-									<Swiper
-										loop
-										autoplay={{ delay: 3000, disableOnInteraction: false }}
-										navigation
-										keyboard={{ enabled: true }}
-										effect="fade"
-										style={{ width: '100%', height: '100%' }}
-									>
-										{visualizacion3d.map(item => (
+									{visualizacion3d.map(item => (
 										<SwiperSlide key={item.original}>
-											<div
-											style={{
-												width: '100%', height: '100%',
-												backgroundImage: `url(${item.original})`,
-												backgroundSize:  'cover',
-												backgroundPosition:'center',
-											}}
-											/>
+											<article className="w-full h-full">
+													<div className="flex justify-center vertical-center bg-white">
+														<img
+															src={item.original}
+															style={{ width: '100%', height: '100%' }}
+															
+														/>
+													</div>
+												</article>
 										</SwiperSlide>
-										))}
-									</Swiper>
-									</div>
+									))}
+								</Swiper>
+							</div>
 
 
-								
+
 
 
 							<h2
@@ -502,46 +508,29 @@ export default function Home() {
 								Planos de Venta.
 							</h2>
 							<div
-									style={{
-										width:       `${width * size.imgWidth}px`,
-										height:       `${width * size.imgHeight}px`,
-										marginLeft:  `${width * size.imgMl}px`,
-									}}
-								>
-									<Swiper
-										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
-										slidesPerView={1}
-										loop={true}
-										autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
-										}}
-										pagination={{ clickable: true }} // ••• puntitos clicables
-										keyboard={{ enabled: true }}     // mueve con flechas del teclado
-										effect="fade"                    // si quieres fade
-										style={{ width: '100%', height: '100%' }}
-									>
-										{planosdeventa.map(item => (
-										<SwiperSlide key={item.original}>
-											<div
-											style={{
-												width: '100%', height: '100%',
-												backgroundImage: `url(${item.original})`,
-												backgroundSize:  'cover',
-												backgroundPosition:'center',
-											}}
-											/>
-										</SwiperSlide>
-										))}
-									</Swiper>
-									</div>
+								className="overflow-hidden custom-height"
+								style={{
+									width: `{width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={planosdeventa}
+									showThumbnails={false}
+									showNav={false}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
+								/>
+							</div>
 
 							<h2
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width :0,
+									marginTop: isMd ? width : 0,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -550,9 +539,9 @@ export default function Home() {
 							<div
 								className="overflow-hidden custom-height"
 								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
+									width: ` ${width * size.imgWidth}px`,
+									height: ` ${width * size.imgHeight}px`,
+									marginLeft: ` ${width * size.imgMl}px`,
 									zIndex: 1,
 								}}
 							>
@@ -573,7 +562,7 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : width*1,
+									marginTop: isMd ? width : width * 1,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -583,15 +572,15 @@ export default function Home() {
 								className="overflow-hidden custom-height"
 								style={{
 									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
+									height: ` ${width * size.imgHeight}px`,
+									marginLeft: ` ${width * size.imgMl}px`,
 									zIndex: 1,
 								}}
 							>
 								<iframe
 									width="100%"
 									height="100%"
-									src="https://www.youtube.com/embed/rLEeC6tax44?si=x438UKVX5ftb4dd6" 
+									src="https://www.youtube.com/embed/rLEeC6tax44?si=x438UKVX5ftb4dd6"
 									title="Recorridos virtuales"
 									frameBorder="0"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -602,7 +591,7 @@ export default function Home() {
 							<h2
 								style={{
 									height: width,
-									marginLeft: `${width * size.imgMl}px`,
+									marginLeft: `{width * size.imgMl}px`,
 									marginTop: isMd ? width : width,
 									marginBottom: 0,
 								}}
@@ -632,7 +621,7 @@ export default function Home() {
 							<h2
 								style={{
 									height: width,
-									marginLeft: `${width * size.imgMl}px`,
+									marginLeft: `{width * size.imgMl}px`,
 									marginTop: isMd ? width : width,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
@@ -671,9 +660,9 @@ export default function Home() {
 							<div
 								className="overflow-hidden custom-height"
 								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
+									width: ` ${width * size.imgWidth}px`,
+									height: ` ${width * size.imgHeight}px`,
+									marginLeft: ` ${width * size.imgMl}px`,
 									zIndex: 1,
 								}}
 							>
@@ -698,85 +687,51 @@ export default function Home() {
 								Diseño Integral de Fachadas.
 							</h2>
 							<div
-									style={{
-										width:       `${width * size.imgWidth}px`,
-										height:       `${width * size.imgHeight}px`,
-										marginLeft:  `${width * size.imgMl}px`,
-									}}
-								>
-									<Swiper
-										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
-										slidesPerView={1}
-										loop={true}
-										autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
-										}}
-										pagination={{ clickable: true }} // ••• puntitos clicables
-										keyboard={{ enabled: true }}     // mueve con flechas del teclado
-										effect="fade"                    // si quieres fade
-										style={{ width: '100%', height: '100%' }}
-									>
-										{fachadas.map(item => (
-										<SwiperSlide key={item.original}>
-											<div
-											style={{
-												width: '100%', height: '100%',
-												backgroundImage: `url(${item.original})`,
-												backgroundSize:  'cover',
-												backgroundPosition:'center',
-											}}
-											/>
-										</SwiperSlide>
-										))}
-									</Swiper>
-									</div>
+								className="overflow-hidden custom-height"
+								style={{
+									width: ` ${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={fachadas}
+									showThumbnails={false}
+									showNav={false}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
+								/>
+							</div>
 							<h2
 								style={{
 									height: width,
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : width*0.05,
+									marginLeft: ` ${width * size.imgMl}px`,
+									marginTop: isMd ? width : width * 0.05,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Interiorismo Residencial.
 							</h2>
 							<div
-									style={{
-										width:       `${width * size.imgWidth}px`,
-										height:       `${width * size.imgHeight}px`,
-										marginLeft:  `${width * size.imgMl}px`,
-									}}
-								>
-									<Swiper
-										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
-										slidesPerView={1}
-										loop={true}
-										autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
-										}}
-										pagination={{ clickable: true }} // ••• puntitos clicables
-										keyboard={{ enabled: true }}     // mueve con flechas del teclado
-										effect="fade"                    // si quieres fade
-										style={{ width: '100%', height: '100%' }}
-									>
-										{interiorismore.map(item => (
-										<SwiperSlide key={item.original}>
-											<div
-											style={{
-												width: '100%', height: '100%',
-												backgroundImage: `url(${item.original})`,
-												backgroundSize:  'cover',
-												backgroundPosition:'center',
-											}}
-											/>
-										</SwiperSlide>
-										))}
-									</Swiper>
-									</div>
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: ` ${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={interiorismore}
+									showThumbnails={false}
+									showNav={false}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
+								/>
+							</div>
 							<h2
 								style={{
 									height: width,
@@ -788,108 +743,91 @@ export default function Home() {
 								Interiorismo Corporativo.
 							</h2>
 							<div
-									style={{
-										width:       `${width * size.imgWidth}px`,
-										height:       `${width * size.imgHeight}px`,
-										marginLeft:  `${width * size.imgMl}px`,
-									}}
-								>
-									<Swiper
-										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
-										slidesPerView={1}
-										loop={true}
-										autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
-										}}
-										pagination={{ clickable: true }} // ••• puntitos clicables
-										keyboard={{ enabled: true }}     // mueve con flechas del teclado
-										effect="fade"                    // si quieres fade
-										style={{ width: '100%', height: '100%' }}
-									>
-										{interiorismoco.map(item => (
-										<SwiperSlide key={item.original}>
-											<div
-											style={{
-												width: '100%', height: '100%',
-												backgroundImage: `url(${item.original})`,
-												backgroundSize:  'cover',
-												backgroundPosition:'center',
-											}}
-											/>
-										</SwiperSlide>
-										))}
-									</Swiper>
-									</div>
+								className="overflow-hidden custom-height"
+								style={{
+									width: `${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={interiorismoco}
+									showThumbnails={false}
+									showNav={false}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
+								/>
+							</div>
 							{/*PESTAÑAS */}
-							<h2
-        style={{
-          height: width,
-          marginLeft: width * size.imgMl,
-          marginTop: isMd ? width : width*0.1,
-        }}
-        className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
-      >
-        Servicios Audiovisuales Inmobiliario.
-      </h2>
-	  <ThemeProvider theme={theme}>
-
-      {/* Pestañas Scrollable con MUI */}
-      <Box sx={{ bgcolor: 'background.paper', }}>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          variant="scrollable"
-          scrollButtons="auto"
-          allowScrollButtonsMobile
-		  style={{marginLeft: width * size.imgMl,width: width * size.imgWidth,}}
-		  TabIndicatorProps={{ style: { display: 'none' } }}
-
-          aria-label="Pestañas de servicios audiovisuales"
-        >
-          {labels.map((label, index) => (
-            <Tab key={index} label={label} 
-			sx={{
-                textTransform: 'capitalize',
-                fontWeight: 'bold',            // Negrita
-                fontSize: { xs: '12px', md: '12px', lg: '15px' }, // Tamaño responsive
-                '&.Mui-selected': { color: 'black' },
-				
-              }} 
-			  className="text-[45px] md:text-[28px] "
-			/>
-          ))}
-        </Tabs>
-      </Box>
-	  </ThemeProvider>
-
-      {/* Contenido de cada pestaña */}
-      <div
-        className="overflow-hidden"
-        style={{
-          width: width * size.imgWidth,
-          height: width * size.imgHeight,
-          marginLeft: width * size.imgMl,
-        //   borderTop: '1px solid #dedede',
-          borderLeft: '1px solid #dedede',
-        }}
-      >
-        <iframe
-          width="100%"
-          height="100%"
-          src={srcs[value]}
-          title={labels[value]}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </div>
 							<h2
 								style={{
 									height: width,
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : width*0.8,
+									marginLeft: width * size.imgMl,
+									marginTop: isMd ? width : width * 0.1,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Servicios Audiovisuales Inmobiliario.
+							</h2>
+							<ThemeProvider theme={theme}>
+
+								{/* Pestañas Scrollable con MUI */}
+								<Box sx={{ bgcolor: 'background.paper', }}>
+									<Tabs
+										value={value}
+										onChange={handleChange}
+										variant="scrollable"
+										scrollButtons="auto"
+										allowScrollButtonsMobile
+										style={{ marginLeft: width * size.imgMl, width: width * size.imgWidth, }}
+										TabIndicatorProps={{ style: { display: 'none' } }}
+
+										aria-label="Pestañas de servicios audiovisuales"
+									>
+										{labels.map((label, index) => (
+											<Tab key={index} label={label}
+												sx={{
+													textTransform: 'capitalize',
+													fontWeight: 'bold',            // Negrita
+													fontSize: { xs: '12px', md: '12px', lg: '15px' }, // Tamaño responsive
+													'&.Mui-selected': { color: 'black' },
+
+												}}
+												className="text-[45px] md:text-[28px] "
+											/>
+										))}
+									</Tabs>
+								</Box>
+							</ThemeProvider>
+
+							{/* Contenido de cada pestaña */}
+							<div
+								className="overflow-hidden"
+								style={{
+									width: width * size.imgWidth,
+									height: width * size.imgHeight,
+									marginLeft: width * size.imgMl,
+									//   borderTop: '1px solid #dedede',
+									borderLeft: '1px solid #dedede',
+								}}
+							>
+								<iframe
+									width="100%"
+									height="100%"
+									src={srcs[value]}
+									title={labels[value]}
+									frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen
+								/>
+							</div>
+							<h2
+								style={{
+									height: width,
+									marginLeft: ` ${width * size.imgMl}px`,
+									marginTop: isMd ? width : width * 0.8,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
@@ -898,9 +836,9 @@ export default function Home() {
 							<div
 								className="overflow-hidden custom-height"
 								style={{
-									width: `${width * size.imgWidth}px`,
-									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
+									width: ` ${width * size.imgWidth}px`,
+									height: ` ${width * size.imgHeight}px`,
+									marginLeft: ` ${width * size.imgMl}px`,
 									zIndex: 1,
 								}}
 							>
@@ -918,67 +856,50 @@ export default function Home() {
 								style={{
 									height: width,
 									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : width*0.9,
+									marginTop: isMd ? width : width * 0.9,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
 								Fotografia de Arquitectura.
 							</h2>
 							<div
-									style={{
-										width:       `${width * size.imgWidth}px`,
-										height:       `${width * size.imgHeight}px`,
-										marginLeft:  `${width * size.imgMl}px`,
-									}}
-								>
-									<Swiper
-										modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
-										slidesPerView={1}
-										loop={true}
-										autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
-										}}
-										pagination={{ clickable: true }} // ••• puntitos clicables
-										keyboard={{ enabled: true }}     // mueve con flechas del teclado
-										effect="fade"                    // si quieres fade
-										style={{ width: '100%', height: '100%' }}
-									>
-										{fotografia.map(item => (
-										<SwiperSlide key={item.original}>
-											<div
-											style={{
-												width: '100%', height: '100%',
-												backgroundImage: `url(${item.original})`,
-												backgroundSize:  'cover',
-												backgroundPosition:'center',
-											}}
-											/>
-										</SwiperSlide>
-										))}
-									</Swiper>
-									</div>
+								className="overflow-hidden custom-height"
+								style={{
+									width: ` ${width * size.imgWidth}px`,
+									height: `${width * size.imgHeight}px`,
+									marginLeft: ` ${width * size.imgMl}px`,
+									zIndex: 1,
+								}}
+							>
+								<ImageGallery items={fotografia}
+									showThumbnails={false}
+									showNav={false}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
 
+								/>
+							</div>
 
 							<h2
 								style={{
 									height: isText2 ? width * 2 : width,
 									width: isText2 ? width * 6 : 'auto',
-									marginLeft: `${width * size.imgMl}px`,
-									marginTop: isMd ? width : width*0.1,
+									marginLeft: ` ${width * size.imgMl}px`,
+									marginTop: isMd ? width : width * 0.1,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2 mb-0 md:mb-0"
 							>
 								Fotogrametría y levantamiento topográfico en&nbsp;drone.
 							</h2>
-							
+
 							<div
 								className="overflow-hidden custom-height"
 								style={{
 									width: `${width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
-									marginLeft: `${width * size.imgMl}px`,
-									marginBottom:`${width * mb_query}px`,
+									marginLeft: ` ${width * size.imgMl}px`,
+									marginBottom: `${width * mb_query}px`,
 									zIndex: 1,
 									backgroundColor: '#333',
 								}}
@@ -1010,7 +931,7 @@ export default function Home() {
 								</AnimatePresence>
 							</div>
 
-							
+
 						</div>
 					</div>
 					<ButtonWsp />

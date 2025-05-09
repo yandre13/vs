@@ -479,19 +479,23 @@ export default function Home() {
 								>
 									{visualizacion3d.map(item => (
 										<SwiperSlide key={item.original}>
-											<article className="w-full h-full">
-													<div className="flex justify-center vertical-center bg-white">
-														<img
-															src={item.original}
-															style={{ width: '100%', height: '100%' }}
-															
-														/>
-													</div>
-												</article>
+											<div
+												style={{
+													width: `${width * size.imgWidth}px`, height: '100%',
+													backgroundImage: `url(${item.original})`,
+													backgroundSize: 'cover',
+													backgroundPosition: 'center',
+												}}
+											/>
 										</SwiperSlide>
 									))}
 								</Swiper>
 							</div>
+
+
+
+
+
 							<h2
 								style={{
 									height: width,
@@ -503,40 +507,22 @@ export default function Home() {
 								Planos de Venta.
 							</h2>
 							<div
-							className='flex-shrink-0'
+								className="overflow-hidden custom-height"
 								style={{
-									width: `${width * size.imgWidth}px`,
+									width: `{width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
 									marginLeft: `${width * size.imgMl}px`,
+									zIndex: 1,
 								}}
 							>
-								<Swiper
-									modules={[Autoplay, Pagination, Navigation, EffectFade, Keyboard]}
-									slidesPerView={1}
-									loop={true}
-									autoplay={{
-										delay: 3000,
-										disableOnInteraction: false,  // sigue auto incluso si el usuario clica
-									}}
-									pagination={{ clickable: true }} // ••• puntitos clicables
-									keyboard={{ enabled: true }}     // mueve con flechas del teclado
-									effect="fade"                    // si quieres fade
-									style={{ width: '100%', height: '100%' }}
-								>
-									{planosdeventa.map(item => (
-										<SwiperSlide key={item.original}>
-											<article className="w-full h-full">
-													<div className="flex justify-center vertical-center bg-white">
-														<img
-															src={item.original}
-															style={{ width: '100%', height: '100%' }}
-															
-														/>
-													</div>
-												</article>
-										</SwiperSlide>
-									))}
-								</Swiper>
+								<ImageGallery items={planosdeventa}
+									showThumbnails={false}
+									showNav={false}
+									showBullets={true}
+									showPlayButton={false}
+									autoPlay={true}
+
+								/>
 							</div>
 
 							<h2

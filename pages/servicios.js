@@ -357,7 +357,7 @@ export default function Home() {
 	const [s1, setS1] = React.useState(false)
 	const [s2, setS2] = React.useState('S1')
 	const mb_query =
-		query === '2xl' ? 1.3 : query === 'xl' ? 1.3 : query === 'lg' ? 1.5 : query === 'md' ? 0.9 : 0.9
+		query === '2xl' ? 1.1 : query === 'xl' ? 0.7 : query === 'lg' ? 1.5 : query === 'md' ? 0.9 : 0.9
 
 	const size = React.useMemo(() => {
 		if (query === 'xl') {
@@ -827,69 +827,6 @@ export default function Home() {
 									))}
 								</Swiper>
 							</div>
-							{/*PESTAÑAS */}
-							<h2
-								style={{
-									height: width,
-									marginLeft: width * size.imgMl,
-									marginTop: isMd ? width : width * 0.1,
-								}}
-								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
-							>
-								Servicios Audiovisuales Inmobiliario.
-							</h2>
-							<ThemeProvider theme={theme}>
-
-								{/* Pestañas Scrollable con MUI */}
-								<Box sx={{ bgcolor: 'background.paper', }}>
-									<Tabs
-										value={value}
-										onChange={handleChange}
-										variant="scrollable"
-										scrollButtons="auto"
-										allowScrollButtonsMobile
-										style={{ marginLeft: width * size.imgMl, width: width * size.imgWidth, }}
-										TabIndicatorProps={{ style: { display: 'none' } }}
-
-										aria-label="Pestañas de servicios audiovisuales"
-									>
-										{labels.map((label, index) => (
-											<Tab key={index} label={label}
-												sx={{
-													textTransform: 'capitalize',
-													fontWeight: 'bold',            // Negrita
-													fontSize: { xs: '12px', md: '12px', lg: '15px' }, // Tamaño responsive
-													'&.Mui-selected': { color: 'black' },
-
-												}}
-												className="text-[45px] md:text-[28px] "
-											/>
-										))}
-									</Tabs>
-								</Box>
-							</ThemeProvider>
-
-							{/* Contenido de cada pestaña */}
-							<div
-								className="overflow-hidden"
-								style={{
-									width: width * size.imgWidth,
-									height: width * size.imgHeight,
-									marginLeft: width * size.imgMl,
-									//   borderTop: '1px solid #dedede',
-									borderLeft: '1px solid #dedede',
-								}}
-							>
-								<iframe
-									width="100%"
-									height="100%"
-									src={srcs[value]}
-									title={labels[value]}
-									frameBorder="0"
-									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-									allowFullScreen
-								/>
-							</div>
 							<h2
 								style={{
 									height: width,
@@ -983,7 +920,6 @@ export default function Home() {
 									width: `${width * size.imgWidth}px`,
 									height: `${width * size.imgHeight}px`,
 									marginLeft: ` ${width * size.imgMl}px`,
-									marginBottom: `${width * mb_query}px`,
 									zIndex: 1,
 									backgroundColor: '#333',
 								}}
@@ -1014,6 +950,72 @@ export default function Home() {
 									)}
 								</AnimatePresence>
 							</div>
+							{/*PESTAÑAS */}
+							<h2
+								style={{
+									height: width,
+									marginLeft: width * size.imgMl,
+									marginTop: isMd ? width : width * 0.1,
+								}}
+								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
+							>
+								Servicios Audiovisuales Inmobiliario.
+							</h2>
+							<ThemeProvider theme={theme}>
+
+								{/* Pestañas Scrollable con MUI */}
+								<Box sx={{ bgcolor: 'background.paper', }}>
+									<Tabs
+										value={value}
+										onChange={handleChange}
+										variant="scrollable"
+										scrollButtons="auto"
+										allowScrollButtonsMobile
+										style={{ marginLeft: width * size.imgMl, width: width * size.imgWidth, }}
+										TabIndicatorProps={{ style: { display: 'none' } }}
+
+										aria-label="Pestañas de servicios audiovisuales"
+									>
+										{labels.map((label, index) => (
+											<Tab key={index} label={label}
+												sx={{
+													textTransform: 'capitalize',
+													fontWeight: 'bold',            // Negrita
+													fontSize: { xs: '12px', md: '12px', lg: '15px' }, // Tamaño responsive
+													'&.Mui-selected': { color: 'black' },
+
+												}}
+												className="text-[45px] md:text-[28px] "
+											/>
+										))}
+									</Tabs>
+								</Box>
+							</ThemeProvider>
+
+							{/* Contenido de cada pestaña */}
+							<div
+								className="overflow-hidden"
+								style={{
+									marginBottom: `${width * mb_query}px`,
+
+									width: width * size.imgWidth,
+									height: width * size.imgHeight,
+									marginLeft: width * size.imgMl,
+									//   borderTop: '1px solid #dedede',
+									borderLeft: '1px solid #dedede',
+								}}
+							>
+								<iframe
+									width="100%"
+									height="100%"
+									src={srcs[value]}
+									title={labels[value]}
+									frameBorder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowFullScreen
+								/>
+							</div>
+							
 
 
 						</div>

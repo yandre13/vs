@@ -607,7 +607,7 @@ export default function Home() {
 							<h2
 								style={{
 									height: width,
-									marginLeft: `{width * size.imgMl}px`,
+									marginLeft: `${width * size.imgMl}px`,
 									marginTop: isMd ? width : width,
 									marginBottom: 0,
 								}}
@@ -637,7 +637,7 @@ export default function Home() {
 							<h2
 								style={{
 									height: width,
-									marginLeft: `{width * size.imgMl}px`,
+									marginLeft: `${width * size.imgMl}px`,
 									marginTop: isMd ? width : width,
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"

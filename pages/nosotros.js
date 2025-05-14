@@ -30,6 +30,8 @@ export default function Home() {
 	const query = useAppQuery()
 	const isMobile = useMedia('(max-width: 767px)')
 	const is2xl = useMedia('(min-width: 1536px)');
+	const is3xl = useMedia('(min-width: 1920px)');
+	const is4xl = useMedia('(min-width: 2560px)');
 	const isPC = useMedia('(min-width: 1024px)')
 	const loaded = useLoaded()
 	const { data: logos } = useQuery('logos')
@@ -227,8 +229,8 @@ export default function Home() {
 													}px`,
 												marginLeft: width,
 												marginTop: `${width *
-													(query === 'xl' ? 0.5 : query === 'lg' ? 0.46 : 0.4)
-													}vh`,
+													(is4xl ? 7.4 : is3xl ? 6 : is2xl ? 1.5 : query === 'xl' ? 3.4 : query === 'lg' ? 5 : 0.9)
+													}px`,
 												zIndex: 10,
 											}}
 										>
@@ -247,8 +249,8 @@ export default function Home() {
 											<div
 												style={{
 													marginTop: `${width *
-														(query === 'xl' ? 0.15 : query === 'lg' ? 0.18 : 0.18)
-														}vh`,
+														(query === 'xl' ? 1 : query === 'lg' ? 1 : 0.18)
+														}px`,
 													marginLeft: 1,
 													zIndex: 10,
 												}}
@@ -265,8 +267,8 @@ export default function Home() {
 																? 1.84
 																: query === 'lg'
 																	? 1.7
-																	: 1.7,
-														fontSize: is2xl ? '100%' : query === 'xl' ? '85%' : query === 'lg' ? '80%' : '75%',
+																	: 1.6,
+														fontSize: is2xl ? '100%' : query === 'xl' ? '85%' : query === 'lg' ? '80%' : '65%',
 													}}
 													className={cn('p-3 pscroll bg-white text-justify')}
 

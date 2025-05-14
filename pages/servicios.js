@@ -959,12 +959,12 @@ export default function Home() {
 								}}
 								className="font-sec text-[20px] md:text-[28px] w-full flex items-center pl-1 pt-2"
 							>
-								Servicios Audiovisuales Inmobiliario.
+								Servicios Audiovisuales Inmobiliarios.
 							</h2>
 							<ThemeProvider theme={theme}>
 
 								{/* Pestañas Scrollable con MUI */}
-								<Box sx={{ bgcolor: 'background.paper', }}>
+								<Box sx={{ bgcolor: 'background.paper' }}>
 									<Tabs
 										value={value}
 										onChange={handleChange}
@@ -973,6 +973,7 @@ export default function Home() {
 										allowScrollButtonsMobile
 										style={{ marginLeft: width * size.imgMl, width: width * size.imgWidth, }}
 										TabIndicatorProps={{ style: { display: 'none' } }}
+										
 
 										aria-label="Pestañas de servicios audiovisuales"
 									>
@@ -997,7 +998,7 @@ export default function Home() {
 								className="overflow-hidden"
 								style={{
 									marginBottom: `${width * mb_query}px`,
-
+									zIndex: 1,
 									width: width * size.imgWidth,
 									height: width * size.imgHeight,
 									marginLeft: width * size.imgMl,

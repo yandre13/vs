@@ -169,7 +169,7 @@ export default function Home() {
                 md:pt-2 md:pr-2 md:mt-2
                 lg:pt-8 lg:pr-2 lg:mt-[6%]
                 xl:pt-10 xl:pr-8 xl:mt-[22.5%]
-                2xl:pt-14 2xl:pr-10 2xl:mt-[32.1%]
+                2xl:pt-14 2xl:pr-10 2xl:mt-[25.1%]
                 3xl:pt-14 3xl:pr-10 3xl:mt-[39%]
               ">
                 <h1

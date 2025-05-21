@@ -3,9 +3,8 @@ import {setupDevPlatform} from '@cloudflare/next-on-pages/next-dev'
 if (process.env.NODE_ENV === 'development') {
 	await setupDevPlatform()
 }
-
-// next.config.js
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
 	images: {
 		remotePatterns: [
 			{
@@ -17,3 +16,6 @@ module.exports = {
 		],
 	},
 }
+
+// next.config.js
+export default nextConfig

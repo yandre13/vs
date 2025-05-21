@@ -229,7 +229,7 @@ export default function Home() {
 													}px`,
 												marginLeft: width,
 												marginTop: `${width *
-													(is4xl ? 7.4 : is3xl ? 6 : is2xl ? 1.5 : query === 'xl' ? 3.4 : query === 'lg' ? 5 : 0.9)
+													(is4xl ? 7.4 : is3xl ? 7 : is2xl ? 1.5 : query === 'xl' ? 3.4 : query === 'lg' ? 5 : 0.9)
 													}px`,
 												zIndex: 10,
 											}}

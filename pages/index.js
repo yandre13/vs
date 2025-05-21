@@ -20,6 +20,9 @@ import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 
+
+import pie from '../public/img/VISTA PIE DE PAGINA.jpg'
+
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, Zoom])
 
@@ -347,7 +350,7 @@ export default function Home() {
 								className="overflow-hidden custom-height"
 							>
 								<Image
-									src={'/img/VISTA PIE DE PAGINA.jpg'}
+									src={pie}
 									className="w-full h-full object-cover object-bottom"
 									width={1920}
 									height={1080}

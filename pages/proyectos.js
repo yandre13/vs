@@ -1,13 +1,20 @@
 import {useRouter} from 'next/router'
 import {AnimateSharedLayout, AnimatePresence, motion} from 'framer-motion'
 
-import Grid from 'components/Grid'
+// import Grid from 'components/Grid'
 import Navbar from 'components/Navbar'
-import ListPortfolio from 'components/List/ListPortfolio'
+// import ListPortfolio from 'components/List/ListPortfolio'
 import Item from 'components/List/Item'
 import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
+// pages/proyectos.jsx
+import dynamic from 'next/dynamic'
+
+// Sin SSR para ListPortfolio y Grid hasta que el JS del cliente esté listo
+const Grid = dynamic(() => import('components/Grid'), { ssr: false })
+const ListPortfolio = dynamic(() => import('components/List/ListPortfolio'), { ssr: false })
+
 
 const metadata = {
 	title: 'Proyectos de Arquitectura en Lima y Perú - Visualiza.pe',

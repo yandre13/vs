@@ -5,7 +5,13 @@ import { motion } from 'framer-motion'
 import fetch from 'node-fetch'
 
 import Navbar from 'components/Navbar'
-import Item from 'components/List/Item'
+const Item = dynamic(
+  () => import('components/List/Item'),
+  { 
+    ssr: false,            
+    loading: () => null,   
+  }
+)
 import ListPortfolio from 'components/List/ListPortfolio'
 import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
@@ -33,12 +39,9 @@ export async function getStaticProps() {
 
   return {
     props: { projects },
-    // si quieres ISR cada minuto:
-    // revalidate: 60,
   }
 }
 
-// dinámicos con placeholder skeleton en SSR
 const Grid = dynamic(() => import('components/Grid'), {
   loading: () => (
     <div className="h-64 bg-gray-200 animate-pulse rounded" />

@@ -30,6 +30,8 @@ function CardPortfolio({ project, width, query }) {
 						src={image}
 						width={1000}
 						height={1000}
+						placeholder="blur"
+						loading='lazy'
 						className={cn(
 							'w-101 h-full absolute top-0 left-0 object-cover',
 							// Agrega la clase de tailwind según project.objectPosition

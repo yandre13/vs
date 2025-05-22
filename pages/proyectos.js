@@ -12,8 +12,8 @@ import SEO from 'components/SEO'
 import dynamic from 'next/dynamic'
 
 // Sin SSR para ListPortfolio y Grid hasta que el JS del cliente esté listo
-const Grid = dynamic(() => import('components/Grid'), { ssr: false })
-const ListPortfolio = dynamic(() => import('components/List/ListPortfolio'), { ssr: false })
+const Grid = dynamic(() => import('components/Grid'), { ssr: false,loading: () => <div className="h-64 bg-gray-200 animate-pulse" /> })
+const ListPortfolio = dynamic(() => import('components/List/ListPortfolio'), { ssr: false, loading: () => <div className="w-full h-32 bg-gray-200 animate-pulse" /> })
 
 
 const metadata = {

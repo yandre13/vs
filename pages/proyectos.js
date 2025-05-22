@@ -5,34 +5,36 @@ import { motion } from 'framer-motion'
 
 import Navbar from 'components/Navbar'
 import Item from 'components/List/Item'
+import ListPortfolio from 'components/List/ListPortfolio'
 import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 
+// datos locales (o desde tu lib)
+import { data as allProjects } from 'data'
+
 // dinámicos con placeholder
 const Grid = dynamic(() => import('components/Grid'), {
   ssr: false,
-  loading: () => (
-    <div className="h-64 bg-gray-200 animate-pulse rounded" />
-  ),
+  loading: () => <div className="h-64 bg-gray-200 animate-pulse rounded" />,
 })
-const ListPortfolio = dynamic(() => import('components/List/ListPortfolio'), {
-  ssr: false,
-  loading: () => (
-    <div className="w-full h-32 bg-gray-200 animate-pulse rounded" />
-  ),
-})
-
-// desactivar AnimateSharedLayout/AnimatePresence en SSR
 const AnimateSharedLayout = dynamic(
-  () =>
-    import('framer-motion').then((mod) => mod.AnimateSharedLayout),
+  () => import('framer-motion').then(mod => mod.AnimateSharedLayout),
   { ssr: false }
 )
 const AnimatePresence = dynamic(
-  () => import('framer-motion').then((mod) => mod.AnimatePresence),
+  () => import('framer-motion').then(mod => mod.AnimatePresence),
   { ssr: false }
 )
+
+export async function getStaticProps() {
+  // aquí podrías llamar a tu CMS/API en vez de un import
+  const projects = allProjects
+  return {
+    props: { projects },
+    // revalidate: 60, // si quieres ISR cada 60 segundos
+  }
+}
 
 const metadata = {
   title: 'Proyectos de Arquitectura en Lima y Perú - Visualiza.pe',
@@ -44,7 +46,7 @@ const metadata = {
   },
 }
 
-export default function Proyectos() {
+export default function Proyectos({ projects }) {
   const {
     query: { projectId },
   } = useRouter()
@@ -66,7 +68,8 @@ export default function Proyectos() {
           <Grid loaded={loaded} />
 
           <div className="flex flex-wrap">
-            <ListPortfolio />
+            {/* le pasamos la lista pre-renderizada */}
+            <ListPortfolio projects={projects} />
             <AnimatePresence>
               {projectId && <Item id={projectId} key="item" />}
             </AnimatePresence>

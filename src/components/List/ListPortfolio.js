@@ -1,4 +1,3 @@
-// components/List/ListPortfolio.jsx
 import React, { useState, useEffect, useRef } from 'react'
 import { CardPortfolio } from 'components/Card/CardPortfolio'
 import { useAppQuery, useAppWidth } from 'context'
@@ -24,14 +23,14 @@ export default function ListPortfolio({ projects = [] }) {
       },
       {
         root: null,
-        rootMargin: '200px',
-        threshold: 0.5,
+        rootMargin: '0px',
+        threshold: 1.0,
       }
     )
 
     observer.observe(loadMoreRef.current)
     return () => observer.disconnect()
-  }, [projects])   // <-- ojo: dependemos del array completo, no de .length directamente
+  }, [projects])   
 
   return (
     <>

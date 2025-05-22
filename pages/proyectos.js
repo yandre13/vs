@@ -1,4 +1,3 @@
-// pages/proyectos.jsx
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import { motion } from 'framer-motion'
@@ -9,8 +8,6 @@ import ListPortfolio from 'components/List/ListPortfolio'
 import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
-
-// datos locales (o desde tu lib)
 import { data as allProjects } from 'data'
 
 // dinámicos con placeholder
@@ -28,11 +25,9 @@ const AnimatePresence = dynamic(
 )
 
 export async function getStaticProps() {
-  // aquí podrías llamar a tu CMS/API en vez de un import
   const projects = allProjects
   return {
     props: { projects },
-    // revalidate: 60, // si quieres ISR cada 60 segundos
   }
 }
 
@@ -68,7 +63,6 @@ export default function Proyectos({ projects }) {
           <Grid loaded={loaded} />
 
           <div className="flex flex-wrap">
-            {/* le pasamos la lista pre-renderizada */}
             <ListPortfolio projects={projects} />
             <AnimatePresence>
               {projectId && <Item id={projectId} key="item" />}

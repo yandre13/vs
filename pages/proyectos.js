@@ -12,7 +12,22 @@ const Item = dynamic(
     loading: () => null,   
   }
 )
-import ListPortfolio from 'components/List/ListPortfolio'
+const ListPortfolio = dynamic(
+  () => import('components/List/ListPortfolio'),
+  {
+    ssr: false,               
+    loading: () => (
+      <div className="flex flex-wrap">
+        {Array.from({ length: 8 }).map((_, i) => (
+          <div
+            key={i}
+            className="w-1/4 h-48 bg-gray-200 animate-pulse rounded m-2"
+          />
+        ))}
+      </div>
+    ),
+  }
+)
 import useLoaded from 'hooks/useLoaded'
 import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'

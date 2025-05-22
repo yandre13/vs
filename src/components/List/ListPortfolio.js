@@ -42,6 +42,7 @@ export default function ListPortfolio({ projects = [] }) {
           >
             <CardPortfolio
               project={project}
+              blurDataURL={project.blurDataURL}
               width={width}
               query={query}
             />

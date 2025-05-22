@@ -1,6 +1,8 @@
+// pages/proyectos.jsx
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import { motion } from 'framer-motion'
+import fetch from 'node-fetch'
 
 import Navbar from 'components/Navbar'
 import Item from 'components/List/Item'
@@ -10,26 +12,48 @@ import ButtonWsp from 'components/ButtonWsp'
 import SEO from 'components/SEO'
 import { data as allProjects } from 'data'
 
-// dinámicos con placeholder
+async function getBlurDataURL(cloudUrl) {
+  const smallUrl = cloudUrl.replace(
+    '/upload/',
+    '/upload/w_10,h_10,c_scale/'
+  )
+  const res = await fetch(smallUrl)
+  const arrayBuffer = await res.arrayBuffer()
+  const base64 = Buffer.from(arrayBuffer).toString('base64')
+  return `data:image/jpeg;base64,${base64}`
+}
+
+export async function getStaticProps() {
+  const projects = await Promise.all(
+    allProjects.map(async (p) => ({
+      ...p,
+      blurDataURL: await getBlurDataURL(p.image),
+    }))
+  )
+
+  return {
+    props: { projects },
+    // si quieres ISR cada minuto:
+    // revalidate: 60,
+  }
+}
+
+// dinámicos con placeholder skeleton en SSR
 const Grid = dynamic(() => import('components/Grid'), {
-  ssr: false,
-  loading: () => <div className="h-64 bg-gray-200 animate-pulse rounded" />,
+  loading: () => (
+    <div className="h-64 bg-gray-200 animate-pulse rounded" />
+  ),
 })
 const AnimateSharedLayout = dynamic(
-  () => import('framer-motion').then(mod => mod.AnimateSharedLayout),
+  () =>
+    import('framer-motion').then((mod) => mod.AnimateSharedLayout),
   { ssr: false }
 )
 const AnimatePresence = dynamic(
-  () => import('framer-motion').then(mod => mod.AnimatePresence),
+  () =>
+    import('framer-motion').then((mod) => mod.AnimatePresence),
   { ssr: false }
 )
-
-export async function getStaticProps() {
-  const projects = allProjects
-  return {
-    props: { projects },
-  }
-}
 
 const metadata = {
   title: 'Proyectos de Arquitectura en Lima y Perú - Visualiza.pe',

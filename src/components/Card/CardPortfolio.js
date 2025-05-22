@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import { motion } from 'framer-motion'
 import cn from 'classnames'
 
-function CardPortfolio({ project, width, query }) {
+function CardPortfolio({ project, width, query, blurDataURL }) {
 	const { id, aspectRatio, image, title, place } = project
 	const router = useRouter()
 	const [isHovered, setIsHovered] = React.useState(false)
@@ -30,7 +30,8 @@ function CardPortfolio({ project, width, query }) {
 						src={image}
 						width={1000}
 						height={1000}
-						placeholder="blur"
+						placeholder="blur"         
+						blurDataURL={blurDataURL}
 						loading='lazy'
 						className={cn(
 							'w-101 h-full absolute top-0 left-0 object-cover',

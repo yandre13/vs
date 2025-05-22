@@ -6,7 +6,7 @@ export default function ListPortfolio({ projects = [] }) {
   const [width] = useAppWidth()
   const query = useAppQuery()
 
-  const BATCH = 10
+  const BATCH = 20
   const [visibleCount, setVisibleCount] = useState(BATCH)
   const loadMoreRef = useRef(null)
 

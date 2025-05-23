@@ -1,28 +1,20 @@
 import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import Link from 'next/link'
-import Image from 'next/image'
 import { data as api } from 'data'
 import { useQuery } from 'react-query'
-
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/swiper.min.css'
-import 'swiper/components/navigation/navigation.min.css'
-import 'swiper/components/pagination/pagination.min.css'
-import 'swiper/components/effect-fade/effect-fade.min.css'
-
-import SwiperCore, {
-	Pagination,
-	Navigation,
-	EffectFade,
-	Keyboard,
-	Autoplay,
-} from 'swiper/core'
+import dynamic from 'next/dynamic'
 import useMedia from 'hooks/useMedia'
 
-// install Swiper modules
-SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade, Keyboard])
-
+const ProjectCarousel = dynamic(
+	() => import('components/List/Swiper'),
+	{
+		ssr: false,
+		loading: () => (
+		<div className="w-full h-[55vh] flex items-center justify-center bg-gray-200 animate-pulse" />
+		),
+	}
+)
 function Item({ id }) {
 	const { data: project, isLoading } = useQuery(['item', id], () =>
 		api.find(p => p.id === Number(id)),
@@ -31,7 +23,6 @@ function Item({ id }) {
 	const [imageName, setImageName] = React.useState('')
 	const isMobile = useMedia('(max-width: 767px)')
 	const scrollRef = React.useRef(0)
-	const [debouncedLoading, setDebouncedLoading] = React.useState(false)
 	const linkRef = React.useRef()
 	const [isOpen, setIsOpen] = React.useState(false)
 
@@ -50,6 +41,7 @@ function Item({ id }) {
 		}
 	}, [isMobile])
 
+	const [debouncedLoading, setDebouncedLoading] = React.useState(false)
 	React.useEffect(() => {
 		isLoading && setDebouncedLoading(true)
 		let timeout = setTimeout(() => {
@@ -57,7 +49,7 @@ function Item({ id }) {
 		}, 900)
 		return () => clearTimeout(timeout)
 	}, [isLoading])
-
+	
 	React.useEffect(() => {
 		const goTo = e => e.key === 'Escape' && linkRef.current.click()
 		window.addEventListener('keyup', goTo)
@@ -132,53 +124,19 @@ function Item({ id }) {
 									// transition={{duration: 0.5, delay: 0.25}}
 									className="w-full h-full flex justify-center items-center"
 								>
-									<Swiper
-										// autoplay={{
-										// 	delay: 3000, // 3 segundos entre cada slide
-										// 	disableOnInteraction: true, 
-										// }}
-										pagination={{ clickable: true }}
-										loop={project.carousel.images.length > 1}
-										effect={'fade'}
-										keyboard={{
-											enabled: true,
-										}}
-										navigation={project.carousel.images.length > 1}
-										grabCursor
-										onSwiper={() => {
-											setImageName(project.carousel.images[0]?.name)
-										}}
-										className={`transition-opacity duration-300 port_slider ${debouncedLoading ? 'opacity-0' : ''
-											}`}
+									<ProjectCarousel
+										project={project}
+										debouncedLoading={debouncedLoading}
+										onInit={() => setImageName(project.carousel.images[0]?.name)}
 										onSlideChange={e => {
-											if (project.carousel.images.length > 1) {
-												setImageName(
-													project.carousel.images[e.activeIndex - 1]?.name ??
-													project.carousel.images[0].name,
-												)
-											}
+											const idx = e.activeIndex - 1
+											setImageName(
+											project.carousel.images[idx]?.name ??
+												project.carousel.images[0].name
+											)
 										}}
-									>
-										{project.carousel.images.map(({ path, name }) => (
-											<SwiperSlide key={path}>
-												<article className="w-full h-full">
-													<div className="flex justify-center vertical-center bg-white">
-														<img
-															src={path}
-															alt={name}
-															className="w-full h-full object-cover md:h-auto md:w-auto md:!max-w-[99%]"
-															onClick={() => {
-																!isOpen ? setIsOpen(path) : setIsOpen(false)
-															}}
-														// layout="fill"
-														// width={1920}
-														// height={1440}
-														/>
-													</div>
-												</article>
-											</SwiperSlide>
-										))}
-									</Swiper>
+										onImageClick={(path) => setIsOpen(path)}
+										/>
 								</motion.div>
 							</div>
 							<div

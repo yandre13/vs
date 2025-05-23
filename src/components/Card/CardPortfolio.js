@@ -27,26 +27,25 @@ function CardPortfolio({ project, width, query, blurDataURL }) {
 			<div className={cn('relative w-full h-0 overflow-hidden', aspectRatio)}>
 				<a role="button" onClick={e => open(e, id)}>
 					<Image
-						src={image}
-						width={1000}
-						height={1000}
-						placeholder="blur"         
-						blurDataURL={blurDataURL}
-						loading='lazy'
-						className={cn(
-							'w-101 h-full absolute top-0 left-0 object-cover',
-							// Agrega la clase de tailwind según project.objectPosition
-							project.objectPosition
-								? `object-${project.objectPosition}` // Generará 'object-left' o 'object-right'
-								: 'object-center', // Valor por defecto
-							isHovered && '!filter !grayscale contrast-600 z-0'
-						)}
-						onMouseEnter={() => setIsHovered(true)}
-						onMouseLeave={() => setIsHovered(false)}
+				       src={image}
+				       placeholder="blur"
+				       blurDataURL={blurDataURL}
+				       fill
+					   quality={100} 
+				       sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 80vw"
+				       style={{
+				         objectFit: 'cover',
+				         objectPosition: project.objectPosition || 'center',
+				         transition: 'filter .2s'
+				       }}
+				       className={isHovered && '!filter !grayscale contrast-600 z-0'}
+				       onMouseEnter={() => setIsHovered(true)}
+				       onMouseLeave={() => setIsHovered(false)}
 						onTouchStart={() => setIsHovered(true)}
 						onTouchEnd={() => setIsHovered(false)}
-						alt={project.alt}
-					/>
+				       alt={project.alt}
+				     />
+					
 				</a>
 				<div
 					className={cn(

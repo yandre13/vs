@@ -31,6 +31,7 @@ function CardPortfolio({ project, width, query, blurDataURL }) {
 				       placeholder="blur"
 				       blurDataURL={blurDataURL}
 				       fill
+					   unoptimized
 					   quality={100} 
 				       sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 80vw"
 				       style={{

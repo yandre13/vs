@@ -15,6 +15,8 @@ const nextConfig = {
 			},
 		],
 	},
+	loader: 'custom',            // usa loaderFile
+    loaderFile: './cloudinary-loader.js',
 }
 
 // next.config.js

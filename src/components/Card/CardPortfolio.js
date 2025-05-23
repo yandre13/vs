@@ -1,21 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
-import { useRouter } from 'next/router'
-import { motion } from 'framer-motion'
+import {useRouter} from 'next/router'
 import cn from 'classnames'
 
-function CardPortfolio({ project, width, query, blurDataURL }) {
-	const { id, aspectRatio, image, title, place } = project
+function CardPortfolio({project, width, query, blurDataURL}) {
+	const {id, aspectRatio, image, title, place} = project
 	const router = useRouter()
 	const [isHovered, setIsHovered] = React.useState(false)
-  
+
 	const open = (e, id) => {
 		e.preventDefault()
-		router.push(`?projectId=${id}`, undefined, { shallow: true })
+		router.push(`?projectId=${id}`, undefined, {shallow: true})
 	}
 
 	return (
-		<div 
+		<div
 			style={{
 				width: `${width * 6}px`,
 				height: `${width * project.height}px`,
@@ -27,32 +26,31 @@ function CardPortfolio({ project, width, query, blurDataURL }) {
 			<div className={cn('relative w-full h-0 overflow-hidden', aspectRatio)}>
 				<a role="button" onClick={e => open(e, id)}>
 					<Image
-				       src={image}
-				       placeholder="blur"
-				       blurDataURL={blurDataURL}
-				       fill
-					   unoptimized
-					   quality={100} 
-				       sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 80vw"
-				       style={{
-				         objectFit: 'cover',
-				         objectPosition: project.objectPosition || 'center',
-				         transition: 'filter .05s',
-						 willChange: 'filter',
-				       }}
-				       className={isHovered ? 'filter grayscale' : 'filter-none'  }
-				       onMouseEnter={() => setIsHovered(true)}
-				       onMouseLeave={() => setIsHovered(false)}
+						src={image}
+						placeholder="blur"
+						blurDataURL={blurDataURL}
+						fill
+						quality={100}
+						sizes="1200px"
+						style={{
+							objectFit: 'cover',
+							objectPosition: project.objectPosition || 'center',
+							willChange: 'filter',
+						}}
+						className={`${
+							isHovered ? 'filter grayscale' : 'filter-none'
+						} transition-all duration-300`}
+						onMouseEnter={() => setIsHovered(true)}
+						onMouseLeave={() => setIsHovered(false)}
 						onTouchStart={() => setIsHovered(true)}
 						onTouchEnd={() => setIsHovered(false)}
-				       alt={project.alt}
-				     />
-					
+						alt={project.alt}
+					/>
 				</a>
 				<div
 					className={cn(
 						isHovered ? 'block' : 'hidden',
-						'absolute w-full h-full bg-white bg-opacity-60 pointer-events-none top-0'
+						'absolute w-full h-full bg-white bg-opacity-60 pointer-events-none top-0',
 					)}
 				>
 					<div className="absolute h-full w-full flex justify-center items-center text-center flex-col">
@@ -69,4 +67,4 @@ function CardPortfolio({ project, width, query, blurDataURL }) {
 	)
 }
 
-export { CardPortfolio }
+export {CardPortfolio}

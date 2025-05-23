@@ -69,7 +69,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
-		objectPosition: 'left'
+		objectPosition: 'left',
 	},
 	{
 		id: 5,
@@ -138,7 +138,6 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
-		
 	},
 	{
 		id: 9,
@@ -224,7 +223,6 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-		
 	},
 	{
 		id: 14,
@@ -242,7 +240,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
-		objectPosition: 'left'
+		objectPosition: 'left',
 	},
 	{
 		id: 15,
@@ -328,7 +326,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-		objectPosition: 'left'
+		objectPosition: 'left',
 	},
 	{
 		id: 20,
@@ -363,7 +361,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-		objectPosition: 'left'
+		objectPosition: 'left',
 	},
 	{
 		id: 22,
@@ -398,7 +396,7 @@ const data = [
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
-		objectPosition: 'right'
+		objectPosition: 'right',
 	},
 	{
 		id: 24,
@@ -467,7 +465,6 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-		
 	},
 	{
 		id: 28,
@@ -546,14 +543,13 @@ const data = [
 		alt: 'Render de edificio residencial en Miami, USA',
 		carousel: carousels.carousel32,
 		styles: {
-			xl: { mt: -8, ml: 1 },
-			lg: { mt: -11, ml: 1 },
-			md: { mt: -5, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: -8, ml: 1},
+			lg: {mt: -11, ml: 1},
+			md: {mt: -5, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-		
 	},
 	{
 		id: 33,
@@ -564,14 +560,14 @@ const data = [
 		image: miniaturas.image33,
 		carousel: carousels.carousel33,
 		styles: {
-			xl: { mt: 1, ml: 1 },
-			lg: { mt: 1, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: 1, ml: 1},
+			lg: {mt: 1, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
-		objectPosition: 'right'
+		objectPosition: 'right',
 	},
 	{
 		id: 34,
@@ -582,10 +578,10 @@ const data = [
 		image: miniaturas.image34,
 		carousel: carousels.carousel34,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -2, ml: 1 },
-			md: { mt: -8, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -2, ml: 1},
+			md: {mt: -8, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
@@ -599,13 +595,13 @@ const data = [
 		image: miniaturas.image35,
 		carousel: carousels.carousel35,
 		styles: {
-			xl: { mt: -8, ml: 1 },
-			lg: { mt: -8, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: -8, ml: 1},
+			lg: {mt: -8, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
-	objectPosition: 'left',
+		objectPosition: 'left',
 		height: 6,
 	},
 	{
@@ -617,10 +613,10 @@ const data = [
 		image: miniaturas.image36,
 		carousel: carousels.carousel36,
 		styles: {
-			xl: { mt: -8, ml: 1 },
-			lg: { mt: 1, ml: 1 },
-			md: { mt: -8, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: -8, ml: 1},
+			lg: {mt: 1, ml: 1},
+			md: {mt: -8, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
@@ -634,10 +630,10 @@ const data = [
 		image: miniaturas.image37,
 		carousel: carousels.carousel37,
 		styles: {
-			xl: { mt: 1, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: 1, ml: 1},
+			lg: {mt: -5, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
@@ -651,10 +647,10 @@ const data = [
 		image: miniaturas.image38,
 		carousel: carousels.carousel38,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -11, ml: 1 },
-			md: { mt: -5, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -11, ml: 1},
+			md: {mt: -5, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
@@ -668,14 +664,13 @@ const data = [
 		image: miniaturas.image39,
 		carousel: carousels.carousel39,
 		styles: {
-			xl: { mt: -8, ml: 1 },
-			lg: { mt: 1, ml: 1 },
-			md: { mt: -2, ml: 1 },
-			sm: { mt: 4, ml: 1 },
+			xl: {mt: -8, ml: 1},
+			lg: {mt: 1, ml: 1},
+			md: {mt: -2, ml: 1},
+			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
-		
 	},
 	{
 		id: 40,
@@ -686,10 +681,10 @@ const data = [
 		image: miniaturas.image40,
 		carousel: carousels.carousel40,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: -5, ml: 1 },
-			sm: { mt: 4, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -5, ml: 1},
+			md: {mt: -5, ml: 1},
+			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
@@ -703,10 +698,10 @@ const data = [
 		image: miniaturas.image41,
 		carousel: carousels.carousel41,
 		styles: {
-			xl: { mt: -2, ml: 1 },
-			lg: { mt: -8, ml: 1 },
-			md: { mt: 4, ml: 1 },
-			sm: { mt: 4, ml: 1 },
+			xl: {mt: -2, ml: 1},
+			lg: {mt: -8, ml: 1},
+			md: {mt: 4, ml: 1},
+			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
@@ -720,14 +715,14 @@ const data = [
 		image: miniaturas.image42,
 		carousel: carousels.carousel42,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: 4, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: 4, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
-		objectPosition: 'right'
+		objectPosition: 'right',
 	},
 	{
 		id: 43,
@@ -738,10 +733,10 @@ const data = [
 		image: miniaturas.image43,
 		carousel: carousels.carousel43,
 		styles: {
-			xl: { mt: -8, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: -2, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: -8, ml: 1},
+			lg: {mt: -5, ml: 1},
+			md: {mt: -2, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
@@ -755,10 +750,10 @@ const data = [
 		image: miniaturas.image44,
 		carousel: carousels.carousel44,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -8, ml: 1 },
-			md: { mt: -5, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -8, ml: 1},
+			md: {mt: -5, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
@@ -772,10 +767,10 @@ const data = [
 		image: miniaturas.image45,
 		carousel: carousels.carousel45,
 		styles: {
-			xl: { mt: 1, ml: 1 },
-			lg: { mt: 1, ml: 1 },
-			md: { mt: -2, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: 1, ml: 1},
+			lg: {mt: 1, ml: 1},
+			md: {mt: -2, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 6,
@@ -789,10 +784,10 @@ const data = [
 		image: miniaturas.image46,
 		carousel: carousels.carousel46,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: -5, ml: 1 },
-			sm: { mt: 4, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -5, ml: 1},
+			md: {mt: -5, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
@@ -806,10 +801,10 @@ const data = [
 		image: miniaturas.image47,
 		carousel: carousels.carousel47,
 		styles: {
-			xl: { mt: -8, ml: 1 },
-			lg: { mt: -8, ml: 1 },
-			md: { mt: 4, ml: 1 },
-			sm: { mt: 4, ml: 1 },
+			xl: {mt: -8, ml: 1},
+			lg: {mt: -8, ml: 1},
+			md: {mt: 4, ml: 1},
+			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
@@ -823,14 +818,14 @@ const data = [
 		image: miniaturas.image48,
 		carousel: carousels.carousel48,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: 1, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: 1, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
-		objectPosition: 'left'
+		objectPosition: 'left',
 	},
 	{
 		id: 49,
@@ -841,14 +836,13 @@ const data = [
 		image: miniaturas.image49,
 		carousel: carousels.carousel49,
 		styles: {
-			xl: { mt: 1, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: 1, ml: 1},
+			lg: {mt: -5, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
-		
 	},
 	{
 		id: 50,
@@ -859,14 +853,14 @@ const data = [
 		image: miniaturas.image50,
 		carousel: carousels.carousel50,
 		styles: {
-			xl: { mt: -2, ml: 1 },
-			lg: { mt: -8, ml: 1 },
-			md: { mt: -5, ml: 1 },
-			sm: { mt: 1, ml: 1 },
+			xl: {mt: -2, ml: 1},
+			lg: {mt: -8, ml: 1},
+			md: {mt: -5, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
-		objectPosition: 'right'
+		objectPosition: 'right',
 	},
 	{
 		id: 51,
@@ -877,16 +871,15 @@ const data = [
 		image: miniaturas.image51,
 		carousel: carousels.carousel51,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -2, ml: 1 },
-			md: { mt: 1, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -2, ml: 1},
+			md: {mt: 1, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
 		height: 6,
-		
 	},
-	
+
 	{
 		id: 53,
 		title: 'Inclán 21',
@@ -896,14 +889,14 @@ const data = [
 		image: miniaturas.image53,
 		carousel: carousels.carousel53,
 		styles: {
-			xl: { mt: -5, ml: 1 },
-			lg: { mt: -2, ml: 1 },
-			md: { mt: -8, ml: 1 },
-			sm: { mt: 4, ml: 1 },
+			xl: {mt: -5, ml: 1},
+			lg: {mt: -2, ml: 1},
+			md: {mt: -8, ml: 1},
+			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
 		height: 9,
-		objectPosition: 'left'
+		objectPosition: 'left',
 	},
 	{
 		id: 54,
@@ -914,15 +907,14 @@ const data = [
 		image: miniaturas.image54,
 		carousel: carousels.carousel54,
 		styles: {
-			xl: { mt: -2, ml: 1 },
-			lg: { mt: -5, ml: 1 },
-			md: { mt: 4, ml: 1 },
-			sm: { mt: -2, ml: 1 },
+			xl: {mt: -2, ml: 1},
+			lg: {mt: -5, ml: 1},
+			md: {mt: 4, ml: 1},
+			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
-		height: 6,
+		height: 10,
 	},
-	
 ]
 
 export {data}

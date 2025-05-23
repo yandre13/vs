@@ -36,9 +36,10 @@ function CardPortfolio({ project, width, query, blurDataURL }) {
 				       style={{
 				         objectFit: 'cover',
 				         objectPosition: project.objectPosition || 'center',
-				         transition: 'filter .2s'
+				         transition: 'filter .05s',
+						 willChange: 'filter',
 				       }}
-				       className={isHovered && '!filter !grayscale contrast-600 z-0'}
+				       className={isHovered ? 'filter grayscale' : 'filter-none'  }
 				       onMouseEnter={() => setIsHovered(true)}
 				       onMouseLeave={() => setIsHovered(false)}
 						onTouchStart={() => setIsHovered(true)}

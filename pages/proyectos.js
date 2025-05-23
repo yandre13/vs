@@ -1,4 +1,3 @@
-// pages/proyectos.jsx
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
 import { motion } from 'framer-motion'

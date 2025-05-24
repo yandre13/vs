@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import {useRouter} from 'next/router'
 import cn from 'classnames'
+import {resizeImageUrl} from '../../utils/images'
 
 function CardPortfolio({project, width, query, blurDataURL}) {
 	const {id, aspectRatio, image, title, place} = project
@@ -26,7 +27,7 @@ function CardPortfolio({project, width, query, blurDataURL}) {
 			<div className={cn('relative w-full h-0 overflow-hidden', aspectRatio)}>
 				<a role="button" onClick={e => open(e, id)}>
 					<Image
-						src={image}
+						src={resizeImageUrl(image, 1200)}
 						placeholder="blur"
 						blurDataURL={blurDataURL}
 						fill

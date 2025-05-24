@@ -12,7 +12,7 @@ function Grid({hidden = false, classname, loaded = false, ...props}) {
 		query === 'xl' ? 29 : query === 'lg' ? 22 : query === 'md' ? 15 : 8
 
 	const gridLinesY = useMemo(() => {
-		if (query === 'sm') return 10
+		if (query === 'sm') return 8
 		return 50
 	}, [query])
 

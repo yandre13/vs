@@ -11,13 +11,18 @@ function Grid({hidden = false, classname, loaded = false, ...props}) {
 	const lines =
 		query === 'xl' ? 29 : query === 'lg' ? 22 : query === 'md' ? 15 : 8
 
+	console.log({query})
 	const gridLinesY = useMemo(() => {
 		if (query === 'sm') return 8
+		if (query === 'md') return 15
+		if (query === 'lg') return 22
 		return 29
 	}, [query])
 
 	const gridLinesX = useMemo(() => {
 		if (query === 'sm') return 650
+		if (query === 'md') return 250
+		if (query === 'lg') return 160
 		return 150
 	}, [query])
 

@@ -580,7 +580,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: -2, ml: 1},
-			md: {mt: -8, ml: 1},
+			md: {mt: -5, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
@@ -615,7 +615,7 @@ const data = [
 		styles: {
 			xl: {mt: -8, ml: 1},
 			lg: {mt: 1, ml: 1},
-			md: {mt: -8, ml: 1},
+			md: {mt: -5, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
@@ -649,7 +649,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: -11, ml: 1},
-			md: {mt: -5, ml: 1},
+			md: {mt: -2, ml: 1},
 			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
@@ -683,7 +683,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: -5, ml: 1},
-			md: {mt: -5, ml: 1},
+			md: {mt: -2, ml: 1},
 			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
@@ -717,7 +717,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: 4, ml: 1},
-			md: {mt: 1, ml: 1},
+			md: {mt: 4, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
@@ -735,7 +735,7 @@ const data = [
 		styles: {
 			xl: {mt: -8, ml: 1},
 			lg: {mt: -5, ml: 1},
-			md: {mt: -2, ml: 1},
+			md: {mt: 1, ml: 1},
 			sm: {mt: 1, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
@@ -752,7 +752,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: -8, ml: 1},
-			md: {mt: -5, ml: 1},
+			md: {mt: -2, ml: 1},
 			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
@@ -803,7 +803,7 @@ const data = [
 		styles: {
 			xl: {mt: -8, ml: 1},
 			lg: {mt: -8, ml: 1},
-			md: {mt: 4, ml: 1},
+			md: {mt: 1, ml: 1},
 			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
@@ -855,7 +855,7 @@ const data = [
 		styles: {
 			xl: {mt: -2, ml: 1},
 			lg: {mt: -8, ml: 1},
-			md: {mt: -5, ml: 1},
+			md: {mt: -2, ml: 1},
 			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
@@ -873,7 +873,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: -2, ml: 1},
-			md: {mt: 1, ml: 1},
+			md: {mt: -2, ml: 1},
 			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar4x6',
@@ -891,7 +891,7 @@ const data = [
 		styles: {
 			xl: {mt: -5, ml: 1},
 			lg: {mt: -2, ml: 1},
-			md: {mt: -8, ml: 1},
+			md: {mt: -5, ml: 1},
 			sm: {mt: 4, ml: 1},
 		},
 		aspectRatio: 'ar3x3',
@@ -909,7 +909,7 @@ const data = [
 		styles: {
 			xl: {mt: -2, ml: 1},
 			lg: {mt: -5, ml: 1},
-			md: {mt: 4, ml: 1},
+			md: {mt: -2, ml: 8},
 			sm: {mt: -2, ml: 1},
 		},
 		aspectRatio: 'ar4x6',

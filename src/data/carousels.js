@@ -25,7 +25,7 @@ const carousel1 = {
 	  { name: 'Sala de Espera', path: '../../img/proyectos/EDIFICA_ACACIAS/SALADEESPERA(2).webp', classnames: '' },
 	]
   };
-  
+  /*
   // carousel3
   const carousel3 = {
 	logo: '../../img/marcas/AURORA.jpg',
@@ -45,7 +45,7 @@ const carousel1 = {
 	  { name: 'Plaza Interior', path: '../../img/proyectos/AURORA_MERINO/PLAZAINTERNAACTUALIZADAFINAL.webp', classnames: '' },
 	]
   };
-  
+  */
   // carousel16
   const carousel16 = {
 	logo: '../../img/marcas/ABRIL.png',

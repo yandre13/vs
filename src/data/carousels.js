@@ -28,15 +28,21 @@ const carousel1 = {
   
   // carousel3
   const carousel3 = {
-	logo: '../../img/marcas/FD_ARQ.jpg',
+	logo: '../../img/marcas/AURORA.jpg',
 	images: [
 	  // Grupo 1: Fachada
-	  { name: 'Fachada Externa', path: '../../img/proyectos/FDARQUITECTOS_REX/FACHADAEXTERNAFINAL.webp', classnames: '' },
+	  { name: 'Fachada', path: '../../img/proyectos/AURORA_MERINO/V4_VILLAR.webp', classnames: '' },
+	  { name: 'Fachada Esquinada', path: '../../img/proyectos/AURORA_MERINO/V1_ESQUINA.webp', classnames: '' },
+	  { name: 'Fachada Esquinada Nocturna', path: '../../img/proyectos/AURORA_MERINO/V2_ESQUINA_NOCHE.webp', classnames: '' },
+	  { name: 'Fachada Frontal', path: '../../img/proyectos/AURORA_MERINO/V3_MERINO.webp', classnames: '' },
+	  { name: 'Ingreso', path: '../../img/proyectos/AURORA_MERINO/V5_CLOSE_UP.webp', classnames: '' },
+	  { name: 'Horizonte', path: '../../img/proyectos/AURORA_MERINO/V7_HORIZONTE.webp', classnames: '' },
+	  { name: 'Atardecer', path: '../../img/proyectos/AURORA_MERINO/V6_MERINO_ATARDECER.webp', classnames: '' },
 	  // Grupo 5: Otros
-	  { name: 'Vista Aérea 1', path: '../../img/proyectos/FDARQUITECTOS_REX/V1(3).webp', classnames: '' },
-	  { name: 'Vista Aérea 2', path: '../../img/proyectos/FDARQUITECTOS_REX/V2(5).webp', classnames: '' },
+	  { name: 'Vista Aérea 1', path: '../../img/proyectos/AURORA_MERINO/V1(3).webp', classnames: '' },
+	  { name: 'Vista Aérea 2', path: '../../img/proyectos/AURORA_MERINO/V2(5).webp', classnames: '' },
 	  // Grupo 3: Áreas comunes (se interpreta “Plaza Interior” como espacio común)
-	  { name: 'Plaza Interior', path: '../../img/proyectos/FDARQUITECTOS_REX/PLAZAINTERNAACTUALIZADAFINAL.webp', classnames: '' },
+	  { name: 'Plaza Interior', path: '../../img/proyectos/AURORA_MERINO/PLAZAINTERNAACTUALIZADAFINAL.webp', classnames: '' },
 	]
   };
   

@@ -36,12 +36,12 @@ const data = [
 		aspectRatio: 'ar3x3',
 		height: 6,
 	},
-	{
+	/*{
 		id: 3,
-		title: 'Rex',
-		place: 'San Martín de Porres, Lima.',
+		title: 'Merino 190',
+		place: 'Miraflores, Lima.',
 		alt: 'Render de un edificio comercial y corporativo en San Martín de Porres, Lima',
-		date: 'Noviembre 2021',
+		date: 'Marzo 2026',
 		image: miniaturas.image3,
 		carousel: carousels.carousel3,
 		styles: {
@@ -52,7 +52,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-	},
+	},*/
 	{
 		id: 4,
 		title: 'Pardo 664',

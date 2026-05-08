@@ -43,7 +43,7 @@ const carousel1 = {
 	  { name: 'Terraza', path: '../../img/proyectos/AURORA_MERINO/TERRAZA_101.webp', classnames: '' },
 	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/X02_SALA.webp', classnames: '' },
 	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/SALA_X02.webp', classnames: '' },
-	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/1701_SALA_VILLAR.webp', classnames: '' },
+	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/SALA_VILLAR.webp', classnames: '' },
 	  { name: 'Sala Comedor', path: '../../img/proyectos/AURORA_MERINO/SALA_COMEDOR.webp', classnames: '' },
 	   { name: 'Cocina', path: '../../img/proyectos/AURORA_MERINO/COCINA_X01.webp', classnames: '' },
 	  { name: 'Cocina', path: '../../img/proyectos/AURORA_MERINO/COCINA_X03.webp', classnames: '' },

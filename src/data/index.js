@@ -36,7 +36,7 @@ const data = [
 		aspectRatio: 'ar3x3',
 		height: 6,
 	},
-	/*{
+	{
 		id: 3,
 		title: 'Merino 190',
 		place: 'Miraflores, Lima.',
@@ -52,7 +52,7 @@ const data = [
 		},
 		aspectRatio: 'ar4x6',
 		height: 9,
-	},*/
+	},
 	{
 		id: 4,
 		title: 'Pardo 664',

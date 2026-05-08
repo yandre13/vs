@@ -1,6 +1,6 @@
 const image1 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/malaga.baltazar'
 const image2 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/edifica_acacias'
-const image3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/fd_arquitectos_rex'
+const image3 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/V1_ESQUINA.webp'
 
 const image4 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/morada_pardo664'
 const image5 = 'https://res.cloudinary.com/dofrlsnep/image/upload/f_auto,q_auto/marcan_pod'

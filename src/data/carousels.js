@@ -25,10 +25,10 @@ const carousel1 = {
 	  { name: 'Sala de Espera', path: '../../img/proyectos/EDIFICA_ACACIAS/SALADEESPERA(2).webp', classnames: '' },
 	]
   };
-  /*
+  
   // carousel3
   const carousel3 = {
-	logo: '../../img/marcas/AURORA.jpg',
+	logo: '../../img/marcas/AURORA.webp',
 	images: [
 	  // Grupo 1: Fachada
 	  { name: 'Fachada', path: '../../img/proyectos/AURORA_MERINO/V4_VILLAR.webp', classnames: '' },
@@ -38,14 +38,23 @@ const carousel1 = {
 	  { name: 'Ingreso', path: '../../img/proyectos/AURORA_MERINO/V5_CLOSE_UP.webp', classnames: '' },
 	  { name: 'Horizonte', path: '../../img/proyectos/AURORA_MERINO/V7_HORIZONTE.webp', classnames: '' },
 	  { name: 'Atardecer', path: '../../img/proyectos/AURORA_MERINO/V6_MERINO_ATARDECER.webp', classnames: '' },
-	  // Grupo 5: Otros
-	  { name: 'Vista Aérea 1', path: '../../img/proyectos/AURORA_MERINO/V1(3).webp', classnames: '' },
-	  { name: 'Vista Aérea 2', path: '../../img/proyectos/AURORA_MERINO/V2(5).webp', classnames: '' },
-	  // Grupo 3: Áreas comunes (se interpreta “Plaza Interior” como espacio común)
-	  { name: 'Plaza Interior', path: '../../img/proyectos/AURORA_MERINO/PLAZAINTERNAACTUALIZADAFINAL.webp', classnames: '' },
+	  { name: 'Terraza', path: '../../img/proyectos/AURORA_MERINO/TERRAZA1702.webp', classnames: '' },
+	  { name: 'Terraza Diurna', path: '../../img/proyectos/AURORA_MERINO/TERRAZA_DIURNA_X02.webp', classnames: '' },
+	  { name: 'Terraza', path: '../../img/proyectos/AURORA_MERINO/TERRAZA_101.webp', classnames: '' },
+	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/X02_SALA.webp', classnames: '' },
+	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/SALA_X02.webp', classnames: '' },
+	  { name: 'Sala', path: '../../img/proyectos/AURORA_MERINO/1701_SALA_VILLAR.webp', classnames: '' },
+	  { name: 'Sala Comedor', path: '../../img/proyectos/AURORA_MERINO/SALA_COMEDOR.webp', classnames: '' },
+	   { name: 'Cocina', path: '../../img/proyectos/AURORA_MERINO/COCINA_X01.webp', classnames: '' },
+	  { name: 'Cocina', path: '../../img/proyectos/AURORA_MERINO/COCINA_X03.webp', classnames: '' },
+	  { name: 'Cocina Duplex', path: '../../img/proyectos/AURORA_MERINO/COCINA_DUPLEX_1701.webp', classnames: '' },
+	  { name: 'Dormitorio Principal', path: '../../img/proyectos/AURORA_MERINO/DORMITORIO_PRINCIPAL.webp', classnames: '' },
+	  { name: 'Baño de visita', path: '../../img/proyectos/AURORA_MERINO/BAÑO_DE_VISITA.webp', classnames: '' },
+	  { name: 'Baño Principal', path: '../../img/proyectos/AURORA_MERINO/BAÑO_PRINCIPAL.webp', classnames: '' },
+	   
 	]
   };
-  */
+  
   // carousel16
   const carousel16 = {
 	logo: '../../img/marcas/ABRIL.png',

@@ -49,8 +49,8 @@ const carousel1 = {
 	  { name: 'Cocina', path: '../../img/proyectos/AURORA_MERINO/COCINA_X03.webp', classnames: '' },
 	  { name: 'Cocina Duplex', path: '../../img/proyectos/AURORA_MERINO/COCINA_DUPLEX_1701.webp', classnames: '' },
 	  { name: 'Dormitorio Principal', path: '../../img/proyectos/AURORA_MERINO/DORMITORIO_PRINCIPAL.webp', classnames: '' },
-	  { name: 'Baño de visita', path: '../../img/proyectos/AURORA_MERINO/BAÑO_DE_VISITA.webp', classnames: '' },
-	  { name: 'Baño Principal', path: '../../img/proyectos/AURORA_MERINO/BAÑO_PRINCIPAL.webp', classnames: '' },
+	  { name: 'Baño de visita', path: '../../img/proyectos/AURORA_MERINO/BANO_DE_VISITA.webp', classnames: '' },
+	  { name: 'Baño Principal', path: '../../img/proyectos/AURORA_MERINO/BANO_PRINCIPAL.webp', classnames: '' },
 	   
 	]
   };

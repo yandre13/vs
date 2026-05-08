@@ -37,7 +37,7 @@ const carousel1 = {
 	  { name: 'Fachada Frontal', path: '../../img/proyectos/AURORA_MERINO/V3_MERINO.webp', classnames: '' },
 	  { name: 'Ingreso', path: '../../img/proyectos/AURORA_MERINO/V5_CLOSE_UP.webp', classnames: '' },
 	  { name: 'Horizonte', path: '../../img/proyectos/AURORA_MERINO/V7_HORIZONTE.webp', classnames: '' },
-	  { name: 'Atardecer', path: '../../img/proyectos/AURORA_MERINO/V6_MERINO_ATARDECER.webp', classnames: '' },
+	  { name: 'Atardecer', path: '../../img/proyectos/AURORA_MERINO/V_MERINO_ATARDECER.webp', classnames: '' },
 	  { name: 'Terraza', path: '../../img/proyectos/AURORA_MERINO/TERRAZA1702.webp', classnames: '' },
 	  { name: 'Terraza Diurna', path: '../../img/proyectos/AURORA_MERINO/TERRAZA_DIURNA_X02.webp', classnames: '' },
 	  { name: 'Terraza', path: '../../img/proyectos/AURORA_MERINO/TERRAZA_101.webp', classnames: '' },
